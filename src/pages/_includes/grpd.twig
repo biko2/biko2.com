@@ -1,0 +1,36 @@
+<div class="eupopup eupopup-container eupopup-container-block c-cookies" id="cookies">
+  <div class="eupopup-markup">
+    <p><strong>¡Una de galletas!</strong></p>
+    <div class="eupopup-body"><p>Utilizamos cookies propias y de terceros, analíticas y publicitarias para elaboración de perfiles basados en la navegación del usuario.</p></div>
+    <div class="eupopup-buttons c-cookies--container">
+      <a href="#" class="eupopup-button eupopup-button_1 c-button">Acepto</a>
+      <a href="https://gogle.com" class="c-button c-button--outline eupopup-closebutton">Rechazo</a>
+      <a href="https://www.biko2.com/politica-de-cookies" target="_blank" class="c-link eupopup-button eupopup-button_2">Más información</a>
+    </div>
+  </div>
+</div>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.googleAnalitycsId}}"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    function initialiseGoogleAnalytics() {
+        gtag('js', new Date());
+        gtag('config', '{{site.googleAnalitycsId}}');
+    }
+
+    // Subscribe for the cookie consent events
+    $(document).bind("user_cookie_already_accepted", function(event, object) {
+        initialiseGoogleAnalytics();
+    });
+
+    $(document).bind("user_cookie_consent_changed", function(event, object) {
+        const userConsentGiven = $(object).attr('consent');
+        if (userConsentGiven) {
+            // User clicked on enabling cookies. Now it’s safe to call the
+            // init functions.
+            initialiseGoogleAnalytics();
+        }
+    });
+</script>

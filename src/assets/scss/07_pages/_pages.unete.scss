@@ -1,0 +1,170 @@
+.p-unete-hero {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 48px;
+    padding-bottom: 96px;
+  }
+
+  .p-unete-hero__container {
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 36px;
+
+      .c-grid-image--right {
+        order: 3;
+      }
+    }
+  }
+
+  .p-unete-hero__container h1{
+    padding-top: 24px;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 96px;
+    }
+  }
+
+  .c-title--pre {
+    font-weight: 500;
+  }
+
+  .c-grid-image--right {
+    margin-top: -60px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      width: 65%;
+      height: 750px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 72%;
+      height: 800px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 65%;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      width: 50%;
+    }
+  }
+
+  .c-separator--icon {
+    padding: 0;
+    text-align: left;
+
+    @include media-breakpoint-up(md) {
+      padding: 40px 0 0;
+      margin-bottom: 200px;
+    }
+  }
+}
+
+.p-unete-ofertas {
+  background: $gray-light;
+  margin: 0 0 48px;
+  padding: 36px 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 96px 0;
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 0 4% 96px;
+  }
+
+  .c-ofertas__title {
+    strong {display: block;}
+    margin-bottom: 26px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 48px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 64px;
+    }
+  }
+
+  .c-ofertas__box__subtitle {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.p-unete-trabajar {
+  margin-bottom: 48px;
+
+  .c-ofertas__title {
+    margin-bottom: 26px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 48px;
+    }
+  }
+
+  .c-title--line {
+    margin-left: 18px;
+
+    @include media-breakpoint-up(md) {
+      margin-left: 36px;
+    }
+  }
+
+  .h-extrahuge {
+    margin-top: 48px;
+    @include media-breakpoint-up(md) {
+      margin-top: 96px;
+    }
+  }
+
+  .c-title--pre {margin-bottom: 48px;}
+}
+
+.p-unete-open {
+  background: url('../images/open-biko-octubre-2018-min.jpg') center top no-repeat;
+  background-size: cover;
+  min-height: 670px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 96px;
+
+  @include media-breakpoint-up(md) {
+    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 990px;
+  }
+
+  .c-box-white {
+    margin-top: 12px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 96px;
+    }
+
+    p:last-child {margin: 0;}
+  }
+
+  .p-unete-open--box {
+    position: absolute;
+    right: 10%;
+    bottom: 42px;
+
+    p {
+      margin-bottom: 0;
+      @include typi(small);
+      font-style: italic;
+    }
+  }
+}

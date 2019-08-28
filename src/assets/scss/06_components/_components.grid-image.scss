@@ -1,0 +1,51 @@
+.c-grid-image--right {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  text-align: right;
+
+  @include media-breakpoint-up(sm) {
+    width: 100%;
+    height: 350px;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 35%;
+    height: 635px;
+    position: absolute;
+    right: 0;
+    width: 40%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 50%;
+  }
+
+  img {
+    width: auto;
+    height: 100%;
+
+    @include media-breakpoint-down(sm) {
+      height: auto;
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+
+.c-grid-image--left {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 700px;
+  overflow: hidden;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+}

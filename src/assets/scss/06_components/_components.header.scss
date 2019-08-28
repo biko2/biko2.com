@@ -1,0 +1,12 @@
+.c-header {
+  padding-top: 8px;
+  background: white;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 26px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 16px;
+  }
+}

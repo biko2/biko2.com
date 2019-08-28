@@ -1,0 +1,99 @@
+.c-social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+  @include media-breakpoint-down(sm) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  li {
+    margin:0 12px;
+
+    @include media-breakpoint-down(sm) {
+      flex-basis: 50%;
+      margin: 0;
+    }
+
+    a {
+      font-family: "Montserrat";
+      font-weight: 800;
+      @include typi(tiny);
+      text-transform: uppercase;
+      color: $black;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: all .5s ease;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 34px;
+      }
+
+      @include media-breakpoint-down(sm) {
+        display: block;
+        text-align: center;
+      }
+
+      svg, path, rect {transition: all .5s ease;}
+
+      &:hover {
+        color: $red;
+
+        svg {
+          fill:$red;
+          path {
+            fill:$red;
+          }
+          rect {
+            fill:$red;
+          }
+        }
+      }
+    }
+
+    svg {
+      margin-right: 10px;
+
+      @include media-breakpoint-down(sm) {
+        display: block;
+        margin: 0 auto 5px;
+      }
+
+      @include media-breakpoint-down(sm) {
+        height: 21px;
+      }
+    }
+  }
+}
+
+.c-social-share {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-bottom: 18px;
+
+      &:hover {
+        color: $red;
+
+        svg {
+          fill:$red;
+          path {
+            fill:$red;
+          }
+          rect {
+            fill:$red;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+.c-form{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+
+  @include media-breakpoint-up(sm) {
+    flex-direction: row;
+  }
+
+  .c-button {
+    flex-shrink: 0;
+
+    @include media-breakpoint-down(xs) {
+      margin: 18px auto 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      span {display: none;}
+    }
+  }
+}
+
+.c-form__elements {
+  margin-right: 30px;
+  width: 100%;
+
+
+  @include media-breakpoint-up(sm) {
+    flex-grow: 1;
+    width: auto;
+  }
+
+  input{
+    width: 100%;
+    border: 3px solid #ddd;
+    height: 70px;
+    padding: 0 15px;
+
+    &::placeholder {
+      @include media-breakpoint-down(sm) {
+        @include typi(small);
+      }
+    }
+  }
+}
+
+.c-form-check{
+  display: flex ;
+  align-items: center;
+  margin-top: 20px;
+}
+.c-form-check__input[type="checkbox"] {
+  position: absolute;
+  opacity : 0;
+  z-index : -1;
+  height: auto;
+  width: auto;
+
+  &:checked ~ .c-form-check__label:before {
+    background-image   : url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgOCA4IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDgiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNCwxTDUuNywxLjdMMi45LDQuNUwyLjEsMy43TDEuNCwzTDAsNC40bDAuNywwLjdsMS41LDEuNWwwLjcsMC43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=");
+    background-size    : 50% 50%;
+    background-position: center center;
+    background-repeat  : no-repeat;
+    background-color   : #7F7F7F;
+    border-color       : #7F7F7F;
+  }
+}
+.c-form-check__label {
+  @include typi(tiny);
+  margin-bottom: 0;
+  padding-left: 40px;
+
+  @include media-breakpoint-up(sm) {
+    @include typi(small);
+    padding-left: -30px;
+  }
+
+  &:before {
+    content: "";
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    left: -30px;
+    margin-right: -20px;
+    vertical-align: middle;
+  }
+
+  &:hover{
+    cursor: pointer;
+  }
+
+}
+
+.c-form-check__label__link{
+  color: $red;
+  text-decoration: underline;
+}
+
+.c-form__legal {
+  @include typi(tiny);
+  font-style: italic;
+  margin-top: 20px;
+  color: $gray;
+
+  @include media-breakpoint-up(md) {
+    @include typi(small);
+  }
+
+  a {
+    color: $gray;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+
+.c-form-alert {
+  background: #00A3B9;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+
+  .c-form-alert__close {
+    float: right;
+  }
+
+  .c-form-alert__img {
+    width: 90px;
+  }
+
+  p {margin: 0;}
+}

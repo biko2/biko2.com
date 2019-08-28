@@ -1,0 +1,38 @@
+h1, .h-extrahuge {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+
+  @include typi(extrahuge);
+  line-height: 100px;
+  margin-bottom: 1rem;
+
+  strong {font-weight: 800;}
+}
+
+.h-midhuge {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(midhuge);
+  margin-bottom: 1rem;
+
+  strong {font-weight: 800;}
+}
+
+h2, .h-huge {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(huge);
+
+  strong {font-weight: 800;}
+}
+
+h3, .h-big {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(big);
+  margin-bottom: .5rem;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,57 @@
+.c-cookies {
+  border: 3px solid $red;
+  padding: 16px 24px !important;
+  width: 96%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: white !important;
+  color: $gray;
+  z-index: 999;
+  font-size: inherit !important;
+  text-align: left !important;
+
+  @include media-breakpoint-up(md) {
+    border: 6px solid $red;
+    padding: 48px !important;
+    width: 500px;
+  }
+
+  strong {
+    @include typi(large);
+    font-weight: 800;
+    color: $black;
+  }
+
+  .c-button {
+    padding: 10px;
+    margin-right: 10px;
+    @include typi(small);
+
+    @include media-breakpoint-up(md) {
+      margin-top: 12px;
+      margin-right: 5px;
+      padding: 15px 20px;
+      @include typi(base);
+    }
+  }
+
+  .c-link {
+    text-align: center;
+    line-height: 1.4;
+    font-size: inherit !important;
+  }
+}
+
+#cookies .c-cookies--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#cookies .eupopup-closebutton {
+  position: relative;
+}
