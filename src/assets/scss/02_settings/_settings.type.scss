@@ -53,9 +53,9 @@ $typi: (
     xxl:  (ms(7), 44px),
   ),
   huge: ( //41px
-    xs:   (ms(2), 28px),
-    sm:   (ms(5), 36px),
-    md:   (ms(6), 40px),
+    xs:   (ms(6), 36px),
+    sm:   (ms(6), 36px),
+    md:   (ms(6), 36px),
     lg:   (ms(7), 44px),
     xl:   (ms(7), 44px),
     xxl:  (ms(8), 48px)
@@ -63,17 +63,17 @@ $typi: (
   midhuge: ( //74px
     xs:   (ms(6), 40px),
     sm:   (ms(8), 48px),
-    md:   (ms(10), $line-height-small),
-    lg:   (ms(11), $line-height-small),
-    xl:   (ms(12), $line-height-small),
-    xxl:  (ms(13), $line-height-small)
+    md:   (ms(10), 56px),
+    lg:   (ms(11), 64px),
+    xl:   (ms(12), 72px),
+    xxl:  (ms(13), 80px)
   ),
   extrahuge: ( // 94px
-    xs:   (ms(8), $line-height-small),
-    sm:   (ms(10), $line-height-small),
-    md:   (ms(11), $line-height-medium),
-    lg:   (ms(12), $line-height-small),
-    xl:   (ms(14), $line-height-small),
-    xxl:  (ms(15), $line-height-small)
+    xs:   (ms(8), 48px),
+    sm:   (ms(10), 56px),
+    md:   (ms(11), 64px),
+    lg:   (ms(12), 72px),
+    xl:   (ms(14), 84px),
+    xxl:  (ms(15), 96px)
   )
 );
