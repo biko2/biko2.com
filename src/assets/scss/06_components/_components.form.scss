@@ -1,4 +1,4 @@
-.c-form{
+.c-form {
   display: flex;
   align-items: start;
   flex-direction: column;
@@ -67,7 +67,7 @@
 }
 .c-form-check__label {
   @include typi(tiny);
-  margin-bottom: 0;
+  margin-bottom:0;
   padding-left: 40px;
 
   @include media-breakpoint-up(sm) {
@@ -100,7 +100,7 @@
 }
 
 .c-form__legal {
-  @include typi(tiny);
+  font-size: 12px !important;
   font-style: italic;
   margin-top: 20px;
   color: $gray;

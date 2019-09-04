@@ -25,6 +25,21 @@
   }
 }
 
+.c-bg-pattern__center {
+
+    background-image:  url(../images/bg-pattern.png);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+
+  @include media-breakpoint-up(md) {
+    background-position: 50% 40%;
+  }
+  @include media-breakpoint-up(xl) {
+    background-position: 50% 60%;
+  }
+
+}
+
 .c-bg-pattern__box {
   background:  url(../images/bg-pattern.png) right top no-repeat;
   width: 100%;

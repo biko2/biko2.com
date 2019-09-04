@@ -24,7 +24,7 @@ $typi: (
   tiny: (
     null: (ms(-2), $line-height-large), // 12px
     xs:   (ms(-3), $line-height-medium),
-    md:   (ms(-2), $line-height-medium)
+    md:   (ms(-3), $line-height-medium)
   ),
   small: (
     null: (ms(-1), $line-height-large) // 14px
@@ -41,7 +41,8 @@ $typi: (
   large: (
     null: (ms(2), $line-height-large), //20px
     xs:   (ms(1), $line-height-medium),
-    lg:   (ms(3), $line-height-medium),
+    md:   (ms(2), $line-height-medium),
+    xl:   (ms(3), $line-height-medium),
   ),
   big: (
     xs:   (ms(2), $line-height-small),
