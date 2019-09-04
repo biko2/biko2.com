@@ -22,47 +22,47 @@ $breakpoints: (
 
 $typi: (
   tiny: (
-    null: (ms(-2), $line-height-large), // 12px
-    xs:   (ms(-3), $line-height-medium),
-    md:   (ms(-3), $line-height-medium)
+    null: (ms(-2), 16px), // 12px
+    xs:   (ms(-3), 16px),
+    md:   (ms(-3), 16px)
   ),
   small: (
-    null: (ms(-1), $line-height-large) // 14px
+    null: (ms(-1), 20px) // 14px
   ),
   base: (
-    null: (ms(0), $line-height-large), // 16px
-    xs:   (ms(-1), $line-height-large),
-    sm:   (ms(0), $line-height-large),
-    md:   (ms(0), $line-height-large),
-    lg:   (ms(0), $line-height-large),
-    xl:   (ms(0), $line-height-large),
-    xxl:   (ms(0), $line-height-large),
+    null: (ms(0), 24px), // 16px
+    xs:   (ms(0), 24px),
+    sm:   (ms(0), 24px),
+    md:   (ms(0), 24px),
+    lg:   (ms(0), 24px),
+    xl:   (ms(0), 24px),
+    xxl:   (ms(0), 24px),
   ),
   large: (
-    null: (ms(2), $line-height-large), //20px
-    xs:   (ms(1), $line-height-medium),
-    md:   (ms(2), $line-height-medium),
-    xl:   (ms(3), $line-height-medium),
+    null: (ms(2), 28px), //20px
+    xs:   (ms(1), 28px),
+    md:   (ms(2), 28px),
+    xl:   (ms(3), 32px),
   ),
   big: (
-    xs:   (ms(2), $line-height-small),
-    sm:   (ms(3), $line-height-small),
-    md:   (ms(5), $line-height-medium),
-    lg:   (ms(5), $line-height-small),
-    xl:   (ms(5), $line-height-small), // 28px
-    xxl:  (ms(7), $line-height-small),
+    xs:   (ms(2), 28px),
+    sm:   (ms(3), 32px),
+    md:   (ms(5), 36px),
+    lg:   (ms(5), 36px),
+    xl:   (ms(5), 36px), // 28px
+    xxl:  (ms(7), 44px),
   ),
   huge: ( //41px
-    xs:   (ms(2), $line-height-small),
-    sm:   (ms(5), $line-height-small),
-    md:   (ms(6), $line-height-small),
-    lg:   (ms(7), $line-height-small),
-    xl:   (ms(7), $line-height-small),
-    xxl:  (ms(8), $line-height-small)
+    xs:   (ms(2), 28px),
+    sm:   (ms(5), 36px),
+    md:   (ms(6), 40px),
+    lg:   (ms(7), 44px),
+    xl:   (ms(7), 44px),
+    xxl:  (ms(8), 48px)
   ),
   midhuge: ( //74px
-    xs:   (ms(6), $line-height-small),
-    sm:   (ms(8), $line-height-small),
+    xs:   (ms(6), 40px),
+    sm:   (ms(8), 48px),
     md:   (ms(10), $line-height-small),
     lg:   (ms(11), $line-height-small),
     xl:   (ms(12), $line-height-small),
