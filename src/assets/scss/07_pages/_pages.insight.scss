@@ -68,12 +68,6 @@
 
   .c-form {
     display: block;
-    @include media-breakpoint-up(md) {
-      margin-top: 48px;
-    }
-    @include media-breakpoint-up(lg) {
-      margin-top: 0;
-    }
   }
 
 
@@ -96,5 +90,16 @@
     }
   }
 
+}
 
+.p-link-old {
+  margin-top: 24px;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: -390px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-top: -360px;
+  }
 }
