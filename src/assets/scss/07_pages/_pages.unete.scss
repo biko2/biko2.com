@@ -2,9 +2,14 @@
   padding-top: 0;
   padding-bottom: 0;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     padding-top: 48px;
-    padding-bottom: 96px;
+    padding-bottom: 56px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    padding-top: 48px;
+    padding-bottom: 236px;
   }
 
   .p-unete-hero__container {
@@ -33,26 +38,32 @@
 
   .c-grid-image--right {
     margin-top: -60px;
+    width: 100%;
+    height: auto;
 
     @include media-breakpoint-up(md) {
       margin-top: 0;
-      width: 65%;
-      height: 750px;
+      width: 63%;
+      height: 477px;
     }
 
     @include media-breakpoint-up(lg) {
-      width: 72%;
-      height: 800px;
-    }
-
-    @include media-breakpoint-up(xl) {
-      width: 65%;
+      width: 67%;
+      height: 628px;
     }
 
     @include media-breakpoint-up(xxl) {
-      width: 50%;
+      width: 60%;
+      height: 720px;
     }
+
+    @include media-breakpoint-up(xxxl) {
+      width: 50%;
+      height: 920px;
+    }
+
   }
+
 
   .c-separator--icon {
     padding: 0;
@@ -60,7 +71,7 @@
 
     @include media-breakpoint-up(md) {
       padding: 40px 0 0;
-      margin-bottom: 200px;
+      margin-bottom: 96px;
     }
   }
 }
