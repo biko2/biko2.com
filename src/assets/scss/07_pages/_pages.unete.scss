@@ -144,17 +144,29 @@
 }
 
 .p-unete-open {
-  background: url('../images/open-biko-octubre-2018-min.jpg') center top no-repeat;
+  background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
   background-size: cover;
-  min-height: 670px;
+  min-height: 700px;
   overflow: hidden;
   position: relative;
   margin-bottom: 96px;
 
   @include media-breakpoint-up(md) {
-    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
+    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
     background-size: cover;
-    min-height: 990px;
+    min-height: 1024px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 800px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 1360px;
   }
 
   .c-box-white {
@@ -177,5 +189,8 @@
       @include typi(small);
       font-style: italic;
     }
+  }
+  .c-box-white {
+    background-color:rgba(255, 255, 255, 0.85);
   }
 }
