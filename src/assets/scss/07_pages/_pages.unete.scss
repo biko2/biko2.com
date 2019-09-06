@@ -144,7 +144,7 @@
 }
 
 .p-unete-open {
-  background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
+  background: url('../images/open-biko-mayo-2019-min.jpg') center top no-repeat;
   background-size: cover;
   min-height: 700px;
   overflow: hidden;
@@ -158,13 +158,11 @@
   }
 
   @include media-breakpoint-up(lg) {
-    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
     background-size: cover;
     min-height: 800px;
   }
 
   @include media-breakpoint-up(xxxl) {
-    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
     background-size: cover;
     min-height: 1360px;
   }
