@@ -1,0 +1,39 @@
+.c-casos__box {
+  background: white;
+  padding: 24px;
+  margin-bottom: 3%;
+  flex: 0 1 100%;
+  transition: all .5s ease;
+
+  @include media-breakpoint-up(md) {
+    padding: 24px;
+    flex: 0 1 48.5%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 48px;
+  }
+
+  &:nth-child(odd) {
+    @include media-breakpoint-up(md) {
+      margin-right: 3%;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 2px 20px #AEB8BD;
+  }
+
+  .c-casos__box__title {
+    @include typi(large);
+    font-weight: 800;
+  }
+
+  .c-casos__box__subtitle {
+    @include typi(large);
+  }
+}
+
+.c-casos__title {
+  strong {font-weight: 800;}
+}

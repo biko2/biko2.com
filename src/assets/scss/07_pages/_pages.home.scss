@@ -255,6 +255,47 @@
   }
 }
 
+
+.p-home__casos {
+  background: $gray-light;
+  margin: 0 0 48px;
+  padding: 36px 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 96px 0;
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 0 4% 96px;
+  }
+
+  .c-casos__title {
+    strong {display: block;}
+    margin-bottom: 26px;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 48px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 64px;
+    }
+  }
+
+  .c-casos__box__subtitle {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+
+
 .p-home__insights {
   margin-bottom: 60px;
   position: relative;

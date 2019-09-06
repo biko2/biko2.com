@@ -9,7 +9,7 @@
 
   @include media-breakpoint-up(xxxl) {
     padding-top: 48px;
-    padding-bottom: 236px;
+    padding-bottom: 245px;
   }
 
   .p-unete-hero__container {
@@ -32,9 +32,7 @@
     }
   }
 
-  .c-title--pre {
-    font-weight: 500;
-  }
+
 
   .c-grid-image--right {
     margin-top: -60px;
@@ -144,7 +142,7 @@
 }
 
 .p-unete-open {
-  background: url('../images/open-biko-mayo-2019-min.jpg') center top no-repeat;
+  background: url('../images/open-biko-octubre-2018-min.jpg') center top no-repeat;
   background-size: cover;
   min-height: 700px;
   overflow: hidden;
@@ -152,7 +150,7 @@
   margin-bottom: 96px;
 
   @include media-breakpoint-up(md) {
-    background: url('../images/open-biko-mayo-2019.jpg') center top no-repeat;
+    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
     background-size: cover;
     min-height: 1024px;
   }
