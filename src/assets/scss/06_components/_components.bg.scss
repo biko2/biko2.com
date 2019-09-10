@@ -79,21 +79,10 @@
     background-position: right center;
   }
 }
-
-.c-bg-guernica {
-  width: 100%;
-  padding: 40px 0 0 0;
-  background-image:  url(../images/bg-guernica.png);
-  background-repeat: no-repeat;
-
+.c-bg-portfolio {
   @include media-breakpoint-only(xs) {
-    background-size: 150%;
+    background-size: 130%;
   }
-
-  @include media-breakpoint-up(sm) {
-    padding: 96px 0 0 0;
-  }
-
   @include media-breakpoint-up(md) {
     background-position: -50% center;
   }
@@ -106,6 +95,16 @@
     background-position: right center;
   }
 }
+.c-bg-guernica {
+  width: 100%;
+  padding: 40px 0 0 0;
+  background-image:  url(../images/bg-guernica.png);
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    padding: 96px 0 0 0;
+  }
+}
 
 .c-bg-helvetia {
   width: 100%;
@@ -113,24 +112,8 @@
   background-image:  url(../images/bg-helvetia.png);
   background-repeat: no-repeat;
 
-  @include media-breakpoint-only(xs) {
-    background-size: 150%;
-  }
-
   @include media-breakpoint-up(sm) {
     padding: 140px 0 0 0;
-  }
-
-  @include media-breakpoint-up(md) {
-    background-position: -50% center;
-  }
-
-  @include media-breakpoint-up(lg) {
-    background-position: 150px center;
-  }
-
-  @include media-breakpoint-up(xl) {
-    background-position: right center;
   }
 }
 
@@ -141,23 +124,8 @@
   //background-position: -60% center;
   background-repeat: no-repeat;
 
-  @include media-breakpoint-only(xs) {
-    background-size: 150%;
-  }
-
   @include media-breakpoint-up(sm) {
     padding: 140px 0 0 0;
   }
 
-  @include media-breakpoint-up(md) {
-    background-position: -50% center;
-  }
-
-  @include media-breakpoint-up(lg) {
-    background-position: 150px center;
-  }
-
-  @include media-breakpoint-up(xl) {
-    background-position: right center;
-  }
 }
