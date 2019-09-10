@@ -1,0 +1,77 @@
+.c-porfolio__txtbox {
+  padding: 0;
+  @include media-breakpoint-up(md) {
+    padding: 0;
+  }
+
+  .h-big {
+    font-weight: 800;
+  }
+
+  .h-big, p {
+    background: #fff;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 12px;
+  }
+
+  .c-porfolio__txtbox__bold {
+    @include typi(base);
+    font-weight: 800;
+
+    @include media-breakpoint-up(sm) {
+      @include typi(large);
+    }
+
+    a {
+      color: $black;
+    }
+  }
+}
+
+
+.c-portfolio-clientes {
+  margin-bottom: 48px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 72px;
+  }
+
+  &:last-child {
+    @include media-breakpoint-only(xs) {
+      margin-bottom: 24px;
+    }
+  }
+
+  .c-porfolio__txtbox {
+    padding: 0;
+
+    @include media-breakpoint-only(xs) {
+      padding: 24px;
+    }
+    @include media-breakpoint-up(sm) {
+      padding-bottom: 120px;
+      margin-bottom: 0;
+    }
+  }
+  .c-porfolio__txtbox__bold {
+    margin-top: 24px;
+  }
+}
+
+// GUERNICA NUEVO
+.c-porfolio-destacado {
+  .c-porfolio__txtbox {
+    padding: 0;
+
+    @include media-breakpoint-only(xs) {
+      padding: 24px;
+    }
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 32px;
+    }
+  }
+  .c-porfolio__txtbox__bold {
+    margin-top: 0;
+  }
+}

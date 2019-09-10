@@ -57,11 +57,9 @@
 }
 
 .c-porfolio__txtbox {
-  //padding: 0 20px;
-  padding: 0;
+  padding: 0 20px;
   @include media-breakpoint-up(md) {
-    //padding: 0 40px;
-    padding: 0;
+    padding: 0 40px;
   }
 
   .h-big {
@@ -90,7 +88,6 @@
 }
 
 
-// GUERNICA DEL CARRUSEL  PARA ELIMINAR
 .c-porfolio-gernica {
   @include media-breakpoint-only(xs) {
     display: flex;
@@ -138,7 +135,6 @@
   }
 }
 
-// HELVETIA DEL CARRUSEL  PARA ELIMINAR
 .0c-porfolio-helvetia {
   display: flex;
   flex-direction: row;
@@ -173,7 +169,6 @@
   }
 }
 
-// aecc DEL CARRUSEL PARA ELIMINAR
 .0c-porfolio-aecc {
   display: flex;
 	flex-direction: row;
@@ -205,51 +200,5 @@
     @include media-breakpoint-up(lg) {
       height: auto;
     }
-  }
-}
-// PORTFOLIO NUEVO
-.c-portfolio-clientes {
-  margin-bottom: 48px;
-  @include media-breakpoint-up(xl) {
-    margin-bottom: 72px;
-  }
-  .c-porfolio__txtbox {
-    padding: 0;
-
-    @include media-breakpoint-only(xs) {
-      padding: 24px;
-    }
-    @include media-breakpoint-up(sm) {
-      padding-bottom: 120px;
-      margin-bottom: 0;
-    }
-  }
-  .c-porfolio__txtbox__bold {
-    margin-top: 24px;
-  }
-}
-
-// GUERNICA NUEVO
-.c-porfolio-guernica {
-  .c-porfolio__txtbox {
-    padding: 0;
-
-    @include media-breakpoint-only(xs) {
-      padding: 24px;
-    }
-
-    @include media-breakpoint-up(sm) {
-      margin-bottom: 32px;
-    }
-  }
-  .c-porfolio__txtbox__bold {
-    margin-top: 0;
-  }
-}
-
-// AECC NUEVO
-.c-porfolio-aecc {
-  @include media-breakpoint-only(xs) {
-    margin-bottom: 24px;
   }
 }
