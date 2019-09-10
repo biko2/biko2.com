@@ -8,15 +8,9 @@
   }
   .c-ofertas__title {
     margin-bottom: 12px;
-    margin-left: -20px;
-
-    @include media-breakpoint-up(sm) {
-      margin-left: -34px;
-    }
 
     @include media-breakpoint-up(md) {
       margin-bottom: 36px;
-      margin-left: 0;
     }
   }
 }
@@ -43,5 +37,30 @@
     @include media-breakpoint-up(xl) {
       margin-bottom: 24px;
     }
+  }
+}
+
+.p-oferta-software {
+  background: url('../images/open-biko-octubre-2018-min.jpg') center bottom no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 96px;
+
+  @include media-breakpoint-up(md) {
+    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 1024px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-size: cover;
+    min-height: 800px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-size: cover;
+    min-height: 1360px;
   }
 }

@@ -57,33 +57,30 @@
 }
 
 .c-porfolio__txtbox {
-  padding: 0 20px;
-
+  //padding: 0 20px;
+  padding: 0;
   @include media-breakpoint-up(md) {
-    padding: 0 40px;
+    //padding: 0 40px;
+    padding: 0;
   }
 
   .h-big {
     font-weight: 800;
-    margin-bottom: 12px;
-    line-height: 1.1;
+  }
 
-    @include media-breakpoint-up(md) {
-      margin-bottom: 24px;
-    }
+  .h-big, p {
+    background: #fff;
+    display: inline-block;
+    padding: 4px;
+    margin-bottom: 12px;
   }
 
   .c-porfolio__txtbox__bold {
     @include typi(base);
     font-weight: 800;
-    margin-bottom: 12px;
 
     @include media-breakpoint-up(sm) {
       @include typi(large);
-    }
-
-    @include media-breakpoint-up(md) {
-      margin-bottom: 24px;
     }
 
     a {
@@ -92,7 +89,8 @@
   }
 }
 
-// GUERNICA
+
+// GUERNICA DEL CARRUSEL
 .c-porfolio-gernica {
   @include media-breakpoint-only(xs) {
     display: flex;
@@ -111,7 +109,6 @@
   .c-porfolio__txtbox {
     display: flex;
   	flex-direction: row;
-
     @include media-breakpoint-up(lg) {
       width: 65%;
       padding: 20px 0 40px 70px;
@@ -141,8 +138,8 @@
   }
 }
 
-// HELVETIA
-.c-porfolio-helvetia {
+// HELVETIA DEL CARRUSEL
+.0c-porfolio-helvetia {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -164,7 +161,7 @@
     img {margin-bottom: 24px;}
   }
 
-  .c-porfolio__txtbox__capture {
+  .0c-porfolio__txtbox__capture {
     height: 420px;
 
     @include media-breakpoint-up(md) {
@@ -176,8 +173,8 @@
   }
 }
 
-// aecc
-.c-porfolio-aecc {
+// aecc DEL CARRUSEL
+.0c-porfolio-aecc {
   display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -208,5 +205,44 @@
     @include media-breakpoint-up(lg) {
       height: auto;
     }
+  }
+}
+
+.c-portfolio-clientes {
+  margin-bottom: 48px;
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 72px;
+  }
+  .c-porfolio__txtbox {
+    padding: 0;
+
+    @include media-breakpoint-only(xs) {
+      padding: 24px;
+    }
+    @include media-breakpoint-up(sm) {
+      padding-bottom: 120px;
+      margin-bottom: 0;
+    }
+  }
+  .c-porfolio__txtbox__bold {
+    margin-top: 24px;
+  }
+}
+
+// GUERNICA NUEVO
+.c-porfolio-guernica {
+  .c-porfolio__txtbox {
+    padding: 0;
+
+    @include media-breakpoint-only(xs) {
+      padding: 24px;
+    }
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 32px;
+    }
+  }
+  .c-porfolio__txtbox__bold {
+    margin-top: 0;
   }
 }

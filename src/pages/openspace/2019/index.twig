@@ -1,0 +1,31 @@
+{# ----- HOME ----- #}
+{% extends "_layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-openspace-hero">
+  <div class="p-openspace-hero__container c-bg-pattern__center">
+
+    <div class="c-grid-image--right">
+      <img data-src="/assets/images/landing-insight-2.jpg" class="lazyload" alt="Biko Insights 2" />
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-9 col-lg-7">
+          {% include "openspace/ico-square.twig" %}
+          <h1>Open<strong> Space</strong></h1>
+          <p class="c-title--sub">(Un día para descubrir las tendencias del Universo Tecnológico)</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+{% include "_includes/contact.twig" %}
+
+{% endblock %}
