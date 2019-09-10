@@ -325,8 +325,6 @@
     }
   }
   .h-huge {
-    @include media-breakpoint-down(sm) {
-      @include typi(big);
-    }
+    @include typi(big);
   }
 }
