@@ -246,3 +246,11 @@
     margin-top: 0;
   }
 }
+
+// GUERNICA NUEVO
+.c-porfolio-aecc {
+
+  @include media-breakpoint-only(xs) {
+    margin-bottom: 24px;
+  }
+}
