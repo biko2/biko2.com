@@ -104,6 +104,15 @@
     background-position: right center;
   }
 }
+
+.bg-multiline {
+  display: inline;
+	padding: .2em .3em .2em 0;
+  background-color: #FFF;
+  box-shadow: 0.50em 0 0 #FFF,-0.50em 0 0 #FFF;
+  box-decoration-break: clone;
+}
+
 .c-bg-guernica {
   background-image:  url(../images/bg-guernica.png);
 
