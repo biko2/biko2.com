@@ -90,7 +90,7 @@
 }
 
 
-// GUERNICA DEL CARRUSEL
+// GUERNICA DEL CARRUSEL  PARA ELIMINAR
 .c-porfolio-gernica {
   @include media-breakpoint-only(xs) {
     display: flex;
@@ -138,7 +138,7 @@
   }
 }
 
-// HELVETIA DEL CARRUSEL
+// HELVETIA DEL CARRUSEL  PARA ELIMINAR
 .0c-porfolio-helvetia {
   display: flex;
   flex-direction: row;
@@ -173,7 +173,7 @@
   }
 }
 
-// aecc DEL CARRUSEL
+// aecc DEL CARRUSEL PARA ELIMINAR
 .0c-porfolio-aecc {
   display: flex;
 	flex-direction: row;
@@ -207,7 +207,7 @@
     }
   }
 }
-
+// PORTFOLIO NUEVO
 .c-portfolio-clientes {
   margin-bottom: 48px;
   @include media-breakpoint-up(xl) {
@@ -247,9 +247,8 @@
   }
 }
 
-// GUERNICA NUEVO
+// AECC NUEVO
 .c-porfolio-aecc {
-
   @include media-breakpoint-only(xs) {
     margin-bottom: 24px;
   }
