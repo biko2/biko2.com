@@ -2,104 +2,19 @@
   padding-top: 24px;
   padding-bottom: 64px;
 
-
   @include media-breakpoint-up(md) {
     padding-top: 48px;
     padding-bottom: 96px;
   }
 
-  .p-insight-hero__container {
-    @include media-breakpoint-down(sm) {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 36px;
-
-      .c-grid-image--right {
-        order: 3;
-      }
-    }
-  }
-
-  .p-insight-hero__container h1 {
-    padding-top: 24px;
-
-    @include media-breakpoint-up(md) {
-      //padding-top: 96px;
-    }
-  }
-
-  h2 {
-    @include typi(huge);
-    margin-bottom: 32px;
-  }
-
-  .c-title--pre {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .c-grid-image--right {
-    width: 100%;
-    height: auto;
-
-    @include media-breakpoint-up(md) {
-      margin-top: 0;
-      width: 40%;
-      height: 700px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      width: 49%;
-      height: 700px;
-    }
-
-    @include media-breakpoint-up(xxl) {
-      width: 49%;
-      height: auto;
-    }
-
-  }
-
-  .c-separator--icon {
-    padding: 0;
-    text-align: left;
-    margin-bottom: 48px;
-  }
-
-  .c-form {
-    display: block;
-  }
-
-
-  .c-form__elements {
-    margin-right: 0;
-    input {
-      margin-bottom: 12px;
-    }
-  }
-  .c-form-check__label {
-    @include media-breakpoint-up(sm) {
-      margin-bottom: 24px;
-    }
-  }
-
-  .c-button {
-    width: 100%;
-    @include media-breakpoint-only(xs) {
-      padding: 24px;
-    }
-  }
-
 }
 
-.p-link-old {
-  margin-top: 24px;
+.p-openspace-proximo {
+  padding-top: 24px;
+  padding-bottom: 64px;
 
-  @include media-breakpoint-up(lg) {
-    margin-top: -390px;
-  }
-
-  @include media-breakpoint-up(xl) {
-    margin-top: -360px;
+  @include media-breakpoint-up(md) {
+    padding-top: 48px;
+    padding-bottom: 96px;
   }
 }

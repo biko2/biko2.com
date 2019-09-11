@@ -94,6 +94,7 @@
 
   @include media-breakpoint-up(md) {
     background-position: -50% center;
+    padding: 170px 0 0 0;
   }
 
   @include media-breakpoint-up(lg) {
@@ -109,7 +110,7 @@
   display: inline;
 	padding: .2em .3em .2em 0;
   background-color: #FFF;
-  //box-shadow: 0.50em 0 0 #FFF,-0.50em 0 0 #FFF;
+  box-shadow: 0.50em 0 0 #FFF,-0.50em 0 0 #FFF;
   box-decoration-break: clone;
 }
 
@@ -131,4 +132,27 @@
 
 .c-bg-aecc {
   background-image:  url(../images/bg-aecc.png);
+}
+
+.c-bg-openspace__proximo {
+  background-image:  url("../images/bg-pattern-tiny.png");
+  background-position: 400% 0;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    background-position: 150% 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: 128% 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image:  url(../images/bg-pattern.png);
+    background-position: 160% 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: right top;
+  }
 }
