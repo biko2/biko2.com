@@ -11,7 +11,7 @@
   .h-big, p {
     display: inline-block;
     padding: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 0;
   }
 
   .c-porfolio__txtbox__bold {
@@ -60,13 +60,8 @@
 // GUERNICA NUEVO
 .c-porfolio-destacado {
   .c-porfolio__txtbox {
-    padding: 0;
-
-    @include media-breakpoint-only(xs) {
-      padding: 24px;
-    }
-
     @include media-breakpoint-up(sm) {
+      padding-bottom: 0;
       margin-bottom: 32px;
     }
   }
