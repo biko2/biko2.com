@@ -1,0 +1,7 @@
+.p-prefooter {
+  .c-title-section {
+    @include media-breakpoint-up(md) {
+      margin-top: 64px;
+    }
+  }
+}

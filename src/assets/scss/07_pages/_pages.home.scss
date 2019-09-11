@@ -143,6 +143,16 @@
 .p-home__servicios {
   position: relative;
 
+  .c-title-section {
+    @include media-breakpoint-up(md) {
+      margin-top: 170px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+      margin-top: 12px;
+    }
+  }
+
   .c-grid-image--right {
     width: 100%;
     height: auto;
@@ -161,8 +171,6 @@
     @include media-breakpoint-up(xl) {
       width: 50%;
     }
-
-
   }
 
   .c-grid-image--right {
@@ -238,6 +246,15 @@
 
 
 .p-home__clientes {
+  .c-title-section {
+    @include media-breakpoint-up(md) {
+      margin-top: 120px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+      margin-top: 110px;
+    }
+  }
   .container-fluid {
     padding-right: 0;
 
@@ -272,6 +289,7 @@
 }
 
 .p-home__insights {
+
   margin-bottom: 60px;
   position: relative;
 
@@ -310,6 +328,16 @@
       width: 34%;
     }
   }
+
+    .c-title-section {
+      @include media-breakpoint-up(md) {
+        margin-top: 96px;
+      }
+      @include media-breakpoint-up(xxxl) {
+        margin-top: 64px;
+      }
+    }
+
 
   .c-icon-square {
     margin-bottom: 24px;
