@@ -25,6 +25,29 @@
   }
 }
 
+.c-bg-pattern__left {
+  background-image:  url("../images/bg-pattern-tiny.png");
+  background-position: 0 400%;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    background-position: 0 150% ;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: 0 128%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image:  url(../images/bg-pattern.png);
+    background-position: 0 160%;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: left top;
+  }
+}
+
 .c-bg-pattern__center {
 
     background-image:  url(../images/bg-pattern.png);

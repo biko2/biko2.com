@@ -5,6 +5,25 @@
   }
 }
 
+.c-box-huge {
+  margin: 0 0 48px;
+  padding: 36px 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 96px 0;
+    margin: 0 1% 96px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 0 4% 96px;
+  }
+
+}
+
 .c-box__square {
   margin: 24px 0 0;
 
@@ -40,4 +59,8 @@
   &.c-box-white--lite {
     padding: 12px 18px;
   }
+}
+
+.c-box-gray-light {
+  background: $gray-light;
 }

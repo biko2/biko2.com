@@ -49,3 +49,12 @@
     height: 100%;
   }
 }
+
+.c-grid-image--center {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
