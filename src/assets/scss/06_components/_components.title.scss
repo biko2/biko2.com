@@ -55,20 +55,14 @@
     }
 
     @include media-breakpoint-up(md) {
-      top: 26px;
+      top: 20px;
     }
 
-    @include media-breakpoint-up(lg) {
+
+    @include media-breakpoint-up(xl) {
       top: 24px;
     }
 
-    @include media-breakpoint-up(xl) {
-      top: 23px;
-    }
-
-    @include media-breakpoint-up(xxl) {
-      top: 28px;
-    }
   }
 }
 
