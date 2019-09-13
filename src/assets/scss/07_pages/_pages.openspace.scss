@@ -36,26 +36,43 @@
       margin-right: -23%;
     }
     @include media-breakpoint-up(md) {
-      margin-top: 227px;
+      margin-top: 114px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-top: 200px;
+    }
+    @include media-breakpoint-up(xl) {
+      margin-top: 264px;
     }
   }
   .c-grid-image--right {
-
+    height: auto;
     @include media-breakpoint-up(md) {
       width: 38%;
-      height: 625px;
+      height: 521px;
     }
     @include media-breakpoint-up(lg) {
       width: 50%;
-      height: 609px;
+      height: 545px;
     }
     @include media-breakpoint-up(xl) {
       width: 50%;
       height: 641px;
     }
   }
-
-
+  .c-grid-image--right img {
+    @include media-breakpoint-only(xs) {
+      margin-left: 10%;
+    }
+  }
+  .p-openspace__texto {
+    @include media-breakpoint-up(md) {
+      margin-top: 116px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-top: 80px;
+    }
+  }
 }
 
 h3 {
