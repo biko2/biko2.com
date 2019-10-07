@@ -1,0 +1,19 @@
+.p-bienvenida-foto {
+  background: url('../images/open-biko-octubre-2018-min.jpg') center top no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 96px;
+
+  @include media-breakpoint-up(xl) {
+    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 900px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-size: cover;
+    min-height: 1360px;
+  }
+}
