@@ -17,6 +17,12 @@
     width: 500px;
   }
 
+  p {
+    @include media-breakpoint-down(md) {
+      margin-bottom: 5px;
+    }
+  }
+
   strong {
     @include typi(large);
     font-weight: 800;
@@ -40,13 +46,20 @@
     text-align: center;
     line-height: 1.4;
     font-size: inherit !important;
+    padding: 15px 0 0;
+  }
+}
+
+#cookies .eupopup-body p {
+  @include media-breakpoint-down(md) {
+    @include typi(small);
   }
 }
 
 #cookies .c-cookies--container {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
