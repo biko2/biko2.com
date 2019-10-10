@@ -1,4 +1,7 @@
-.p-insight-hero {
+.page-insights .c-cita__box__texto.page-insights { display: block;}
+
+
+.p-insights-hero {
   padding-top: 24px;
   padding-bottom: 64px;
 
@@ -8,7 +11,7 @@
     padding-bottom: 96px;
   }
 
-  .p-insight-hero__container {
+  .p-insights-hero__container {
     @include media-breakpoint-down(sm) {
       display: flex;
       flex-direction: column;
@@ -20,7 +23,7 @@
     }
   }
 
-  .p-insight-hero__container h1 {
+  .p-insights-hero__container h1 {
     padding-top: 24px;
 
     @include media-breakpoint-up(md) {

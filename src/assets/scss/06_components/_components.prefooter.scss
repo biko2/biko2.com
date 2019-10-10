@@ -1,4 +1,6 @@
-.p-prefooter {
+.c-prefooter {
+  padding-bottom: 50px;
+  
   .c-title-section {
     @include media-breakpoint-up(md) {
       margin-top: 64px;
