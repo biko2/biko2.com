@@ -103,6 +103,46 @@
   }
 }
 
+.c-bg-insights-bienvenida {
+  background-image:  url(../images/biko-insights-bienvenida.jpg);
+}
+
+.c-bg-bienvenida {
+  width: 100%;
+  padding: 40px 0 20px;
+  background-image:  url(../images/c-bg-bienvenida.jpg);
+  background-position: -60% center;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-only(xs) {
+    background-size: 150%;
+    padding: 0 0 290px 0;
+    background-position: bottom center;
+  }
+
+  @include media-breakpoint-up(sm) {
+    padding: 120px 0 90px;
+    background-position: -20% center;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: -120% center;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: 300px center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: right center;
+  }
+}
+
+.c-bg-bienvenida2 {
+  background-image:  url(../images/c-bg-bienvenida2.jpg);
+}
+
+
 .c-bg-portfolio {
   width: 100%;
   padding: 40px 0 0 0;
@@ -182,5 +222,5 @@
 
 .c-bg-rocket {
   background: url("../images/bg-rocket.jpg") bottom center no-repeat;
-  
+
 }

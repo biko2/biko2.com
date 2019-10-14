@@ -1,7 +1,7 @@
 .page-bienvenida .c-cita__box__texto.page-bienvenida { display: block;}
 
 .p-bienvenida-foto {
-  background: url('../images/open-biko-octubre-2018-min.jpg') center top no-repeat;
+  background: url('../images/pie-bienvenida-foto-min.jpg') center top no-repeat;
   background-size: cover;
   min-height: 700px;
   overflow: hidden;
@@ -9,7 +9,7 @@
   margin-bottom: 96px;
 
   @include media-breakpoint-up(xl) {
-    background: url('../images/open-biko-octubre-2018.jpg') center top no-repeat;
+    background: url('../images/pie-bienvenida-foto.jpg') center top no-repeat;
     background-size: cover;
     min-height: 900px;
   }
@@ -17,5 +17,29 @@
   @include media-breakpoint-up(xxxl) {
     background-size: cover;
     min-height: 1360px;
+  }
+}
+
+.c-bg-insights-bienvenida {
+  @include media-breakpoint-only(xs) {
+    padding: 0 0 310px 0;
+    background-position: bottom center;
+  }
+
+  @include media-breakpoint-up(sm) {
+    padding: 120px 0 90px;
+    background-position: -20% center;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: -120% center;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: 300px center;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: right center;
   }
 }
