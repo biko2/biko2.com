@@ -5,6 +5,10 @@
 
   li {
     margin-bottom: 42px;
+
+    &:before {
+      display: none;
+    }
   }
 }
 

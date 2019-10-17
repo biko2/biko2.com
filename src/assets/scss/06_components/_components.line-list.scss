@@ -1,8 +1,8 @@
 .c-line-list {
   list-style: none;
 
-
   li {
+    @extend .c-title--line;
     margin-bottom: 24px;
 
     h3 {
@@ -10,5 +10,4 @@
       margin-bottom: 8px;
     }
   }
-
 }

@@ -27,6 +27,10 @@
 .c-footer__bottom-list__item{
   padding: 5px;
 
+  &:before {
+    display: none;
+  }
+
   &:after{
     @include media-breakpoint-up(sm) {
       content: "";

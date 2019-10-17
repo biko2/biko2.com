@@ -1,0 +1,32 @@
+table {
+  @include typi(small);
+  border-bottom: 1px solid $gray-light;
+  margin-bottom: 40px;
+
+  th {
+    font-weight: normal;
+    background: $red;
+    color: white;
+    border-right: 1px solid white;
+    padding: 5px 10px;
+    @include typi(small);
+  }
+
+  tr {
+    transition: background .3s ease;
+
+    &:nth-child(2n+3) {
+      background: $gray-light;
+    }
+
+    &:hover {
+      background: $red-light;
+      cursor: default;
+    }
+  }
+
+  td {
+    padding: 8px 10px;
+    border-right: 1px solid white;
+  }
+}

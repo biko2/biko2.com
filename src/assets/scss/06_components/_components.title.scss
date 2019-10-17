@@ -50,33 +50,19 @@
 
     @include media-breakpoint-up(sm) {
       width: 24px;
-      top: 17px;
+      top: 23px;
       left: -35px;
     }
 
     @include media-breakpoint-up(md) {
-      top: 20px;
+      top: 15px;
     }
-
-
-    @include media-breakpoint-up(xl) {
-      top: 24px;
-    }
-
   }
 }
 
-p.c-title--line {
-  position: relative;
-
+.c-title--line.h-big {
   &:before {
-    content: "";
-    display: block;
-    width: 12px;
-    height: 3px;
-    background: $red;
-    position: absolute;
-    top: 14px;
+    top: 18px;
     left: -18px;
 
     @include media-breakpoint-up(sm) {
@@ -86,7 +72,11 @@ p.c-title--line {
     }
 
     @include media-breakpoint-up(md) {
-      top: 15px;
+      top: 24px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      top: 30px;
     }
   }
 }

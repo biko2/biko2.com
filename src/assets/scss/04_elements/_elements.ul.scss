@@ -1,0 +1,32 @@
+ul {
+  list-style: none;
+
+  li {
+    position: relative;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 5px;
+      height: 5px;
+      background: $red;
+      position: absolute;
+      top: 9px;
+      left: -16px;
+    }
+
+    li {
+
+      &:before {
+        content: "";
+        display: block;
+        width: 15px;
+        height: 2px;
+        background: $red;
+        position: absolute;
+        top: 15px;
+        left: -23px;
+      }
+    }
+  }
+}

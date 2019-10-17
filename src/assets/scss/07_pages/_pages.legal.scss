@@ -1,0 +1,18 @@
+.page-aviso-legal .c-cita__box__texto.page-legal,
+.page-politica-de-cookies .c-cita__box__texto.page-legal,
+.page-proteccion-de-datos .c-cita__box__texto.page-legal { display: block;}
+
+.p-legal {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 48px;
+    padding-bottom: 56px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    padding-top: 48px;
+    padding-bottom: 245px;
+  }
+}
