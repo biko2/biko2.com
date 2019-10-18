@@ -66,6 +66,12 @@
     @include media-breakpoint-only(xs) {
       margin-left: 10%;
     }
+    @include media-breakpoint-up(xxxl) {
+      margin-top: -140px;
+    }
+    @include media-breakpoint-up(hero) {
+      margin-top: -290px;
+    }
   }
   .p-openspace__texto {
     @include media-breakpoint-up(md) {
@@ -90,17 +96,6 @@ h3 {
 
 
 .p-openspace-proximo {
-  background: url('../images/open-space-proximo.jpg') center top no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-
-  @include media-breakpoint-up(md) {
-    background: url('../images/open-space-proximo.jpg') center top no-repeat;
-    background-size: cover;
-    min-height: 800px;
-  }
-
   .c-box-white {
     margin-top: 12px;
     background-color:rgba(255, 255, 255, 0.85);
@@ -111,6 +106,64 @@ h3 {
 
     p:last-child {margin: 0;}
   }
+}
+
+.p-openspace-proximo__container {
+  background: url('../images/open-space-proximo.jpg') center top no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  @include media-breakpoint-up(xs) {
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  @include media-breakpoint-up(md) {
+    background: url('../images/open-space-proximo.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+}
+
+.p-openspace-proximo--box {
+  position: relative;
+  @include media-breakpoint-up(xs) {
+    margin-top: -120px;
+    padding: 32px 32px 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: -120px;
+    padding: 32px 32px 0;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-top: -120px;
+    padding: 48px 96px;
+  }
+}
+
+.c-icon-list {
+
+  li:last-child {
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.c-icon-list__icon {
+  margin-right: 32px;
+}
+
+.c-texto--small__uppercase {
+    margin-bottom: 4px;
+}
+
+.c-icon-list__text {
+  width: 100%;
+  font-weight: 800;
+  @include typi(large);
 }
 
 .p-openspace-razones {
