@@ -18,7 +18,7 @@
   }
 }
 
-.c-bg-insights-bienvenida {
+.page-bienvenida .c-bg-insights-bienvenida {
   @include media-breakpoint-only(xs) {
     padding: 0 0 310px 0;
     background-position: bottom center;
@@ -42,7 +42,7 @@
   }
 }
 
-.c-icon-list__title {
+.page-bienvenida .c-icon-list__title {
   font-weight: 300;
   strong {
     font-weight: 800;

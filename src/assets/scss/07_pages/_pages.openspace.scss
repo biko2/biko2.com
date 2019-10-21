@@ -141,7 +141,7 @@ h3 {
   }
 }
 
-.c-icon-list {
+.page-openspace .c-icon-list {
 
   li:last-child {
     @include media-breakpoint-up(xl) {
@@ -150,15 +150,15 @@ h3 {
   }
 }
 
-.c-icon-list__icon {
+.page-openspace .c-icon-list__icon {
   margin-right: 32px;
 }
 
-.c-texto--small__uppercase {
+.page-openspace .c-texto--small__uppercase {
     margin-bottom: 4px;
 }
 
-.c-icon-list__text {
+.page-openspace .c-icon-list__text {
   width: 100%;
   font-weight: 800;
   @include typi(large);
