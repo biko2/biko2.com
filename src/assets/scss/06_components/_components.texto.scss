@@ -5,3 +5,15 @@
   margin-top: 20px;
   color: $gray;
 }
+.c-texto--small__uppercase {
+  font-family: "Montserrat";
+  @include typi(tiny);
+  text-transform: uppercase;
+  color: $black;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.c-texto--aviso {
+  color: #E73F39;
+}
