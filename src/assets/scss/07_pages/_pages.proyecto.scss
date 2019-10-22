@@ -1,0 +1,148 @@
+.page-proyecto .c-hero {
+  padding: 0;
+}
+
+.p-proyecto-hero {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @include media-breakpoint-up(md) {
+
+    padding-bottom: 56px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+
+    padding-bottom: 245px;
+  }
+
+  .p-proyecto-hero__container {
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 36px;
+
+      .c-grid-image--right {
+        order: 3;
+      }
+    }
+  }
+
+  .p-proyecto-hero__container h1{
+    padding-top: 24px;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 96px;
+    }
+  }
+
+  .p-proyecto-hero__container h1.c-title--especial{
+
+    @include media-breakpoint-up(md) {
+      padding-top: 32px;
+    }
+  }
+
+  .c-grid-image--right {
+    margin-top: -36px;
+    width: 100%;
+    height: auto;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      width: 50%;
+      height: 828px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+      height: 768px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 50%;
+      height: 810px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      width: 50%;
+      height: 805px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+      width: 50%;
+      height: 805px;
+    }
+
+    img {
+      width: auto;
+      height: 100%;
+
+      @include media-breakpoint-only(xs) {
+        width: 90%;
+        height: auto;
+      }
+
+      @include media-breakpoint-up(xxxl) {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+  }
+
+  .c-icon-square {
+    @include media-breakpoint-down(sm) {
+      margin-left: 15px;
+    }
+  }
+
+
+  .c-separator--icon {
+    padding: 0;
+    text-align: left;
+
+    @include media-breakpoint-up(md) {
+      padding: 40px 0 0;
+      margin-bottom: 96px;
+    }
+  }
+}
+
+.page-proyecto .p-proyecto-hero__presentacion {
+  background: url('../images/bg-proyecto-guernica.png') center bottom no-repeat;
+  background-size: auto;
+  @include media-breakpoint-up(lg) {
+    background-size: 140%;
+    padding-bottom: 120px;
+  }
+  @include media-breakpoint-up(xl) {
+    background-size: 140%;
+    padding-bottom: 150px;
+  }
+
+}
+
+.page-proyecto .c-separator--icon {
+  padding: 60px 0;
+}
+
+.p-proyecto-guernica-foto {
+  background: url('../images/pie-guernica-foto-min.jpg') center top no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 96px;
+
+  @include media-breakpoint-up(xl) {
+    background: url('../images/pie-guernica-foto.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 900px;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-size: cover;
+    min-height: 1360px;
+  }
+}
