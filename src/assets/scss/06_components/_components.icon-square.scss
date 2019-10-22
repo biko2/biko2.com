@@ -16,3 +16,16 @@
     }
   }
 }
+
+.c-icon-square__nobg {
+  background: none;
+
+  @include media-breakpoint-down(sm) {
+    width: 70px;
+    height: 70px;
+
+    svg {
+      width: 55%;
+    }
+  }
+}
