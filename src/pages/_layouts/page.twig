@@ -1,6 +1,9 @@
  {% extends "_layouts/html.twig" %}
  {% block body %}
+    {% include "_includes/email-ok.twig" %}
+    {% include "_includes/insights-ok.twig" %}
     {% include '_includes/site-header.twig' %}
+    
     <div id="main-wrapper">
 
       {% block page %}
