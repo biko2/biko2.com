@@ -1,3 +1,40 @@
+.page-bienvenida .c-hero {
+  padding-top: 60px;
+  padding-bottom: 40px;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 48px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 48px;
+  }
+}
+
+.page-bienvenida {
+  .c-separator--icon {
+    text-align: center;
+    padding: 32px 0 48px;
+
+    @include media-breakpoint-up(md) {
+      text-align: left;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 72px 0 48px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 72px 0 64px;
+    }
+  }
+
+}
+
 .p-bienvenida-foto {
   background: url('../images/pie-bienvenida-foto-min.jpg') center top no-repeat;
   background-size: cover;
@@ -46,5 +83,35 @@
   font-weight: 300;
   strong {
     font-weight: 800;
+  }
+}
+
+.page-bienvenida {
+  .c-grid-image--right {
+    margin-top: -60px;
+    width: 100%;
+    height: auto;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      width: 63%;
+      height: 477px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 67%;
+      height: 628px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      width: 60%;
+      height: 720px;
+    }
+
+    @include media-breakpoint-up(xxxl) {
+      width: 50%;
+      height: 1072px;
+    }
+
   }
 }
