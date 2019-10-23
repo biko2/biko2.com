@@ -97,11 +97,7 @@
   }
 
   .c-title--line {
-    margin-left: 18px;
-
-    @include media-breakpoint-up(md) {
-      margin-left: 36px;
-    }
+    margin-left: 0;
   }
 
   .h-extrahuge {
