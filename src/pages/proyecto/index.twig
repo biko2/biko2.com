@@ -3,25 +3,21 @@
 {% block page %}
 
 <section class="c-hero p-proyecto-hero">
-  <div class="p-proyecto-hero__container">
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-9 mb-3 mb-md-5">
-          <h1 class="c-title--especial">Querían <br />una <strong>tienda online</strong></h1>
-          <p class="c-title--sub">(nosotros les montamos una boutique)</p>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 mb-3 mb-md-5">
+        <h1 class="c-title--especial mt-3 mt-md-5">Querían <br />una <strong>tienda online</strong></h1>
+        <p class="c-title--sub">(nosotros les montamos una boutique)</p>
       </div>
-      
     </div>
+    {% include "proyecto/logo-guernica.twig" %}
   </div>
 </section>
 
 <div class="c-separator--line"><hr /></div>
 
-<section class="c-hero p-proyecto-hero p-proyecto-hero__presentacion">
-  <div class="p-proyecto-hero__container">
+<section class="c-hero p-proyecto-intro p-proyecto-intro__presentacion">
+  <div class="p-proyecto-intro__container">
 
     <div class="c-grid-image--right">
       <img data-src="/assets/images/proyecto-guernica.jpg" class="lazyload" alt="Repensar Guernica" />
@@ -78,10 +74,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 offset-md-1 col-md-4 mb-5 mb-md-5 mb-lg-0">
+      <div class="col-12 offset-md-1 col-md-5 offset-lg-1 col-lg-4 mb-5 mb-md-5 mb-lg-0">
         <p>Trabajamos con total libertad partiendo únicamente de la base de un concepto: el ocio. Nuestro trabajo se realizó a la vez que la transformación interna de la propia marca. Partíamos de unos cuidados recursos de diseño de marca de packaging, publicidad... que teníamos que trasladar y enriquecer en el online. </p>
       </div>
-      <div class="col-12 col-md-4 mb-5 mb-md-5 mb-lg-0">
+      <div class="col-12 col-md-5 col-lg-4 mb-5 mb-md-5 mb-lg-0">
         <p>Incluso llegamos a marcar con nuestro diseño la base del tipo de fotos que debían hacer en el shooting, un punto clave para la imagen rompedora de la página de producto. El resultado final: un nuevo ecommerce que respira frescura por los cuatro costados y con un diseño muy cuidado.</p>
       </div>
     </div>
@@ -99,19 +95,23 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-12 offset-lg-1 col-lg-5">
-        <h3 class="c-title--pre c-title--line">Tecnología</h3>
-        <p>Sed sed arcu quis sapien pellentesque suscipit at sit amet dui. Morbi vitae orci at enim dapibus.</p>
-        <h3 class="c-title--pre c-title--line">Herramientas</h3>
-        <p>Morbi vitae orci at enim dapibus faucibus ut sed mi. Fusce finibus purus vel dolor.</p>
-        <h3 class="c-title--pre c-title--line">Piezas exclusivas</h3>
-        <p>Vel dolor elementum auctor at eget eros. Suspendisse mauris nunc.</p>
+      <div class="col-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5">
+        <div class="c-line-list__first-column">
+          <h3 class="c-title--pre c-title--line">Tecnología</h3>
+          <p>Sed sed arcu quis sapien pellentesque suscipit at sit amet dui. Morbi vitae orci at enim dapibus.</p>
+          <h3 class="c-title--pre c-title--line">Herramientas</h3>
+          <p>Morbi vitae orci at enim dapibus faucibus ut sed mi. Fusce finibus purus vel dolor.</p>
+          <h3 class="c-title--pre c-title--line">Piezas exclusivas</h3>
+          <p>Vel dolor elementum auctor at eget eros. Suspendisse mauris nunc.</p>
+        </div>
       </div>
-      <div class="col-12 offset-lg-1 col-lg-5">
-        <h3 class="c-title--pre c-title--line">Prototipado</h3>
-        <p>Suspendisse mauris nunc, ullamcorper ut venenatis nec, porttitor eget odio.  </p>
-        <h3 class="c-title--pre c-title--line">Web </h3>
-        <p>Fusce finibus purus vel dolor elementum auctor at eget eros. Suspendisse mauris nunc.</p>
+      <div class="col-12 offset-md-1 col-md-5 offset-lg-1 col-lg-5">
+        <div class="c-line-list__last-column">
+          <h3 class="c-title--pre c-title--line">Prototipado</h3>
+          <p>Suspendisse mauris nunc, ullamcorper ut venenatis nec, porttitor eget odio.</p>
+          <h3 class="c-title--pre c-title--line">Web </h3>
+          <p>Fusce finibus purus vel dolor elementum auctor at eget eros. Suspendisse mauris nunc.</p>
+        </div>
       </div>
     </div>
   </div>
