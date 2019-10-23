@@ -51,7 +51,7 @@ $( function() {
       });
 
       $(document).bind("user_cookie_consent_changed", function(event, object) {
-          const userConsentGiven = $(object).attr('consent');
+          var userConsentGiven = $(object).attr('consent');
           if (userConsentGiven) {
               // User clicked on enabling cookies. Now it’s safe to call the
               // init functions.
