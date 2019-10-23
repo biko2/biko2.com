@@ -39,6 +39,7 @@
   }
 
   .c-separator--icon__animated {
+    cursor: default;
     animation-duration: 1s;
     animation-name: scrolldown;
     animation-iteration-count: infinite;
