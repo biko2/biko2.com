@@ -141,12 +141,11 @@ h3 {
   }
 }
 
-.page-openspace .c-icon-list {
-
-  li:last-child {
-    @include media-breakpoint-up(xl) {
-      margin-bottom: 0;
-    }
+.page-openspace .c-icon-list li {
+  margin: 20px 0;
+  
+  @include media-breakpoint-up(md) {
+    width: 50%;
   }
 }
 
