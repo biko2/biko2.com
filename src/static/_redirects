@@ -92,6 +92,8 @@
 
 
 ## REDIRECCIONES A blog.biko2.com
+/category/* https://blog.biko2.com/category/:splat
+
 /actualidad-biko/10-anos-intensos-duros-y-apasionantes https://blog.biko2.com/actualidad-biko/10-anos-intensos-duros-y-apasionantes
 /actualidad-biko/154-nuevos-tramites-online-en-navarra-es https://blog.biko2.com/actualidad-biko/154-nuevos-tramites-online-en-navarra-es
 /actualidad-biko/50-chavales-de-11-anos-revolucionan-biko https://blog.biko2.com/actualidad-biko/50-chavales-de-11-anos-revolucionan-biko
