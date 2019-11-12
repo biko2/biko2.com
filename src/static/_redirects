@@ -1,6 +1,90 @@
 /desarrollador-a-de-software /unete-a-biko/desarrollador-a-de-software
 /desarrollador-a-react /unete-a-biko/desarrollador-front-end
-/* /404/index.html 404
+
+## REDIRECCIONES a paginas de biko2
+/10-aniversario/ /
+/8-tendencias-para-la-venta-experiencial/ /
+/bikodevs/ /
+/bikodevs/educacion-creadora/ /
+/bikolabs-creatividad-pirata/ /
+/bikolabs-persona-data/ /
+/blog/,https://blog.biko2.com
+/casos-de-exito/ /
+/casos-de-exito/teconologia/ /
+/charla-movidos-sonido/ /
+/charla-open-marketing/ /open-space
+/charla-open-react/ /open-space
+/charla-open-research/ /open-space
+/charla-open-vr/ /open-space
+/como-te-ayudamos/ /
+/contacto/ /
+/desarrollador-a-de-software/ /unete
+/desarrollador-a-react/ /unete
+/desayuno-de-biko/ /
+/desayuno-de-biko/540-nuestros-okupas-top/ /
+/desayuno-de-biko/como-surgen-las-buenas-ideas/ /
+/desayuno-de-biko/desayuno-biko-20150311/ /
+/desayuno-de-biko/digital-business-the-future-is-now/ /
+/desayuno-de-biko/dropcoin/ /
+/desayuno-de-biko/el-arte-de-hacerse-cargo-job-families-y-las-responsabilidades-compartidas/ /
+/desayuno-de-biko/es-posible-saborear-la-gastronomia-online/ /
+/desayuno-de-biko/geoactio-addicted-to-mobility/ /
+/desayuno-de-biko/la-diversion-como-estrategia-disenar-e-implementar-gamificacion/ /
+/desayuno-de-biko/quarizmi-adtech/ /
+/desayuno-de-biko/shokesu-organiza-tu-universo-social/ /
+/desayuno-de-biko/zombielib-adquiere-usuarios-para-tu-juego-movil/ /
+/eventos/ /
+/eventos/drupalcamp/ /
+/eventos/ficod15-donde-se-reunen-los-expertos-digitales/ /
+/eventos/taller-ideando-y-aterrizando-proyectos-digitales/ /
+/home-biko/ /
+/horario-open/ /open-space
+/machine-learning/ /
+/narrativa-metaforica/ /
+/nuestro-trabajo/ /
+/nuestro-trabajo/24-fab/ /
+/nuestro-trabajo/appdemecum/ /
+/nuestro-trabajo/asociacion-espanola-contra-el-cancer/ /
+/nuestro-trabajo/carrefour/ /
+/nuestro-trabajo/divina-pastora/ /
+/nuestro-trabajo/dkv-seguros/ /
+/nuestro-trabajo/eroski-consumer/ /
+/nuestro-trabajo/grazia-es/ /
+/nuestro-trabajo/helvetia/ /
+/nuestro-trabajo/interbank/ /
+/nuestro-trabajo/isdi/ /
+/nuestro-trabajo/la-tagliatella/ /
+/nuestro-trabajo/laboral-kutxa/ /
+/nuestro-trabajo/literatura-sm/ /
+/nuestro-trabajo/mapfre/ /
+/nuestro-trabajo/mark-maddox/ /
+/nuestro-trabajo/museo-reina-sofia/ /
+/nuestro-trabajo/museo-thyssen-bornemisza/ /
+/nuestro-trabajo/nucap/ /
+/nuestro-trabajo/repensar-guernica/ /
+/nuestro-trabajo/rodilla/ /
+/nuestro-trabajo/salesland/ /
+/nuestro-trabajo/seguros-caser/ /
+/nuestro-trabajo/seguros-lagun-aro/ /
+/nuestro-trabajo/selfbank/ /
+/nuestro-trabajo/take-a-chef/ /
+/nuestro-trabajo/unicef/ /
+/oferta-de-empleo-agile-madrid/ /unete
+/open-space-biko/ /open-space
+/open-space-biko/open-space-biko-12062015/ /open-space
+/open-space-biko/open-space-biko-20150213/ /open-space
+/open-space-biko/open-space-biko-25112016/ /open-space
+/open-space-biko/open-space-biko-febrero-2016/ /open-space
+/open-space-biko/open-space-biko-junio-2016/ /open-space
+/open-space-biko/open-space-biko-marzo-2017/ /open-space
+/open-space-biko/open-space-biko-octubre-2015/ /open-space
+/open-space-biko/open-space-biko-octubre-2017/ /open-space
+/pagina-no-encontrada/ /404
+/quienes-somos/ /
+/repensar-guernica-videos/ /
+/zombiapps/ /
+
+
 
 
 
@@ -445,3 +529,7 @@
 /zombiapps/trivial-party-la-primera-app-del-programa-zombiapp https://blog.biko2.com/zombiapps/trivial-party-la-primera-app-del-programa-zombiapp
 
 
+
+
+## FIJO SIEMPRE ABAJO
+/* /404/ 404
