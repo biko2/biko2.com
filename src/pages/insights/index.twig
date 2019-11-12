@@ -1,5 +1,5 @@
 {# ----- HOME ----- #}
-{% extends "_layouts/page.twig" %}
+{% extends "@layouts/page.twig" %}
 {% block page %}
 
 <section class="c-hero p-insights-hero">
@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
       <div class="col-12 col-md-9 col-lg-7">
-        {% include "insights/ico-square.twig" %}
+        {% include "@base/insights/ico-square.twig" %}
         <h1><strong>Biko</strong> Insights #2</h1>
         <p class="c-title--sub">(Sabemos de lo que hablamos)</p>
       </div>
@@ -41,9 +41,9 @@
           <h2><strong>Descárgate</strong> esta guía (gratis) y descubre <strong>nuestro análisis sobre algunas tendencias</strong> en la industria de productos y servicios digitales.</h2>
         </div>
 
-        {% include "insights/form-descarga.twig" %}
+        {% include "@base/insights/form-descarga.twig" %}
 
-        {% include "insights/descarga-old.twig" %}
+        {% include "@base/insights/descarga-old.twig" %}
       </div>
     </div>
 
@@ -52,6 +52,6 @@
 
 
 
-{% include "_includes/contact.twig" %}
+{% include "@includes/contact.twig" %}
 
 {% endblock %}

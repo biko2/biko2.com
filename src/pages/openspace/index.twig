@@ -1,5 +1,5 @@
 {# ----- OPENSPACE ----- #}
-{% extends "_layouts/page.twig" %}
+{% extends "@layouts/page.twig" %}
 {% block page %}
 
 <section class="c-hero p-openspace-hero">
@@ -43,7 +43,7 @@
     </div>
   </div>
   <div class="container">
-    {% include "openspace/datos.twig" %}
+    {% include "@base/openspace/datos.twig" %}
   </div>
 </section>
 
@@ -195,6 +195,6 @@
   </div>
 </section>
 
-{% include "_includes/contact.twig" %}
+{% include "@includes/contact.twig" %}
 
 {% endblock %}

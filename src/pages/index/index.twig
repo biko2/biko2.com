@@ -1,5 +1,5 @@
 {# ----- HOME ----- #}
-{% extends "_layouts/page.twig" %}
+{% extends "@layouts/page.twig" %}
 {% block page %}
 
 <section class="c-hero p-home__hero">
@@ -26,20 +26,20 @@
   </div>
 </section>
 
-{% include "index/somos.twig" %}
+{% include "@base/index/somos.twig" %}
 
 <div class="c-separator--line"><hr /></div>
 
-{% include "index/servicios.twig" %}
+{% include "@base/index/servicios.twig" %}
 
 <div class="c-separator--line"><hr /></div>
 
-{% include "index/clientes-new.twig" %}
+{% include "@base/index/clientes-new.twig" %}
 
 <div class="c-separator--line"><hr /></div>
 
-{% include "index/insights.twig" %}
+{% include "@base/index/insights.twig" %}
 
-{% include "_includes/contact.twig" %}
+{% include "@includes/contact.twig" %}
 
 {% endblock %}
