@@ -8,7 +8,7 @@ og:
   title: Biko - Definimos, diseñamos y construimos proyectos digitales
   description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
   type: article
-  image: https://www.biko2.com/images/equipo-biko.jpg
+  image: https://www.biko2.com/assets/images/equipo-biko.jpg
   locale: es_ES
 twitter:
   card: summary
@@ -16,4 +16,4 @@ twitter:
   description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
   site: '@biko2'
   creator: '@biko2'
-  image: https://www.biko2.com/images/equipo-biko.jpg
+  image: https://www.biko2.com/assets/images/equipo-biko.jpg
