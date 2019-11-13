@@ -29,6 +29,11 @@
   }
 }
 
+.c-separator--line-top {
+  @include media-breakpoint-only(xs) {
+    margin: 0 0 46px;
+  }
+}
 
 .c-separator--icon {
   text-align: center;

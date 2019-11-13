@@ -142,6 +142,18 @@
   background-image:  url(../images/c-bg-bienvenida2.jpg);
 }
 
+.c-bg-block {
+  background: white;
+  padding: 0 15px 10px;
+  margin-left: -15px;
+
+  @include media-breakpoint-up(md) {
+    background-position: -120% center;
+    padding: 0;
+    margin-left: 0;
+  }
+}
+
 
 .c-bg-portfolio {
   width: 100%;
