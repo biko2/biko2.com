@@ -148,7 +148,7 @@
   margin-left: -15px;
 
   @include media-breakpoint-up(md) {
-    background-position: -120% center;
+    background: none;
     padding: 0;
     margin-left: 0;
   }
