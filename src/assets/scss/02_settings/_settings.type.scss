@@ -22,9 +22,12 @@ $breakpoints: (
 
 $typi: (
   tiny: (
-    null: (ms(-2), 16px), // 12px
-    xs:   (ms(-3), 16px),
-    md:   (ms(-3), 16px)
+    xs:   (ms(-2), 16px), // 12px
+    sm:   (ms(-2), 16px),
+    md:   (ms(-2), 16px),
+    lg:   (ms(-2), 16px),
+    xl:   (ms(-2), 16px),
+    xxl:  (ms(-2), 16px),
   ),
   small: (
     null: (ms(-1), 20px) // 14px
@@ -36,7 +39,7 @@ $typi: (
     md:   (ms(1), 28px),
     lg:   (ms(1), 28px),
     xl:   (ms(1), 28px),
-    xxl:   (ms(1), 28px),
+    xxl:  (ms(1), 28px),
   ),
   large: (
     null: (ms(2), 28px), //20px
