@@ -1,0 +1,16 @@
+ {% extends "@layouts/html.twig" %}
+ {% block body %}
+ <div class="page-black">
+
+    {% include '@includes/site-header.twig' %}
+
+    <div id="main-wrapper">
+
+      {% block page %}
+
+      {% endblock %}
+    </div>
+
+    {% include '@includes/site-footer.twig' %}
+  </div>
+ {% endblock %}s
