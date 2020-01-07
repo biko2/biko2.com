@@ -68,5 +68,11 @@
 
   .c-card {
     padding: 60px 0 80px;
+
+    .c-icon-square {
+      @include media-breakpoint-down(md) {
+        transform: rotate(90deg);
+      }
+    }
   }
 }
