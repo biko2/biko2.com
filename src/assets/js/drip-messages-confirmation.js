@@ -5,7 +5,7 @@
         var hiddenClass = 'd-none';
 
         if(window.location.search === urlParam){
-            
+
             $(messageElement).removeClass(hiddenClass);
         }
     });
@@ -16,8 +16,15 @@
         var urlParam = '?gracias';
         var messageElement = '.js-insights-ok';
         var hiddenClass = 'd-none';
+        console.log("Holi fuera");
+
+        console.log(window.location.search);
+        console.log(urlParam);
+
         if(window.location.search === urlParam){
-            
+            console.log("Holi dentro");
+
+
             $(messageElement).removeClass(hiddenClass);
         }
     });
