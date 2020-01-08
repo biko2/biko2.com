@@ -64,7 +64,7 @@
 }
 
 .c-bg-pattern__box {
-  background:  url(../images/bg-pattern.png) right top no-repeat;
+  background:  url("../images/bg-pattern.png") right top no-repeat;
   width: 100%;
   height: 56px;
 
@@ -77,7 +77,7 @@
 .c-bg-insights {
   width: 100%;
   padding: 40px 0 20px;
-  background-image:  url(../images/biko-insights.jpg);
+  background-image:  url("../images/insights-home.jpg");
   background-position: -60% center;
   background-repeat: no-repeat;
 

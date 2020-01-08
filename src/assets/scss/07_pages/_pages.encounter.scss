@@ -70,9 +70,18 @@
     padding: 60px 0 80px;
 
     .c-icon-square {
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(sm) {
         transform: rotate(90deg);
       }
     }
   }
+
+  video {
+    width: 100%;
+    outline: none;
+  }
+
+
+
+
 }

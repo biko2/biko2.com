@@ -18,10 +18,15 @@
 
 .c-card__title {
   @include typi(huge);
+  text-align: center;
   margin: 0 auto;
   font-weight: 300;
   margin-left: 40px;
   margin-top: -10px;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
 
   strong {
     font-weight: 800;
