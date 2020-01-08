@@ -13,15 +13,15 @@
 
 (function($){
     $(document).ready(function(){
-        var urlParam = '?gracias';
+        var urlParam = 'gracias';
         var messageElement = '.js-insights-ok';
         var hiddenClass = 'd-none';
-        console.log("Holi fuera");
 
         console.log(window.location.search);
-        console.log(urlParam);
 
-        if(window.location.search === urlParam){
+        console.log(window.location.search.indexOf(urlParam));
+
+        if(window.location.search.indexOf(urlParam)>-1){
             console.log("Holi dentro");
 
 
