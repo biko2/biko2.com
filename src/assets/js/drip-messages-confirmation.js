@@ -1,10 +1,10 @@
 (function($){
     $(document).ready(function(){
-        var urlParam = '?gracias-por-suscribirte';
+        var urlParam = 'suscripcion-ok';
         var messageElement = '.js-subscription-ok';
         var hiddenClass = 'd-none';
 
-        if(window.location.search === urlParam){
+        if(window.location.search.indexOf(urlParam)>-1){
 
             $(messageElement).removeClass(hiddenClass);
         }
@@ -17,13 +17,7 @@
         var messageElement = '.js-insights-ok';
         var hiddenClass = 'd-none';
 
-        console.log(window.location.search);
-
-        console.log(window.location.search.indexOf(urlParam));
-
         if(window.location.search.indexOf(urlParam)>-1){
-            console.log("Holi dentro");
-
 
             $(messageElement).removeClass(hiddenClass);
         }
