@@ -57,8 +57,20 @@
     background: $black;
     color: white;
     text-decoration: none;
+
+    svg {
+      fill: #fff !important;
+    }
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
   }
 }
+
+
 
 .c-button--minus {
   text-transform: lowercase;
