@@ -1,0 +1,75 @@
+{# ----- PROYECTO ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-proyecto__hero">
+
+  <h1 class="c-title--background">Asociación Española Contra el Cáncer</h1>
+  <!-- <marquee behavior="scroll" direction="left" scrollamount="6"> </marquee> -->
+
+  <div class="c-grid-image--right">
+    <div class="c-icon-square">
+      {{svgSprite('star')}}
+    </div>
+    <img data-src="/assets/images/proyectos/proyecto-aecc.jpg" class="lazyload" alt="Asociación Española Contra el Cáncer" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h2 class="h-extrahuge mt-3 mt-md-6">Atender, <strong>concienciar</strong> y recaudar</h2>
+        <p class="c-title--sub">(el eje vertebral de la estrategia online)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 offset-md-1 col-md-6">
+        <p>Uno de los grandes retos de este proyecto fue <strong>evolucionar Drupal</strong> para convertirlo en un espacio de ayuda real para sus usuarios y todos los profesionales en torno a él. Para ello, desarrollamos un sistema de <strong>machine learning</strong> que responde directamente a las necesidades expresadas por cada usuario.</p>
+
+        <p>Realizamos <strong>procesamiento de lenguaje natural</strong> para la clasificación de textos utilizando <a href="https://www.tensorflow.org/" target="_blank">Tensorflow</a> y <a href="https://dialogflow.com/" target="_blank">Dialogflow</a> integrado con Drupal. De esta manera, hacemos uso de la gestión de contenidos en los procesos de supervisión del aprendizaje automático y simplificamos y amabilizamos el proceso del triaje para pacientes y familiares que necesitan ayuda, eliminando formularios extensos o pasos innecesarios.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="mt-md-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-12 offset-md-1 col-md-8">
+        <h2 class="h-big"><strong>Una estrategia online completa</strong></h2>
+        <p>Otras líneas que trabajamos en paralelo fue construir un nuevo <strong>sistema de reserva de citas</strong> más ágil o diseñar un <strong>sistema de videoconsultas</strong> que permite a los pacientes ser atendidos desde su casa.</p>
+        <p>Además de poner el foco en los beneficiarios, trabajamos en crear un <strong>ecommerce</strong> que permite colaborar con la AECC mediante la compra de tarjetas y realizando aportaciones económicas a los servicios a través de su tienda online.</p>
+        <p>Finalmente, proporcionamos al equipo de la AECC una <strong>herramienta de gestión de landings</strong> para su departamento de marketing, dando como resultado ejemplos como el del Observatorio de AECC.</p>
+        <p><a class="c-link" href="https://www.aecc.es/" target="_blank">Visitar la web de AECC</a></p>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+
+<div class="c-image-grid p-proyecto">
+  <div class="container c-image-grid__container">
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x600" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x300" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x300" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x600" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+  </div>
+</div>
+
+
+
+{% include "@base/proyectos/separador-flecha.twig" %}
+{% include "@base/proyectos/proyecto-similar.twig" %}
+<div class="c-separator--line"><hr /></div>
+{% include "@includes/contact.twig" %}
+
+{% endblock %}

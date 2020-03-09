@@ -1,0 +1,63 @@
+{# ----- PROYECTO ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-proyecto__hero">
+
+  <h1 class="c-title--background">Helvetia</h1>
+
+  <div class="c-grid-image--right">
+    <div class="c-icon-square">
+      {{svgSprite('star')}}
+    </div>
+    <img data-src="/assets/images/proyectos/proyecto-helvetia.jpg" class="lazyload" alt="Helvetia" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h2 class="h-extrahuge mt-3 mt-md-6">Tres <strong>proyectos</strong>, dos <strong>públicos</strong>, un mismo <strong>equipo</strong></h2>
+        <p class="c-title--sub">(y un objetivo común)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 offset-md-1 col-md-6">
+        <p class="c-title--pre"><strong>Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online</strong>.</p>
+        <p>Tras evolucionar un medio promocional hacia la captación de negocio, necesitaba seguir avanzando en las etapas de digitalización de la compañía: incrementar los objetivos de venta online, conseguir mayor engagement con sus clientes…</p>
+        <p>Además, el trabajo venía acompañado de otros proyectos complementarios, como el desarrollo de un nuevo portal para empleados y mediadores (B2B) y la evolución de una nueva área para clientes (B2C).</p>
+        <p>Tres proyectos, un cliente y un mundo de posibilidades por explorar.</p>
+        <p><a class="c-link" href="https://www.helvetia.es/" target="_blank">Visitar la web de Helvetia</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="c-image-grid p-proyecto">
+  <div class="container c-image-grid__container">
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x450" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x450" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x272" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://avant2.es/wp-content/uploads/2018/03/logo-vector-helvetia.jpg" class="lazyload w-100" alt="Helvetia" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x272" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+  </div>
+</div>
+
+
+
+{% include "@base/proyectos/separador-flecha.twig" %}
+{% include "@base/proyectos/proyecto-similar.twig" %}
+<div class="c-separator--line"><hr /></div>
+{% include "@includes/contact.twig" %}
+
+{% endblock %}
