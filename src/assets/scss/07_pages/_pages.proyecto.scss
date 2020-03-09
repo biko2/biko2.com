@@ -1,4 +1,4 @@
-.p-porfolio__hero {
+.p-proyecto__hero {
   position: relative;
   
   @include media-breakpoint-up(xl) {
@@ -23,7 +23,7 @@
 }
 
 
-.p-porfolio__hero .c-grid-image--right {
+.p-proyecto__hero .c-grid-image--right {
 
   @include media-breakpoint-down(sm) {
     position: relative;
@@ -58,7 +58,7 @@
 }
 
 // GRID
-.p-porfolio.c-image-grid {
+.p-proyecto.c-image-grid {
   margin-top: 40px;
 
   @include media-breakpoint-up(md) {
@@ -67,6 +67,6 @@
 }
 
 // SIMILAR
-.p-porfolio__similar {
+.p-proyecto__similar {
   .c-icon-square {margin: 0 auto;}
 }

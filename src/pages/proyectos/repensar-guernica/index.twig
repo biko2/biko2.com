@@ -2,7 +2,7 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero p-porfolio__hero">
+<section class="c-hero p-proyecto__hero">
 
   <h1 class="c-title--background">Repensar Guernica</h1>
 
@@ -10,7 +10,7 @@
     <div class="c-icon-square">
       {{svgSprite('webby')}}
     </div>
-    <img data-src="/assets/images/porfolio/proyecto-guernica.jpg" class="lazyload" alt="Repensar Guernica" />
+    <img data-src="/assets/images/proyectos/proyecto-guernica.jpg" class="lazyload" alt="Repensar Guernica" />
   </div>
 
   <div class="container">
@@ -46,7 +46,7 @@
  </section>
 
 
-<section class="c-image-grid p-porfolio">
+<section class="c-image-grid p-proyecto">
   <div class="container c-image-grid__container">
     <div class="c-image-grid__box">
       <img data-src="https://via.placeholder.com/640x600" class="lazyload w-100" alt="xxxxxxxxx" />
@@ -65,8 +65,8 @@
 
 
 
-{% include "@base/porfolio/separador-flecha.twig" %}
-{% include "@base/porfolio/proyecto-similar.twig" %}
+{% include "@base/proyectos/separador-flecha.twig" %}
+{% include "@base/proyectos/proyecto-similar.twig" %}
 <div class="c-separator--line"><hr /></div>
 {% include "@includes/contact.twig" %}
 
