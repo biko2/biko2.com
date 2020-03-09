@@ -1,0 +1,72 @@
+.p-porfolio__hero {
+  position: relative;
+  
+  @include media-breakpoint-up(xl) {
+    height: 92vh;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 200px;
+  }
+
+  .c-title--background {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      bottom: 0;
+      z-index: 0;
+    }
+  }
+}
+
+
+.p-porfolio__hero .c-grid-image--right {
+
+  @include media-breakpoint-down(sm) {
+    position: relative;
+  }
+
+  @include media-breakpoint-up(md) {
+    width: 35%;
+    height: 70vh;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 40%;
+    height: 80vh;
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: 65vh;
+  }
+
+  img {
+    @include media-breakpoint-up(md) {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .c-icon-square {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+// GRID
+.p-porfolio.c-image-grid {
+  margin-top: 40px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 80px;
+  }
+}
+
+// SIMILAR
+.p-porfolio__similar {
+  .c-icon-square {margin: 0 auto;}
+}

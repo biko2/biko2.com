@@ -1,4 +1,10 @@
 .p-home__hero {
+  padding-top: 60px;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 100px;
+  }
+  
   .c-separator--icon {
     padding: 32px 0 48px;
 

@@ -1,9 +1,7 @@
 .c-hero {
-  padding-top: 60px;
   padding-bottom: 40px;
 
   @include media-breakpoint-up(sm) {
-    padding-top: 100px;
     padding-bottom: 60px;
   }
 

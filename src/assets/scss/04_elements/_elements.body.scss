@@ -22,4 +22,8 @@ body {
 
 #main-wrapper {
  background: white;
+
+ @include media-breakpoint-down(sm) {
+   margin-bottom: 0 !important;
+ }
 }

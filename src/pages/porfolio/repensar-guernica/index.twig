@@ -1,0 +1,73 @@
+{# ----- PROYECTO ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-porfolio__hero">
+
+  <h1 class="c-title--background">Repensar Guernica</h1>
+
+  <div class="c-grid-image--right">
+    <div class="c-icon-square">
+      {{svgSprite('webby')}}
+    </div>
+    <img data-src="/assets/images/porfolio/proyecto-guernica.jpg" class="lazyload" alt="Repensar Guernica" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h2 class="h-extrahuge mt-3 mt-md-6">Un proyecto <strong>ganador de un Webby</strong></h2>
+        <p class="c-title--sub">(los Óscar de Internet)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 offset-md-1 col-md-6">
+        <p class="c-title--pre"><strong>¿Cómo aprovechar el medio online para crear un producto digital a la altura de esta obra?</strong></p>
+        <p>Para ello, definimos y construimos un site vertebrado en tres apartados: un potente <strong>buscador</strong> para el archivo documental, <strong>visualización interactiva</strong> para la cronología y tecnología <strong>gigapíxel</strong> para una definición superior al milímetro.</p>
+        <p>Así nació una web que destaca por una gran potencia técnica de cada uno de sus apartados, de una manera sencilla  y equilibrada, tanto para investigadores como para el público en general.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="mt-md-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-12 offset-md-1 col-md-8">
+        <h2 class="h-big"><strong>Praesent metus tellus elementum semper</strong></h2>
+        <p>Morbi ac felis. Vestibulum fringilla pede sit amet augue. Sed in libero ut nibh placerat accumsan. Praesent egestas neque eu enim. Praesent egestas neque eu enim.</p>
+        <p>Morbi nec metus. Donec vitae sapien ut libero venenatis faucibus. Nam at tortor in tellus interdum sagittis. Fusce neque. Phasellus blandit leo ut odio.</p>
+        <p>Pellentesque commodo eros a enim. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Ut leo. Vestibulum volutpat pretium libero. In turpis.</p>
+        <p><a class="c-link" href="https://guernica.museoreinasofia.es/">Visitar la web Repensar Guernica</a></p>
+       </div>
+     </div>
+   </div>
+ </section>
+
+
+<section class="c-image-grid p-porfolio">
+  <div class="container c-image-grid__container">
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x600" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x300" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x300" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+    <div class="c-image-grid__box">
+      <img data-src="https://via.placeholder.com/640x600" class="lazyload w-100" alt="xxxxxxxxx" />
+    </div>
+  </div>
+</section>
+
+
+
+{% include "@base/porfolio/separador-flecha.twig" %}
+{% include "@base/porfolio/proyecto-similar.twig" %}
+<div class="c-separator--line"><hr /></div>
+{% include "@includes/contact.twig" %}
+
+{% endblock %}
