@@ -53,7 +53,7 @@
 /nuestro-trabajo/dkv-seguros/ /
 /nuestro-trabajo/eroski-consumer/ /
 /nuestro-trabajo/grazia-es/ /
-/nuestro-trabajo/helvetia/ /
+/nuestro-trabajo/helvetia/ /proyectos/helvetia/
 /nuestro-trabajo/interbank/ /
 /nuestro-trabajo/isdi/ /
 /nuestro-trabajo/la-tagliatella/ /
@@ -64,7 +64,7 @@
 /nuestro-trabajo/museo-reina-sofia/ /
 /nuestro-trabajo/museo-thyssen-bornemisza/ /
 /nuestro-trabajo/nucap/ /
-/nuestro-trabajo/repensar-guernica/ /
+/nuestro-trabajo/repensar-guernica/ /proyectos/repensar-guernica/
 /nuestro-trabajo/rodilla/ /
 /nuestro-trabajo/salesland/ /
 /nuestro-trabajo/seguros-caser/ /
@@ -84,7 +84,7 @@
 /open-space-biko/open-space-biko-octubre-2017/ /open-space
 /pagina-no-encontrada/ /404
 /quienes-somos/ /
-/repensar-guernica-videos/ /
+/repensar-guernica-videos/ /proyectos/repensar-guernica/
 /zombiapps/ /
 
 
@@ -93,7 +93,7 @@
 
 ## REDIRECCIONES A blog.biko2.com
 /category/* https://blog.biko2.com/category/:splat
-/feed/ https://blog.biko2.com/feed/ 
+/feed/ https://blog.biko2.com/feed/
 
 
 /actualidad-biko/10-anos-intensos-duros-y-apasionantes https://blog.biko2.com/actualidad-biko/10-anos-intensos-duros-y-apasionantes
