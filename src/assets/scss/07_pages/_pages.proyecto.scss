@@ -2,7 +2,7 @@
   position: relative;
 
   @include media-breakpoint-up(xl) {
-    height: 92vh;
+    min-height: 92vh;
   }
 
   @include media-breakpoint-up(md) {
@@ -31,16 +31,16 @@
 
   @include media-breakpoint-up(md) {
     width: 35%;
-    height: 70vh;
+    min-height: 70vh;
   }
 
   @include media-breakpoint-up(lg) {
     width: 40%;
-    height: 80vh;
+    min-height: 80vh;
   }
 
   @include media-breakpoint-up(xl) {
-    height: 65vh;
+    min-height: 65vh;
   }
 
   img {
