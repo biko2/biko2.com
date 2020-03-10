@@ -1,0 +1,235 @@
+.p-openspace-hero {
+  padding-top: 24px;
+  padding-bottom: 48px;
+  @include media-breakpoint-down(sm) {
+    position: relative;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 48px;
+  }
+  .p-openspace-hero__container {
+    @include media-breakpoint-down(sm) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 36px;
+
+      .c-grid-image--right {
+        order: 3;
+      }
+    }
+  }
+  .c-icon-square {
+    margin-bottom: 96px;
+
+    @include media-breakpoint-down(sm) {
+      width: 70px;
+      height: 70px;
+      margin-bottom: -30px;
+      margin-left: 15px;
+
+      svg {
+        width: 55%;
+      }
+    }
+
+    @include media-breakpoint-only(md) {
+      margin-right: -23%;
+    }
+    @include media-breakpoint-up(md) {
+      margin-top: 114px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-top: 200px;
+    }
+    @include media-breakpoint-up(xl) {
+      margin-top: 264px;
+    }
+  }
+  .c-grid-image--right {
+    height: auto;
+    @include media-breakpoint-up(md) {
+      width: 38%;
+      height: 521px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+      height: 545px;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 50%;
+      height: 641px;
+    }
+  }
+  .c-grid-image--right img {
+    @include media-breakpoint-only(xs) {
+      margin-left: 10%;
+    }
+    @include media-breakpoint-up(xxxl) {
+      margin-top: -140px;
+    }
+    @include media-breakpoint-up(hero) {
+      margin-top: -290px;
+    }
+  }
+  .p-openspace__texto {
+    @include media-breakpoint-up(md) {
+      margin-top: 116px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-top: 80px;
+    }
+  }
+}
+
+h3 {
+  font-weight: 800;
+}
+
+.p-openspace-hero__texto {
+  @include media-breakpoint-down(sm) {
+    margin-top: -36px;
+    margin-left: 32px;
+  }
+}
+
+
+.p-openspace-proximo {
+  .c-box-white {
+    margin-top: 12px;
+    background-color:rgba(255, 255, 255, 0.85);
+
+    @include media-breakpoint-up(md) {
+      margin-top: 96px;
+    }
+
+    p:last-child {margin: 0;}
+  }
+}
+
+.p-openspace-proximo__container {
+  background: url('../images/open-space-proximo.jpg') center top no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  @include media-breakpoint-up(xs) {
+    background-size: cover;
+    min-height: 600px;
+  }
+
+  @include media-breakpoint-up(md) {
+    background: url('../images/open-space-proximo.jpg') center top no-repeat;
+    background-size: cover;
+    min-height: 700px;
+  }
+}
+
+.p-openspace-proximo--box {
+  position: relative;
+  @include media-breakpoint-up(xs) {
+    margin-top: -120px;
+    padding: 32px 32px 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: -120px;
+    padding: 32px 32px 0;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-top: -120px;
+    padding: 48px 96px;
+  }
+}
+
+.page-open-space .c-icon-list li {
+  margin: 20px 0;
+
+  @include media-breakpoint-up(md) {
+    width: 50%;
+  }
+}
+
+.page-open-space .c-icon-list__icon {
+  margin-right: 32px;
+}
+
+.page-open-space .c-texto--small__uppercase {
+    margin-bottom: 4px;
+}
+
+.page-open-space .c-icon-list__text {
+  width: 100%;
+  font-weight: 800;
+  @include typi(large);
+}
+
+.p-openspace-razones {
+
+  .c-title--pre {
+    margin-bottom: 8px;
+  }
+
+  img {
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+    @include media-breakpoint-up(md) {
+      width: 100%;
+    }
+  }
+}
+
+.p-openspace-dudas {
+  .c-title--pre {
+    margin-bottom: 8px;
+  }
+}
+
+.p-openspace-hashtag {
+  padding: 120px 0;
+  @include media-breakpoint-up(md) {
+    padding: 280px 0;
+  }
+  a {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+.page-open-space .c-line-list__first-column {
+  margin-top: 24px;
+  margin-left: 20px;
+  padding-bottom: 0;
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 0 40px 0 40px;
+    background: none;
+    margin-top: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 20px 40px 0 0;
+  }
+}
+
+.page-open-space .c-line-list__last-column {
+  margin-left: 20px;
+
+  @include media-breakpoint-up(sm) {
+    margin-left: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 0 40px 0 40px;
+    background: none;
+    margin-top: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 20px 40px 0 0;
+  }
+}

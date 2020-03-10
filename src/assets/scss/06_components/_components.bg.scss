@@ -235,3 +235,21 @@
 .c-bg-rocket {
   background: url("../images/bg-rocket.jpg") bottom center no-repeat;
 }
+
+
+.c-bg-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+
+  .c-bg-video__player {
+    object-fit: cover;
+    width: 100vw;
+    height: 750px;
+    top: 0;
+    left: 0;
+  }
+}

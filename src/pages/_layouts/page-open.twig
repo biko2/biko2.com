@@ -1,0 +1,20 @@
+ {% extends "@layouts/html.twig" %}
+ {% block body %}
+
+    <div id="main-wrapper">
+
+    <div class="c-bg-video">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="c-bg-video__player">
+          <source src="/assets/videos/biko-encounter.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    {% include '@includes/site-header.twig' %}
+
+      {% block page %}
+
+      {% endblock %}
+    </div>
+
+    {% include '@includes/site-footer.twig' %}
+ {% endblock %}s
