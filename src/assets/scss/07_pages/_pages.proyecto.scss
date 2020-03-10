@@ -1,6 +1,6 @@
 .p-proyecto__hero {
   position: relative;
-  
+
   @include media-breakpoint-up(xl) {
     height: 92vh;
   }
