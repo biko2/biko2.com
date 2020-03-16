@@ -10,7 +10,7 @@
     <div class="c-icon-square">
       {{svgSprite('star')}}
     </div>
-    <img data-src="/assets/images/proyectos/proyecto-helvetia.jpg" class="lazyload" alt="Helvetia" />
+    <img data-src="/assets/images/proyectos/helvetia-proyecto.jpg" class="lazyload" alt="Helvetia" />
   </div>
 
   <div class="container">
@@ -32,25 +32,62 @@
   </div>
 </section>
 
+<section class="mt-md-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-12 offset-md-1 col-md-10 col-lg-8">
+        <h2 class="h-big"><strong>UX interactiva y atractiva. Integración. Reutilización</strong></h2>
+        <p>Teníamos claro que las tres herramientas compartían dos puntos clave: exigían una <strong>rica experiencia de usuario</strong> y había una fuerte <strong>integración con aplicaciones</strong> internas de la compañía. Esto supuso pensar en una arquitectura de solución reutilizable, pero lo suficientemente flexible para adaptarla a los requisitos de los distintos públicos.</p>
+        <p>En Helvetia ya estaban familiarizados con el CMS <strong>Drupal</strong> gracias a su web corporativa, por lo que vimos que lo mejor era mantener esta solución como sistema de <strong>gestión de contenidos</strong> en el backend, aunque optando por aplicaciones React para el desarrollo del frontend, lo que nos permite crear una <strong>interfaz de usuario rica en UX</strong>, interactiva y atractiva.</p>
+        <p>El equipo realizó distintos planteamientos y pruebas. Enseguida tuvimos claro que para <strong>conectar el frontend con el backend</strong> utilizaríamos <strong>GraphQL</strong>, que nos permite tener un único endpoint desde React y esto nos proporciona una mayor simplicidad en las consultas, ya que responde exclusivamente a lo que pedimos.</p>
+        <p>También tuvimos claro que toda la integración con los <strong>datos core de las aplicaciones</strong> de Helvetia a través de las APIs se haría con programación desde el back Drupal, centralizando así la comunicación con el front en una única capa.</p>
+        <p>Esto nos ha llevado a implementar una solución donde se comparten tecnologías (CMS Drupal, React) y equipos de trabajo.</p>
+        <ul>
+          <li>La web está gestionada por <strong>CMS Drupal</strong>.</li>
+          <li>El portal B2B es una <strong><abbr title="Single Page Application">SPA</abbr></strong> (Single Page Application) donde acceden los empleados/mediadores mediante web.</li>
+          <li>El área B2C es una <strong><abbr title="Progressive Web App">PWA</abbr></strong> (Progressive Web App) donde los clientes además de acceder desde la web, pueden descargarla desde la Play Store de Google a sus dispositivos móviles. Apple no posibilita aún esta opción.</li>
+        </ul>
+       </div>
+     </div>
+   </div>
+ </section>
 
-<div class="c-image-grid p-proyecto">
-  <div class="container c-image-grid__container">
-    <div class="c-image-grid__box">
-      <img data-src="/assets/images/proyectos/proyecto-helvetia-collage-1.jpg" class="lazyload w-100 d-none d-md-block" alt="Helvetia" />
+ <section class="mt-md-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 col-lg-8">
+         <h2 class="h-big"><strong>Herrramientas</strong></h2>
+         <p><strong>Drupal</strong><br /> Utilizándolo como CMS desacoplado. Sencillez de uso para los editores de contenidos, y potencia e integración con el resto de aplicaciones de Helvetia.</p>
+         <p><strong>SPA en React</strong><br /> Para crear una interfaz de usuario rica en UX, interactiva y atractiva para los empleados, agentes y clientes de Helvetia.</p>
+         <p><strong>GraphQL</strong><br /> Tecnología fácil y directa  para el consumo y envío de contenidos a las distintas aplicaciones frontend.</p>
+        </div>
+      </div>
     </div>
-    <div class="c-image-grid__box">
-      <img data-src="/assets/images/proyectos/proyecto-helvetia-collage-3.png" class="lazyload w-100" alt="Helvetia" />
+  </section>
+
+
+<div class="p-proyecto--galeria">
+  <div class="container">
+    <div class="row">
+      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
+        <img data-src="/assets/images/proyectos/helvetia1.png" class="lazyload w-100" alt="Helvetia" />
+      </div>
+      <div class="col-8 offset-2 col-md-4 offset-md-0">
+        <img data-src="/assets/images/proyectos/helvetia2.png" class="lazyload w-100" alt="Helvetia" />
+      </div>
+      <div class="col-8 offset-2 col-md-4 offset-md-0">
+        <img data-src="/assets/images/proyectos/helvetia3.png" class="lazyload w-100" alt="Helvetia" />
+      </div>
     </div>
-    <br />
-    <div class="c-image-grid__box">
-      <img data-src="/assets/images/proyectos/proyecto-helvetia-collage-2.png" class="lazyload w-100" alt="Helvetia" />
+    <div class="row mb-5">
+      <div class="col-10 offset-1 col-md-6 offset-md-0">
+        <img data-src="/assets/images/proyectos/helvetia4.png" class="lazyload w-100" alt="Helvetia" />
+      </div>
+      <div class="col-10 offset-1 col-md-6 offset-md-0">
+        <img data-src="/assets/images/proyectos/helvetia5.png" class="lazyload w-100" alt="Helvetia" />
+      </div>
     </div>
-    <div class="c-image-grid__box">
-      <img data-src="/assets/images/proyectos/proyecto-helvetia-collage-4.jpg" class="lazyload w-100 d-none d-md-block" alt="Helvetia" />
-    </div>
-    <div class="c-image-grid__box">
-      <img data-src="/assets/images/proyectos/proyecto-helvetia-collage-5.png" class="lazyload w-100" alt="Helvetia" />
-    </div>
+
   </div>
 </div>
 
