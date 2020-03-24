@@ -1,3 +1,38 @@
+// PORTADILLA
+.p-proyectos__destacado {
+  background: black url("/assets/images/proyecto-guernica.jpg") center center no-repeat;
+  background-size: cover;
+  color: white !important;
+  padding: 40px 0;
+  margin: 0 15px;
+
+  @include media-breakpoint-up(md) {
+    padding: 60px 40px;
+    margin: 0 30px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 100px 60px;
+    margin: 0 50px;
+  }
+}
+
+.p-proyectos__contacto {
+  @include media-breakpoint-up(md) {
+    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
+    background-size: 40%;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
+    background-size: auto;
+  }
+}
+
+
+
+
+// FICHA
 .p-proyecto__hero {
   position: relative;
 

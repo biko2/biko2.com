@@ -46,6 +46,19 @@
   }
 }
 
+.c-button--outline--white {
+  color: white;
+  background: transparent;
+  border: 3px solid white;
+
+  &:hover {
+    border-color: $red;
+    color: $red;
+    text-decoration: none;
+    background: transparent;
+  }
+}
+
 .c-button--second {
   padding: 10px 20px;
   color: $black;

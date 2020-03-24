@@ -1,0 +1,138 @@
+.c-filtrado__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 10px;
+  }
+
+  a {
+    padding: 1px 12px;
+    color: $black-soft;
+    @include typi(small);
+    margin: 0 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+
+    @include media-breakpoint-up(md) {
+      @include typi(base);
+      margin: 0 10px 20px;
+    }
+
+    &.c-filtrado__tecno {
+      background: $red-light;
+      &:hover,
+      &.active {
+        color: $red !important;
+      }
+    }
+
+    &.c-filtrado__tipo {
+      background: #d7f3fa;
+      &:hover,
+      &.active {
+        color: #04708c !important;
+      }
+    }
+
+    &.active:before {
+      @include media-breakpoint-up(md) {
+        content: "x";
+        display: block;
+        position: absolute;
+        right: 0;
+        top: -17px;
+        background: black;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 14px;
+        padding: 1px 6px 2px;
+        border-radius: 3px 3px 0 0;
+      }
+    }
+  }
+}
+
+.c-filtrado__space {
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: inline-block;
+    width: 20px;
+  }
+}
+
+
+.c-filtrado__container {
+  background: #F4F4F4;
+  background: linear-gradient(to bottom,  white 0%,white 15%,$gray-light 15%,$gray-light 85%,white 85%,white 100%);
+  padding: 30px 0;
+}
+
+.c-filtrado__list {
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+
+.c-filtrado__item {
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background: white;
+  width: 47.5%;
+  padding: 35px 0;
+  margin: 3px;
+  position: relative;
+  border: 1px solid $gray-light;
+
+  @include media-breakpoint-up(md) {
+    width: 24%;
+    padding: 50px 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 180px;
+    height: 180px;
+    padding: 0;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    border-top: 3px solid $red;
+    transition: all .5s ease;
+    width: 25px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: all .3s ease;
+  }
+
+  &:hover {
+    &:before {
+      width: 100%;
+    }
+
+    span {
+      color: $black;
+    }
+  }
+
+  span {
+    position: absolute;
+    bottom: 6px;
+    @include typi(small);
+    letter-spacing: .5px;
+    color: $gray-dark;
+    transform: all .3s ease;
+  }
+}

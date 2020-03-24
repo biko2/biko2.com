@@ -107,5 +107,28 @@
   @include media-breakpoint-up(xl) {
     font-size: 190px;
   }
+}
 
+.c-title--cross {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: $gray;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0 30px;
+    background: white;
+    position: relative;
+    z-index: 1;
+  }
 }
