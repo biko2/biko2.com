@@ -94,6 +94,7 @@
 ## REDIRECCIONES A blog.biko2.com
 /category/* https://blog.biko2.com/category/:splat
 /feed/ https://blog.biko2.com/feed/
+/wp-content/uploads/* https://blog.biko2.com/wp-content/uploads/:splat
 
 
 /actualidad-biko/10-anos-intensos-duros-y-apasionantes https://blog.biko2.com/actualidad-biko/10-anos-intensos-duros-y-apasionantes
