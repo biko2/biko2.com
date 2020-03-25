@@ -156,6 +156,8 @@
 }
 
 .p-proyecto__blog__titulo {
+  background: white;
+  padding: 1px;
   font-weight: 400;
   @include typi(large);
   color: #222;
