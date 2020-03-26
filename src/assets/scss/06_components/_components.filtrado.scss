@@ -7,54 +7,57 @@
     margin-bottom: 10px;
   }
 
-  a {
-    padding: 1px 12px;
-    color: $black-soft;
-    @include typi(small);
-    margin: 0 5px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
+}
 
-    @include media-breakpoint-up(md) {
-      @include typi(base);
-      margin: 0 10px 20px;
-    }
+.c-filtrado__filter {
+  padding: 1px 12px;
+  color: $black-soft;
+  @include typi(small);
+  margin: 0 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
 
-    &.c-filtrado__tecno {
-      background: $red-light;
-      &:hover,
-      &.active {
-        color: $red !important;
-      }
-    }
+  @include media-breakpoint-up(md) {
+    @include typi(base);
+    margin: 0 10px 20px;
+  }
 
-    &.c-filtrado__tipo {
-      background: #d7f3fa;
-      &:hover,
-      &.active {
-        color: #04708c !important;
-      }
-    }
-
-    &.active:before {
-      @include media-breakpoint-up(md) {
-        content: "x";
-        display: block;
-        position: absolute;
-        right: 0;
-        top: -17px;
-        background: black;
-        color: white;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 14px;
-        padding: 1px 6px 2px;
-        border-radius: 3px 3px 0 0;
-      }
+  &--tecno {
+    background-color: $red-light;
+    &:hover,
+    &.active {
+      color: $red !important;
     }
   }
+
+  &--tipo {
+    background-color: #d7f3fa;
+    &:hover,
+    &.active {
+      color: #04708c !important;
+    }
+  }
+
+  &--active:before {
+    @include media-breakpoint-up(md) {
+      content: "x";
+      display: block;
+      position: absolute;
+      right: 0;
+      top: -17px;
+      background: black;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 14px;
+      padding: 1px 6px 2px;
+      border-radius: 3px 3px 0 0;
+    }
+  }
+
 }
+
 
 .c-filtrado__space {
   display: none;
@@ -121,29 +124,31 @@
     &:before {
       width: 100%;
     }
-
-    span {
-      color: $black;
-    }
   }
 
-  &.active {
+  &--active {
     border: 3px solid $red;
     &:before {display: none;}
   }
 
-  &.disable {
+  &--disable {
     &:before {display: none;}
      img, span {opacity: .1};
      border-color: #FAFAFA;
   }
 
-  span {
-    position: absolute;
-    bottom: 6px;
-    @include typi(small);
-    letter-spacing: .5px;
-    color: $gray-dark;
-    transform: all .3s ease;
+}
+
+.c-filtrado__itemtitle {
+  position: absolute;
+  bottom: 6px;
+  @include typi(small);
+  letter-spacing: .5px;
+  color: $gray-dark;
+  transform: all .3s ease;
+
+  .c-filtrado__item:hover & {
+    color: $black;
   }
+
 }
