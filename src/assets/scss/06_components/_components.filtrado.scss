@@ -135,7 +135,7 @@
     &:before {display: none;}
   }
 
-  &--disable {
+  &--disabled {
     &:before {display: none;}
      img, span {opacity: .1};
      border-color: #FAFAFA;
