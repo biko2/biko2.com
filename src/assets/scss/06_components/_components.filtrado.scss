@@ -117,7 +117,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: all .3s ease;
+    transition: all .3s ease;
   }
 
   &:hover {
@@ -145,7 +145,7 @@
   @include typi(small);
   letter-spacing: .5px;
   color: $gray-dark;
-  transform: all .3s ease;
+  transition: all .3s ease;
 
   .c-filtrado__item:hover & {
     color: $black;
