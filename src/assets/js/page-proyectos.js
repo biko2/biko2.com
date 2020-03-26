@@ -14,12 +14,12 @@ $(function() {
     $(component).find('.' + FILTER_CLASS).on('click', function() {
       let filter = this;
       if ($(filter).hasClass(FILTER_ACTIVE_CLASS)) {
-        disableAllFilters(component);
+        deactivateAllFilters(component);
         enableAllItems(component);
         showOnlyCategories([], component);
       } else {
         if ($(filter).data().hasOwnProperty(FILTER_CATEGORY_DATA_PROPERTY)) {
-          disableAllFilters(component);
+          deactivateAllFilters(component);
           disableAllItems(component);
           $(filter).addClass(FILTER_ACTIVE_CLASS);
           let categoriesToShow = $(filter).
@@ -34,7 +34,7 @@ $(function() {
 
   });
 
-  function disableAllFilters(component) {
+  function deactivateAllFilters(component) {
     $(component).find('.' + FILTER_CLASS).removeClass(FILTER_ACTIVE_CLASS);
   }
 
