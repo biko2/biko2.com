@@ -9,6 +9,21 @@
 
 }
 
+.c-filtrado__headernav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &:not(:last-child) {
+    @include media-breakpoint-up(md) {
+      margin-right: 20px;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
 .c-filtrado__filter {
   padding: 1px 12px;
   color: $black-soft;
@@ -57,17 +72,6 @@
   }
 
 }
-
-
-.c-filtrado__space {
-  display: none;
-
-  @include media-breakpoint-up(md) {
-    display: inline-block;
-    width: 20px;
-  }
-}
-
 
 .c-filtrado__container {
   background: #F4F4F4;
