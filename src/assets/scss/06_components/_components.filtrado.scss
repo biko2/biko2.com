@@ -127,6 +127,17 @@
     }
   }
 
+  &.active {
+    border: 3px solid $red;
+    &:before {display: none;}
+  }
+
+  &.disable {
+    &:before {display: none;}
+     img, span {opacity: .1};
+     border-color: #FAFAFA;
+  }
+
   span {
     position: absolute;
     bottom: 6px;
