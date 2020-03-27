@@ -139,6 +139,10 @@
     &:before {display: none;}
      img, span {opacity: .1};
      border-color: #FAFAFA;
+
+     @include media-breakpoint-down(md) {
+       display: none;
+     }
   }
 
 }
