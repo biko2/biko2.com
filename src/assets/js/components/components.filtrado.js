@@ -1,13 +1,13 @@
 $(function() {
 
-  const COMPONENT_CLASS = 'c-filtrado';
-  const FILTER_CLASS = 'c-filtrado__filter';
-  const FILTER_ACTIVE_CLASS = 'c-filtrado__filter--active';
-  const FILTER_CATEGORY_DATA_PROPERTY = 'categoria';
-  const ITEM_CLASS = 'c-filtrado__item';
-  const ITEM_CATEGORIES_DATA_PROPERTY = 'categorias';
-  const ITEM_ACTIVE_CLASS = 'c-filtrado__item--active';
-  const ITEM_DISABLED_CLASS = 'c-filtrado__item--disabled';
+  var COMPONENT_CLASS = 'c-filtrado';
+  var FILTER_CLASS = 'c-filtrado__filter';
+  var FILTER_ACTIVE_CLASS = 'c-filtrado__filter--active';
+  var FILTER_CATEGORY_DATA_PROPERTY = 'categoria';
+  var ITEM_CLASS = 'c-filtrado__item';
+  var ITEM_CATEGORIES_DATA_PROPERTY = 'categorias';
+  var ITEM_ACTIVE_CLASS = 'c-filtrado__item--active';
+  var ITEM_DISABLED_CLASS = 'c-filtrado__item--disabled';
 
   $('.' + COMPONENT_CLASS).each(function() {
     let component = this;
