@@ -10,9 +10,9 @@ $(function() {
   var ITEM_DISABLED_CLASS = 'c-filtrado__item--disabled';
 
   $('.' + COMPONENT_CLASS).each(function() {
-    let component = this;
+    var component = this;
     $(component).find('.' + FILTER_CLASS).on('click', function() {
-      let filter = this;
+      var filter = this;
       if ($(filter).hasClass(FILTER_ACTIVE_CLASS)) {
         deactivateAllFilters(component);
         enableAllItems(component);
@@ -22,7 +22,7 @@ $(function() {
           deactivateAllFilters(component);
           disableAllItems(component);
           $(filter).addClass(FILTER_ACTIVE_CLASS);
-          let categoriesToShow = $(filter).
+          var categoriesToShow = $(filter).
               data(FILTER_CATEGORY_DATA_PROPERTY).
               trim().
               split(' ');
@@ -52,13 +52,13 @@ $(function() {
   function showOnlyCategories(categories, component) {
 
     $(component).find('.' + ITEM_CLASS).each(function() {
-      let item = this;
+      var item = this;
       if (categories.length === 0) {
         $(item).removeClass(ITEM_ACTIVE_CLASS);
         $(item).removeClass(ITEM_DISABLED_CLASS);
         return;
       }
-      let itemCategories = [];
+      var itemCategories = [];
       if ($(item).data().hasOwnProperty(ITEM_CATEGORIES_DATA_PROPERTY)) {
         itemCategories = $(item).
             data(ITEM_CATEGORIES_DATA_PROPERTY).
