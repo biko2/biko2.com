@@ -1,0 +1,69 @@
+{# ----- PROYECTO ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-proyecto__hero mt-3 mt-md-5">
+  <div class="container">
+    <a href="/proyectos#proyectos" class="p-proyecto__back mb-4">{{svgSprite('arrow-left')}} <span>Volver al listado</span></a>
+  </div>
+
+  <h1 class="c-title--background">Mark Maddox</h1>
+
+  <div class="c-grid-image--right">
+    <img data-src="/assets/images/proyectos/maddox-proyecto.jpg" class="lazyload" alt="Mark Maddox" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h2 class="h-extrahuge">Querían una <strong>tienda online</strong></h2>
+        <p class="c-title--sub">(nosotros les pusimos una boutique)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 offset-md-1 col-md-6">
+        <p class="c-title--pre">Trabajamos con total libertad partiendo únicamente de la base de un concepto: el ocio.</p>
+        <p>Nuestro trabajo se realizó a la vez que la <strong>transformación interna de la propia marca</strong>. Partíamos de unos cuidados recursos de diseño de marca de packaging, publicidad... que teníamos que trasladar y enriquecer en el online. Incluso llegamos a marcar con el diseño la base del tipo de fotos que debían hacer en el shooting, clave para la <strong>imagen rompedora</strong> de la página de producto.</p>
+        <p>El resultado final fue <strong>un nuevo ecommerce</strong> que respira frescura por los cuatro costados y con un diseño muy cuidado y rompedor al mismo tiempo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="p-proyecto--galeria">
+  <div class="container">
+
+    <div class="row mb-5">
+      <div class="col-10 offset-1 col-md-6 offset-md-0">
+        <img data-src="/assets/images/proyectos/maddoxcollage1.png" class="lazyload w-100" alt="Mark Maddox" />
+      </div>
+
+      <div class="col-10 offset-1 col-md-6 offset-md-0">
+        <img data-src="/assets/images/proyectos/maddoxcollage2.png" class="lazyload w-100" alt="Mark Maddox" />
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
+        <img data-src="/assets/images/proyectos/maddoxcollage3.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
+      </div>
+      <div class="col-8 offset-2 col-md-4 offset-md-0">
+        <img data-src="/assets/images/proyectos/maddoxcollage4.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
+      </div>
+      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
+        <img data-src="/assets/images/proyectos/maddoxcollage5.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+{% include "@base/proyectos/separador-flecha.twig" %}
+{% include "@base/proyectos/proyecto-similar.twig" %}
+<div class="c-separator--line"><hr /></div>
+{% include "@includes/contact.twig" %}
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{# ----- PROYECTO ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-proyecto__hero mt-3 mt-md-5">
+  <div class="container">
+    <a href="/proyectos#proyectos" class="p-proyecto__back mb-4">{{svgSprite('arrow-left')}} <span>Volver al listado</span></a>
+  </div>
+
+  <h1 class="c-title--background">Museo Reina Sofía</h1>
+
+  <div class="c-grid-image--right">
+    <img data-src="/assets/images/proyectos/reina-proyecto.jpg" class="lazyload" alt="Museo Nacional Centro de Arte Reina Sofía" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h2 class="h-extrahuge">Una web que <strong>evoluciona</strong></h2>
+        <p class="c-title--sub">(y un arte que permanece)</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 offset-md-1 col-md-6">
+        <p class="c-title--pre">Comenzamos a trabajar con el Museo Reina Sofía allá por 2012. Aunque pueda sonar remoto, una de las primeras peticiones fue trasladar la web a formato responsive.</p>
+        <p>Desde entonces ha llovido mucho y, en todo este tiempo, hemos construido una <strong>relación de largo plazo</strong> con distintos proyectos. El site del museo pasó a convertirse en una de las instalaciones de <strong>Drupal de referencia</strong> en España y hoy en día permite consultar sus más de 6.000 obras, las exposiciones y actividades realizadas por el museo desde su puesta en marcha hace 28 años, con una relación de contenidos muy trabajada y valiosa para los usuarios.</p>
+        <p>Hemos acompañado en el día a día al museo y <strong>mejorado su presencia online</strong>, gracias a la creación de nuevos minisites.</p>
+        <p>Uno de los grandes hitos de la relación entre Biko y el museo fue el proyecto <a href="/proyectos/repensar-guernica" class="c-link">Repensar Guernica</a>, <strong>ganador de un Webby</strong>, uno de los Óscar de Internet.</p>
+        <p><a class="c-link" href="https://www.museoreinasofia.es/" target="_blank">Visitar la web Museo Reina Sofía</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="p-proyecto--galeria">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-10 offset-1 col-md-6 offset-md-0">
+        <img data-src="/assets/images/proyectos/reinacollage1.png" class="lazyload w-100 mb-md-3" alt="Museo Nacional Centro de Arte Reina Sofía" />
+        <img data-src="/assets/images/proyectos/reinacollage2.png" class="lazyload w-100" alt="Museo Nacional Centro de Arte Reina Sofía" />
+      </div>
+      <div class="col-8 offset-2 col-md-5 offset-md-1">
+        <img data-src="/assets/images/proyectos/reinacollage3.png" class="lazyload w-100 mt-md-6" alt="Museo Nacional Centro de Arte Reina Sofía - Detalle web móvil" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="c-separator--line"><hr /></div>
+{% include "@base/proyectos/museo-reina-sofia/post.twig" %}
+{% include "@base/proyectos/separador-flecha.twig" %}
+{% include "@base/proyectos/proyecto-similar.twig" %}
+<div class="c-separator--line"><hr /></div>
+{% include "@includes/contact.twig" %}
+
+{% endblock %}
