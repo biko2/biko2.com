@@ -91,6 +91,7 @@
 ## REDIRECCIONES A blog.biko2.com
 /category/* https://blog.biko2.com/category/:splat 301!
 /feed/ https://blog.biko2.com/feed/ 301!
+/wp-content/uploads/web/logo.png https://biko2.com/wp-content/uploads/web/logo.png 301!
 /wp-content/uploads/* https://blog.biko2.com/wp-content/uploads/:splat 301!
 
 
