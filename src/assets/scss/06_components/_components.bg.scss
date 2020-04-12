@@ -233,5 +233,18 @@
 }
 
 .c-bg-rocket {
-  background: url("../images/bg-rocket.jpg") bottom center no-repeat;
+  background: url("../images/bg-rocket-fly.svg") bottom center no-repeat;
+  background-size: 140%;
+  padding: 40px 0 20%;
+  margin: 0 0 20px;
+  @include media-breakpoint-up(sm) {
+    background-size: 120%;
+  }
+  @include media-breakpoint-up(md) {
+    background-size: 100%;
+  }
+  @include media-breakpoint-up(xl) {
+    padding: 40px 0 300px;
+    background-size: 1440px;
+  }
 }
