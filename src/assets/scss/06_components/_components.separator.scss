@@ -29,6 +29,18 @@
   }
 }
 
+.c-separator--line--min {
+  margin: 30px 0;
+
+  @include media-breakpoint-up(lg) {
+    margin: 50px 0;
+  }
+
+  hr {
+    height: 50px;
+  }
+}
+
 .c-separator--line-top {
   @include media-breakpoint-only(xs) {
     margin: 0 0 46px;
