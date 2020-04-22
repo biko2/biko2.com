@@ -22,6 +22,7 @@
     "typi": "^3.2.0"
   },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
     "netlify-cli": "^2.20.2"
   }
 }
