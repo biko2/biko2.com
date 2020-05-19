@@ -47,11 +47,11 @@
 
 
 .c-hero--max {
-  padding-top: 60px;
+  padding-top: 0;
   padding-bottom: 40px;
 
   @include media-breakpoint-up(sm) {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 60px;
   }
 
@@ -60,32 +60,5 @@
   }
   @include media-breakpoint-up(lg) {
     padding-bottom: 48px;
-  }
-
-  .c-grid-image--right {
-    margin-top: -60px;
-    width: 100%;
-    height: auto;
-
-    @include media-breakpoint-up(md) {
-      margin-top: 0;
-      width: 63%;
-      height: 477px;
-    }
-
-    @include media-breakpoint-up(lg) {
-      width: 67%;
-      height: 628px;
-    }
-
-    @include media-breakpoint-up(xxl) {
-      width: 60%;
-      height: 720px;
-    }
-
-    @include media-breakpoint-up(xxxl) {
-      width: 50%;
-      height: 1072px;
-    }
   }
 }
