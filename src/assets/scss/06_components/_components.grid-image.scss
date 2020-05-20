@@ -22,7 +22,7 @@
     width: 49%;
   }
 
-  img {
+  img, video {
     width: auto;
     height: 100%;
 
@@ -39,7 +39,7 @@
 }
 
 .c-grid-image--right-rectangular {
-  img {
+  img, video  {
     width: auto !important;
     height: 100% !important;
   }
