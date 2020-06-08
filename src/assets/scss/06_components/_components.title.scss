@@ -132,3 +132,8 @@
     z-index: 1;
   }
 }
+
+.c-parrafo--big {
+  @include typi(big);
+  font-weight: 300;
+}

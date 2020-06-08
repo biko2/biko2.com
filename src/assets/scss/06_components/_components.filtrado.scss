@@ -84,32 +84,41 @@
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
-	align-content: center;
+  align-content: center;
 }
 
 
 .c-filtrado__item {
   display: flex;
 	flex-direction: column;
-	justify-content: center;
+  justify-content: center;
+  flex-basis: 47.5%;
 	align-items: center;
   background: white;
-  width: 47.5%;
+  min-height: 161px;
   padding: 35px 0;
   margin: 3px;
   position: relative;
   border: 1px solid $gray-light;
 
   @include media-breakpoint-up(md) {
-    width: 24%;
+    flex-basis: 32%;
+    min-height: 224px;
     padding: 50px 0;
   }
-
   @include media-breakpoint-up(lg) {
-    width: 180px;
-    height: 180px;
+    flex-basis: 19%;
+    height: 174px;
+    min-height: 174px;
     padding: 0;
   }
+
+  @include media-breakpoint-up(xl) {
+    flex-basis: 19%;
+    height: 246px;
+    padding: 0;
+  }
+  
 
   &:before {
     content: "";
