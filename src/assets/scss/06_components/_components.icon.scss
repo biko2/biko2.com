@@ -1,14 +1,34 @@
 .c-icon--medium {
   width: 32px;
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   svg {
     width: 20px;
     height: 20px; 
   }
-
 }
+.c-icon--arrow {
+  width: 48px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    width: 48px;
+    height: 12px; 
+  }
+}
+
 .c-icon--white {
   svg * {
     fill: white;
+  }
+}
+.c-icon--black {
+  svg * {
+    fill: black;
   }
 }
