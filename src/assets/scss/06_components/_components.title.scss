@@ -133,7 +133,9 @@
   }
 }
 
-.c-parrafo--big {
+.c-title--big {
   @include typi(big);
-  font-weight: 300;
+}
+.c-title-large {
+  @include typi(large);
 }

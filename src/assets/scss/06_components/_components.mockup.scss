@@ -1,0 +1,34 @@
+.c-mockup {
+   padding: 96px 0;
+}
+.c-mockup-imagenes {
+   width: 100%;
+   height: 533px;
+   display: flex;
+   align-items: center;
+}
+
+.c-mockup-imagenes--derecha {
+   position: absolute;
+   top:0;
+   right:15px;
+   z-index: 1;
+   overflow: hidden;
+   border-radius: 16px;
+   box-shadow: 5px 5px 11px 0px $gray-light;
+}
+/*.c-mockup-imagenes--izquierda {
+   position: absolute;
+   top: center;
+   left: 0;
+}*/
+.c-mockup-descripcion {
+   display: flex;
+   flex-direction: column;
+}
+
+.c-mockup-descripcion__icono {
+   position: absolute;
+   top: 8px;
+   left: -50px;
+}

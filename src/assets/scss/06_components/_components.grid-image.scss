@@ -42,15 +42,15 @@
   text-align: right;
 
   @include media-breakpoint-up(md) {
-    width: 100%;
+    width: 55%;
     height: auto;
-
+    position: absolute;
+    right: 0;
   }
 
   @include media-breakpoint-up(lg) {
     width: 55%;
-    position: absolute;
-    right: 0;
+ 
   }
 
   img {
