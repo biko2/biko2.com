@@ -21,7 +21,19 @@
     height: 12px; 
   }
 }
+.c-icon--large {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  svg {
+    width: 48px;
+    height: 48px; 
+  }
+
+}
 .c-icon--white {
   svg * {
     fill: white;
@@ -29,6 +41,11 @@
 }
 .c-icon--black {
   svg * {
-    fill: black;
+    fill: $black;
+  }
+}
+.c-icon--red {
+  svg * {
+    fill: $red;
   }
 }

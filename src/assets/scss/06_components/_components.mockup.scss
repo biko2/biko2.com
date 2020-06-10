@@ -1,18 +1,22 @@
 .c-mockup {
-   padding: 96px 0;
+   padding: 48px 0;
+   @include media-breakpoint-up(md) {
+      padding: 96px 0;
+    }
 }
 .c-mockup-imagenes {
    width: 100%;
-   height: 533px;
+   height: 100%;
    display: flex;
    align-items: center;
+
+   @include media-breakpoint-up(md) {
+      height: 533px;
+   }
 }
 
+
 .c-mockup-imagenes--derecha {
-   position: absolute;
-   top:0;
-   right:15px;
-   z-index: 1;
    overflow: hidden;
    border-radius: 16px;
    box-shadow: 5px 5px 11px 0px $gray-light;
@@ -27,4 +31,10 @@
    position: absolute;
    top: 8px;
    left: -50px;
+}
+.c-mockup-ml-negativo {
+   
+   @include media-breakpoint-up(xl) {
+      margin-left: -44px;
+   }
 }
