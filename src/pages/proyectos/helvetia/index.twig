@@ -3,98 +3,285 @@
 {% block page %}
 
 <section class="c-hero p-proyecto__hero">
-
-  <h1 class="c-title--background">Helvetia</h1>
-
   <div class="c-grid-image--right">
     <div class="c-icon-square">
-      {{svgSprite('star')}}
+      {{svgSprite('webby')}}
     </div>
-    <img data-src="/assets/images/proyectos/helvetia-proyecto.jpg" class="lazyload" alt="Helvetia" />
+    <img data-src="/assets/images/proyectos/guernica-proyecto.jpg" class="lazyload" alt="Repensar Guernica" />
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-9 col-lg-7">
-        <h2 class="h-extrahuge mt-3 mt-md-6">Tres <strong>proyectos</strong>, dos <strong>públicos</strong>, un mismo <strong>equipo</strong></h2>
+      <div class="col-12 col-md-8 col-lg-7">
+        <h1 class="c-title--pre text-uppercase mt-4 mb-0">Helvetia Seguros</h1>
+        <h2 class="h-extrahuge">Tres <strong>proyectos</strong>, dos <strong>públicos</strong>, un mismo <strong>equipo</strong></h2>
         <p class="c-title--sub">(y un objetivo común)</p>
       </div>
     </div>
     <div class="row">
       <div class="col-12 offset-md-1 col-md-6">
-        <p class="c-title--pre"><strong>Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online</strong>.</p>
-        <p>Tras evolucionar un medio promocional hacia la captación de negocio, necesitaba seguir avanzando en las etapas de digitalización de la compañía: incrementar los objetivos de venta online, conseguir mayor engagement con sus clientes…</p>
+        <p>Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online.Tras evolucionar un medio promocional hacia la captación de negocio, necesitaba seguir avanzando en las etapas de digitalización de la compañía: incrementar los objetivos de venta online, conseguir mayor engagement con sus clientes…</p>
         <p>Además, el trabajo venía acompañado de otros proyectos complementarios, como el desarrollo de un nuevo portal para empleados y mediadores (B2B) y la evolución de una nueva área para clientes (B2C).</p>
-        <p>Tres proyectos, un cliente y un mundo de posibilidades por explorar.</p>
-        <p><a class="c-link" href="https://www.helvetia.es/" target="_blank">Visitar la web de Helvetia</a></p>
+        <p class="mb-0">Tres proyectos, un cliente y un mundo de posibilidades por explorar.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="mt-md-5">
-   <div class="container">
-     <div class="row">
-       <div class="col-12 offset-md-1 col-md-10 col-lg-8">
-        <h2 class="h-big"><strong>UX interactiva y atractiva. Integración. Reutilización</strong></h2>
-        <p>Teníamos claro que las tres herramientas compartían dos puntos clave: exigían una <strong>rica experiencia de usuario</strong> y había una fuerte <strong>integración con aplicaciones</strong> internas de la compañía. Esto supuso pensar en una arquitectura de solución reutilizable, pero lo suficientemente flexible para adaptarla a los requisitos de los distintos públicos.</p>
-        <p>En Helvetia ya estaban familiarizados con el CMS <strong>Drupal</strong> gracias a su web corporativa, por lo que vimos que lo mejor era mantener esta solución como sistema de <strong>gestión de contenidos</strong> en el backend, aunque optando por aplicaciones React para el desarrollo del frontend, lo que nos permite crear una <strong>interfaz de usuario rica en UX</strong>, interactiva y atractiva.</p>
-        <p>El equipo realizó distintos planteamientos y pruebas. Enseguida tuvimos claro que para <strong>conectar el frontend con el backend</strong> utilizaríamos <strong>GraphQL</strong>, que nos permite tener un único endpoint desde React y esto nos proporciona una mayor simplicidad en las consultas, ya que responde exclusivamente a lo que pedimos.</p>
-        <p>También tuvimos claro que toda la integración con los <strong>datos core de las aplicaciones</strong> de Helvetia a través de las APIs se haría con programación desde el back Drupal, centralizando así la comunicación con el front en una única capa.</p>
-        <p>Esto nos ha llevado a implementar una solución donde se comparten tecnologías (CMS Drupal, React) y equipos de trabajo.</p>
-        <ul>
-          <li>La web está gestionada por <strong>CMS Drupal</strong>.</li>
-          <li>El portal B2B es una <strong><abbr title="Single Page Application">SPA</abbr></strong> (Single Page Application) donde acceden los empleados/mediadores mediante web.</li>
-          <li>El área B2C es una <strong><abbr title="Progressive Web App">PWA</abbr></strong> (Progressive Web App) donde los clientes además de acceder desde la web, pueden descargarla desde la Play Store de Google a sus dispositivos móviles. Apple no posibilita aún esta opción.</li>
+<section class="u-bg-gray-light py-5 px-4 p-md-5 py-lg-7 mb-5  mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <p class="mb-md-6 c-title--big">
+          Confeccionar la presencia digital de Helvetia de forma simultánea en tres de sus productos; su web pública, el portal para empleados y mediadores y la nueva área de clientes. Ofreciendo una solución reutilizable pero flexible y con una interfaz rica en UX, interactiva y atractiva.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 offset-md-1">
+        <h5 class="c-title--pre mb-1">
+          Cliente
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">Helvetia</li>
         </ul>
-       </div>
-     </div>
-   </div>
- </section>
+      </div>
+      <div class="col-md-2">
+        <h5 class="c-title--pre mb-1">
+          Estrategia
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">UX</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5 class="c-title--pre mb-1">
+          Tecnología
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">Drupal</li>
+          <li class="u-list-none mb-0">SPA en React</li>
+          <li class="u-list-none mb-0">GraphQL</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <h5 class="c-title--pre mb-1">
+          Web
+        </h5>
+         <ul class="pl-0">
+          <li class="u-list-none mb-0">
+            <a class="c-link" href="https://www.helvetia.es/" target="_blank">Helvetia</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
- <section class="mt-md-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 offset-md-1 col-md-10 col-lg-8">
-         <h2 class="h-big"><strong>Herrramientas</strong></h2>
-         <p><strong>Drupal</strong><br /> Utilizándolo como CMS desacoplado. Sencillez de uso para los editores de contenidos, y potencia e integración con el resto de aplicaciones de Helvetia.</p>
-         <p><strong>SPA en React</strong><br /> Para crear una interfaz de usuario rica en UX, interactiva y atractiva para los empleados, agentes y clientes de Helvetia.</p>
-         <p><strong>GraphQL</strong><br /> Tecnología fácil y directa  para el consumo y envío de contenidos a las distintas aplicaciones frontend.</p>
+<section class="mb-5 mb-md-7 mb-lg-7">
+  <div class="c-grid-image--right--big mb-4 mb-mb-0">
+    <img data-src="/assets/images/proyectos/guernica-proyecto.1.jpg" class="lazyloaded" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto.1.jpg">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 offset-lg-1 col-md-5 col-lg-4 col-xl-3">
+        <div class="pt-md-2 pt-xl-5">
+          <h3>El desafío</h3>
+          <p class="mb-0">Teníamos claro que las tres herramientas compartían dos puntos clave: exigían una rica experiencia de usuario y había una fuerte integración con aplicaciones internas de la compañía. Esto supuso pensar en una arquitectura de solución reutilizable, pero lo suficientemente flexible para adaptarla a los requisitos de los distintos públicos.</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-
-<div class="p-proyecto--galeria">
+<section class="c-bg-pattern c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
-      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
-        <img data-src="/assets/images/proyectos/helvetia1.png" class="lazyload w-100" alt="Helvetia" />
+      <div class="col-md-6">
+        <div class="mb-4 mb-md-0">
+          <img data-src="/assets/images/proyectos/guernica-proyecto.1.jpg" class="lazyloaded u-img-fluid" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto.2.jpg">
+        </div>
       </div>
-      <div class="col-8 offset-2 col-md-4 offset-md-0">
-        <img data-src="/assets/images/proyectos/helvetia2.png" class="lazyload w-100" alt="Helvetia" />
-      </div>
-      <div class="col-8 offset-2 col-md-4 offset-md-0">
-        <img data-src="/assets/images/proyectos/helvetia3.png" class="lazyload w-100" alt="Helvetia" />
-      </div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-10 offset-1 col-md-6 offset-md-0">
-        <img data-src="/assets/images/proyectos/helvetia4.png" class="lazyload w-100" alt="Helvetia" />
-      </div>
-      <div class="col-10 offset-1 col-md-6 offset-md-0">
-        <img data-src="/assets/images/proyectos/helvetia5.png" class="lazyload w-100" alt="Helvetia" />
+      <div class="col-md-6 col-lg-4 offset-lg-1">
+        <h3 class="pt-md-2 pt-xl-5">Nuestro enfoque</h3>
+        <p>En Helvetia ya estaban familiarizados con el CMS Drupal gracias a su web corporativa, por lo que vimos que lo mejor era mantener esta solución como sistema de gestión de contenidos en el backend, aunque optando por aplicaciones React para el desarrollo del frontend, lo que nos permite crear una interfaz de usuario rica en UX, interactiva y atractiva.</p>
       </div>
     </div>
-
   </div>
-</div>
+</section>
+
+<section class="c-mockup mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row mb-0 mb-md-6">
+      <div class="col-md-12 col-xl-10 offset-xl-1">
+        <h3 class="">Producto final</h3>
+        <p class="c-title--big">
+          Así creamos una interfaz de usuario rica en UX, interactiva y atractiva para los tres proyectos.
+        </p>
+      </div>
+    </div>
+    <div class="row mb-6 mb-xl-7">
+      <div class="col-md-5 col-xl-3 offset-lg-1 order-md-2 d-flex align-items-center">
+        <div class="c-mockup-descripcion">
+          <div>
+            <h4 class="c-title-large mb-3">
+              Web pública
+            </h4>
+            <p>
+              <a class="c-link" href="https://www.helvetia.es/" target="_blank">Web pública</a> para clientes gestionada por un CMS de Drupal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-6 offset-xl-1">
+        <div class="c-mockup-imagenes">
+          <div class=" c-mockup-imagenes--izquierda d-none d-lg-block">
+            <img data-src="/assets/images/proyectos/guernica-proyecto3" class="lazyloaded u-img-fluid" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto3.jpg">
+          </div>
+          <div class="c-mockup-imagenes--derecha c-mockup-imagenes-montaje">
+            <img data-src="/assets/images/proyectos/guernica-archivo-documental" class="lazyloaded u-img-fluid" alt="Pantalla archivo documental" src="/assets/images/proyectos/guernica-archivo-documental.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-6  mb-xl-7">
+      <div class="col-md-5 col-xl-3 offset-lg-1 d-flex align-items-center order-md-2 order-xl-1">
+        <div class="c-mockup-descripcion">
+          <div>
+            <h4 class="c-title-large mb-3">
+              Portal para empleados y mediadores
+            </h4>
+            <p>
+              <a class="c-link" href="https://intranet.helvetia.es/" target="_blank">Portal B2B</a> creado como un SPA (Single Page Application) donde acceden los empleados/mediadores mediante la web.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 offset-xl-1 order-md-1">
+        <div class="c-mockup-imagenes">
+          <div class="c-mockup-imagenes--izquierda d-none d-lg-block order-xl-2">
+            <img data-src="/assets/images/proyectos/guernica-proyecto5" class="lazyloaded u-img-fluid" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto5.jpg">
+          </div>
+          <div class="c-mockup-imagenes--derecha c-mockup-ml-negativo c-mockup-imagenes-montaje  order-xl-1">
+            <img data-src="/assets/images/proyectos/guernica-cronologia" class="lazyloaded u-img-fluid" alt="Pantalla archivo documental" src="/assets/images/proyectos/guernica-cronologia.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5 col-xl-3 offset-lg-1 order-md-2 d-flex align-items-center">
+        <div class="c-mockup-descripcion">
+          <div>
+            <h4 class="c-title-large mb-3">
+              Área clientes
+            </h4>
+            <p>
+              <strong>Progressive Web App (PWA)</strong> donde los clientes además de acceder desde la web, pueden descargarla desde la Play Store de Google a sus dispositivos móviles.
+            </p>
+            <a href="#">
+              <img data-src="/assets/images/proyectos/helvetia-google-play" class="lazyloaded" alt="Google play" src="/assets/images/proyectos/helvetia-google-play.png">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 offset-xl-1 order-md-1">
+        <div class="c-mockup-imagenes">
+          <div class="c-mockup-imagenes--izquierda d-none d-lg-block">
+            <img data-src="/assets/images/proyectos/guernica-proyecto4" class="lazyloaded u-img-fluid" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto4.jpg">
+          </div>
+          <div class="c-mockup-imagenes--derecha">
+            <img data-src="/assets/images/proyectos/guernica-gigapixel" class="lazyloaded u-img-fluid" alt="Pantalla archivo documental" src="/assets/images/proyectos/guernica-gigapixel.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
+<section class="mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12  col-xl-10 offset-xl-1">
+        <p class="c-title--big mb-md-6">
+          Para construir este proyecto implementamos una solución donde se comparten <strong>tecnologías y equipos de trabajo</strong>.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-5 col-xl-4 offset-xl-1">
+        <div class="d-flex">
+          <div class="mr-4 c-icon--large c-icon--red">
+            {{svgSprite('drupal')}}
+          </div>
+          <div>
+            <h4 class="c-title-large">
+              Drupal
+            </h4>
+            <p>
+              Utilizándolo como CMS desacoplado. Sencillez de uso para los editores de contenidos, y potencia e integración con el resto de aplicaciones de Helvetia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+        <div class="d-flex">
+          <div class="mr-4 c-icon--large c-icon--red">
+            {{svgSprite('spa-react')}}
+          </div>
+          <div>
+            <h4 class="c-title-large">
+              SPA en React
+            </h4>
+            <p>
+              Para la exploración de la propia obra de arte, ya que proporciona la mayor resolución del mundo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-5 col-xl-4 offset-xl-1">
+        <div class="d-flex">
+          <div class="mr-4 c-icon--large c-icon--red">
+            {{svgSprite('GraphQL')}}
+          </div>
+          <div>
+            <h4 class="c-title-large">
+              GraphQL
+            </h4>
+            <p>
+              Solr fue nuestra elegida para la indexación y búsqueda del catálogo documental.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-{% include "@base/proyectos/separador-flecha.twig" %}
-{% include "@base/proyectos/proyecto-similar.twig" %}
+<section class="c-bg-big py-5 py-md-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="c-texto--center">
+          <h3 class="c-title--big mb-4">
+            ¿Tienes alguna <strong>duda</strong> sobre este <strong>proyecto?</strong> <br>¿Te gustaría ver otros similares?
+          </h3>
+          <p class="mb-4">
+            Cuéntanos qué necesitas. Estaremos encantados de poder atenderte.
+          </p>
+          <div class="d-flex justify-content-center" data-drip-show-form="740822926">
+            <a class="c-button gtm-lead-proyecto" href="#" target="_blank">
+              Contacta con nosotros
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="c-separator--line"><hr /></div>
 {% include "@includes/contact.twig" %}
 
