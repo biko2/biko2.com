@@ -1,0 +1,79 @@
+{# ----- HOME ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero p-insights-hero">
+  <div class="p-insights-hero__container c-bg-pattern__center">
+    <div class="container">
+      <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        {% include "@base/insights/ico-square.twig" %}
+        <h1><strong>Desarrollador de Software especializado en Servicios Digitales </strong></h1>
+        <p class="c-title--sub">(Sabemos de lo que hablamos)</p>
+      </div>
+
+      <div class="col-12 col-md-7 offset-md-1 col-lg-5 offset-lg-1">
+        <p class="c-title--pre">Ya está disponible la <strong>tercera edición de Biko Insights</strong>, el documento que contiene nuestra visión sobre lo que se está moviendo en la actualidad del entorno digital.</p>
+        <p>En cada entrega tratamos distintos temas relacionados con tecnología, software, experimentación digital... En este nuevo número encontrarás artículos sobre:</p>
+
+        <ul class="c-line-list">
+          <li><p>Gestión de <strong>contenidos</strong> moderna.</p></li>
+          <li><p>Qué podemos aprender de la estrategia digital en <strong>museos</strong>.</p></li>
+          <li><p><strong>Open Spaces</strong>: el poder de la autoorganización.</p></li>
+          <li><p><strong>Narrativa</strong> de la convivencia humano-máquina.</p></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+    <div class="container mt-md-6">
+      <div class="row">
+        <div class="col-12 col-lg-5">
+          <h2><strong>Descárgate</strong> esta guía (gratis) y descubre <strong>nuestro análisis sobre algunas tendencias</strong> en la industria de productos y servicios digitales.</h2>
+
+          <div class="c-separator--icon pt-6">
+            <a class="c-separator--icon__animated">
+              <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-714.000000, -854.000000)" fill="#000000">
+                    <g>
+                      <path d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z" transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) "></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <p>Pst, pst... los <strong>Insights anteriores</strong> están más abajo.</p>
+        </div>
+
+
+        {% include "@base/insights/form-descarga.twig" %}
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section mb-9"> 
+  <div class="position-relative">
+    <div class="c-grid-image--right">
+      <img data-src="/assets/images/proyectos/guernica-proyecto.jpg" class=" lazyloaded" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto.jpg">
+      <div class="position-relative">
+        <div class="c-icon-square">
+          <svg width="72px" height="62px" viewBox="0 0 72 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-52.000000, -75.000000)" fill="#FFFFFF"><path d="M104.79,75 C97.76,75 91.17,80.56 88,83.7 C84.83,80.56 78.24,75 71.21,75 C59.19,75 52,82.05 52,93.86 C52,103.53 60.84,111.62 61.16,111.91 L86.23,136.16 C86.71,136.64 87.35,136.89 88,136.89 C88.65,136.89 89.29,136.65 89.77,136.16 L114.8,111.98 C115.16,111.62 124,103.52 124,93.85 C124,82.05 116.81,75 104.79,75 Z M111.55,107.95 L88.19,130.5 L64.79,107.91 C64.71,107.83 57.26,100.97 57.26,93.59 C57.26,82.25 64.91,79.87 71.36,79.87 C77.36,79.87 84.13,86.36 86.22,88.87 C87.19,90.04 89.2,90.04 90.17,88.87 C92.26,86.37 99.03,79.87 105.03,79.87 C111.48,79.87 119.13,82.25 119.13,93.59 C119.12,100.97 111.67,107.83 111.55,107.95 Z"></path></g></g></svg></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  </div>
+</section>
+
+
+
+
+
+{% endblock %}
