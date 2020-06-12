@@ -139,3 +139,9 @@
 .c-title-large {
   @include typi(large);
 }
+.c-title-huge {
+  @include typi(huge);
+}
+.c-title-midhuge {
+  @include typi(midhuge);
+}
