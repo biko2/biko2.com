@@ -28,10 +28,6 @@
     background-size: auto;
   }
 }
-.contenedor-secciones {
-  min-height: 441px;
-}
-
 
 
 
@@ -95,6 +91,20 @@
     right: 10px;
   }
 }
+
+.contenedor-secciones {
+  min-height: 441px;
+}
+
+.contenedor-secciones-hero {
+  @include media-breakpoint-up(md) { 
+    min-height: 780px;
+  }
+  @include media-breakpoint-up(lg) { 
+    min-height: 750px;
+  }
+}
+
 
 // PANTALLAZOS
 .p-proyecto--galeria {
