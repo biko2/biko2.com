@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="48px" viewBox="0 0 40 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icono/drupal</title>
+    <defs>
+        <path d="M26.4818555,12.7272727 L26.4818555,40.8362549 L23.9616756,42.5256473 L21.439561,40.8272766 L21.439561,12.7489839 L14.9090909,17.1591323 L14.9090909,41.1973464 L23.9616756,47.2727273 L33.0909091,41.1540872 L33.0909091,17.1437875 L26.4818555,12.7272727 L26.4818555,12.7272727 Z M23.9873438,0 L4,12.1104624 L4,35.1234975 L9.19109375,38.1818182 L9.19109375,15.1665955 L23.9914062,6.16664459 L38.8054688,15.1534696 L38.8665625,15.1883156 L38.86,38.147441 L44,35.1234975 L44,12.1104624 L23.9873438,0 L23.9873438,0 Z" id="path-1"></path>
+    </defs>
+    <g id="CLIENTES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ficha---rodilla" transform="translate(-191.000000, -4462.000000)">
+            <g id="HERRAMIENTAS" transform="translate(187.000000, 4310.000000)">
+                <g id="Group-17" transform="translate(0.000000, 152.000000)">
+                    <g id="Group-31">
+                        <g id="icono/magento">
+                            <polygon id="Bounding-Box" points="0 0 48 0 48 48 0 48"></polygon>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#EC6737" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Mixin/Fill/negro" mask="url(#mask-2)" fill="#E73F39" fill-rule="evenodd">
+                                <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
