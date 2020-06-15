@@ -14,6 +14,7 @@
   .c-grid-image--right {
     width: 40%;
   }
+  /*formulario*/
   .c-form {
     display: block;
   }
@@ -33,6 +34,21 @@
   .c-form__elements {
     margin-right: 0;
   }
+   /*listado iconos*/
+   .c-icon-list li {
+     width: 50%;
+   }
+   .c-icon-list__text {
+    width: 100%;
+    @include typi(large);
+    font-weight: bold;
+  }
+
+  .c-texto--small__uppercase {
+    margin-bottom: 4px;
+    font-weight: normal;
+  }
+  
 }
 
 
