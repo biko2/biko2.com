@@ -132,3 +132,10 @@
     z-index: 1;
   }
 }
+
+.c-title--big {
+  @include typi(big);
+}
+.c-title-large {
+  @include typi(large);
+}

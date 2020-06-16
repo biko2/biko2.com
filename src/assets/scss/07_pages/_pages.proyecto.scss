@@ -31,7 +31,6 @@
 
 
 
-
 // FICHA
 .p-proyecto__back {
   display: inline-block;
@@ -63,13 +62,14 @@
 
 .p-proyecto__hero {
   position: relative;
+  padding-bottom: 48px;
 
   @include media-breakpoint-up(xl) {
     min-height: 92vh;
   }
 
-  @include media-breakpoint-up(md) {
-    padding-bottom: 200px;
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 96px;
   }
 
   .c-title--background {
@@ -119,6 +119,20 @@
     right: 10px;
   }
 }
+
+.contenedor-secciones {
+  min-height: 441px;
+}
+
+.contenedor-secciones-hero {
+  @include media-breakpoint-up(md) { 
+    min-height: 780px;
+  }
+  @include media-breakpoint-up(lg) { 
+    min-height: 750px;
+  }
+}
+
 
 // PANTALLAZOS
 .p-proyecto--galeria {
@@ -194,5 +208,19 @@
 
   @include media-breakpoint-up(md) {
     margin: 22px 0 0;
+  }
+}
+.page-aecc, .page-repensar-guernica, .page-rodilla, .page-laboral-kutxa, .page-helvetia, .page-thyssen {  
+  .c-bg-pattern {
+    width: 100%;
+  }
+
+}
+.page-aecc, .page-rodilla, .page-laboral-kutxa, .page-helvetia, .page-thyssen {  
+  .c-grid-image--right {
+    
+    @include media-breakpoint-down(xs) {
+      height: 250px;
+    }
   }
 }
