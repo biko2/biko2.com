@@ -102,21 +102,20 @@
   border: 1px solid $gray-light;
 
   @include media-breakpoint-up(md) {
-    flex-basis: 32%;
-    min-height: 224px;
-    padding: 50px 0;
+    flex-basis: 49%;
+    min-height: 262px;
+    padding: 24px;
   }
   @include media-breakpoint-up(lg) {
-    flex-basis: 19%;
-    height: 174px;
+    flex-basis: 32.5%;
+    height: 238px;
     min-height: 174px;
-    padding: 0;
+    padding: 24px;
   }
 
   @include media-breakpoint-up(xl) {
     flex-basis: 19%;
     height: 246px;
-    padding: 0;
   }
   
 
