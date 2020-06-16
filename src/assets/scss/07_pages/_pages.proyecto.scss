@@ -186,4 +186,13 @@
   .c-bg-pattern {
     width: 100%;
   }
+
+}
+.page-aecc, .page-rodilla, .page-laboral-kutxa, .page-helvetia, .page-thyssen {  
+  .c-grid-image--right {
+    
+    @include media-breakpoint-down(xs) {
+      height: 250px;
+    }
+  }
 }
