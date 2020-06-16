@@ -220,7 +220,7 @@
   .c-grid-image--right {
     
     @include media-breakpoint-down(xs) {
-      height: 250px;
+      height: auto;
     }
   }
 }
