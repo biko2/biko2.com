@@ -1,0 +1,8 @@
+.c-title-doble-negrita {
+  @include typi(midhuge);
+  @include media-breakpoint-up(md) { 
+    display: flex;
+    flex-direction: column;
+  }
+}
+

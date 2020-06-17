@@ -1,19 +1,7 @@
 .page-biko-school {
 
-  .c-separator--icon {
-    padding: 0;
-    text-align: left;
-    margin-bottom: 48px;
-  }
-  .c-icon-square--abajo-izquierda {
-    position: absolute;
-    top: 454px;
-    right: 36.5%;
-  }
-
-  .c-grid-image--right {
-    width: 40%;
-  }
+  /*flecha*/
+  
   /*formulario*/
   .c-form {
     display: block;
@@ -48,12 +36,7 @@
     margin-bottom: 4px;
     font-weight: normal;
   }
-  /*Margen para secciones*/
-  .c-contenedor-secciones {
-    @include media-breakpoint-up(xl) {
-      min-height: 520px;
-    }
-  }
+ 
   /*Social media*/
     .c-social-list {
       justify-content: flex-start;
