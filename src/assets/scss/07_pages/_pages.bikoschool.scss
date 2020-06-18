@@ -45,6 +45,10 @@
     height: 2px;
   }
 }
+.c-list-anidadas__columnas {
+   width: 50%;
+   background:red;
+}
 
 .c-list-anidadas__item--primer-nivel  {
   @include typi(large);
@@ -58,7 +62,7 @@
 .c-list-anidadas__item--segundo-nivel  {
   font-size: 16px;
   &::before {
-    top: 25px;
+    top: 26px;
     width: 12px;
     background-color: $black-soft;
   }
@@ -67,7 +71,7 @@
 .c-list-anidadas__item--tercer-nivel  {
   font-size: 16px;
   &::before {
-    top: 21px;
+    top: 24px;
     width: 4px;
     background-color: $black-soft;
   }
