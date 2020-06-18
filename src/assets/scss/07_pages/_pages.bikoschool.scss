@@ -14,8 +14,6 @@
 
   .position-absolute--derecha-arriba {
       position: relative;
-      bottom: 0;
-      right: 0;
     @include media-breakpoint-up(lg) {
       position: absolute;
       top: 0;

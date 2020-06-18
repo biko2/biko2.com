@@ -27,11 +27,9 @@
     right: -47%;
   }
   @include media-breakpoint-up(xl) {
-    top: 0;
     right: -33%;
   }
   @include media-breakpoint-up(xxl) {
-    top: 0;
     right: -6%;
   }
 }
