@@ -67,125 +67,86 @@
         <p>Habitant cursus est aenean ornare vestibulum quam vitae, aliquet cras urna magna rhoncus senectus mi diam risus sodales blandit dapibus platea ultrices. Ut enim ad minima veniam.</p>
       </div>
       <div class="col-md-9 offset-md-1">
-        <div id="accordion">
-          <div class="card">
-            <div class="card-header" id="heading-1">
-              <h5 class="mb-0">
-                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                  Item 1
-                </a>
-              </h5>
-            </div>
-            <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
-              <div class="card-body">
-
-                <div id="accordion-1">
-                  <div class="card">
-                    <div class="card-header" id="heading-1-1">
-                      <h5 class="mb-0">
-                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
-                          Item 1 > 1
-                        </a>
-                      </h5>
-                    </div>
-                    <div id="collapse-1-1" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-1">
-                      <div class="card-body">
-
-                          <div id="accordion-1-1">
-                            <div class="card">
-                              <div class="card-header" id="heading-1-1-1">
-                                <h5 class="mb-0">
-                                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-1" aria-expanded="false" aria-controls="collapse-1-1-1">
-                                    Item 1 > 1 > 1
-                                  </a>
-                                </h5>
-                              </div>
-                              <div id="collapse-1-1-1" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-1">
-                                <div class="card-body">
-                                  Text 1 > 1 > 1
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="heading-1-1-2">
-                                <h5 class="mb-0">
-                                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-2" aria-expanded="false" aria-controls="collapse-1-1-2">
-                                    Item 1 > 1 > 2
-                                  </a>
-                                </h5>
-                              </div>
-                              <div id="collapse-1-1-2" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-2">
-                                <div class="card-body">
-                                  Text 1 > 1 > 2
-                                </div>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <div class="card-header" id="heading-1-1-3">
-                                <h5 class="mb-0">
-                                  <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-3" aria-expanded="false" aria-controls="collapse-1-1-3">
-                                    Item 1 > 1 > 3
-                                  </a>
-                                </h5>
-                              </div>
-                              <div id="collapse-1-1-3" class="collapse" data-parent="#accordion-1-1" aria-labelledby="heading-1-1-3">
-                                <div class="card-body">
-                                  Text 1 > 1 > 3
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header" id="heading-1-2">
-                      <h5 class="mb-0">
-                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
-                          Item 1 > 2
-                        </a>
-                      </h5>
-                    </div>
-                    <div id="collapse-1-2" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-2">
-                      <div class="card-body">
-                        Text 1 > 2
-                      </div>
-                    </div>
-                  </div>
-                </div>      
-              
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="heading-2">
-              <h5 class="mb-0">
-                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
-                  Item 2
-                </a>
-              </h5>
-            </div>
-            <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
-              <div class="card-body">
-                Text 2
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="heading-3">
-              <h5 class="mb-0">
-                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
-                  Item 3
-                </a>
-              </h5>
-            </div>
-            <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
-              <div class="card-body">
-                Text 3
-              </div>
-            </div>
-          </div>
-        </div>
+        <ul class="c-list-anidadas">
+          <li class="c-list-anidadas__item c-list-anidadas__item--primer-nivel">
+            <strong>Buenas prácticas</strong>
+            <ul class="c-list-anidadas">
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Introducción a XP
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Estándares de código
+                <ul class="c-list-anidadas">
+                  <li class="c-list-anidadas__item c-list-anidadas__item--tercer-nivel">
+                    Eslint, prettier
+                  </li>
+                </ul>
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Naming 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Principios SOLID, YAGNI, tell don’t ask, ley de demeter 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                y Less surprise Principle
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Pair programming 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Olores de código 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Simple Design, cohesión y acoplamiento 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Refactoring 
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Complejidad esencial vs complejidad accidental
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="c-list-anidadas__item c-list-anidadas__item--primer-nivel">
+            <strong>Diseño de Sofware</strong>
+            <ul class="c-list-anidadas">
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                ¿Qué es la arquitectura hexagonal?
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Puertos y Adaptadores o Principio de Inversión de Dependencias
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Modelado del dominio
+                <ul class="c-list-anidadas">
+                  <li class="c-list-anidadas__item c-list-anidadas__item--tercer-nivel">
+                    Lenguaje Ubicuo
+                  </li>
+                </ul>
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Servicios de aplicación vs servicios de dominio
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Principales patrones de diseño (2h)
+                <ul class="c-list-anidadas">
+                  <li class="c-list-anidadas__item c-list-anidadas__item--tercer-nivel">
+                    Repository, Singleton, Adapter, Builder, Factory, ...
+                  </li>
+                </ul>
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Estrategia de testing
+              </li>
+              <li class="c-list-anidadas__item c-list-anidadas__item--segundo-nivel">
+                Buenas prácticas en la estructura del código fuente 
+              </li> 
+            </ul>  
+          </li>
+        </ul>
       </div>
     </div>   
   </div>
