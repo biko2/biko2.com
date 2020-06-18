@@ -1,18 +1,25 @@
 .c-icono-imagen {
   position: relative;
+  @include media-breakpoint-up(lg) { 
+    min-height: 720px;
+  }
+  @include media-breakpoint-up(xl) { 
+    min-height: 582px;
+  }
 }
+
 .c-icono-imagen__contenedor { 
-    padding-left: 30px;
+
     position: relative;
   @include media-breakpoint-up(lg) { 
+    width: 46%;
     position: absolute;
     overflow: hidden;
   }
-  @include media-breakpoint-up(lg) { 
-    width: 40%;
-    padding-left: 48px;
-  }
 } 
+
+
+
 .c-icono-imagen__contenedor--derecha-abajo {
     bottom: 0;
     right: 0;
@@ -25,6 +32,7 @@
     right: 0;
   }
 }
+
 .c-icono-imagen__foto {
   overflow: hidden;
   img {
@@ -38,21 +46,18 @@
     @include media-breakpoint-up(xl) {
       width: 100%;
     }
-   
   }
 }
+
 .c-icono-imagen__pictograma {
   position: relative;
 }
+
 .c-icono-imagen__pictograma--izquierda-abajo {
    bottom: 38px;
-   left: -30px;
+   left: -24px;
    @include media-breakpoint-up(md) {
       bottom: 65px;
-      left: -30px;
+      left: -48px;
    }
-   @include media-breakpoint-up(lg) {
-    bottom: 65px;
-    left: -48px;
- }
 }
