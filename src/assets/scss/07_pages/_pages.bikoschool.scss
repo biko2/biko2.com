@@ -1,6 +1,36 @@
 .page-biko-school {
 
-  /*flecha*/
+  /*Posicionamiento de fotos a la derecha*/
+  .position-relative {
+    position: relative;
+    overflow: hidden;
+    @include media-breakpoint-up(lg) { 
+      min-height: 720px;
+    }
+    @include media-breakpoint-up(xl) { 
+      min-height: 582px;
+    }
+  }
+
+  .position-absolute--derecha-arriba {
+      position: relative;
+      bottom: 0;
+      right: 0;
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      top: 0;
+      right: -47%;
+    }
+    @include media-breakpoint-up(xl) {
+      right: -33%;
+    }
+    @include media-breakpoint-up(xxl) {
+      right: -6%;
+    }
+    img {
+      width: 100%;
+    }
+  }
   
   /*formulario*/
   .c-form {
