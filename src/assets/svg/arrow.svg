@@ -1,3 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 12">
-  <polygon fill-rule="evenodd" points="20 6.023 12.027 13.977 10 16 7.973 13.977 0 6.023 2.027 4 10 11.954 17.973 4" transform="translate(0 -4)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="20" height="20"/>
+    <polygon fill="#000" points="20 6.023 12.027 13.977 10 16 7.973 13.977 0 6.023 2.027 4 10 11.954 17.973 4"/>
+  </g>
 </svg>

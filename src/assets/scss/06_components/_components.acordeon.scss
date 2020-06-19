@@ -18,10 +18,20 @@
 
 .c-acordeon__card__header {
   a {
+    display: flex;
     @include typi(large);
   }
 }
+.c-acordeon__card__header a[target=true] {
+  background: red;
+}
+
 .c-acordeon__card__body {
   margin-top: 24px;
 }
-.c-acordeon__card {}
+.c-acordeon__card__icono {
+  margin-top: 8px;
+  margin-right: 16px;
+}
+
+
