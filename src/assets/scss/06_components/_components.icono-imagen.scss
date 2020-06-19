@@ -1,20 +1,20 @@
 .c-icono-imagen {
   position: relative;
   overflow: hidden;
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     min-height: 720px;
   }
-  @include media-breakpoint-up(xl) { 
+  @include media-breakpoint-up(xl) {
     min-height: 582px;
   }
 }
 
-.c-icono-imagen__contenedor { 
+.c-icono-imagen__contenedor {
     position: relative;
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     position: absolute;
   }
-} 
+}
 
 .c-icono-imagen__contenedor--derecha-abajo {
   bottom: 0;

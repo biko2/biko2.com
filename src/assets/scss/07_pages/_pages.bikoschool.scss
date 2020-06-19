@@ -2,10 +2,10 @@
 .c-bikochool-imagen {
   position: relative;
   overflow: hidden;
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     min-height: 720px;
   }
-  @include media-breakpoint-up(xl) { 
+  @include media-breakpoint-up(xl) {
     min-height: 582px;
   }
 }
@@ -102,14 +102,51 @@
     margin-bottom: 4px;
     font-weight: normal;
   }
- 
+
   /*Social media*/
     .c-social-list {
       justify-content: flex-start;
     }
-  
+
+  #header .c-nav--toggler .icon-bar{
+    background-color: white;
+  }
+
+  .c-nav{
+    z-index: 2;
+  }
+
+  #main-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+}
+.p-bikoschool-header{
+  position: relative;
+  height: 100vh;
+  margin-bottom: 70px;
+  background: url("/assets/images/bikoschool/bg-header-bikoschool.jpg") no-repeat 75% 0;
+
+  @include media-breakpoint-up(md){
+    margin-bottom: 90px;
+    background-size: cover;
+  }
 }
 
 
+.p-bikoschool-header__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: white;
+}
 
-
+.p-bikoschool-header__icon{
+  position: absolute;
+  right: 25px;
+  bottom: -35px;
+}

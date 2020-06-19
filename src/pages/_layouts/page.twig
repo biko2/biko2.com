@@ -3,13 +3,14 @@
     {% include "@includes/email-ok.twig" %}
     {% include "@includes/insights-ok.twig" %}
     {% include '@includes/site-header.twig' %}
-    
+
     <div id="main-wrapper">
 
       {% block page %}
 
       {% endblock %}
+        {% include '@includes/site-footer.twig' %}
     </div>
 
-    {% include '@includes/site-footer.twig' %}
+
  {% endblock %}s
