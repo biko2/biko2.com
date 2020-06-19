@@ -137,3 +137,28 @@
 
   p {margin: 0;}
 }
+/* Modificaciones Formulario para biko school */
+.c-form-block {
+
+  .c-form {
+    display: block;
+  }
+ 
+  .c-form__elements input {
+    margin-bottom: 12px;
+  }
+
+  .c-button {
+    width: 100%;
+  }
+  .c-form-check__label {
+    margin-bottom: 24px;
+  }
+  .c-form__elements input {
+    margin-bottom: 12px;
+  }
+  .c-form__elements {
+    margin-right: 0;
+  }
+
+}

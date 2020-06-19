@@ -28,6 +28,13 @@
   }
 }
 /*Listados anidados*/
+.prueba {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.c-list-anidadas__columnas--dos {
+  background: red;
+}
 .c-list-anidadas {
   list-style: none;
   margin:0;
@@ -45,16 +52,12 @@
     height: 2px;
   }
 }
-.c-list-anidadas__columnas {
-   width: 50%;
-   background:red;
-}
 
 .c-list-anidadas__item--primer-nivel  {
   @include typi(large);
   &::before {
     top: 29px;
-    width: 20px;
+    width: 16px;
     background-color: $red;
   }
 }
@@ -79,44 +82,12 @@
 
 
 
-.u-titulos-linea-final::after {
-  position: relative;
-  top: -8px;
-  margin-left: 8px;
-  content: "";
-  display: inline-block;
-  width: 32px;
-  height: 3px;
-  border-radius: 10px;
-  background-color: #61942E;
-}
-
-
 
 
 
 .page-biko-school {
 
-  /*formulario*/
-  .c-form {
-    display: block;
-  }
-  .c-form__elements input {
-    margin-bottom: 12px;
-  }
 
-  .c-button {
-    width: 100%;
-  }
-  .c-form-check__label {
-    margin-bottom: 24px;
-  }
-  .c-form__elements input {
-    margin-bottom: 12px;
-  }
-  .c-form__elements {
-    margin-right: 0;
-  }
    /*listado iconos*/
    .c-icon-list li {
      width: 50%;
