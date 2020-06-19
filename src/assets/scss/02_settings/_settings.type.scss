@@ -41,6 +41,9 @@ $typi: (
     xl:   (ms(1), 28px),
     xxl:  (ms(1), 28px),
   ),
+  normal: (
+    null: (ms(0), 24px) // 16px
+  ),
   large: (
     null: (ms(2), 28px), //20px
     xs:   (ms(2), 28px),

@@ -1,0 +1,27 @@
+.c-acordeon {
+  margin: 0;
+  padding: 0;
+}
+.c-acordeon__card {
+  margin: 0;
+  padding: 24px 0;
+  list-style: none;
+  border-top: 1px solid $gray-light;
+  &::before {
+    display: none;
+  }
+  
+}
+.c-acordeon__card:last-child {
+  border-bottom: 1px solid $gray-light;
+}
+
+.c-acordeon__card__header {
+  a {
+    @include typi(large);
+  }
+}
+.c-acordeon__card__body {
+  margin-top: 24px;
+}
+.c-acordeon__card {}
