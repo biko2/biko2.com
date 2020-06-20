@@ -22,8 +22,10 @@
     @include typi(large);
   }
 }
-.c-acordeon__card__header a[target=true] {
-  background: red;
+.c-acordeon__card__link[aria-expanded=true] {
+  svg {
+    transform: rotate(180deg);
+  }
 }
 
 .c-acordeon__card__body {
