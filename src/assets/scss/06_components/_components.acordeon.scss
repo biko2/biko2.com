@@ -4,11 +4,14 @@
 }
 .c-acordeon__card {
   margin: 0;
-  padding: 24px 0;
+  padding: 16px 0;
   list-style: none;
   border-top: 1px solid $gray-light;
   &::before {
     display: none;
+  }
+  @include media-breakpoint-up(md) {
+    padding: 24px 0;
   }
   
 }
