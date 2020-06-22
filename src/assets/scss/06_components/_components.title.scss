@@ -145,3 +145,15 @@
 .c-title-midhuge {
   @include typi(midhuge);
 }
+
+
+.c-title__line--abajo {
+  @include typi(large);
+  &::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #e73f39;
+  }
+}
