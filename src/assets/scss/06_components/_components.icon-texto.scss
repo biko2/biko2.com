@@ -1,16 +1,25 @@
 .c-icon-texto {
   padding: 0;
+  
+  @include media-breakpoint-up(md) { 
+    flex-basis: 100%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    flex-basis: 80%;
+  }
+  @include media-breakpoint-up(xl) {
+    flex-basis: 65%;
+  }
 }
 
-.c-icon-texto__contenedor {
+
+.c-icon-texto__item {
   margin-bottom: 40px;
   display: flex;
   flex-basis: 100%;
   @include media-breakpoint-up(md) { 
-    flex-basis: 45%;
-  }
-  @include media-breakpoint-up(lg) { 
-    flex-basis: 35%;
+    flex-basis: 50%;
   }
   &::before {
     display: none;
