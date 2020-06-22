@@ -1,0 +1,31 @@
+.c-icon-texto {
+  padding: 0;
+}
+
+.c-icon-texto__contenedor {
+  margin-bottom: 40px;
+  display: flex;
+  flex-basis: 100%;
+  @include media-breakpoint-up(md) { 
+    flex-basis: 45%;
+  }
+  @include media-breakpoint-up(lg) { 
+    flex-basis: 35%;
+  }
+  &::before {
+    display: none;
+  }
+}
+
+.c-icon-texto__antetitulo {
+  @include typi(tiny);
+  text-transform: uppercase;
+
+}
+.c-icon-texto__titulo {
+  @include typi(large);
+  font-weight: bold;
+}
+.c-icon-texto__texto {
+  @include typi(tiny);
+}

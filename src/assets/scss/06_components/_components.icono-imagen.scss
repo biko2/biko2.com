@@ -1,12 +1,6 @@
 .c-icono-imagen {
   position: relative;
   overflow: hidden;
-  @include media-breakpoint-up(lg) {
-    min-height: 720px;
-  }
-  @include media-breakpoint-up(xl) {
-    min-height: 582px;
-  }
 }
 
 .c-icono-imagen__contenedor {

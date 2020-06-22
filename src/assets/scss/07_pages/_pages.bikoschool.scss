@@ -1,13 +1,16 @@
+.altura-bloques {
+  @include media-breakpoint-up(lg) {
+    min-height: 607px;
+  }
+  @include media-breakpoint-up(xl) {
+    min-height: 608px;
+  }
+}
+
 /*Posicionamiento de fotos a la derecha*/
 .c-imagen-posicionada {
   position: relative;
   overflow: hidden;
-  @include media-breakpoint-up(lg) {
-    min-height: 720px;
-  }
-  @include media-breakpoint-up(xl) {
-    min-height: 582px;
-  }
 }
 
 .c-imagen-posicionada--derecha-arriba {
