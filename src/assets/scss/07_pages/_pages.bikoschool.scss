@@ -1,5 +1,5 @@
 /*Posicionamiento de fotos a la derecha*/
-.c-bikochool-imagen {
+.c-imagen-posicionada {
   position: relative;
   overflow: hidden;
   @include media-breakpoint-up(lg) {
@@ -10,7 +10,7 @@
   }
 }
 
-.c-bikochool-imagen--derecha-arriba {
+.c-imagen-posicionada--derecha-arriba {
   position: relative;
   @include media-breakpoint-up(lg) {
     position: absolute;
@@ -52,9 +52,7 @@
   }
 
   /*Social media*/
-    .c-social-list {
-      justify-content: flex-start;
-    }
+
 
   #header .c-nav--toggler .icon-bar{
     background-color: white;

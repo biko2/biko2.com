@@ -7,6 +7,9 @@
 .c-list-anidadas__item {
   margin:0;
   padding: 4px 4px 4px 32px;
+  display: table;
+
+
   @include media-breakpoint-up(lg) {
     flex-basis: 50%;
   }
@@ -17,18 +20,18 @@
     content: "";
     display: inline-block;
     height: 2px;
-    margin-left: -20px;
-    margin-right: 4px;
+    margin-left: -24px;
+    margin-right: 8px;
   }
 }
 
 .c-list-anidadas__item--primer-nivel  {
-  @include typi(large);
   &::before {
     width: 16px;
     background-color: $red;
   }
 }
+
 
 .c-list-anidadas__item--segundo-nivel  {
   @include typi(normal);
