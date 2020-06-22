@@ -4,16 +4,13 @@
 
 
 .c-icon-texto__item {
-  flex-basis: 100%;
-  @include media-breakpoint-up(md) { 
-    flex-basis: 50%;
-    background: blue;
+  @include media-breakpoint-up(sm) {
+    width: 44%;
   }
 }
 
 .c-icon-texto__item__contenido {
-  flex-basis: 0;
-  background: pink;
+ 
 } 
 
 
@@ -27,5 +24,5 @@
   font-weight: bold;
 }
 .c-icon-texto__texto {
-  @include typi(large);
+  @include typi(tiny);
 }
