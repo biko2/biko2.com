@@ -32,47 +32,6 @@
 }
 
 
-
-
-
-
-.page-biko-school {
-
-
-   /*listado iconos*/
-   .c-icon-list li {
-     width: 50%;
-   }
-   .c-icon-list__text {
-    width: 100%;
-    @include typi(large);
-    font-weight: bold;
-  }
-
-  .c-texto--small__uppercase {
-    margin-bottom: 4px;
-    font-weight: normal;
-  }
-
-  /*Social media*/
-
-
-  #header .c-nav--toggler .icon-bar{
-    background-color: white;
-  }
-
-  .c-nav{
-    z-index: 2;
-  }
-
-  #main-wrapper{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-
-}
 .p-bikoschool-header{
   position: relative;
   height: 100vh;
