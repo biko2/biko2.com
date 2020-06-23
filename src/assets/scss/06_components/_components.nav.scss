@@ -163,4 +163,7 @@
   @include media-breakpoint-only(md) {
     padding: 200px 0;
   }
+  @media (max-width: 991.98px) and (min-width: 768px) and (orientation: landscape) {
+    padding: 0;
+  }
 }
