@@ -31,8 +31,14 @@
   }
 }
 
-#header .c-nav--toggler .icon-bar{
+#header .c-nav--toggler[aria-expanded=false] .icon-bar{
   background-color: white;
+}
+
+.page-biko-school #header .c-nav__link{
+  @include media-breakpoint-up(md){
+    color: white !important;
+  }
 }
 
 .c-nav{
@@ -54,6 +60,7 @@
 
   @include media-breakpoint-up(md){
     margin-bottom: 90px;
+    padding-top: 150px;
     background-size: cover;
   }
 }
@@ -71,5 +78,5 @@
   position: absolute;
   right: 25px;
   bottom: -35px;
-} 
+}
 
