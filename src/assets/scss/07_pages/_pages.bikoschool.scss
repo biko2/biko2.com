@@ -31,8 +31,18 @@
   }
 }
 
-#header .c-nav--toggler[aria-expanded=false] .icon-bar{
-  background-color: white;
+
+
+.page-biko-school {
+  #main-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  #header .c-nav--toggler[aria-expanded=false] .icon-bar {
+    background-color: white;
+  }
 }
 
 .page-biko-school #header .c-nav__link{
@@ -45,12 +55,6 @@
   z-index: 2;
 }
 
-#main-wrapper{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
 
 .p-bikoschool-header{
   position: relative;
