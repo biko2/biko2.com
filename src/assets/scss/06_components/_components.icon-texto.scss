@@ -1,10 +1,7 @@
 
-.c-icon-texto__item {
-  @include media-breakpoint-up(sm) {
-    flex-basis: 44%;
-  }
+.c-icon-texto__item__contenido {
+  margin-bottom: 40px;
 }
-
 
 .c-icon-texto__antetitulo {
   @include typi(tiny);
