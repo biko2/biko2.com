@@ -31,6 +31,20 @@
   }
 }
 
+#header .c-nav--toggler .icon-bar{
+  background-color: white;
+}
+
+.c-nav{
+  z-index: 2;
+}
+
+#main-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .p-bikoschool-header{
   position: relative;
