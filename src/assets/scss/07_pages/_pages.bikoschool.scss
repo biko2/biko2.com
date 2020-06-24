@@ -29,8 +29,12 @@
   }
 
   @include media-breakpoint-up(xxl) {
-    right: -20%;
+    right: -18%;
   }
+  @include media-breakpoint-up(xxxl) {
+    right: 0;
+  }
+
 
   img {
     width: 100%;
