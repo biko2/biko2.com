@@ -31,14 +31,14 @@
   @include media-breakpoint-up(xxl) {
     right: -20%;
   }
-  
+
   img {
     width: 100%;
-  } 
+  }
 }
 
 
-.page-biko-school {
+.page-curso-desarrollo-software {
   #main-wrapper{
     position: absolute;
     top: 0;
@@ -50,7 +50,7 @@
   }
 }
 
-.page-biko-school #header .c-nav__link{
+.page-curso-desarrollo-software #header .c-nav__link{
   @include media-breakpoint-up(lg){
     color: white !important;
   }
@@ -88,4 +88,3 @@
   right: 25px;
   bottom: -35px;
 }
-
