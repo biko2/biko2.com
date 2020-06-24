@@ -18,7 +18,7 @@
   @include media-breakpoint-up(lg) {
     position: absolute;
     top: 0;
-    right: -46%;
+    right: -50%;
   }
 
   @include media-breakpoint-up(xlg) {
@@ -31,22 +31,11 @@
   @include media-breakpoint-up(xxl) {
     right: -20%;
   }
-  @include media-breakpoint-up(xxll) {
-    right: -10%;
-  }
-  @include media-breakpoint-up(xxlll) {
-    right: -4%;
-  }
   
-  @include media-breakpoint-up(xxxl) {
-    right: 0;
-  }
   img {
     width: 100%;
   } 
-
 }
-
 
 
 .page-biko-school {
