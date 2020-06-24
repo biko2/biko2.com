@@ -48,3 +48,11 @@
     width: 75%;
   }
 }
+.c-icon-list__text--small {
+  @include typi(tiny);
+}
+
+.c-icon-list__container--center {
+  width: 60%;
+  margin: 0 auto;
+}

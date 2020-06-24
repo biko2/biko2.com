@@ -1,0 +1,47 @@
+.c-icono-imagen {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-icono-imagen__contenedor {
+    position: relative;
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+  }
+}
+
+.c-icono-imagen__contenedor--derecha-abajo {
+  bottom: 0;
+  right: -40px;
+  @include media-breakpoint-up(md) {
+    right: -100px;
+  }
+  @include media-breakpoint-up(lg) {
+    top: 0;
+    right: -50%;
+  }
+  @include media-breakpoint-up(xlg) {
+    right: -35%;
+  }
+  @include media-breakpoint-up(xl) {
+    right: -29%;
+  }
+  @include media-breakpoint-up(xxl) {
+    right: -20%;
+  }
+}
+
+
+
+.c-icono-imagen__pictograma {
+  position: relative;
+}
+
+.c-icono-imagen__pictograma--izquierda-abajo {
+   bottom: 38px;
+   left: -24px;
+   @include media-breakpoint-up(md) {
+      bottom: 65px;
+      left: -48px;
+   }
+}
