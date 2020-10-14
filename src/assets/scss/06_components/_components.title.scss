@@ -135,6 +135,13 @@
 
 .c-title--big {
   @include typi(big);
+  
+  @include media-breakpoint-down(md) {
+    font-size: 18px;
+    font-weight:400;
+  }
+
+
 }
 .c-title-large {
   @include typi(large);
