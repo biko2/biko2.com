@@ -93,7 +93,7 @@
   }
 
   @include media-breakpoint-up(md) {
-    width: 35%;
+    width: 45%;
     min-height: 70vh;
   }
 
@@ -109,8 +109,9 @@
   img {
     @include media-breakpoint-up(md) {
       width: auto;
-      height: 50vh;
+      height: 100%;
     }
+    
   }
 
   .c-icon-square {
@@ -125,24 +126,34 @@
     min-height: 424px;
     }
     @include media-breakpoint-down(md) { 
-      min-height: auto;
+      min-height: 100%;
       padding-bottom: 1em;
       }
     @include media-breakpoint-up(lg) { 
       min-height: 480px;
       }
 
-      @media (min-width: 1600px) {  
+    @media (min-width: 1600px) {  
         min-height: 532px;
        }
       
   }
 
+  .contenedor-secciones-xl {
+     @media (min-width: 1600px) {  
+          min-height: 496px;
+         }
+        
+    }
+  
+
 .contenedor-secciones-hero {
   @include media-breakpoint-up(md) { 
     min-height: 730px;
   }
-  
+  @include media-breakpoint-down(xlg) { 
+   overflow: hidden;
+  }
 
 }
 
@@ -229,13 +240,13 @@
   }
 
 
-.page-aecc, .page-isdi, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia{  
+.page-aecc, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
   .c-bg-pattern {
     width: 100%;
   }
 
 }
-.page-proyectos, .page-aecc, .page-canal-march, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia {  
+.page-proyectos, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
   .c-grid-image--right {
     
     @include media-breakpoint-down(xs) {
