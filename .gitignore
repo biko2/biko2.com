@@ -6,6 +6,5 @@ package-lock.json
 gulpfile.custom.paths.js
 gulpfile.custom.options.js
 
-build
 build-dev
 build-dev/assets/svg/sprite/sprite.symbol.html
