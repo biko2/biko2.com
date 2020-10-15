@@ -93,7 +93,7 @@
   }
 
   @include media-breakpoint-up(md) {
-    width: 35%;
+    width: 45%;
     min-height: 70vh;
   }
 
@@ -111,6 +111,7 @@
       width: auto;
       height: 100%;
     }
+    
   }
 
   .c-icon-square {
@@ -121,16 +122,39 @@
 }
 
 .contenedor-secciones {
-  min-height: 441px;
-}
+  @include media-breakpoint-up(md) { 
+    min-height: 424px;
+    }
+    @include media-breakpoint-down(md) { 
+      min-height: 100%;
+      padding-bottom: 1em;
+      }
+    @include media-breakpoint-up(lg) { 
+      min-height: 480px;
+      }
+
+    @media (min-width: 1600px) {  
+        min-height: 532px;
+       }
+      
+  }
+
+  .contenedor-secciones-xl {
+     @media (min-width: 1600px) {  
+          min-height: 496px;
+         }
+        
+    }
+  
 
 .contenedor-secciones-hero {
   @include media-breakpoint-up(md) { 
-    min-height: 780px;
+    min-height: 730px;
   }
-  @include media-breakpoint-up(lg) { 
-    min-height: 750px;
+  @include media-breakpoint-down(xlg) { 
+   overflow: hidden;
   }
+
 }
 
 
@@ -210,13 +234,19 @@
     margin: 22px 0 0;
   }
 }
-.page-aecc, .page-repensar-guernica, .page-rodilla, .page-laboral-kutxa, .page-helvetia, .page-thyssen {  
+
+.c-sabermas{
+  @media (max-width: 800px) {  margin-left: 48px; }
+  }
+
+
+.page-aecc, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
   .c-bg-pattern {
     width: 100%;
   }
 
 }
-.page-proyectos, .page-aecc, .page-rodilla, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica {  
+.page-proyectos, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
   .c-grid-image--right {
     
     @include media-breakpoint-down(xs) {

@@ -2,29 +2,96 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero p-proyecto__hero pt-3 pt-md-5">
-  <div class="container">
-    <a href="/proyectos#proyectos" class="p-proyecto__back mb-4">{{svgSprite('arrow-left')}} <span>Volver al listado</span></a>
-  </div>
-
-  <h1 class="c-title--background">Mark Maddox</h1>
-
+<section class="c-hero p-proyecto__hero contenedor-secciones-hero">
   <div class="c-grid-image--right">
     <img data-src="/assets/images/proyectos/maddox-proyecto.jpg" class="lazyload" alt="Mark Maddox" />
   </div>
-
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-9 col-lg-7">
+      <div class="col-12 col-md-6 col-lg-7">
+        <h1 class="c-title--pre text-uppercase mt-3 mt-md-4 mb-0">Mark Maddox</h1>
         <h2 class="h-extrahuge">Querían una <strong>tienda online</strong></h2>
         <p class="c-title--sub">(nosotros les pusimos una boutique)</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-12 offset-md-1 col-md-6">
-        <p class="c-title--pre">Trabajamos con total libertad partiendo únicamente de la base de un concepto: el ocio.</p>
-        <p>Nuestro trabajo se realizó a la vez que la <strong>transformación interna de la propia marca</strong>. Partíamos de unos cuidados recursos de diseño de marca de packaging, publicidad... que teníamos que trasladar y enriquecer en el online. Incluso llegamos a marcar con el diseño la base del tipo de fotos que debían hacer en el shooting, clave para la <strong>imagen rompedora</strong> de la página de producto.</p>
-        <p>El resultado final fue <strong>un nuevo ecommerce</strong> que respira frescura por los cuatro costados y con un diseño muy cuidado y rompedor al mismo tiempo.</p>
+      <div class="col-12 offset-lg-1 col-md-6">
+        <p class="mb-0">Mark Maddox se encontraba en pleno lanzamiento de un nuevo posicionamiento de marca. Un nuevo público objetivo que vive el entorno online de otra manera.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="u-bg-gray-light py-5 px-4 p-md-5 py-lg-7 mb-5  mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-lg-2 offset-lg-1">
+        <h5 class="c-title--pre mb-1">
+          Cliente
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">Grupo Viceroy</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-2">
+        <h5 class="c-title--pre mb-1">
+          Estrategia
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">UX</li>
+          <li class="u-list-none mb-0">Storytelling</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-2">
+        <h5 class="c-title--pre mb-1">
+          Estrategia
+        </h5>
+        <ul class="pl-0">
+          <li class="u-list-none mb-0">UI</li>
+          <li class="u-list-none mb-0">Diseño web</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-lg-2">
+        <h5 class="c-title--pre mb-1">
+          Web
+        </h5>
+         <ul class="pl-0">
+          <li class="u-list-none mb-0">
+            <a class="c-link" href="https://www.markmaddox.com/" target="_blank">Mark Maddox</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mb-5 mb-md-6 mb-lg-7 contenedor-secciones">
+  <div class="c-grid-image--right--big mb-4 mb-mb-0">
+    <img data-src="/assets/images/proyectos/mark-maddox-desafio" class="lazyloaded" alt="Mark Maddox" src="/assets/images/proyectos/mark-maddox-desafio.jpg">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 offset-lg-1 col-md-5 col-lg-4 col-xl-3">
+        <div class="pt-md-2 pt-xl-5">
+          <h3>El desafío</h3>
+          <p class="mb-0">No se trataba de hacer solo una web: tenía que ser una auténtica pasarela. <br><strong>Un ecommerce</strong> que reflejara un cambio integral en el rumbo de la marca, con una interfaz de compra atractiva y un proyecto piloto de zona privada. Y todo ello, en tiempo récord.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="c-bg-pattern c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-4 mb-md-0">
+          <img data-src="/assets/images/proyectos/mark-maddox-nuestro-enfoque" class="lazyloaded u-img-fluid" alt="Mark Maddox" src="/assets/images/proyectos/mark-maddox-nuestro-enfoque.jpg">
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 offset-lg-1">
+        <h3 class="pt-md-2 pt-xl-5">Nuestro enfoque</h3>
+        <p class="mb-0">Trabajamos con total libertad partiendo únicamente de la base de un concepto: el ocio. Nuestro trabajo se realizó a la vez que la transformación interna de la propia marca. Partíamos de unos cuidados recursos de diseño de marca de packaging, publicidad... que teníamos que trasladar y enriquecer en el online. Incluso llegamos a marcar con el diseño la base del tipo de fotos que debían hacer en el shooting, clave para la imagen rompedora de la página de producto.</p>
       </div>
     </div>
   </div>
@@ -32,37 +99,80 @@
 
 
 
-<div class="p-proyecto--galeria">
-  <div class="container">
-
-    <div class="row mb-5">
-      <div class="col-10 offset-1 col-md-6 offset-md-0">
-        <img data-src="/assets/images/proyectos/maddoxcollage1.png" class="lazyload w-100" alt="Mark Maddox" />
+<section class="mb-5 mb-md-6 mb-lg-7">
+  <div class="c-gallery">
+    <div class="container">
+      <div class="row mb-lg-5 mb-xl-0">
+        <div class="col-md-12 col-lg-6 col-xl-3 offset-xl-1">
+          <div class="d-flex flex-column">
+            <h3>
+              Diseño final
+            </h3>
+            <p class="mb-0">El resultado final fue un nuevo ecommerce que respira frescura por los cuatro costados y con un diseño muy cuidado y rompedor al mismo tiempo.</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6 col-xl-7 offset-xl-1 mb-5 mb-lg-0 mb-xl-4">
+          <img data-src="/assets/images/proyectos/mark-maddox-diseno-final" class="lazyloaded u-img-fluid" alt="Mark Maddox diseño final" src="/assets/images/proyectos/mark-maddox-diseno-final.png">
+        </div>
       </div>
-
-      <div class="col-10 offset-1 col-md-6 offset-md-0">
-        <img data-src="/assets/images/proyectos/maddoxcollage2.png" class="lazyload w-100" alt="Mark Maddox" />
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="pt-lg-0 pt-xl-6  pb-lg-0">
+            <img data-src="/assets/images/proyectos/mark-maddox-diseno-final-1" class="lazyloaded u-img-fluid" alt="Mark Maddox diseño final" src="/assets/images/proyectos/mark-maddox-diseno-final-1.jpg">
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6  mb-xl-6 d-flex">
+          <div class="d-flex c-bg-pattern">
+            <div class="d-flex  align-items-center c-gallery__bg">
+              <div class="c-gallery--contenido d-flex justify-content-between  u-relative my-5 mx-md-6 mx-xl-7">
+                <div class="c-gallery--icono c-icon--medium  c-icon--white u-bg-red">
+                  {{svgSprite('link')}}
+                </div>
+                <div class="mr-4">
+                  <p class="mb-2">
+                    <strong>Para saber más:</strong>
+                  </p>
+                  <a href="https://www.markmaddox.com/" target="_blank">
+                    <span class="c-link-especial">
+                      Visita la web de Mark Maddox.
+                    </span>
+                  </a>
+                </div>
+                <div class="align-self-end c-icon--arrow c-icon--black">
+                  {{svgSprite('flecha-right')}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
-        <img data-src="/assets/images/proyectos/maddoxcollage3.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
-      </div>
-      <div class="col-8 offset-2 col-md-4 offset-md-0">
-        <img data-src="/assets/images/proyectos/maddoxcollage4.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
-      </div>
-      <div class="col-8 offset-2 col-md-4 offset-md-0 d-none d-md-block">
-        <img data-src="/assets/images/proyectos/maddoxcollage5.png" class="lazyload w-100" alt="Mark Maddox - Detalle web móvil" />
-      </div>
-    </div>
-
   </div>
-</div>
+</section>
 
 
-{% include "@base/proyectos/separador-flecha.twig" %}
-{% include "@base/proyectos/proyecto-similar.twig" %}
+<section class="c-bg-big py-5 py-md-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="c-texto--center">
+          <h3 class="c-title--big mb-4">
+            ¿Tienes alguna <strong>duda</strong> sobre este <strong>proyecto?</strong> <br>¿Te gustaría ver otros similares?
+          </h3>
+          <p class="mb-4">
+            Cuéntanos qué necesitas. Estaremos encantados de poder atenderte.
+          </p>
+          <div class="d-flex justify-content-center" data-drip-show-form="740822926">
+            <a class="c-button gtm-lead-proyecto" href="#" target="_blank">
+              Contacta con nosotros
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <div class="c-separator--line"><hr /></div>
 {% include "@includes/contact.twig" %}
 
