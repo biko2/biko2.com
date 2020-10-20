@@ -1,6 +1,6 @@
 // PORTADILLA
 .p-proyectos__destacado {
-  background: black url("/assets/images/proyecto-guernica.jpg") center center no-repeat;
+  background: black url("/assets/images/proyecto-canal-march.jpg") center center no-repeat;
   background-size: cover;
   color: white !important;
   padding: 40px 0;
@@ -240,13 +240,13 @@
   }
 
 
-.page-aecc, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
+.page-aecc, .page-rae, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
   .c-bg-pattern {
     width: 100%;
   }
 
 }
-.page-proyectos, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
+.page-proyectos,.page-rae, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
   .c-grid-image--right {
     
     @include media-breakpoint-down(xs) {
