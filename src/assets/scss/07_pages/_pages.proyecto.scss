@@ -132,9 +132,13 @@
     @include media-breakpoint-up(lg) { 
       min-height: 480px;
       }
-
+     
     @media (min-width: 1600px) {  
         min-height: 532px;
+       }
+
+       @media (min-width: 2100px) {  
+        min-height: 600px;
        }
       
   }
@@ -143,7 +147,7 @@
      @media (min-width: 1600px) {  
           min-height: 496px;
          }
-        
+         
     }
   
 
@@ -154,7 +158,9 @@
   @include media-breakpoint-down(xlg) { 
    overflow: hidden;
   }
-
+  @include media-breakpoint-down(xxlg) { 
+    overflow: hidden;
+   }
 }
 
 
@@ -240,13 +246,13 @@
   }
 
 
-.page-aecc,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
+.page-aecc,.page-lagun-aro,.page-primeriti,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-isdi,.page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella {  
   .c-bg-pattern {
     width: 100%;
   }
 
 }
-.page-proyectos,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
+.page-proyectos,.page-lagun-aro,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
   .c-grid-image--right {
     
     @include media-breakpoint-down(xs) {
