@@ -122,3 +122,11 @@
   padding: 0;
   text-align: left;
 }
+
+.c-separator--line--horizontal {
+  hr {
+    height: 4px;
+    background: $black;
+    box-sizing: initial;
+  }
+} 

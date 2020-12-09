@@ -65,6 +65,12 @@
   @include typi(small);
   background: transparent;
   border: 2px solid $black;
+  
+  
+  @include media-breakpoint-up(xl) { 
+    display: flex;
+    align-items: center;
+  }
 
   &:hover {
     background: $black;
@@ -88,4 +94,8 @@
 .c-button--minus {
   text-transform: lowercase;
   font-weight: normal;
+}
+
+.c-button--full{
+  width: 100%;
 }

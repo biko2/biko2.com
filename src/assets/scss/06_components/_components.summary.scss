@@ -1,0 +1,36 @@
+.c-summary {
+  padding-top: 64px;
+  
+  @include media-breakpoint-up(lg) {
+    padding-top: 192px;
+  }
+  
+  h2 {
+    @include typi(huge);
+    margin-bottom: 32px;
+  }
+}
+
+.c-summary__bk-img {
+  
+  @include media-breakpoint-up(lg) {
+    padding-top: 63px;
+    background: url('../images/insights/img-insights-interior.jpg') right top no-repeat;
+  }
+}
+
+.c-summary__description {
+  @include media-breakpoint-up(lg) { 
+    position: relative;
+  }
+}
+
+.c-summary__description__text {
+  display: none;
+  @include media-breakpoint-up(lg) { 
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}

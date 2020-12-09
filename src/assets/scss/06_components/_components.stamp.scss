@@ -1,0 +1,25 @@
+.c-stamp {
+  display: none;
+  @include media-breakpoint-up(lg) { 
+    width: 130px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    animation: girar 13s linear infinite;
+  }
+}
+
+.c-stamp__link {
+  @include media-breakpoint-up(lg) { 
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    left: 58px;
+  }
+}
+
+.c-stamp__icon {
+  position: absolute;
+  top: 52px;
+  left: 52px;
+}

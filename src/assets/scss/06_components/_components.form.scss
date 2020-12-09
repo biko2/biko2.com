@@ -42,6 +42,16 @@
       }
     }
   }
+  
+  textarea {
+    width: 100%;
+    border: 3px solid #ddd;
+    padding: 16px;
+    color: $gray-dark;
+    @include media-breakpoint-down(sm) {
+      @include typi(small);
+    }
+  }
 }
 
 .c-form-check{
@@ -49,6 +59,7 @@
   align-items: center;
   margin-top: 20px;
 }
+
 .c-form-check__input[type="checkbox"] {
   position: absolute;
   opacity : 0;
@@ -65,6 +76,7 @@
     border-color       : #7F7F7F;
   }
 }
+
 .c-form-check__label {
   @include typi(tiny);
   margin-bottom:0;
@@ -137,6 +149,7 @@
 
   p {margin: 0;}
 }
+
 /* Modificaciones Formulario para biko school */
 .c-form-block {
 

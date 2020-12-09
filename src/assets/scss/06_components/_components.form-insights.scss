@@ -1,0 +1,69 @@
+.c-form-insights {
+  padding-top: 64px;
+  @include media-breakpoint-up(lg) {
+    padding-top: 192px;
+  }
+  
+
+  &.c-form-insights--special {
+    padding-bottom: 72px;
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 300px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-bottom: 400px;
+    }
+  }
+
+  .c-form {
+    flex-direction: column;
+
+    .c-form__elements {
+      margin-bottom: 32px;
+      margin-right: 0;
+    }
+
+    .form-group {
+      input {
+        margin-bottom: 12px;
+      }
+    }
+  }
+  .c-stamp {
+    position: absolute;
+    top:0;
+    right: -194px;
+  }
+}
+
+.c-form-insights--position {
+  background: $white;
+  @include media-breakpoint-up(lg) {
+    max-width: 600px;
+    position: relative;
+    z-index: 20000;
+    padding: 24px;
+    margin: -196px auto;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: -300px auto;
+  }
+
+  .c-form-insights__content {
+    padding: 0;
+  }
+}
+
+.c-form-insights__content {
+  max-width: 531px;
+  margin: 0 auto;
+  padding: 48px 0 0 0;
+  
+  @include media-breakpoint-up(lg) {
+    position: relative;
+  }
+}
+
+
