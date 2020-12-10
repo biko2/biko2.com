@@ -1,15 +1,24 @@
 .c-stamp {
-  display: none;
+  width: 130px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 64px;
   @include media-breakpoint-up(lg) { 
     width: 130px;
     display: block;
     position: relative;
     margin: 0 auto;
-    animation: girar 13s linear infinite;
   }
 }
 
+
+
 .c-stamp__link {
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 58px;
   @include media-breakpoint-up(lg) { 
     cursor: pointer;
     position: absolute;
@@ -23,3 +32,15 @@
   top: 52px;
   left: 52px;
 }
+
+
+
+.c-stamp__img {
+  -webkit-animation:spin 12s linear infinite;
+  -moz-animation:spin 12s linear infinite;
+  animation:spin 12s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

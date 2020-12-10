@@ -1,5 +1,5 @@
 .c-summary {
-  padding-top: 64px;
+  padding-top: 96px;
   
   @include media-breakpoint-up(lg) {
     padding-top: 192px;
@@ -15,7 +15,7 @@
   
   @include media-breakpoint-up(lg) {
     padding-top: 63px;
-    background: url('../images/insights/img-insights-interior.jpg') right top no-repeat;
+    background: url('../images/insights/img-insights-interior.png') right top no-repeat;
   }
 }
 
@@ -27,10 +27,12 @@
 
 .c-summary__description__text {
   display: none;
+  
   @include media-breakpoint-up(lg) { 
     display: block;
     position: absolute;
     left: 0;
     bottom: 0;
+    margin-bottom: 0;
   }
 }

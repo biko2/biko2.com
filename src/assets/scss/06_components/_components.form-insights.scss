@@ -1,23 +1,25 @@
 .c-form-insights {
-  padding-top: 64px;
+  padding-top: 96px;
   @include media-breakpoint-up(lg) {
     padding-top: 192px;
   }
   
 
   &.c-form-insights--special {
-    padding-bottom: 72px;
+    padding-bottom: 96px;
+
     @include media-breakpoint-up(lg) {
-      padding-bottom: 300px;
+      padding-bottom: 366px;
     }
 
     @include media-breakpoint-up(xl) {
-      padding-bottom: 400px;
+      padding-bottom: 468px;
     }
   }
 
   .c-form {
     flex-direction: column;
+    display: block;
 
     .c-form__elements {
       margin-bottom: 32px;
@@ -30,10 +32,15 @@
       }
     }
   }
+
   .c-stamp {
     position: absolute;
     top:0;
     right: -194px;
+  }
+
+  .c-form__legal {
+    margin-bottom: 0;
   }
 }
 
