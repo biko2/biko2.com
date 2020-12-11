@@ -31,7 +31,11 @@
 
 .c-testimonial__testimony {
   margin-bottom: 32px;
-  @include typi(huge);
+  @include typi(big);
+
+  @include media-breakpoint-up(lg) {
+    @include typi(huge);
+  }
 }
 
 .c-testimonial__person {
@@ -55,4 +59,3 @@
 .c-testimonial__position {
   color: $gray;
 }
-
