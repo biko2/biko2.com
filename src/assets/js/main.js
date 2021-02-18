@@ -27,9 +27,6 @@ $( function() {
       $(window).on('hashchange',setTextoAncla);
 
 
-      // Cookies
-      var SCROLL_FOR_ACCEPTANCE = 300;
-
       $(document).euCookieLawPopup().init({
           cookiePolicyUrl : 'http://www.biko2.com/',
           popupPosition : 'bottomright',
@@ -47,50 +44,34 @@ $( function() {
 
       // Subscribe for the cookie consent events
       $(document).bind("user_cookie_already_accepted", function(event, object) {
-        acceptTracking();
+        var userConsentGiven = $(object).attr('consent');
+        console.log(userConsentGiven)
+
+        if (userConsentGiven) {
+          acceptTracking();
+      } else {
+        rejectTracking();
+      }
       });
 
       $(document).bind("user_cookie_consent_changed", function(event, object) {
           var userConsentGiven = $(object).attr('consent');
+          console.log('user_cookie_consent_changed',userConsentGiven)
           if (userConsentGiven) {
-              // User clicked on enabling cookies. Now it’s safe to call the
-              // init functions.
               acceptTracking();
           } else {
             rejectTracking();
           }
       });
 
-
-      function watchForImplicitAcceptance() {
-        var alreadyAccepted = false;
-        window.onscroll = function(e) {
-          var y = verticalScroll();
-          if (y > SCROLL_FOR_ACCEPTANCE && !alreadyAccepted) {
-            alreadyAccepted = true;
-            acceptTracking();
-          }
-        };
-      }
-
-      function verticalScroll() {
-      //  return  (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
-      }
-
       function acceptTracking(){ //have this run when/if they opt-in.
         enableTracking();
-       // stopWatchingForAcceptance();
       }
 
       function rejectTracking(){ //have this run when/if they opt-in.
         dataLayer.push({'event' : 'cookie-rejected'});
       }
-      function stopWatchingForAcceptance() {
-        window.onscroll = null;
-      }
-
       function enableTracking(){
-       // setAcceptanceCookie();
         dataLayer.push({'event' : 'cookie-agreed'});
       }
 
@@ -123,6 +104,25 @@ $( function() {
         $('#porfolio .c-porfolio-carrusel__container').scrollLeft($('#porfolio .c-porfolio-carrusel__container').scrollLeft() - cursorChangeScreenOffset);
         verificarScrollLeft();
       });
+
+      $('.js-show-cookies').click(function(ev){
+        ev.preventDefault();
+        $(document).euCookieLawPopup().init({
+          cookiePolicyUrl : 'http://www.biko2.com/',
+          popupPosition : 'bottomright',
+          colorStyle : 'default',
+          compactStyle : false,
+          popupTitle : '¡Una de galletas!',
+          popupText : 'Utilizamos cookies propias y de terceros, analíticas y publicitarias para elaboración de perfiles basados en la navegación del usuario.',
+          buttonContinueTitle : 'Acepto',
+          buttonLearnmoreTitle : 'Más información',
+          buttonLearnmoreOpenInNewWindow : true,
+          agreementExpiresInDays : 30,
+          autoAcceptCookiePolicy : false,
+          htmlMarkup : $('.c-cookie')
+        });
+        $('.eupopup-container').show();
+      })
   });
 
 

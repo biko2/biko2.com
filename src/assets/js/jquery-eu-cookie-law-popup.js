@@ -176,7 +176,6 @@
                     userAcceptedCookies = c.substring(_self.vars.COOKIE_NAME.length + 1, c.length);
                 }
             }
-    
             return userAcceptedCookies;
         };
     
@@ -201,10 +200,19 @@
                     $(".eupopup").first(),
                     $(".eupopup-markup").html(),
                     settings);
-    
-                // No need to display this if user already accepted the policy
+                $('.eupopup-button_1').click(function() {
+                    setUserAcceptsCookies(true);
+                    hideContainer();
+                    return false;
+                });
+                $('.eupopup-closebutton').click(function() {
+                    setUserAcceptsCookies(false);
+                    hideContainer();
+                    return false;
+                });
+                const userCookie = userAlreadyAcceptedCookies();
                 if (userAlreadyAcceptedCookies()) {
-            $(document).trigger("user_cookie_already_accepted", {'consent': true});
+                    $(document).trigger("user_cookie_already_accepted", {'consent': userCookie});
                     return;
                 }
     
@@ -223,16 +231,7 @@
                     $('BODY').append(_self.vars.HTML_MARKUP);
                 }
     
-                $('.eupopup-button_1').click(function() {
-                    setUserAcceptsCookies(true);
-                    hideContainer();
-                    return false;
-                });
-                $('.eupopup-closebutton').click(function() {
-                    setUserAcceptsCookies(true);
-                    hideContainer();
-                    return false;
-                });
+                
                 // ^^^ Markup and event listeners
     
                 // Ready to start!
