@@ -26,7 +26,6 @@ $( function() {
       setTextoAncla();
       $(window).on('hashchange',setTextoAncla);
 
-
       $(document).euCookieLawPopup().init({
           cookiePolicyUrl : 'http://www.biko2.com/',
           popupPosition : 'bottomright',
@@ -42,36 +41,7 @@ $( function() {
           htmlMarkup : $('.c-cookie')
         });
 
-      // Subscribe for the cookie consent events
-      $(document).bind("user_cookie_already_accepted", function(event, object) {
-        var userConsentGiven = $(object).attr('consent');
-        if (userConsentGiven) {
-          acceptTracking();
-      } else {
-        rejectTracking();
-      }
-      });
-
-      $(document).bind("user_cookie_consent_changed", function(event, object) {
-          var userConsentGiven = $(object).attr('consent');
-          if (userConsentGiven) {
-              acceptTracking();
-          } else {
-            rejectTracking();
-          }
-      });
-
-      function acceptTracking(){ //have this run when/if they opt-in.
-        enableTracking();
-      }
-
-      function rejectTracking(){ //have this run when/if they opt-in.
-        dataLayer.push({'event' : 'cookie-rejected'});
-      }
-      function enableTracking(){
-        dataLayer.push({'event' : 'cookie-agreed'});
-      }
-
+      
       function setAcceptanceCookie() {
         //set a cookie to express that the user has opted-in to tracking, for future pageviews
         //if (!Drupal.eu_cookie_compliance) return;
@@ -104,20 +74,7 @@ $( function() {
 
       $('.js-show-cookies').click(function(ev){
         ev.preventDefault();
-        $(document).euCookieLawPopup().init({
-          cookiePolicyUrl : 'http://www.biko2.com/',
-          popupPosition : 'bottomright',
-          colorStyle : 'default',
-          compactStyle : false,
-          popupTitle : '¡Una de galletas!',
-          popupText : 'Utilizamos cookies propias y de terceros, analíticas y publicitarias para elaboración de perfiles basados en la navegación del usuario.',
-          buttonContinueTitle : 'Acepto',
-          buttonLearnmoreTitle : 'Más información',
-          buttonLearnmoreOpenInNewWindow : true,
-          agreementExpiresInDays : 30,
-          autoAcceptCookiePolicy : false,
-          htmlMarkup : $('.c-cookie')
-        });
+        $('#cookies').show();
         
       })
   });

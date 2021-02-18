@@ -212,7 +212,13 @@
                 });
                 const userCookie = userAlreadyAcceptedCookies();
                 if (userAlreadyAcceptedCookies()) {
-                    $(document).trigger("user_cookie_already_accepted", {'consent': userCookie});
+                    console.log('userCookie',userCookie)
+                    if(userCookie === 'true'){
+                        dataLayer.push({'cookieConsent' : 'all'});
+                    } else {
+                        dataLayer.push({'cookieConsent' : 'none'});
+                    }
+                    $(document).trigger("user_cookie_already_accepted", {'consent':userCookie});
                     return;
                 }
     
