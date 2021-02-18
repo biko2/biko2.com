@@ -45,8 +45,6 @@ $( function() {
       // Subscribe for the cookie consent events
       $(document).bind("user_cookie_already_accepted", function(event, object) {
         var userConsentGiven = $(object).attr('consent');
-        console.log(userConsentGiven)
-
         if (userConsentGiven) {
           acceptTracking();
       } else {
@@ -56,7 +54,6 @@ $( function() {
 
       $(document).bind("user_cookie_consent_changed", function(event, object) {
           var userConsentGiven = $(object).attr('consent');
-          console.log('user_cookie_consent_changed',userConsentGiven)
           if (userConsentGiven) {
               acceptTracking();
           } else {
@@ -121,7 +118,7 @@ $( function() {
           autoAcceptCookiePolicy : false,
           htmlMarkup : $('.c-cookie')
         });
-        $('.eupopup-container').show();
+        
       })
   });
 
