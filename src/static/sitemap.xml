@@ -26,13 +26,132 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.biko2.com/blog</loc>
+  <loc>https://www.biko2.com/blog/</loc>
   <lastmod>2020-02-18T12:23:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.biko2.com/bienvenida/</loc>
   <lastmod>2020-02-18T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/curso-desarrollo-software/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/unicaja-banco/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url><url>
+  <loc>https://www.biko2.com/proyectos/macba/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/rae/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/canal-march/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/repensar-guernica/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/aecc/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/unicef/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/museo-reina-sofia/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/thyssen/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/lagun-aro/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/isdi/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/helvetia-suiza/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/laboral-kutxa/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/rodilla/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/selfbank/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/helvetia/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/divina-pastora/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/dkv/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/editorial-sm/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/tagliatella/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://www.biko2.com/proyectos/cetelem/</loc>
+  <lastmod>2021-02-21T12:23:44+00:00</lastmod>
   <priority>0.40</priority>
 </url>
 </urlset>
