@@ -48,19 +48,7 @@ $( function() {
         //Drupal.eu_cookie_compliance.setStatus(1);
         //Drupal.eu_cookie_compliance.changeStatus(2);
       }
-      document.bind('user_cookie_consent_changed',function(consent){
-        if(consent){
-          gtag('consent', 'default', {
-              'ad_storage': 'granted',
-              'analytics_storage': 'granted'
-            });
-      } else {
-          gtag('consent', 'default', {
-              'ad_storage': 'denied',
-              'analytics_storage': 'denied'
-            });
-      }
-      })
+
       var cursorChangeScreenOffset = 700;
 
       var verificarScrollLeft = function() {
