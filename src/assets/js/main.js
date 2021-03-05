@@ -48,7 +48,7 @@ $( function() {
         //Drupal.eu_cookie_compliance.setStatus(1);
         //Drupal.eu_cookie_compliance.changeStatus(2);
       }
-      document.on('user_cookie_consent_changed',function(consent){
+      document.bind('user_cookie_consent_changed',function(consent){
         if(consent){
           gtag('consent', 'default', {
               'ad_storage': 'granted',
