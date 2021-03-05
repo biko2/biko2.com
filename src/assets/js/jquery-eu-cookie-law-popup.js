@@ -162,10 +162,15 @@
             d.setTime( d.getTime() + expiresInDays );
             var expires = "expires=" + d.toGMTString();
             document.cookie = _self.vars.COOKIE_NAME + '=' + consent + "; " + expires + ";path=/";
-            if(consent === 'all'){
+            if(consent){
                 gtag('consent', 'default', {
                     'ad_storage': 'granted',
                     'analytics_storage': 'granted'
+                  });
+            } else {
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied'
                   });
             }
 
