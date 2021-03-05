@@ -164,7 +164,7 @@
             document.cookie = _self.vars.COOKIE_NAME + '=' + consent + "; " + expires + ";path=/";
             function gtag(){dataLayer.push(arguments);}
 
-            if(consent){
+            if(consent === 'all'){
                 gtag('consent', 'default', {
                     'ad_storage': 'granted',
                     'analytics_storage': 'granted'
