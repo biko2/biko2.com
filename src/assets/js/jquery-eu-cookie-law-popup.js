@@ -162,7 +162,7 @@
             d.setTime( d.getTime() + expiresInDays );
             var expires = "expires=" + d.toGMTString();
             document.cookie = _self.vars.COOKIE_NAME + '=' + consent + "; " + expires + ";path=/";
-            if(userCookie === consent){
+            if(consent == true){
                 dataLayer.push({'cookie-agreed' : 'all'});
                 gtag('consent', 'default', {
                     'ad_storage': 'granted',
