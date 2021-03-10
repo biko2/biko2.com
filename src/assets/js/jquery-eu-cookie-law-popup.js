@@ -162,7 +162,19 @@
             d.setTime( d.getTime() + expiresInDays );
             var expires = "expires=" + d.toGMTString();
             document.cookie = _self.vars.COOKIE_NAME + '=' + consent + "; " + expires + ";path=/";
-    
+            if(consent == true){
+                dataLayer.push({'cookie-agreed' : 'all'});
+                gtag('consent', 'default', {
+                    'ad_storage': 'granted',
+                    'analytics_storage': 'granted'
+                  });
+            } else {
+                dataLayer.push({'cookie-agreed' : 'none'});
+                gtag('consent', 'default', {
+                    'ad_storage': 'denied',
+                    'analytics_storage': 'denied'
+                  });
+            }
             $(document).trigger("user_cookie_consent_changed", {'consent' : consent});
         };
     
@@ -214,9 +226,17 @@
                 if (userAlreadyAcceptedCookies()) {
                     console.log('userCookie',userCookie)
                     if(userCookie === 'true'){
-                        dataLayer.push({'cookieConsent' : 'all'});
+                        dataLayer.push({'cookie-agreed' : 'all'});
+                        gtag('consent', 'default', {
+                            'ad_storage': 'granted',
+                            'analytics_storage': 'granted'
+                          });
                     } else {
-                        dataLayer.push({'cookieConsent' : 'none'});
+                        dataLayer.push({'cookie-agreed' : 'none'});
+                        gtag('consent', 'default', {
+                            'ad_storage': 'denied',
+                            'analytics_storage': 'denied'
+                          });
                     }
                     $(document).trigger("user_cookie_already_accepted", {'consent':userCookie});
                     return;
