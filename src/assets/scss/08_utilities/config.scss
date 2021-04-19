@@ -8,6 +8,8 @@ $gray: #999;
 $gray-dark: #666;
 $gray-light: #DDE4E9;
 $white: #ffffff;
+$blue: #132631;
+$blue-ligth: rgba(19, 38, 49, 0.1);
 
 // END COLORS
 
@@ -46,8 +48,9 @@ $line-size-3xl: 40px;
 $line-size-4xl: 44px;
 $line-size-5xl: 56px;
 $line-size-6xl: 64px;
+$line-size-7xl: 80px;
 
-$line-height: (sm: $line-size-sm, base: $line-size-base, xl: $line-size-xl, 2xl: $line-size-2xl, 3xl: $line-size-3xl, 4xl: $line-size-4xl, 5xl: $line-size-5xl, 6xl: $line-size-6xl);
+$line-height: (sm: $line-size-sm, base: $line-size-base, xl: $line-size-xl, 2xl: $line-size-2xl, 3xl: $line-size-3xl, 4xl: $line-size-4xl, 5xl: $line-size-5xl, 6xl: $line-size-6xl, 7xl: $line-size-7xl);
 
 /*
 ===========================================
@@ -91,10 +94,6 @@ $font-size-base: 1rem;
 
 
 
-
-
-
-
 /*
 ===========================================
 ==  Fonts config                 ==========
@@ -123,5 +122,23 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
+    line-height: 80px;
     font-weight: 700;
+}
+
+.title-7xl {
+    @include responsive-font-size($size-7xl);
+
+    @extend .font-primary;
+
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.title-2xl {
+    @extend .text-2xl;
+
+    font-weight: bold;
+
+    @extend .line-xl;
 }

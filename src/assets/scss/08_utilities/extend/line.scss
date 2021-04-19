@@ -4,7 +4,7 @@
 
         @each $line, $size in $line-height {
             .line#{$infix}-#{$line} {
-                line-height: rem($size) !important;
+                line-height: $size !important;
             }
         }
     }

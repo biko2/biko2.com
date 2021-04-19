@@ -1,3 +1,48 @@
 .test {
     background-color: red;
 }
+
+.divider {
+    padding: 300px 0px;
+}
+
+.dev {
+    border: 1px solid red;
+}
+
+.landing-nav-section {
+    position: relative;
+    transform: rotate(90deg);
+    width: 300%;
+    top: 18%;
+    left: -13%;
+}
+
+.line-decoration {
+    display: inline-block;
+
+    &::after {
+        content: '';
+        width: 24px;
+        height: 3px;
+        background-color: red;
+        position: absolute;
+        bottom: 12px;
+        right: 78px;
+    }
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+
+    div {
+        border-left: 1px solid $blue-ligth;
+
+        &:last-child {
+            border-right: 1px solid $blue-ligth;
+        }
+    }
+}

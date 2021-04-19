@@ -1,9 +1,14 @@
-
-
-.u-list-none { 
+.u-list-none {
     list-style: none;
+
     &:before {
         display: none;
-   }
+    }
 }
 
+.u-strong-red {
+    strong {
+        color: $red;
+        font-weight: normal;
+    }
+}
