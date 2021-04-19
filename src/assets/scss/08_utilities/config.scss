@@ -1,0 +1,127 @@
+// COLORS
+
+$red: #E73F39;
+$red-light: #fad9d7;
+$black: #000;
+$black-soft: #111;
+$gray: #999;
+$gray-dark: #666;
+$gray-light: #DDE4E9;
+$white: #ffffff;
+
+// END COLORS
+
+/*
+===========================================
+==  Text sizes config  ====================
+===========================================
+*/
+$size-xs: rem(12.642px);
+$size-sm: rem(14.222px);
+
+$size-base: rem(16px);
+
+$size-xl: rem(18px);
+$size-2xl: rem(20.25px);
+$size-3xl: rem(22.781px);
+$size-4xl: rem(28.833px);
+$size-5xl: rem(36.491px);
+$size-6xl: rem(46.184px);
+$size-7xl: rem(58.46px);
+$size-8xl: rem(65.758px);
+
+$text-sizing: (xs: $size-xs, sm: $size-sm, base: $size-base, xl: $size-xl, 2xl: $size-2xl, 3xl: $size-3xl, 4xl: $size-4xl, 5xl: $size-5xl, 6xl: $size-6xl, 7xl: $size-7xl, 8xl: $size-8xl);
+
+/*
+===========================================
+==  Line height sizes config  =============
+===========================================
+*/
+
+$line-size-sm: 20px;
+$line-size-base: 24px;
+$line-size-xl: 28px;
+$line-size-2xl: 32px;
+$line-size-3xl: 40px;
+$line-size-4xl: 44px;
+$line-size-5xl: 56px;
+$line-size-6xl: 64px;
+
+$line-height: (sm: $line-size-sm, base: $line-size-base, xl: $line-size-xl, 2xl: $line-size-2xl, 3xl: $line-size-3xl, 4xl: $line-size-4xl, 5xl: $line-size-5xl, 6xl: $line-size-6xl);
+
+/*
+===========================================
+==  Letter Spacing config     =============
+===========================================
+*/
+$letter-spacing: (tightest: -0.05em, tighter: -0.025em, tight: -0.015em, normal: 0em, wide: 0.065em, wider: 0.075em, widest: 1em);
+
+/*
+===========================================
+==  Hovers config     =============
+===========================================
+*/
+$hovers: (red: red, red-light: $red-light, gray: $gray);
+
+/*
+===========================================
+==  Colors config     =============
+===========================================
+*/
+
+$themecolors: (red: red, red-light: $red-light, gray: $gray, white: $white);
+
+/*
+===========================================
+==  Backgrounds color config     ==========
+===========================================
+*/
+
+$backgrounds: (red: red, red-light: $red-light, gray: $gray, white: $white);
+
+/*
+===========================================
+==  Responsive Fonts config  ==============
+===========================================
+*/
+$enable-responsive-font-sizes: true;
+$font-size-base: 1rem;
+
+/*
+
+
+
+
+
+
+
+/*
+===========================================
+==  Fonts config                 ==========
+===========================================
+*/
+
+$font-primary: "Montserrat", "Arial Black", sans-serif;
+$font-secondary: "courier_primeregular";
+
+.font-primary {
+    font-family: $font-primary;
+}
+
+.font-secondary {
+    font-family: $font-secondary;
+}
+
+/*
+===========================================
+==  Titles                       ==========
+===========================================
+*/
+
+.title-hero {
+    @include responsive-font-size($size-8xl);
+
+    @extend .font-primary;
+
+    font-weight: 700;
+}
