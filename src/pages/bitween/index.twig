@@ -1,6 +1,8 @@
 {% extends "@layouts/page-clean.twig" %}
 {% block page %}
 
+<div class="bg-b rellax" data-rellax-speed="-5"></div>
+<div class="bg-s rellax" data-rellax-speed="-9"></div>
 <div class="landing-bitween">
     <div class="container pt-8 pb-7">
         <div class="row justify-content-center">
@@ -49,19 +51,24 @@
                     usuario para los
                     gestores, ganando en rapidez, posicionamiento, seguridad y evitando innecesarios costes futuros.</p>
 
-                <div class="custom-grid">
+                <div class="custom-grid pt-5">
                     <div class="px-2 px-md-5">
-                        <h4 class="title-2xl pt-2 mb-0">Lo mejor de Drupal</h4>
-                        <p class="text-2xl mb-2">Para gestionar contenido</p>
-                        <p>Capacidad multilingüe, accesibilidad y usabilidad máxima, automatización de
+                        <h4 class="title-2xl decoration-red pt-2 mb-0">Lo mejor de Drupal</h4>
+                        <p class="text-2xl mb-3">Para gestionar contenido</p>
+                        <p class="font-light text-base line-base">Capacidad multilingüe, accesibilidad y usabilidad
+                            máxima,
+                            automatización
+                            de
                             tareas de
                             marketing, creación de contenidos
                             multicanal y as a service, y todo bajo el control absoluto del dueño del contenido.</p>
                     </div>
                     <div class="p-x2 px-md-5">
-                        <h4 class="title-2xl pt-2 mb-0">Lo mejor de React</h4>
-                        <p class="text-2xl mb-2">Para generar sitios estáticos e interfaces bellas</p>
-                        <p>Pregeneración de sites para una mayor rapidez al servir el contenido, ausencia de servidores
+                        <h4 class="title-2xl decoration-red pt-2 mb-0">Lo mejor de React</h4>
+                        <p class="text-2xl mb-3">Para generar sitios estáticos e interfaces bellas</p>
+                        <p class="font-light text-base line-base">Pregeneración de sites para una mayor rapidez al
+                            servir el
+                            contenido, ausencia de servidores
                             físicos, posicionamiento
                             orgánico, seguridad, escalabilidad y precio ajustado independientemente del generador de
                             sites estáticos utilizado: <a href="" class="">Gatsby</a>, <a href="" class="">Next.js</a>
@@ -69,8 +76,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1">
-                <div class="landing-nav-section text-xs"><span class="line-decoration">Qué es Bitween Suite</span></div>
+            <div class="col-md-1 rellax" data-rellax-speed="-2">
+                <div class="landing-nav-section text-xs"><span class="line-decoration">Qué
+                        es Bitween Suite</span></div>
             </div>
 
 
@@ -82,4 +90,8 @@
 <div class="divider">
 
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
 {% endblock %}

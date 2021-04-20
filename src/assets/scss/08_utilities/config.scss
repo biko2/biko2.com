@@ -122,7 +122,7 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
-    line-height: 80px;
+    line-height: $line-size-7xl;
     font-weight: 700;
 }
 
@@ -141,4 +141,8 @@ $font-secondary: "courier_primeregular";
     font-weight: bold;
 
     @extend .line-xl;
+}
+
+.font-light {
+    font-weight: 300;
 }
