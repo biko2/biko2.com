@@ -73,7 +73,7 @@ $hovers: (red: red, red-light: $red-light, gray: $gray);
 ===========================================
 */
 
-$themecolors: (red: red, red-light: $red-light, gray: $gray, white: $white);
+$themecolors: (red: red, red-light: $red-light, gray: $gray, gray-dark: $gray-dark, white: $white);
 
 /*
 ===========================================
@@ -136,6 +136,15 @@ $font-secondary: "courier_primeregular";
     font-weight: 700;
 }
 
+.title-5xl {
+    @include responsive-font-size($size-5xl);
+
+    @extend .font-primary;
+
+    line-height: $line-size-4xl;
+    font-weight: 700;
+}
+
 .title-2xl {
     @extend .text-2xl;
 
@@ -146,6 +155,10 @@ $font-secondary: "courier_primeregular";
 
 .font-light {
     font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
 }
 
 .font-bold {

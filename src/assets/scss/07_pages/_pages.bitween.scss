@@ -75,6 +75,25 @@
     max-width: 100%;
 }
 
+.blog-img__decoration {
+    position: relative;
+
+    &::after {
+        content: '';
+        width: 220px;
+        height: 2px;
+        background-color: $blue;
+        position: absolute;
+        right: -56px;
+        top: 89px;
+
+        @include media-breakpoint-down(md) {
+            left: 250px;
+            right: auto;
+        }
+    }
+}
+
 .decoration-red {
     position: relative;
 
