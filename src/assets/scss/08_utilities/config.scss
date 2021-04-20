@@ -2,6 +2,7 @@
 
 $red: #E73F39;
 $red-light: #fad9d7;
+$red-extralight: rgba(231, 63, 57, 0.05);
 $black: #000;
 $black-soft: #111;
 $gray: #999;
@@ -80,7 +81,7 @@ $themecolors: (red: red, red-light: $red-light, gray: $gray, white: $white);
 ===========================================
 */
 
-$backgrounds: (red: red, red-light: $red-light, gray: $gray, white: $white);
+$backgrounds: (red: red, red-light: $red-light, red-extralight: $red-extralight, gray: $gray, white: $white);
 
 /*
 ===========================================
@@ -145,4 +146,8 @@ $font-secondary: "courier_primeregular";
 
 .font-light {
     font-weight: 300;
+}
+
+.font-bold {
+    font-weight: bold;
 }
