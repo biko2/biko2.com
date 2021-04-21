@@ -81,7 +81,7 @@ $themecolors: (red: red, red-light: $red-light, gray: $gray, gray-dark: $gray-da
 ===========================================
 */
 
-$backgrounds: (red: red, red-light: $red-light, red-extralight: $red-extralight, gray: $gray, white: $white);
+$backgrounds: (red: $red, red-light: $red-light, red-extralight: $red-extralight, blue: $blue, gray: $gray, white: $white);
 
 /*
 ===========================================
@@ -123,7 +123,12 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
-    line-height: $line-size-7xl;
+    @extend .line-lg-7xl;
+
+    @extend .line-md-5xl;
+
+    @extend .line-4xl;
+
     font-weight: 700;
 }
 
@@ -132,8 +137,21 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
-    line-height: 72px;
+    @extend .line-xl-7xl;
+
+    @extend .line-lg-5xl;
+
+    @extend .line-4xl;
+
     font-weight: 700;
+}
+
+.title-6xl {
+    @include responsive-font-size($size-6xl);
+
+    @extend .line-md-5xl;
+
+    @extend .line-4xl;
 }
 
 .title-5xl {
@@ -141,7 +159,10 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
-    line-height: $line-size-4xl;
+    @extend .line-md-7xl;
+
+    @extend .line-2xl;
+
     font-weight: 700;
 }
 

@@ -80,11 +80,11 @@
 
     &::after {
         content: '';
-        width: 220px;
+        width: 165px;
         height: 2px;
         background-color: $blue;
         position: absolute;
-        right: -56px;
+        right: 10px;
         top: 89px;
 
         @include media-breakpoint-down(md) {
@@ -108,6 +108,21 @@
     }
 }
 
+.insights-gif {
+    position: absolute;
+    height: 100%;
+    z-index: 9999;
+
+    @include media-breakpoint-down(md) {
+        height: auto;
+    }
+}
+
+.insights-gif__icon {
+    width: 88px;
+    height: 88px;
+}
+
 .bg-b {
     background-image: url("../images/bg-b.svg");
     background-repeat: no-repeat;
@@ -124,4 +139,32 @@
     height: 1100px;
     position: absolute;
     top: 1100px;
+}
+
+.devall {
+    border: 2px solid red;
+
+    @include media-breakpoint-up(sm) {
+        border: 2px solid olivedrab;
+    }
+
+
+    @include media-breakpoint-up(md) {
+        border: 2px solid orange;
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        border: 2px solid blueviolet;
+    }
+
+
+    @include media-breakpoint-up(xl) {
+        border: 2px solid blue;
+    }
+}
+
+.img-cover {
+    width: 100%;
+    object-fit: cover;
 }
