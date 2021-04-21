@@ -126,19 +126,25 @@
 .bg-b {
     background-image: url("../images/bg-b.svg");
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 1800px;
     height: 1100px;
     position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .bg-s {
     background-image: url("../images/bg-s.svg");
     background-repeat: no-repeat;
     background-position: right top;
-    width: 100%;
+    max-width: 1800px;
     height: 1100px;
     position: absolute;
     top: 1100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .devall {
