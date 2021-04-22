@@ -59,7 +59,7 @@ $line-height: (sm: $line-size-sm, base: $line-size-base, xl: $line-size-xl, 2xl:
 ==  Letter Spacing config     =============
 ===========================================
 */
-$letter-spacing: (tightest: -0.05em, tighter: -0.025em, tight: -0.015em, normal: 0em, wide: 0.065em, wider: 0.075em, widest: 1em);
+$letter-spacing: (base: 1px, tightest: -0.05em, tighter: -0.025em, tight: -0.015em, normal: 0em, wide: 0.065em, wider: 0.075em, widest: 1em);
 
 /*
 ===========================================

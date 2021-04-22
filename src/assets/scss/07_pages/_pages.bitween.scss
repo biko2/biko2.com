@@ -2,16 +2,23 @@
     border: 1px solid red;
 }
 
+.landing-nav-section__wrap {
+    width: 1px;
+    white-space: nowrap;
+    position: relative;
+    right: -30px;
+}
+
 .landing-nav-section {
     position: relative;
     transform: rotate(90deg);
-    width: 300%;
-    top: 18%;
-    left: -13%;
+    top: 10%;
+    left: 30%;
 }
 
 .line-decoration {
     display: inline-block;
+    margin-right: 10px;
 
     &::after {
         content: '';
@@ -20,7 +27,7 @@
         background-color: $red;
         position: absolute;
         bottom: 12px;
-        right: 78px;
+        margin-left: 20px;
     }
 }
 
