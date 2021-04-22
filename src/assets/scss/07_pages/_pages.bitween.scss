@@ -111,8 +111,8 @@
 }
 
 .insights-gif__icon {
-    width: 88px;
-    height: 88px;
+    width: 112px;
+    height: 112px;
 }
 
 .bg-b {
@@ -137,29 +137,6 @@
     left: 0;
     right: 0;
     margin: 0 auto;
-}
-
-.devall {
-    border: 2px solid red;
-
-    @include media-breakpoint-up(sm) {
-        border: 2px solid olivedrab;
-    }
-
-
-    @include media-breakpoint-up(md) {
-        border: 2px solid orange;
-    }
-
-
-    @include media-breakpoint-up(lg) {
-        border: 2px solid blueviolet;
-    }
-
-
-    @include media-breakpoint-up(xl) {
-        border: 2px solid blue;
-    }
 }
 
 .img-cover {

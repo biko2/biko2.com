@@ -114,6 +114,7 @@
 
 .c-button-rounded--primary {
     border: 2px solid $red;
+    font-weight: 400;
 
     @include transition;
 
@@ -139,4 +140,9 @@
     border: 2px solid $white;
     color: $white;
     font-weight: 400;
+
+    &:hover {
+        background-color: $white;
+        color: $blue;
+    }
 }

@@ -11,6 +11,7 @@ $gray-light: #DDE4E9;
 $white: #ffffff;
 $blue: #132631;
 $blue-ligth: rgba(19, 38, 49, 0.1);
+$blue-soft: #899398;
 
 // END COLORS
 
@@ -73,7 +74,7 @@ $hovers: (red: red, red-light: $red-light, gray: $gray);
 ===========================================
 */
 
-$themecolors: (red: red, red-light: $red-light, gray: $gray, gray-dark: $gray-dark, white: $white);
+$themecolors: (red: red, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, white: $white);
 
 /*
 ===========================================
