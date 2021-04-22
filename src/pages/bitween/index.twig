@@ -21,11 +21,25 @@
                     conexión entre
                     ambas piezas.</p>
 
-                <div class="text-center">
-                    <a href="" class="c-button-rounded c-button-rounded--primary">Botondeaccion</a>
+                <div class="c-separator--icon__mini">
+                    <div class="c-separator--icon__animated"><svg width="13px" height="42px" viewBox="0 0 13 42"
+                            version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g transform="translate(-714.000000, -854.000000)" fill="#000000">
+                                    <g>
+                                        <path
+                                            d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z"
+                                            transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) ">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
                 </div>
 
-                <div class="pt-5 pt-md-7">
+
+                <div class="pt-5 pt-md-5">
                     <h2 class="title-6xl u-strong-red text-center">Sites más <strong> bellos</strong>, en tiempo
                         <strong>record</strong> y <strong>sin renunciar</strong> a
                         nada
@@ -39,7 +53,7 @@
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <h3 class="title-7xl mb-4">¿Qué es Bitween Suite?</h3>
-                <p class="font-secondary text-3xl color-red mb-4 mb-md-5">(yo pondría una frase aquí que de un plus)</p>
+                <p class="font-secondary text-3xl color-red mb-4 mb-md-5">(Delightful connexion)</p>
                 <p class="text-2xl line-xl">La respuesta de Biko a las necesidades reales de proyectos Jamstack,
                     aplicadas con éxito en
                     situaciones exigentes y
@@ -72,7 +86,8 @@
                             contenido, ausencia de servidores
                             físicos, posicionamiento
                             orgánico, seguridad, escalabilidad y precio ajustado independientemente del generador de
-                            sites estáticos utilizado: <a href="" class="">Gatsby</a>, <a href="" class="">Next.js</a>
+                            sites estáticos utilizado: <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a>,
+                            <a href="https://nextjs.org/" target="_blank">Next.js</a>
                         </p>
                     </div>
                 </div>
@@ -88,7 +103,7 @@
     <div class="container mb-5">
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <h3 class="title-7xl mb-4">Conectamos elementos con responsabilidades separadas</h3>
+                <h3 class="title-6xl mb-4">Conectamos elementos con responsabilidades separadas</h3>
                 <p class="font-secondary text-3xl color-red mb-3 mb-md-5">(yo pondría una frase aquí que de un plus)</p>
                 <p class="text-2xl line-xl mb-5">Cada pieza necesaria para desarrollar web modernas debe dar su máxima
                     potencia sin limitaciones. Desacoplar, es decir,
@@ -358,8 +373,10 @@
                     recorrido un camino en el
                     que el gestor de contenidos siempre era la pieza clave y definitoria de los proyectos. La que
                     definía su ADN y los
-                    marcaba, tanto para bien como para mal, en su ciclo de vida futuro. <a href=""
-                        target="_blank">[Seguir leyendo]</a></p>
+                    marcaba, tanto para bien como para mal, en su ciclo de vida futuro.
+                    <a href="https://blog.biko2.com/estandares/la-gestion-de-contenidos-en-la-era-jamstack-i/"
+                        target="_blank">[Seguir leyendo]</a>
+                </p>
                 <div class="mb-5">
                     <p class="text-uppercase text-sm color-gray-dark font-400">15 de marzo 2021</p>
                     <p class="decoration-red text-base pt-2 font-400">Alberto Silva</p>
@@ -389,7 +406,9 @@
                     moda. Y es esa experiencia, junto a nuestro conocimiento de la tecnología y sus tendencias, la que
                     nos permite tener una
                     visión amplia y propia y afirmar que nos encontramos en un momento singular, en el que tenemos la
-                    sensación de que... <a href="" target="_blank">[Seguir
+                    sensación de que... <a
+                        href="https://blog.biko2.com/estandares/gestion-de-contenidos-moderna-un-cambio-de-paradigma/"
+                        target="_blank">[Seguir
                         leyendo]</a></p>
                 <div class="mb-5">
                     <p class="text-uppercase text-sm color-gray-dark font-400">22 de Enero 2020</p>
@@ -414,8 +433,9 @@
                             ¿Te gustaría tener la cuarta versión del Biko Insights? <br>(¡Es gratis!)
                         </h3>
                         <div class="w-md-100 py-2">
-                            <a href=""
-                                class="c-button-rounded c-button-rounded--primary c-button-rounded--primary__mini mb-4">¡Lo
+                            <a href="/insights/"
+                                class="c-button-rounded c-button-rounded--primary c-button-rounded--primary__mini mb-4"
+                                target="_blank">¡Lo
                                 quiero!</a>
                         </div>
 
@@ -468,23 +488,5 @@
 <script>
     var rellax = new Rellax('.rellax');
 </script>
-{#
-<script>
-    var waypoint = new Waypoint({
-        element: document.getElementById('aaa'),
-        handler: function () {
-            alert('Basic waypoint triggered')
-        }
 
-            handler: function (direction) {
-            if (direction === 'down') {
-
-                alert('aaaaaaaa');
-            } else {
-                alert('vvvvvvv');
-            }
-
-        }
-    })
-</script> #}
 {% endblock %}
