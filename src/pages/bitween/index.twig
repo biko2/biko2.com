@@ -294,7 +294,7 @@
     <div class="container c-bg-pattern__right mb-3 mb-md-9">
         <div class="row">
             <div class="col-md-10 offset-md-1">
-                <div class="mb-md-3 pb-2 text-sm">
+                <div class="mb-md-2 text-sm">
                     <span class="text-uppercase">Próximamente</span>
                 </div>
                 <h3 class="title-5xl mb-2 mb-md-4">Segundo webinar titular loren ipsum</h3>
@@ -367,7 +367,7 @@
 
             </div>
         </div>
-        <div class="row">
+        <div id="aaa" class="row">
             <div class="col-md-11 offset-md-1">
 
                 <h3 class="title-5xl mb-4">Gestión de contenidos moderna: un cambio de paradigma</h3>
@@ -445,6 +445,10 @@
             </div>
         </div>
     </div>
+
+    <div class="mt-8 dev">
+        {% include "@includes/site-footer-slim.twig" %}
+    </div>
 </div>
 
 
@@ -455,8 +459,32 @@
 
 
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+{#
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+    integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+    crossorigin="anonymous"></script> #}
 <script>
     var rellax = new Rellax('.rellax');
 </script>
+{#
+<script>
+    var waypoint = new Waypoint({
+        element: document.getElementById('aaa'),
+        handler: function () {
+            alert('Basic waypoint triggered')
+        }
+
+            handler: function (direction) {
+            if (direction === 'down') {
+
+                alert('aaaaaaaa');
+            } else {
+                alert('vvvvvvv');
+            }
+
+        }
+    })
+</script> #}
 {% endblock %}
