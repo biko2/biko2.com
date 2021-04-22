@@ -134,6 +134,9 @@
     }
 }
 
-.c-button-rounded--primary__mini {
+.c-button-rounded--primary__miniwhite {
     padding: 15px 30px;
+    border: 2px solid $white;
+    color: $white;
+    font-weight: 400;
 }
