@@ -115,7 +115,7 @@ $font-secondary: "courier_primeregular";
 
 /*
 ===========================================
-==  Titles                       ==========
+==  Titles                      ==========
 ===========================================
 */
 
@@ -185,4 +185,8 @@ $font-secondary: "courier_primeregular";
 
 .font-bold {
     font-weight: bold;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
 }
