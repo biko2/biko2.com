@@ -119,24 +119,6 @@
     height: 112px;
 }
 
-// .bg-b {
-//     background-image: url("../images/bg-b-full.svg");
-//     background-repeat: no-repeat;
-//     transition: all 1s;
-//     background-position: -28.2% 0%;
-//     max-width: 2000px;
-//     height: 1100px;
-//     position: absolute;
-//     left: 0;
-//     right: 0;
-//     margin: 0 auto;
-//     transition: all 1s;
-
-//     @include media-breakpoint-up(xl) {
-//         background-position: -46% 0%;
-//     }
-// }
-
 .bg-b {
     background-image: url("../images/bg-b.svg");
     background-repeat: no-repeat;
@@ -146,6 +128,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+    z-index: -9999999999;
 }
 
 .bg-s {
@@ -159,6 +142,7 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+    z-index: -9999999999;
 }
 
 .img-cover {
@@ -219,4 +203,13 @@
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
     }
+}
+
+.biko-sello__wrap {
+    width: 178px;
+    height: 178px;
+}
+
+.position-absolute {
+    position: absolute;
 }
