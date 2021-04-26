@@ -2,7 +2,7 @@
     width: 1px;
     white-space: nowrap;
     position: relative;
-    right: -30px;
+    right: -140px;
 }
 
 .landing-nav-section {
@@ -120,29 +120,64 @@
 }
 
 .bg-b {
-    background-image: url("../images/bg-b.svg");
+    background-image: url("../images/bg-b-full.svg");
     background-repeat: no-repeat;
     max-width: 1800px;
     height: 1100px;
     position: absolute;
+    background-position: -33% 0%;
     left: 0;
     right: 0;
     margin: 0 auto;
     z-index: -9999999999;
+    transition: background-position 1s;
+
+    @include media-breakpoint-down(lg) {
+        background-position: -133% 0%;
+    }
+
+
+    @include media-breakpoint-down(md) {
+        background-position: 162% 0%;
+        background-size: 157%;
+    }
+}
+
+@media only screen and (min-width: 1960px) {
+    .bg-b {
+        max-width: 2000px;
+        background-position: -4% 0%;
+    }
+
+    .bg-s {
+        max-width: 2000px !important;
+        background-position: 103% 0% !important;
+    }
 }
 
 .bg-s {
-    background-image: url("../images/bg-s.svg");
+    background-image: url("../images/bg-s-full.svg");
     background-repeat: no-repeat;
-    background-position: right top;
     max-width: 1800px;
     height: 1100px;
     position: absolute;
+    background-position: 127% 0%;
     top: 1100px;
     left: 0;
     right: 0;
     margin: 0 auto;
     z-index: -9999999999;
+    transition: background-position 1s;
+
+    @include media-breakpoint-down(lg) {
+        background-position: 197% 0%;
+    }
+
+
+    @include media-breakpoint-down(md) {
+        background-size: 157%;
+        background-position: -67% 0%;
+    }
 }
 
 .img-cover {
@@ -212,4 +247,34 @@
 
 .position-absolute {
     position: absolute;
+}
+
+.position-relative {
+    position: absolute;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.icon-up {
+    width: 12px;
+    height: 42px;
+}
+
+.action-up {
+    color: $blue !important;
+
+    svg {
+        transform: translate(0px, 10px);
+        transition: all 0.3s ease-in;
+    }
+
+    &:hover {
+        color: $red !important;
+
+        svg {
+            transform: translate(0px, 0px);
+        }
+    }
 }

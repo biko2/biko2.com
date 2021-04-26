@@ -3,7 +3,7 @@
 
 <div class="bg-b rellax" data-rellax-speed="-5"></div>
 <div class="bg-s rellax" data-rellax-speed="-9"></div>
-<div class="landing-bitween">
+<div id="bitween" class="landing-bitween">
     <div class="container pt-5 pt-md-5 pb-5 pb-md-7">
         <div class="row justify-content-center">
             <div class="col-md-10">
@@ -250,6 +250,15 @@
 
     <div class="mt-8">
         {% include "@includes/site-footer-slim.twig" %}
+    </div>
+
+    <div class="container d-flex flex-row justify-content-center py-6">
+        <a class="action-up color-blue d-flex flex-column align-items-center decoration-none" href="#bitween">
+            <svg class="icon-up mb-4">
+                <use xlink:href="/assets/svg/sprite/sprite.svg#arrow-slim"></use>
+            </svg>
+            <span class="text-uppercase color-blue text-sm font-400">Subir</span>
+        </a>
     </div>
 </div>
 
