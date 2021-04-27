@@ -1,4 +1,8 @@
 .form-type-one {
+    > div {
+        margin-bottom: .75rem;
+    }
+
     input[type=submit] {
         background-color: $red;
         color: $white;
