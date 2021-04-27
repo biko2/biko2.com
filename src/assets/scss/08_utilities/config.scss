@@ -75,7 +75,7 @@ $hovers: (red: red, red-light: $red-light, gray: $gray);
 ===========================================
 */
 
-$themecolors: (red: red, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, white: $white, gray-extradark: $gray-extradark);
+$themecolors: (red: red, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
 
 /*
 ===========================================
@@ -205,11 +205,11 @@ $font-secondary: "courier_primeregular";
 }
 
 .font-light {
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 .font-400 {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 .font-bold {
