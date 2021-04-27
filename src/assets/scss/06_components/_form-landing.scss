@@ -20,11 +20,29 @@
         font-size: 16px;
         border: 2px solid #C4C9CC;
         border-radius: 8px 8px;
+        transition: all 0.5s;
+
+        &:focus-visible {
+            outline-color: $red;
+            transition: all 0.5s;
+        }
     }
 
     input[type="checkbox"],
     input[type="radio"] {
-        margin: .1875rem .1875rem 0 0;
-        padding: 0;
+        margin: 5px;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #C4C9CC;
+    }
+
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+        transition: all 0.5s;
+    }
+
+    input:focus::input-placeholder {
+        color: transparent;
+        transition: all 0.5s;
     }
 }
