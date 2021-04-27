@@ -1,0 +1,30 @@
+.form-type-one {
+    input[type=submit] {
+        background-color: $red;
+        color: $white;
+        padding: 24px 32px;
+        border-radius: 72px;
+        width: 100%;
+        display: inline-block;
+        text-transform: uppercase;
+        border: 2px solid $red;
+    }
+
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="text"] {
+        margin: 0;
+        padding: .775rem .5625rem;
+        width: 100%;
+        font-size: 16px;
+        border: 2px solid #C4C9CC;
+        border-radius: 8px 8px;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin: .1875rem .1875rem 0 0;
+        padding: 0;
+    }
+}

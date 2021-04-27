@@ -91,7 +91,7 @@ $backgrounds: (red: $red, red-light: $red-light, red-extralight: $red-extralight
 ===========================================
 */
 $enable-responsive-font-sizes: true;
-$font-size-base: 1rem;
+$font-size-base: 1.25rem;
 
 /*
 
@@ -116,9 +116,18 @@ $font-secondary: "courier_primeregular";
 
 /*
 ===========================================
-==  Titles                      ==========
+==  Titles - subtitles          ==========
 ===========================================
 */
+
+.subtitle-5xl {
+    @include responsive-font-size($size-5xl);
+
+    @extend .line-4xl;
+
+    margin: 0;
+    font-weight: 700;
+}
 
 .title-hero {
     @include responsive-font-size($size-8xl);
@@ -148,10 +157,29 @@ $font-secondary: "courier_primeregular";
     font-weight: 700;
 }
 
+// .title-6xl {
+//     @include responsive-font-size($size-6xl);
+
+//     @extend .line-md-5xl;
+
+//     @extend .line-4xl;
+
+// }
+
 .title-6xl {
     @include responsive-font-size($size-6xl);
 
-    @extend .line-md-5xl;
+    @extend .line-lg-5xl;
+
+    @extend .line-4xl;
+
+    font-weight: 700;
+}
+
+.title-slim-6xl {
+    @include responsive-font-size($size-6xl);
+
+    @extend .line-lg-5xl;
 
     @extend .line-4xl;
 }

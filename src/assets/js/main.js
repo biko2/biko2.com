@@ -133,7 +133,7 @@ $(document).ready(function () {
   });
 });
 
-var rellax = new Rellax('.rellax');
+
 
 
 // NAVBAR SCROLL
