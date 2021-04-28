@@ -86,6 +86,7 @@
     height: 24px;
     display: inline-block;
     fill: currentColor;
+    transition: all 0.5s;
 
     &--sm {
         width: 8px;
@@ -120,6 +121,12 @@
 
 .fill-blue {
     fill: $blue;
+}
+
+.fill-hover-red {
+    &:hover {
+        fill: $red;
+    }
 }
 
 .fill-white {
