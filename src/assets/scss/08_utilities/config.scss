@@ -126,7 +126,7 @@ $font-secondary: "courier_primeregular";
 */
 
 .subtitle-5xl {
-    @include responsive-font-size($size-5xl);
+    @include responsive-font-size($size-4xl);
 
     @extend .line-4xl;
 
@@ -135,11 +135,11 @@ $font-secondary: "courier_primeregular";
 }
 
 .title-hero {
-    @include responsive-font-size($size-8xl);
+    @include responsive-font-size($size-7xl);
 
     @extend .font-primary;
 
-    @extend .line-lg-7xl;
+    @extend .line-lg-6xl;
 
     @extend .line-md-5xl;
 
@@ -149,11 +149,11 @@ $font-secondary: "courier_primeregular";
 }
 
 .title-7xl {
-    @include responsive-font-size($size-7xl);
+    @include responsive-font-size($size-6xl);
 
     @extend .font-primary;
 
-    @extend .line-xl-7xl;
+    @extend .line-xl-6xl;
 
     @extend .line-lg-5xl;
 
@@ -223,4 +223,8 @@ $font-secondary: "courier_primeregular";
 
 .cursor-pointer {
     cursor: pointer !important;
+}
+
+.landing-bitween {
+    font-weight: 400;
 }
