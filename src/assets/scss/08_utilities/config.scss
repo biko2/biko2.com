@@ -162,15 +162,6 @@ $font-secondary: "courier_primeregular";
     font-weight: 700;
 }
 
-// .title-6xl {
-//     @include responsive-font-size($size-6xl);
-
-//     @extend .line-md-5xl;
-
-//     @extend .line-4xl;
-
-// }
-
 .title-6xl {
     @include responsive-font-size($size-6xl);
 
@@ -187,6 +178,11 @@ $font-secondary: "courier_primeregular";
     @extend .line-lg-5xl;
 
     @extend .line-4xl;
+}
+
+.title-4xl {
+    font-size: $size-4xl;
+    font-weight: 700 !important;
 }
 
 .title-5xl {
@@ -215,6 +211,10 @@ $font-secondary: "courier_primeregular";
 
 .font-400 {
     font-weight: 400 !important;
+}
+
+.font-700 {
+    font-weight: 700 !important;
 }
 
 .font-bold {
