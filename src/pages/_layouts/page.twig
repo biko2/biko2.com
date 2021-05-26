@@ -1,15 +1,17 @@
- {% extends "@layouts/html.twig" %}
- {% block body %}
-    {% include "@includes/email-ok.twig" %}
-    {% include "@includes/insights-ok.twig" %}
-    {% include '@includes/site-header.twig' %}
-    
-    <div id="main-wrapper">
+{% extends "@layouts/html.twig" %}
+{% block body %}
+{% include "@includes/email-ok.twig" %}
+{% include "@includes/insights-ok.twig" %}
+{% include "@includes/sugerencia-ok.twig" %}
+{% include '@includes/site-header.twig' %}
 
-      {% block page %}
+<div id="main-wrapper">
 
-      {% endblock %}
-    </div>
+  {% block page %}
 
-    {% include '@includes/site-footer.twig' %}
- {% endblock %}s
+  {% endblock %}
+  {% include '@includes/site-footer.twig' %}
+</div>
+
+
+{% endblock %}

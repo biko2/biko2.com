@@ -1,0 +1,46 @@
+.c-acordeon {
+  margin: 0;
+  padding: 0;
+}
+.c-acordeon__card {
+  margin: 0;
+  padding: 16px 0;
+  list-style: none;
+  border-top: 1px solid $gray-light;
+  &::before {
+    display: none;
+  }
+  @include media-breakpoint-up(md) {
+    padding: 24px 0;
+  }
+  
+}
+.c-acordeon__card:last-child {
+  border-bottom: 1px solid $gray-light;
+}
+
+.c-acordeon__card__header {
+  a {
+    display: flex;
+    @include typi(large);
+  }
+}
+.c-acordeon__card__link[aria-expanded=true] {
+  svg {
+    transform: rotate(180deg);
+  }
+}
+
+.c-acordeon__card__body {
+  margin-top: 24px;
+}
+.c-acordeon__card__icono {
+  margin-top: 8px;
+  margin-right: 16px;
+}
+/* para quitar degradado en safari chrome en iphone*/
+.c-acordeon__card__link {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+

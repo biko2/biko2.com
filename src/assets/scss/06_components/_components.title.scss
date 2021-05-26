@@ -80,3 +80,87 @@
     }
   }
 }
+
+
+.c-title--background {
+  @extend .h-extrahuge;
+  font-weight: bold;
+  color: $gray-light;
+  opacity: .6;
+  cursor: default;
+  line-height: 1;
+
+  font-size: 48px;
+  letter-spacing: -2px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 160px;
+    letter-spacing: -5px;
+    opacity: .4;
+  }
+
+  @include media-breakpoint-up(lg) {
+    white-space: nowrap;
+    font-size: 140px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    font-size: 190px;
+  }
+}
+
+.c-title--cross {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: $gray;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 0;
+  }
+
+  span {
+    display: inline-block;
+    padding: 0 30px;
+    background: white;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.c-title--big {
+  @include typi(big);
+  
+  @include media-breakpoint-down(md) {
+    font-size: 18px;
+    font-weight:400;
+  }
+
+
+}
+.c-title-large {
+  @include typi(large);
+}
+.c-title-huge {
+  @include typi(huge);
+}
+.c-title-midhuge {
+  @include typi(midhuge);
+}
+
+
+.c-title__line--abajo {
+  @include typi(large);
+  &::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #e73f39;
+  }
+}

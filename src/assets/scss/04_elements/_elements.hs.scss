@@ -36,3 +36,14 @@ h3, .h-big {
     margin-bottom: 1rem;
   }
 }
+
+.h-large {
+  font-family: "Montserrat", "Arial Black", sans-serif;
+  font-weight: 300;
+  @include typi(large);
+  strong {font-weight: 800;}
+}
+
+strong {
+  font-weight: 800;
+}

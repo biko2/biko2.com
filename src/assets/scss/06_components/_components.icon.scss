@@ -1,0 +1,134 @@
+.c-icon--medium {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.c-icon--arrow {
+    width: 48px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 48px;
+        height: 12px;
+    }
+}
+
+.c-icon--base {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.c-icon--large {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.c-icon--huge {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 72px;
+        height: 72px;
+    }
+}
+
+.c-icon--white {
+    svg * {
+        fill: white;
+    }
+}
+
+.c-icon--black {
+    svg * {
+        fill: $black;
+    }
+}
+
+.c-icon--red {
+    svg * {
+        fill: $red;
+    }
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    fill: currentColor;
+    transition: all 0.5s;
+
+    &--sm {
+        width: 8px;
+        height: 8px;
+    }
+
+    &--md {
+        width: 16px;
+        height: 16px;
+    }
+
+    &--xl {
+        width: 24px;
+        height: 24px;
+    }
+
+    &--2xl {
+        width: 48px;
+        height: 48px;
+    }
+
+    &--3xl {
+        width: 92px;
+        height: 92px;
+    }
+
+    &--4xl {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+.fill-blue {
+    fill: $blue;
+}
+
+.fill-hover-red {
+    &:hover {
+        fill: $red;
+    }
+}
+
+.fill-white {
+    fill: $white;
+}

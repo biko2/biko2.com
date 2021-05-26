@@ -3,6 +3,10 @@
     border: 6px solid $red;
     width: 61%;
   }
+
+  &.c-box--black {
+    border: 6px solid $black;
+  }
 }
 
 .c-box-huge {

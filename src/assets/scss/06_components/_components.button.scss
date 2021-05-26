@@ -1,56 +1,148 @@
 .c-button {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 800;
-  color: $red;
-  padding: 10px 20px;
-  background: white;
-  border: 3px solid $red;
-  border-radius: 0;
-  transition: all .3s ease;
-  letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 800;
+    color: $red;
+    padding: 10px 20px;
+    background: white;
+    border: 3px solid $red;
+    border-radius: 0;
+    transition: all .3s ease;
+    letter-spacing: 1px;
 
-  @include media-breakpoint-up(sm) {
-    padding: 20px;
-  }
+    @include media-breakpoint-up(sm) {
+        padding: 20px;
+    }
 
-  &:hover {
+
+    &:hover {
+        background: $red;
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+}
+
+.c-button--fill {
     background: $red;
     color: white;
-    text-decoration: none;
-    border-radius: 3px;
-  }
+    border: none;
+
+    &:hover {
+        background: darken($red, 15%);
+    }
 }
 
 .c-button--outline {
-  color: $black;
-  background: transparent;
-  border: 3px solid $black;
+    color: $black;
+    background: transparent;
+    border: 3px solid $black;
 
-  &:hover {
-    background: $black;
+    &:hover {
+        background: $black;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.c-button--outline--white {
     color: white;
-    text-decoration: none;
-  }
+    background: transparent;
+    border: 3px solid white;
+
+    &:hover {
+        border-color: $red;
+        color: $red;
+        text-decoration: none;
+        background: transparent;
+    }
 }
 
 .c-button--second {
-  padding: 10px 20px;
-  color: $black;
-  @include typi(small);
-  background: transparent;
-  border: 2px solid $black;
+    padding: 10px 20px;
+    color: $black;
 
-  &:hover {
-    background: $black;
-    color: white;
-    text-decoration: none;
-  }
+    @include typi(small);
+
+    background: transparent;
+    border: 2px solid $black;
+
+    @include media-breakpoint-up(xl) {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &:hover {
+        background: $black;
+        color: white;
+        text-decoration: none;
+
+        svg {
+            fill: #fff !important;
+        }
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+    }
 }
 
 .c-button--minus {
-  text-transform: lowercase;
-  font-weight: normal;
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+.c-button--full {
+    width: 100%;
+}
+
+.c-button-rounded {
+    border-radius: 72px 72px;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    padding: 25px 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.c-button-rounded--primary {
+    border: 2px solid $red;
+    font-weight: 400;
+
+    @include transition;
+
+    &:hover {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.c-button-rounded--secondary {
+    border: 2px solid $blue;
+
+    @include transition;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.c-button-rounded--primary__miniwhite {
+    padding: 15px 30px;
+    border: 2px solid $white;
+    color: $white;
+    font-weight: 400;
+
+    &:hover {
+        background-color: $white;
+        color: $blue;
+    }
 }

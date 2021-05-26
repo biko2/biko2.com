@@ -1,0 +1,73 @@
+{# ----- PROYECTOS ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+
+<section class="c-hero c-hero--max contenedor-secciones-hero">
+
+  <div class="c-grid-image--right mb-2 mb-md-0">
+    <img data-src="/assets/images/proyectos-taza.jpg" class="lazyload" alt="Taza motivadora" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-9 col-lg-7">
+        <h1>Tenemos &nbsp;<br /><strong>más motivación</strong> que 50 tazas de desayuno juntas</h1>
+        <p class="c-title--sub">(pero sabemos que eso no basta para convencerte)</p>
+      </div>
+
+      <div class="col-12 offset-md-1 col-md-6">
+        <p class="c-title--pre">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
+        <p class="c-title--pre"><strong>Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% include "@base/proyectos/proyecto-destacado.twig" %}
+
+
+<section class="c-filtrado mb-7 mb-0 pt-md-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="h-extrahuge text-center">Más <strong>proyectos</strong> interesantes</h2>
+      </div>
+    </div>
+  <div class="c-filtrado__container">
+    <div class="container">
+      {% include "@base/proyectos/proyecto-filtrado.twig" %}
+    </div>
+  </div>
+</section>
+
+<div class="c-separator--line d-none d-md-block"><hr /></div>
+
+<section class="p-home__insights p-proyectos__contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-11 col-md-12 col-lg-10">
+          <div class="c-icon-square">
+            {{svgSprite('talk')}}
+          </div>
+        <h2 class="h-extrahuge">Tenemos&nbsp;<br />que <strong>hablar</strong></h2>
+        <p class="c-title--sub">(tranquilo/a, lo nuestro tiene mucho futuro)</p>
+      </div>
+      <div class="col-12 offset-md-1 col-md-8 col-lg-6">
+        <p class="c-title--pre">Sabemos que ganamos en las distancias cortas, así que podemos tomarnos un café, hacer una videollamada o, simplemente, charlar por teléfono.</p>
+        <p>Puedes escribirnos o llamarnos para preguntarnos lo que sea, solicitar información o conocernos en persona. Tenemos el don de la ubicuidad, así que podemos desplazarnos donde nos indiques sin ningún problema.</p>
+
+        <div class="d-flex justify-content-center" data-drip-show-form="740822926">
+          <a class="c-button gtm-lead-proyecto" href="#" target="_blank">
+            Contacta con nosotros
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "@includes/contact.twig" %}
+
+
+{% endblock %}

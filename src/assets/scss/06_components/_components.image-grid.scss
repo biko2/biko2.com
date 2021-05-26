@@ -1,0 +1,11 @@
+.c-image-grid__container {
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
+
+.c-image-grid__box {
+  overflow: hidden;
+  margin-bottom: 30px;
+}

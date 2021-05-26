@@ -18,8 +18,13 @@
     }
 
     @include media-breakpoint-down(sm) {
-      flex-basis: 50%;
+      flex-basis: 20%;
       margin: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      
+      span {display:none;}
     }
 
     a {

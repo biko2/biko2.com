@@ -1,0 +1,30 @@
+.c-mockup-imagenes {
+   display: flex;
+   align-items: center;
+   @include media-breakpoint-down(sm) {
+      justify-content: center;
+    }
+}
+
+
+.c-mockup-imagenes--derecha {
+   overflow: hidden;
+   border-radius: 16px;
+   box-shadow: 5px 5px 11px 0px $gray-light;
+}
+
+.c-mockup-descripcion {
+   display: flex;
+   flex-direction: column;
+}
+
+.c-mockup-descripcion__icono {
+   position: absolute;
+   top: 8px;
+   left: -50px;
+}
+.c-mockup-ml-negativo {
+   @include media-breakpoint-up(xl) {
+      margin-left: -44px;
+   }
+}

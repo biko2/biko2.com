@@ -1,0 +1,62 @@
+.form-type-one {
+    > div {
+        margin-bottom: .75rem;
+    }
+
+    input[type=submit] {
+        background-color: $red;
+        color: $white;
+        padding: 24px 32px;
+        border-radius: 72px;
+        width: 100%;
+        display: inline-block;
+        text-transform: uppercase;
+        border: 2px solid $red;
+        letter-spacing: 1px;
+        transition: 0.5s all;
+
+        &:hover {
+            background-color: $redstrong;
+            border: 2px solid $redstrong;
+        }
+    }
+
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="text"] {
+        margin: 0;
+        padding: .775rem .5625rem;
+        width: 100%;
+        font-size: 16px;
+        border: 2px solid #C4C9CC;
+        border-radius: 8px 8px;
+        transition: all 0.5s;
+
+        &:focus-visible {
+            outline-color: $red;
+            transition: all 0.5s;
+        }
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        // -webkit-appearance: none;
+
+        margin: 5px;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #C4C9CC;
+        border-radius: 8px 8px;
+    }
+
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+        transition: all 0.5s;
+    }
+
+    input:focus::input-placeholder {
+        color: transparent;
+        transition: all 0.5s;
+    }
+}

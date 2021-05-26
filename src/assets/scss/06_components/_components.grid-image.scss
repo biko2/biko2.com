@@ -3,10 +3,12 @@
   height: 300px;
   overflow: hidden;
   text-align: right;
+  margin-bottom: 24px;
 
   @include media-breakpoint-up(sm) {
     width: 100%;
     height: 350px;
+    margin-bottom: 0;
   }
 
   @include media-breakpoint-up(md) {
@@ -17,7 +19,40 @@
   }
 
   @include media-breakpoint-up(lg) {
-    width: 50%;
+    width: 49%;
+  }
+
+  img, video {
+    width: auto;
+    height: 100%;
+
+    @include media-breakpoint-down(sm) {
+      height: auto;
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+.c-grid-image--right--big {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: right;
+
+  @include media-breakpoint-up(md) {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    right: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 55%;
+ 
   }
 
   img {
@@ -35,6 +70,14 @@
     }
   }
 }
+
+.c-grid-image--right-rectangular {
+  img, video  {
+    width: auto !important;
+    height: 100% !important;
+  }
+}
+
 
 .c-grid-image--left {
   position: absolute;

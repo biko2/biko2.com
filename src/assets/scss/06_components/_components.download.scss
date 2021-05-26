@@ -1,0 +1,37 @@
+.c-download {
+  margin-bottom: 24px;
+  border-bottom: 1px solid $black;
+  padding-bottom: 24px;
+}
+
+
+.c-download__img {
+  margin-bottom: 24px;
+  border: 2px solid $red;
+  width: 100%;
+  
+  @include media-breakpoint-up(md) { 
+    width: auto;
+    height: 200px;
+    margin-right: 48px;
+  }
+  
+  @include media-breakpoint-up(lg) { 
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+}
+
+.c-download__content {
+  @include media-breakpoint-up(xl) {
+    display: flex; 
+    justify-content: space-between;
+  }
+}
+
+.c-download__title {
+  @include typi(large);
+  font-weight: 800;
+  margin-bottom: 0;
+}

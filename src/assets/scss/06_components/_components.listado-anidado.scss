@@ -1,0 +1,51 @@
+.c-list-anidadas {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.c-list-anidadas__item {
+  margin:0;
+  padding: 4px 4px 4px 32px;
+  display: table;
+
+
+  @include media-breakpoint-up(lg) {
+    flex-basis: 50%;
+  }
+  &::before {
+    position: relative;
+    top:0;
+    left: 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-left: -24px;
+    margin-right: 8px;
+  }
+}
+
+.c-list-anidadas__item--primer-nivel  {
+  &::before {
+    width: 16px;
+    background-color: $red;
+  }
+}
+
+
+.c-list-anidadas__item--segundo-nivel  {
+  @include typi(normal);
+  &::before {
+    width: 12px;
+    background-color: $black-soft;
+  }
+}
+
+.c-list-anidadas__item--tercer-nivel  {
+  @include typi(normal);
+  &::before {
+    width: 4px;
+    background-color: $black-soft;
+  }
+}
+

@@ -1,0 +1,75 @@
+.page-black {
+
+  background: $black-soft;
+  color: white;
+
+  .c-header,
+  #main-wrapper {background: $black-soft;}
+
+  #header a.c-nav__link {
+    color: white !important;
+  }
+
+  #header .c-nav--toggler .icon-bar {
+    background: white;
+  }
+
+  .c-nav__navbar.show {background: $black-soft; }
+  
+  .c-button {
+    background: $black-soft;
+  }
+
+  .c-separator--line hr {
+    border-color: white;
+  }
+
+  .c-bg-pattern {
+    background: url("../images/bg-pattern-footer-black.png") repeat left top;
+  }
+
+  .c-bg-pattern__right {
+    background-image:  url("../images/bg-pattern-tiny-black.png");
+
+    @include media-breakpoint-up(lg) {
+      background-image:  url("../images/bg-pattern-black.png");
+    }
+  }
+
+  .c-bg-pattern__left {
+    background-image:  url("../images/bg-pattern-tiny-black.png");
+
+    @include media-breakpoint-up(lg) {
+      background-image:  url("../images/bg-pattern-black.png");
+    }
+  }
+
+  .c-bg-pattern__center {
+      background-image:  url("../images/bg-pattern-black.png");
+  }
+
+  .c-button--outline {
+    color: white;
+    border-color: white;
+  }
+
+  .c-form__elements input {background: none;}
+
+  .c-social-list {
+    li a {color: white;}
+
+    svg {
+      fill:white;
+      path {
+        fill:white;
+      }
+      rect {
+        fill:white;
+      }
+    }
+  }
+
+  .c-cita__box__texto {color: $black;}
+
+
+}

@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="es-es">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{title}}</title>
-    <meta name="title" content="{{title}} | {{site.name}}" />
+    <title>{{site.name}} - {{title}}</title>
+    <meta name="title" content="{{site.name}} - {{title}}" />
     <meta name="description" content="{{description}}">
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
-    <style>
-        /* inject:styles-critical:css *//* endinject */
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800" rel="stylesheet">
 
+    <style>
+        /* inject:styles-critical:css */
+        /* endinject */
     </style>
 
     <!-- inject:css -->
     <!-- endinject -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5GXM7Z7');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5GXM7Z7');
+        function gtag() { dataLayer.push(arguments); console.log(arguments) }
+    </script>
+    <script>
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+        });
+    </script>
     <!-- End Google Tag Manager -->
 
     <!-- Twitter Card data -->
@@ -45,20 +58,23 @@
     <meta property="og:locale" content="{{og.locale}}" />
 
 
-    </head>
-    <body class="top page-{{currentMenu}}">
-    
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GXM7Z7"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
+</head>
 
-        {% block body %}
-        {% endblock %}
-        <!-- inject:vendors:js -->
-        <!-- endinject -->
-        <!-- inject:js -->
-        <!-- endinject -->
-        {% include '@includes/grpd.twig' %}
-    </body>
+<body class="top page-{{currentMenu}}">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GXM7Z7" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    {% block body %}
+    {% endblock %}
+    <!-- inject:vendors:js -->
+    <!-- endinject -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    {% include '@includes/grpd.twig' %}
+</body>
+
 </html>

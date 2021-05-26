@@ -1,11 +1,11 @@
 (function($){
     $(document).ready(function(){
-        var urlParam = '?gracias-por-suscribirte';
+        var urlParam = 'suscripcion-ok';
         var messageElement = '.js-subscription-ok';
         var hiddenClass = 'd-none';
 
-        if(window.location.search === urlParam){
-            
+        if(window.location.search.indexOf(urlParam)>-1){
+
             $(messageElement).removeClass(hiddenClass);
         }
     });
@@ -13,11 +13,25 @@
 
 (function($){
     $(document).ready(function(){
-        var urlParam = '?gracias';
+        var urlParam = 'gracias';
         var messageElement = '.js-insights-ok';
         var hiddenClass = 'd-none';
-        if(window.location.search === urlParam){
-            
+
+        if(window.location.search.indexOf(urlParam)>-1){
+
+            $(messageElement).removeClass(hiddenClass);
+        }
+    });
+}(jQuery));
+
+(function($){
+    $(document).ready(function(){
+        var urlParam = 'sugerencia';
+        var messageElement = '.js-sugerencia-ok';
+        var hiddenClass = 'd-none';
+
+        if(window.location.search.indexOf(urlParam)>-1){
+
             $(messageElement).removeClass(hiddenClass);
         }
     });

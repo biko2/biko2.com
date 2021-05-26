@@ -1,0 +1,43 @@
+.c-box-list {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.c-box-list__item {
+  padding: 48px 24px 48px 48px;
+  border: 8px solid $red;
+  position: relative;
+  margin-bottom: 12px;
+  background: $white;
+
+  @include media-breakpoint-up(lg) {
+    padding: 48px 80px;
+  }
+
+  &::before {
+    display: none;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-box-list__number {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.c-box-list__title {
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  font-weight: 800;
+  @include typi(large);
+}
+
+.c-box-list__description {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: 'courier_primeregular';
+}

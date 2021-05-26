@@ -1,9 +1,7 @@
 .c-hero {
-  padding-top: 60px;
   padding-bottom: 40px;
 
   @include media-breakpoint-up(sm) {
-    padding-top: 100px;
     padding-bottom: 60px;
   }
 
@@ -44,5 +42,23 @@
       border-color: transparent;
       color: $red;
     }
+  }
+}
+
+
+.c-hero--max {
+  padding-top: 0;
+  padding-bottom: 40px;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 48px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-bottom: 48px;
   }
 }

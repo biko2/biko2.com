@@ -1,0 +1,17 @@
+
+.c-icon-texto__item__contenido {
+  margin-bottom: 40px;
+}
+
+.c-icon-texto__antetitulo {
+  @include typi(tiny);
+  text-transform: uppercase;
+
+}
+.c-icon-texto__titulo {
+  @include typi(large);
+  font-weight: bold;
+}
+.c-icon-texto__texto {
+  @include typi(tiny);
+}

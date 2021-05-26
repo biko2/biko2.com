@@ -1,0 +1,87 @@
+.page-encounter {
+
+
+  #main-wrapper {
+    background: $black-soft url("../images/bk-encounter.jpg") left top no-repeat;
+
+    @include media-breakpoint-up(xxxl) {
+      background-size: contain;
+    }
+  }
+
+  .p-encounter-hero {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 48px;
+      padding-bottom: 0;
+    }
+
+    .p-encounter-hero__container {
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+
+        .c-grid-image--right {
+          order: 3;
+        }
+      }
+    }
+
+    .p-encounter-hero__container h1{
+      padding-top: 24px;
+
+      @include media-breakpoint-up(lg) {
+        padding-top: 96px;
+      }
+    }
+
+    .c-grid-image--right {
+      margin-top: -60px;
+      width: 100%;
+      height: auto;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+        width: 56%;
+        height: 477px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 54%;
+        height: 628px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 50%;
+        height: 775px;
+      }
+
+    }
+  }
+
+  .c-icon-list__icon svg {
+    width: 80%;
+  }
+
+  .c-card {
+    padding: 60px 0 80px;
+
+    .c-icon-square {
+      @include media-breakpoint-down(sm) {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  video {
+    width: 100%;
+    outline: none;
+  }
+
+
+
+
+}
