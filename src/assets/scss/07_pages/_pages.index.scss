@@ -299,16 +299,9 @@
 
 .p-home__insights {
 
-  margin-bottom: 60px;
+  margin-bottom: 0;
   position: relative;
 
-  @include media-breakpoint-up(sm) {
-    margin-bottom: 120px;
-  }
-
-  @include media-breakpoint-up(lg) {
-    margin-bottom: 190px;
-  }
 
   &:before {
     content: "";
@@ -347,14 +340,10 @@
       }
     }
 
-
   .c-icon-square {
     margin-bottom: 24px;
   }
 
-  .c-button {
-    margin-top: 40px;
-  }
 
   .h-extrahuge br {
     @include media-breakpoint-down(sm) {
@@ -363,5 +352,9 @@
   }
   .h-huge {
     @include typi(big);
+  }
+
+  .insights-photo {
+    width: 100%;
   }
 }

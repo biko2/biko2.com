@@ -6,7 +6,7 @@ h1, .h-extrahuge {
   line-height: 100px;
   margin-bottom: 1rem;
 
-  strong {font-weight: 800;}
+  strong {font-weight: 600;}
 }
 
 .h-midhuge {
@@ -15,7 +15,7 @@ h1, .h-extrahuge {
   @include typi(midhuge);
   margin-bottom: 1rem;
 
-  strong {font-weight: 800;}
+  strong {font-weight: 600;}
 }
 
 h2, .h-huge {
@@ -23,7 +23,7 @@ h2, .h-huge {
   font-weight: 300;
   @include typi(huge);
 
-  strong {font-weight: 800;}
+  strong {font-weight: 600;}
 }
 
 h3, .h-big {
@@ -41,7 +41,7 @@ h3, .h-big {
   font-family: "Montserrat", "Arial Black", sans-serif;
   font-weight: 300;
   @include typi(large);
-  strong {font-weight: 800;}
+  strong {font-weight: 600;}
 }
 
 strong {
