@@ -17,17 +17,17 @@
   }
 }
 
-.p-proyectos__contacto {
-  @include media-breakpoint-up(md) {
-    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
-    background-size: 40%;
-  }
+//.p-proyectos__contacto {
+//  @include media-breakpoint-up(md) {
+//    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
+//    background-size: 40%;
+//  }
 
-  @include media-breakpoint-up(xl) {
-    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
-    background-size: auto;
-  }
-}
+//  @include media-breakpoint-up(xl) {
+//    background: url("/assets/images/proyectos-contacto.jpg") right top no-repeat;
+//    background-size: auto;
+//  }
+//}
 
 
 
@@ -111,7 +111,7 @@
       width: auto;
       height: 100%;
     }
-    
+
   }
 
   .c-icon-square {
@@ -122,43 +122,43 @@
 }
 
 .contenedor-secciones {
-  @include media-breakpoint-up(md) { 
+  @include media-breakpoint-up(md) {
     min-height: 424px;
     }
-    @include media-breakpoint-down(md) { 
+    @include media-breakpoint-down(md) {
       min-height: 100%;
       padding-bottom: 1em;
       }
-    @include media-breakpoint-up(lg) { 
+    @include media-breakpoint-up(lg) {
       min-height: 480px;
       }
-     
-    @media (min-width: 1600px) {  
+
+    @media (min-width: 1600px) {
         min-height: 532px;
        }
 
-       @media (min-width: 2100px) {  
+       @media (min-width: 2100px) {
         min-height: 750px;
        }
-      
+
   }
 
   .contenedor-secciones-xl {
-     @media (min-width: 1600px) {  
+     @media (min-width: 1600px) {
           min-height: 496px;
          }
-         
+
     }
-  
+
 
 .contenedor-secciones-hero {
-  @include media-breakpoint-up(md) { 
+  @include media-breakpoint-up(md) {
     min-height: 730px;
   }
-  @include media-breakpoint-down(xlg) { 
+  @include media-breakpoint-down(xlg) {
    overflow: hidden;
   }
-  @include media-breakpoint-down(xxlg) { 
+  @include media-breakpoint-down(xxlg) {
     overflow: hidden;
    }
 }
@@ -246,15 +246,15 @@
   }
 
 
-.page-aecc,.page-escuela-superior-reina-sofia,.page-economia-circular,.page-educo,.page-cetelem, .page-primeriti,.page-macba,.page-unicaja-banco, .page-lagun-aro,.page-primeriti,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella, .page-isdi {  
+.page-aecc,.page-escuela-superior-reina-sofia,.page-economia-circular,.page-educo,.page-cetelem, .page-primeriti,.page-macba,.page-unicaja-banco, .page-lagun-aro,.page-primeriti,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-dkv, .page-canal-march, .page-repensar-guernica, .page-rodilla,.page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-unicef,.page-divina-pastora,.page-museo-reina-sofia, .page-tagliatella, .page-isdi {
   .c-bg-pattern {
     width: 100%;
   }
 
 }
-.page-proyectos,.page-escuela-superior-reina-sofia,.page-economia-circular,.page-educo,.page-cetelem,.page-primeriti,.page-macba,.page-unicaja-banco,.page-lagun-aro,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {  
+.page-proyectos,.page-escuela-superior-reina-sofia,.page-economia-circular,.page-educo,.page-cetelem,.page-primeriti,.page-macba,.page-unicaja-banco,.page-lagun-aro,.page-helvetia-suiza,.page-editorial-sm, .page-rae, .page-aecc, .page-canal-march,.page-dkv, .page-rodilla, .page-selfbank, .page-laboral-kutxa, .page-helvetia, .page-thyssen, .page-repensar-guernica, .page-unicef,.page-isdi,.page-divina-pastora,.page-museo-reina-sofia,.page-tagliatella {
   .c-grid-image--right {
-    
+
     @include media-breakpoint-down(xs) {
       height: auto;
     }

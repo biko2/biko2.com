@@ -105,7 +105,7 @@
     border-radius: 72px 72px;
     border: 2px solid transparent;
     text-transform: uppercase;
-    padding: 25px 30px;
+    padding: 24px 32px;
     text-decoration: none;
     letter-spacing: 2px;
     line-height: 24px;
@@ -114,7 +114,7 @@
 
 .c-button-rounded--primary {
     border: 2px solid $red;
-    font-weight: 400;
+    font-weight: 600;
 
     @include transition;
 
@@ -137,36 +137,13 @@
 }
 
 .c-button-rounded--primary__miniwhite {
-    padding: 15px 30px;
+    padding: 16px 32px;
     border: 2px solid $white;
     color: $white;
-    font-weight: 400;
+    font-weight: 600;
 
     &:hover {
         background-color: $white;
         color: $blue;
     }
-}
-
-
-.c-button--primary-rounded {
-  display: inline-block;
-  padding: 16px 24px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 600;
-  color: $red;
-  background: white;
-  transition: all .3s ease;
-  border-radius: 72px;
-  border: 2px solid $red;
-  letter-spacing: 2px;
-  font-size: 16px;
-  line-height: 24px;
-  &:hover {
-      background: $red;
-      color: white;
-      text-decoration: none;
-  }
 }

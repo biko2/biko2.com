@@ -10,14 +10,17 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-9 col-lg-7">
-        <h1>Tenemos &nbsp;<br /><strong>más motivación</strong> que 50 tazas de desayuno juntas</h1>
-        <p class="c-title--sub">(pero sabemos que eso no basta para convencerte)</p>
+      <div class="col-12 col-md-10 col-lg-7">
+        <h1 class="title-hero mb-5 mb-lg-4 mb-xl-5 text-left">
+            Tenemos más motivación que 50 tazas de desayuno juntas
+        </h1>
+
+        <p class="font-secondary text-3xl color-red mb-4 mb-md-5">(pero sabemos que eso no basta para convencerte)</p>
       </div>
 
-      <div class="col-12 offset-md-1 col-md-6">
-        <p class="c-title--pre">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
-        <p class="c-title--pre"><strong>Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</strong></p>
+      <div class="col-12 col-md-10 col-lg-7">
+        <p class="text-2xl">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
+        <p class="text-2xl"><strong>Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</strong></p>
       </div>
     </div>
   </div>
@@ -31,7 +34,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="h-extrahuge text-center">Más <strong>proyectos</strong> interesantes</h2>
+        <h2 class="title-7xl mb-4">Más proyectos interesantes</h2>
       </div>
     </div>
   <div class="c-filtrado__container">
@@ -43,32 +46,46 @@
 
 <div class="c-separator--line d-none d-md-block"><hr /></div>
 
-<section class="p-home__insights p-proyectos__contacto">
+<section class="mb-7">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-11 col-md-12 col-lg-10">
-          <div class="c-icon-square">
+      <div class="col-md-10 offset-md-1">
+          <!--<div class="c-icon-square mb-5">
             {{svgSprite('talk')}}
-          </div>
-        <h2 class="h-extrahuge">Tenemos&nbsp;<br />que <strong>hablar</strong></h2>
-        <p class="c-title--sub">(tranquilo/a, lo nuestro tiene mucho futuro)</p>
+          </div>-->
+      <h2 class="title-7xl mb-4 text-center">Tenemos&nbsp; que hablar</h2>
+        <p class="font-secondary text-3xl color-red mb-4 mb-md-5 text-center">(tranquilo/a, lo nuestro tiene mucho futuro)</p>
       </div>
-      <div class="col-12 offset-md-1 col-md-8 col-lg-6">
-        <p class="c-title--pre">Sabemos que ganamos en las distancias cortas, así que podemos tomarnos un café, hacer una videollamada o, simplemente, charlar por teléfono.</p>
-        <p>Puedes escribirnos o llamarnos para preguntarnos lo que sea, solicitar información o conocernos en persona. Tenemos el don de la ubicuidad, así que podemos desplazarnos donde nos indiques sin ningún problema.</p>
 
-        <div class="d-flex justify-content-center" data-drip-show-form="740822926">
-          <a class="c-button gtm-lead-proyecto" href="#" target="_blank">
-            Contacta con nosotros
-          </a>
+    </div>
+  </div>
+  <div class="container mb-0">
+    <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <div class="row">
+            <div class="col-lg-6 pr-4">
+                <p class="text-base line-base">Sabemos que ganamos en las distancias cortas, así que podemos tomarnos un café, hacer una videollamada o, simplemente, charlar por teléfono.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="text-base line-base mb-5">Puedes escribirnos o llamarnos para preguntarnos lo que sea, solicitar información o conocernos en persona. Tenemos el don de la ubicuidad, así que podemos desplazarnos donde nos indiques sin ningún problema.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 offset-md-1">
+          <div class="d-flex justify-content-center" data-drip-show-form="740822926">
+            <a class="c-button c-button-rounded c-button-rounded--primary gtm-lead-proyecto" href="#" target="_blank">
+              Contacta con nosotros
+            </a>
+          </div>
         </div>
       </div>
-    </div>
   </div>
 </section>
 
+<div class="c-separator--line d-none d-md-block"><hr /></div>
+
 {% include "@includes/contact.twig" %}
 
-<div class="c-separator--line d-none d-md-block"><hr /></div>
+
 
 {% endblock %}
