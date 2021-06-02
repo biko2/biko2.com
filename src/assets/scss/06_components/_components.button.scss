@@ -18,6 +18,7 @@
         padding: 24px 32px;
         font-size:16px;
         line-height: 24px;
+        border-radius: 72px;
     }
 
 
@@ -25,7 +26,7 @@
         background: $red;
         color: white;
         text-decoration: none;
-        border-radius: 3px;
+        border-radius: 72px;
     }
 }
 
@@ -43,11 +44,13 @@
     color: $black;
     background: transparent;
     border: 2px solid $black;
+    border-radius: 72px;
 
     &:hover {
         background: $black;
         color: white;
         text-decoration: none;
+        border-radius: 72px;
     }
 }
 
@@ -55,12 +58,14 @@
     color: white;
     background: transparent;
     border: 2px solid white;
+    border-radius: 72px;
 
     &:hover {
         border-color: $red;
         color: $red;
         text-decoration: none;
         background: transparent;
+        border-radius: 72px;
     }
 }
 
