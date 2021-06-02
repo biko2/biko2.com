@@ -11,9 +11,13 @@
     border-radius: 0;
     transition: all .3s ease;
     letter-spacing: 2px;
+    font-size:14.222px;
+    line-height: 20px;
 
     @include media-breakpoint-up(sm) {
         padding: 24px 32px;
+        font-size:16px;
+        line-height: 24px;
     }
 
 
@@ -105,13 +109,20 @@
     border-radius: 72px 72px;
     border: 2px solid transparent;
     text-transform: uppercase;
-    padding: 24px 32px;
+    padding: 16px 24px;
     text-decoration: none;
     letter-spacing: 2px;
     line-height: 24px;
     display: inline-block;
+    font-size:14.222px;
+    line-height: 20px;
     &:hover {
         border-radius: 72px 72px;
+    }
+    @include media-breakpoint-up(sm) {
+        padding: 24px 32px;
+        font-size:16px;
+        line-height: 24px;
     }
 }
 
