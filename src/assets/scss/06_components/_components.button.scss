@@ -3,17 +3,17 @@
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    font-weight: 800;
+    font-weight: 600;
     color: $red;
-    padding: 10px 20px;
+    padding: 16px 24px;
     background: white;
-    border: 3px solid $red;
+    border: 2px solid $red;
     border-radius: 0;
     transition: all .3s ease;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
     @include media-breakpoint-up(sm) {
-        padding: 20px;
+        padding: 24px 32px;
     }
 
 
@@ -38,7 +38,7 @@
 .c-button--outline {
     color: $black;
     background: transparent;
-    border: 3px solid $black;
+    border: 2px solid $black;
 
     &:hover {
         background: $black;
@@ -50,7 +50,7 @@
 .c-button--outline--white {
     color: white;
     background: transparent;
-    border: 3px solid white;
+    border: 2px solid white;
 
     &:hover {
         border-color: $red;
@@ -61,7 +61,7 @@
 }
 
 .c-button--second {
-    padding: 10px 20px;
+    padding: 12px 24px;
     color: $black;
 
     @include typi(small);
