@@ -51,11 +51,11 @@
 .c-contact__item__link{
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
 
   @include media-breakpoint-down(xs) {
-    align-items: center;
+    align-items: left;
     width: 100%;
   }
 
@@ -89,14 +89,14 @@
   .c-contact__item__ciudad__map {
     //display: flex;
     justify-content: left;
-	  //align-items: center;
+	  align-items: left;
     //position: absolute;
     //right: 0;
     //top: 10px;
     border-radius: 50px;
     //border: 1px solid #ddd;
     width: 48px;
-    height: 48px;
+    height: 36px;
     transition: all .3s ease;
 
     //@include media-breakpoint-up(xl) {
@@ -115,6 +115,7 @@
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-bottom: 0 !important;
 
 }
 
