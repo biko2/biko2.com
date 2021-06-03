@@ -112,17 +112,15 @@
 
 .c-contact__item__ciudad__nombre {
   font-family: "Montserrat", "Arial Black", sans-serif;
-  @include typi(large);
-  font-weight: 800;
-  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 
 }
 
 .c-contact__item__ciudad__telefono{
   color: $red;
-  font-size: 16px;
   font-weight: 400;
-  margin-bottom: 10px;
 
   hr {
     float: left;
