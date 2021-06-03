@@ -71,7 +71,7 @@
 
 .c-button--second {
     padding: 12px 24px;
-    color: $black;
+    color: $blue;
 
     @include typi(small);
 
@@ -92,6 +92,24 @@
         svg {
             fill: #fff !important;
         }
+    }
+
+    svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+    }
+}
+
+.c-button--second__light {
+    color: white;
+    border: 2px solid white !important;
+
+    &:hover {
+        background: white;
+        color: $blue;
+        text-decoration: none;
+
     }
 
     svg {
