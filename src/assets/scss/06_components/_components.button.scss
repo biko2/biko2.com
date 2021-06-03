@@ -166,3 +166,27 @@
         color: $blue;
     }
 }
+
+.c-button-rounded--primary__red {
+    padding: 16px 24px;
+    border: 2px solid $red;
+    color: $red;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.c-button-rounded--primary__dark {
+    padding: 16px 24px;
+    border: 2px solid $blue;
+    color: $blue;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}

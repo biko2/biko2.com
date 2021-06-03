@@ -237,7 +237,7 @@
   }
 
   .h-big {
-    font-weight: 800;
+    font-weight: 600;
 
     & + p {
       width: 95%;
@@ -361,6 +361,54 @@
 
 .insights-gif__img-home {
     background-image: url("/assets/images/yamdescarga.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(md) {
+        height: 270px;
+    }
+}
+
+.home-gif__img-cliente1 {
+    background-image: url("/assets/images/home-clientes-unicaja.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(md) {
+        height: 270px;
+    }
+}
+
+.home-gif__img-cliente2 {
+    background-image: url("/assets/images/home-clientes-canal-march.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(md) {
+        height: 270px;
+    }
+}
+
+.home-gif__img-cliente3 {
+    background-image: url("/assets/images/home-clientes-rae.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(md) {
+        height: 270px;
+    }
+}
+
+.home-gif__img-cliente4 {
+    background-image: url("/assets/images/home-clientes-aecc.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;

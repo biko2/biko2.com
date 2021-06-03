@@ -63,7 +63,7 @@
   }
 
   .h-big {
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .h-big, p {
@@ -75,7 +75,7 @@
 
   .c-porfolio__txtbox__bold {
     @include typi(base);
-    font-weight: 800;
+    font-weight: 600;
 
     @include media-breakpoint-up(sm) {
       @include typi(large);

@@ -26,7 +26,7 @@
 
   .c-ofertas__box__title {
     @include typi(large);
-    font-weight: 800;
+    font-weight: 600;
   }
 
   .c-ofertas__box__subtitle {
@@ -35,5 +35,5 @@
 }
 
 .c-ofertas__title {
-  strong {font-weight: 800;}
+  strong {font-weight: 600;}
 }
