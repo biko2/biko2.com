@@ -87,21 +87,21 @@
   }
 
   .c-contact__item__ciudad__map {
-    display: flex;
-    justify-content: center;
-	  align-items: center;
-    position: absolute;
-    right: 0;
-    top: 10px;
+    //display: flex;
+    justify-content: left;
+	  //align-items: center;
+    //position: absolute;
+    //right: 0;
+    //top: 10px;
     border-radius: 50px;
     //border: 1px solid #ddd;
     width: 48px;
     height: 48px;
     transition: all .3s ease;
 
-    @include media-breakpoint-up(xl) {
-      right: 15px;
-      top: 15px;
+    //@include media-breakpoint-up(xl) {
+      //right: 15px;
+      //top: 15px;
     }
 
     &:hover {
