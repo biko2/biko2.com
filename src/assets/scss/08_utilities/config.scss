@@ -2,7 +2,8 @@
 
 $red: #E73F39;
 $redstrong: #AD2F2B;
-$red-light: #fad9d7;
+$red-middle: #F39F9C;
+$red-light: #F9CFCE;
 $red-extralight: rgba(231, 63, 57, 0.05);
 $black: #000;
 $black-soft: #111;
@@ -76,7 +77,7 @@ $hovers: (red: red, red-light: $red-light, gray: $gray);
 ===========================================
 */
 
-$themecolors: (red: red, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
+$themecolors: (red: red, red-extralight: $red-extralight, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
 
 /*
 ===========================================
