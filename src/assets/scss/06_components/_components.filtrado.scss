@@ -76,7 +76,7 @@
 .c-filtrado__container {
   background: #F4F4F4;
   background: linear-gradient(to bottom,  white 0%,white 15%,$gray-light 15%,$gray-light 85%,white 85%,white 100%);
-  padding: 30px 0;
+  padding: 24px 0 0 0;
 }
 
 .c-filtrado__list {
@@ -117,7 +117,7 @@
     flex-basis: 19%;
     height: 246px;
   }
-  
+
 
   &:before {
     content: "";
