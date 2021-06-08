@@ -2,7 +2,7 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero c-hero--max contenedor-secciones-hero">
+<section class="c-hero c-hero--max contenedor-secciones-hero" id="top">
 
   <div class="c-grid-image--right mb-2 mb-md-0">
     <img data-src="/assets/images/proyectos-taza.jpg" class="lazyload" alt="Taza motivadora" />
@@ -82,7 +82,14 @@
   </div>
 </section>
 
-<div class="c-separator--line"><hr /></div>
+<div class="container d-flex flex-row justify-content-center py-6">
+    <a class="action-up color-blue d-flex flex-column align-items-center decoration-none" href="#top">
+        <svg class="icon-up mb-4">
+            <use xlink:href="/assets/svg/sprite/sprite.svg#arrow-slim"></use>
+        </svg>
+        <span class="text-uppercase color-blue text-sm font-400">Subir</span>
+    </a>
+</div>
 
 {% include "@includes/contact.twig" %}
 
