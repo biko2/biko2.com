@@ -110,11 +110,15 @@
 }
 
 .p-proyecto__hero--economiacircular {
-  background: black url("/assets/images/home-economiacircular.jpg") center center no-repeat;
+  background: $blue url("/assets/images/home-economiacircular.jpg") center center no-repeat;
 }
 
 .p-proyecto__hero--aecc {
-  background: black url("/assets/images/home-aecc.jpg") center center no-repeat;
+  background: $blue url("/assets/images/home-aecc.jpg") center center no-repeat;
+}
+
+.p-proyecto__hero--canalmarch{
+  background: $blue url("/assets/images/home-canalmarch.jpg") center center no-repeat;
 }
 
 
