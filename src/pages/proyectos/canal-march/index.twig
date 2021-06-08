@@ -2,7 +2,7 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero p-proyecto__hero contenedor-secciones-hero">
+<section class="c-hero p-proyecto__hero contenedor-secciones-hero" id="top">
   <div class="c-grid-image--right">
     <img data-src="/assets/images/proyectos/canal-march-cabecera.jpg" class="lazyload" alt="Canal March" />
   </div>
@@ -35,7 +35,7 @@
           La Fundación Juan March acudió a nosotros con un reto de lo más motivador: construir uno de los <strong>mayores portales audiovisuales </strong>de cultura en español, o como lo han titulado algunos medios “el Netflix para melómanos de amplias miras” o “el Netflix del arte y la cultura de habla español”. Así que lo hicimos. Spoiler: salió bien.
         </p>
       </div>-->
-    </div> 
+    </div>
     <div class="row">
       <div class="col-md-3 col-lg-2 offset-lg-1">
         <h5 class="c-title--pre mb-1">
@@ -136,7 +136,7 @@
              La importancia de las taxonomías
             </h4>
             <p>
-              Desde Biko pensamos que el principal objetivo era que el usuario se sintiera cómodo investigando en la web, así que junto al departamento de Datalab de la Fundación, etiquetamos todos los vídeos y audios con 9130 tags de su taxonomía. 
+              Desde Biko pensamos que el principal objetivo era que el usuario se sintiera cómodo investigando en la web, así que junto al departamento de Datalab de la Fundación, etiquetamos todos los vídeos y audios con 9130 tags de su taxonomía.
             </p>
           </div>
         </div>
@@ -324,11 +324,11 @@
 <section class="c-bg-big py-5 py-md-7">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-lg-10 offset-lg-1">
         <div class="c-texto--center">
-          <h3 class="c-title--big mb-4">
-            ¿Tienes alguna <strong>duda</strong> sobre este <strong>proyecto?</strong> <br>¿Te gustaría ver otros similares?
-          </h3>
+          <h2 class="title-7xl mb-4">
+            ¿Tienes alguna duda sobre este proyecto?<br>¿Te gustaría ver otros similares?
+          </h2>
           <p class="mb-4">
             Cuéntanos qué necesitas. Estaremos encantados de poder atenderte.
           </p>
@@ -342,15 +342,14 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-<div class="c-separator--line"><hr /></div>
+<div class="container d-flex flex-row justify-content-center py-6">
+    <a class="action-up color-blue d-flex flex-column align-items-center decoration-none" href="#top">
+        <svg class="icon-up mb-4">
+            <use xlink:href="/assets/svg/sprite/sprite.svg#arrow-slim"></use>
+        </svg>
+        <span class="text-uppercase color-blue text-sm font-400">Subir</span>
+    </a>
+</div>
 {% include "@includes/contact.twig" %}
 
 {% endblock %}

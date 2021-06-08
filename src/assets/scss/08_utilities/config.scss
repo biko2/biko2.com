@@ -69,7 +69,7 @@ $letter-spacing: (base: 1px, tightest: -0.05em, tighter: -0.025em, tight: -0.015
 ==  Hovers config     =============
 ===========================================
 */
-$hovers: (red: red, red-light: $red-light, gray: $gray);
+$hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -77,7 +77,7 @@ $hovers: (red: red, red-light: $red-light, gray: $gray);
 ===========================================
 */
 
-$themecolors: (red: red, red-extralight: $red-extralight, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
+$themecolors: (red: $red, redstrong: $redstrong, red-extralight: $red-extralight, red-middle: $red-middle, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
 
 /*
 ===========================================
@@ -85,7 +85,7 @@ $themecolors: (red: red, red-extralight: $red-extralight, red-light: $red-light,
 ===========================================
 */
 
-$backgrounds: (red: $red, red-light: $red-light, red-extralight: $red-extralight, blue: $blue, gray: $gray, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$backgrounds: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -179,6 +179,8 @@ $font-secondary: "courier_primeregular";
     @extend .line-lg-5xl;
 
     @extend .line-4xl;
+
+    font-weight: 300;
 }
 
 .title-4xl {
