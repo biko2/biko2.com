@@ -17,6 +17,31 @@
   }
 }
 
+.p-proyectos__hero {
+  padding-top: 60px;
+  background-size: cover;
+  background: white url("/assets/images/home-proyectos.jpg") center center no-repeat;
+  @include media-breakpoint-up(md) {
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+  }
+
+  .c-separator--icon {
+    padding: 32px 0 48px;
+
+    @include media-breakpoint-up(md) {
+      padding: 24px 0 0 0;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 48px 0 0 0;
+      //position: absolute;
+      //right: 0;
+      //bottom: 40px;
+    }
+  }
+
+
+}
 
 //.p-proyectos__contacto {
 //  @include media-breakpoint-up(md) {
