@@ -87,7 +87,6 @@
 .p-unete-ofertas {
   background-size: cover;
   background: $blue url("/assets/images/home-unete.jpg") center center no-repeat;
-
 }
 
 .c-box-huge {
@@ -95,14 +94,11 @@
 }
 
 .p-unete-trabajar {
-  margin-bottom: 96px;
+
 
   .c-ofertas__title {
     margin-bottom: 26px;
 
-    @include media-breakpoint-up(md) {
-      margin-bottom: 48px;
-    }
   }
 
   .c-title--line {
