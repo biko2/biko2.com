@@ -2,8 +2,37 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero c-hero--max contenedor-secciones-hero" id="top">
+<section class="c-hero p-home__hero" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="title-hero mb-4 text-center">
+            Tenemos más motivación que 50 tazas de desayuno juntas
+        </h1>
+        <p class="font-secondary text-3xl color-red mb-4 text-center">(pero sabemos que eso no basta para convencerte)</p>
+      </div>
+      <div class="col-12 col-md-10 offset-md-1 text-center">
+        <p class="text-2xl">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
+        <p class="text-2xl"><strong>Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</strong></p>
+        <div class="c-separator--icon">
+          <a class="c-separator--icon__animated" href="#que">
+            <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-714.000000, -854.000000)" fill="#000000">
+                  <g>
+                    <path d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z" transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) "></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!--<section class="c-hero c-hero--max contenedor-secciones-hero" id="top">
   <div class="c-grid-image--right mb-2 mb-md-0">
     <img data-src="/assets/images/proyectos-taza.jpg" class="lazyload" alt="Taza motivadora" />
   </div>
@@ -24,7 +53,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 
 {% include "@base/proyectos/proyecto-destacado.twig" %}
 
