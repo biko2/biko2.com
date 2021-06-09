@@ -169,6 +169,9 @@
 
 .p-proyecto__hero--guernica{
   background: $blue url("/assets/images/home-guernica.jpg") center center no-repeat;
+  .c-icon-square {
+    background: $red-middle;
+  }
 }
 
 .p-proyecto__hero--unicef{
