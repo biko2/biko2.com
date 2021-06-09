@@ -2,44 +2,47 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero p-proyecto__hero contenedor-secciones-hero">
-  <div class="c-grid-image--right">
-    <div class="c-icon-square">
-      {{svgSprite('webby')}}
-    </div>
-    <img data-src="/assets/images/proyectos/guernica-proyecto.jpg" class="lazyload" alt="Repensar Guernica" />
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-7">
-        <h1 class="c-title--pre text-uppercase mt-4 mb-0">Repensar Guernica</h1>
-        <h2 class="h-extrahuge">Un proyecto <strong>ganador de un Webby</strong></h2>
-        <p class="c-title--sub">(los Óscar de Internet)</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 offset-lg-1 col-md-6">
-        <p>¿Cómo aprovechar el medio online para crear un producto digital a la altura de esta obra?.<br> Para ello, definimos y construimos un site vertebrado en tres apartados: un potente <strong>buscador</strong> para el archivo documental, <strong>visualización interactiva</strong> para la cronología y tecnología <strong>gigapíxel</strong> para una definición superior al milímetro.</p>
-        <p class="mb-0">Así nació una web <a href="https://www.webbyawards.com/winners/2018/websites/general/cultural-institutions/rethinking-guernica/" class="c-link" target="_blank">ganadora de un Webby</a> que destaca por una gran potencia técnica de cada uno de sus apartados, de una manera sencilla  y equilibrada, tanto para investigadores como para el público en general.</p>
+<section class="mb-5 mb-md-7" id="top">
+  <div class="p-proyecto__hero-new p-proyecto__hero--guernica text-left">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="c-icon-square mb-4">
+            {{svgSprite('webby')}}
+          </div>
+          <p class="mb-2 text-uppercase text-sm letter-base font-400 color-grayextradark">REPENSAR GUERNICA</p>
+            <h1 class="title-hero mb-4">
+            Un proyecto ganador de un Webby
+            </h1>
+            <p class="font-secondary text-3xl color-red-middle mb-4">(los Óscar de Internet)</p>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <p>¿Cómo aprovechar el medio online para crear un producto digital a la altura de esta obra?.<br> Para ello, definimos y construimos un site vertebrado en tres apartados: un potente <strong>buscador</strong> para el archivo documental, <strong>visualización interactiva</strong> para la cronología y tecnología <strong>gigapíxel</strong> para una definición superior al milímetro.</p>
+            </div>
+            <div class="col-lg-6">
+              <p class="mb-0">Así nació una web <a href="https://www.webbyawards.com/winners/2018/websites/general/cultural-institutions/rethinking-guernica/" class="c-link color-red-middle" target="_blank">ganadora de un Webby</a> que destaca por una gran potencia técnica de cada uno de sus apartados, de una manera sencilla  y equilibrada, tanto para investigadores como para el público en general.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<section class="u-bg-gray-light py-5 px-4 p-md-5 py-lg-7 mb-5  mb-md-6 mb-lg-7">
+<section>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-10 offset-lg-1">
-        <p class="mb-md-6 c-title--big">
+      <div class="col-12">
+        <p class="mb-5 mb-md-6 title-slim-6xl u-strong-red">
           Hablar del Guernica es hablar de la <strong>obra de arte española más emblemática del siglo XX</strong>. Un icono global. No hay manifestación contra la guerra en el mundo que no cuente con una imagen de este cuadro. Su vida está entrelazada con la historia española y mundial, desde su creación en mitad de la Guerra Civil, a través de sus viajes por el mundo, hasta su vuelta a España después de la Transición.
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3 col-lg-2 offset-lg-1">
-        <h5 class="c-title--pre mb-1">
+      <div class="col-md-3 col-lg-2">
+        <h5 class="text-2xl decoration-red pt-2 mb-1">
           Cliente
         </h5>
         <ul class="pl-0">
@@ -47,7 +50,7 @@
         </ul>
       </div>
       <div class="col-md-3 col-lg-2">
-        <h5 class="c-title--pre mb-1">
+        <h5 class="text-2xl decoration-red pt-2 mb-1">
           Estrategia
         </h5>
         <ul class="pl-0">
@@ -56,7 +59,7 @@
         </ul>
       </div>
       <div class="col-md-3 col-lg-2">
-        <h5 class="c-title--pre mb-1">
+        <h5 class="text-2xl decoration-red pt-2 mb-1">
           Diseño
         </h5>
         <ul class="pl-0">
@@ -65,7 +68,7 @@
         </ul>
       </div>
       <div class="col-md-3 col-lg-2">
-        <h5 class="c-title--pre mb-1">
+        <h5 class="text-2xl decoration-red pt-2 mb-1">
           Tecnología
         </h5>
         <ul class="pl-0">
@@ -76,7 +79,7 @@
         </ul>
       </div>
       <div class="col-md-3 col-lg-2">
-        <h5 class="c-title--pre mb-1">
+        <h5 class="text-2xl decoration-red pt-2 mb-1">
           Web
         </h5>
         <ul class="pl-0">
@@ -89,15 +92,17 @@
   </div>
 </section>
 
-<section class="mb-5 mb-md-7 mb-lg-7">
-  <div class="c-grid-image--right--big mb-4 mb-mb-0">
+<div class="c-separator--line"><hr /></div>
+
+<section class="contenedor-secciones mb-4 mb-md-5">
+  <div class="c-grid-image--right--big">
     <img data-src="/assets/images/proyectos/guernica-proyecto.1.jpg" class="lazyloaded" alt="Repensar Guernica" src="/assets/images/proyectos/guernica-proyecto.1.jpg">
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-12 offset-lg-1 col-md-5 col-lg-4 col-xl-3">
-        <div class="pt-md-2 pt-xl-5">
-          <h3>El desafío</h3>
+      <div class="col-12 col-md-5 col-xl-4">
+        <div>
+          <h3 class="title-7xl mb-4">El desafío</h3>
           <p><strong>Repensar digitalmente un símbolo del S. XX</strong></p>
           <p class="mb-0">La obra icónica de Picasso es un activo esencial del Museo Reina Sofía, la institución de arte contemporáneo y moderno más importante de España y una de las más relevantes a nivel internacional. Aprovechando la investigación más ambiciosa que jamás se había llevado a cabo sobre el Guernica, nos pidieron pensar cuál podría ser el <strong>reflejo digital de dicha investigación.</strong></p>
         </div>
@@ -105,7 +110,8 @@
     </div>
   </div>
 </section>
-<section class="c-bg-pattern c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
+
+<section class="c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -114,17 +120,17 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-4 offset-lg-1">
-          <h3 class="pt-md-2 pt-xl-5">Nuestro enfoque</h3>
-          <p>En el equipo que formamos con el Museo supimos exigirnos todos para estar a la altura del reto en la definición conjunta del concepto, las soluciones técnicas, el diseño y la ejecución hasta el último detalle. El material base con el que contábamos consistía en una recopilación exhaustiva de todos los <strong>documentos</strong> que se pueden encontrar relacionados con el cuadro y su historia y el mayor estudio de <strong>imágenes de alta resolución</strong> que se había hecho sobre una pintura.</p>
+        <h3 class="title-7xl mb-4">Nuestro enfoque</h3>
+        <p>En el equipo que formamos con el Museo supimos exigirnos todos para estar a la altura del reto en la definición conjunta del concepto, las soluciones técnicas, el diseño y la ejecución hasta el último detalle. El material base con el que contábamos consistía en una recopilación exhaustiva de todos los <strong>documentos</strong> que se pueden encontrar relacionados con el cuadro y su historia y el mayor estudio de <strong>imágenes de alta resolución</strong> que se había hecho sobre una pintura.</p>
       </div>
     </div>
   </div>
 </section>
 <section class="c-mockup mb-5 mb-md-6 mb-lg-7">
   <div class="container">
-    <div class="row mb-0 mb-md-6">
-      <div class="col-md-12 col-xl-10 offset-xl-1">
-        <p class="c-title--big">
+    <div class="row mb-lg-5 mb-xl-0">
+      <div class="col-md-12 col-xl-10 mb-3">
+        <p class="mb-5 mb-md-7 title-slim-6xl u-strong-red">
           Para dar forma al proyecto, comenzamos con un trabajo de <strong>definición conjunta</strong> con las investigadoras y responsables del Museo. Esto dio como resultado un site vertebrado en 3 apartados:
         </p>
       </div>
@@ -133,7 +139,7 @@
       <div class="col-md-5 col-xl-3 offset-lg-1 order-md-2 d-flex align-items-center">
         <div class="c-mockup-descripcion">
           <div>
-            <h4 class="c-title-large mb-3">
+            <h4 class="title-5xl line-4xl mb-4">
               Archivo documental
             </h4>
             <p>
@@ -149,7 +155,7 @@
                 <strong>Para saber más:</strong>
               </p>
               <a href="https://blog.biko2.com/experiencia-de-usuario/asi-represente-visualmente-los-documentos-del-guernica/" target="_blank">
-                <span class="c-link-especial">
+                <span class="c-link-especial text-sm line-sm">
                   Así representé visualmente los documentos del Guernica.
                 </span>
               </a>
@@ -175,7 +181,7 @@
       <div class="col-md-5 col-xl-3 offset-lg-1 d-flex align-items-center order-md-2 order-xl-1">
         <div class="c-mockup-descripcion">
           <div>
-            <h4 class="c-title-large mb-3">
+            <h4 class="title-5xl line-4xl mb-4">
               Cronología
             </h4>
             <p>
@@ -199,7 +205,7 @@
       <div class="col-md-5 col-xl-3 offset-lg-1 order-md-2 d-flex align-items-center">
         <div class="c-mockup-descripcion">
           <div>
-            <h4 class="c-title-large mb-3">
+            <h4 class="title-5xl line-4xl mb-4">
               Gigapíxel
             </h4>
             <p>
@@ -225,10 +231,10 @@
 <section class="mb-5 mb-md-6 mb-lg-7">
   <div class="c-gallery">
     <div class="container">
-      <div class="row mb-lg-5 mb-xl-0">
-        <div class="col-md-12 col-lg-6 col-xl-3 offset-xl-1">
+      <div class="row mb-4 mb-md-5">
+        <div class="col-md-12 col-lg-6 col-xl-4">
           <div class="d-flex flex-column">
-            <h3>
+            <h3 class="title-7xl mb-4">
               Diseño final
             </h3>
             <p>
@@ -245,21 +251,19 @@
       </div>
       <div class="row">
         <div class="col-md-12 col-lg-6">
-          <div class="pt-lg-0 pt-xl-6  pb-lg-0">
+          <div>
             <img data-src="/assets/images/proyectos/guernica-diseno-final-1" class="lazyloaded u-img-fluid" alt="Pantalla diseño guernica" src="/assets/images/proyectos/guernica-diseno-final-1.jpg">
           </div>
         </div>
-        <div class="col-md-12 col-lg-6  mb-xl-6 d-flex">
-          <div class="d-flex c-bg-pattern">
+        <div class="col-md-12 col-lg-6 d-flex c-bg-pattern">
+          <div class="d-flex">
             <div class="d-flex  align-items-center c-gallery__bg">
               <div class="c-gallery--contenido d-flex justify-content-between u-relative my-5 mx-md-6 mx-xl-7">
                 <div class="c-gallery--icono c-icon--medium  c-icon--white u-bg-red">
                   {{svgSprite('link')}}
                 </div>
                 <div>
-                  <p class="mb-2">
-                    <strong>Para saber más:</strong>
-                  </p>
+                  <h4 class="title-2xl decoration-red pt-2 mb-3">Para saber más:</h4>
                   <a href="https://guernica.museoreinasofia.es/" target="_blank">
                     <span class="c-link-especial">
                       Visita la web de Repensar Guernica.
@@ -283,20 +287,20 @@
 <section class="mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
-      <div class="col-md-12  col-xl-10 offset-xl-1">
-        <p class="c-title--big mb-md-6">
+      <div class="col-md-12 col-xl-10 mb-4 mb-md-6">
+        <p class="title-slim-6xl u-strong-red">
           Para construir un proyecto de estas características tuvimos que recurrir a una <strong>combinación de herramientas</strong> muy potente.
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 col-lg-5 col-xl-4 offset-xl-1">
+      <div class="col-md-12 col-lg-6">
         <div class="d-flex">
           <div class="mr-4 c-icon--large c-icon--red">
             {{svgSprite('drupal')}}
           </div>
           <div>
-            <h4 class="c-title-large">
+            <h4 class="title-2xl decoration-red pt-2 mb-3">
               Drupal
             </h4>
             <p>
@@ -305,13 +309,13 @@
           </div>
         </div>
       </div>
-      <div class="col-md-12 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+      <div class="col-md-12 col-lg-6">
         <div class="d-flex">
           <div class="mr-4 c-icon--large c-icon--red">
             {{svgSprite('gigapixel')}}
           </div>
           <div>
-            <h4 class="c-title-large">
+            <h4 class="title-2xl decoration-red pt-2 mb-3">
               Gigapixel + leafletJS
             </h4>
             <p>
@@ -322,13 +326,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 col-lg-5 col-xl-4 offset-xl-1">
+      <div class="col-md-12 col-lg-6">
         <div class="d-flex">
           <div class="mr-4 c-icon--large c-icon--red">
             {{svgSprite('solr')}}
           </div>
           <div>
-            <h4 class="c-title-large">
+            <h4 class="title-2xl decoration-red pt-2 mb-3">
               Solr
             </h4>
             <p>
@@ -337,13 +341,13 @@
           </div>
         </div>
       </div>
-      <div class="col-md-12 col-lg-5 offset-lg-1 col-xl-4 offset-xl-2">
+      <div class="col-md-12 col-lg-6">
         <div class="d-flex">
           <div class="mr-4 c-icon--large c-icon--red">
             {{svgSprite('calendar')}}
           </div>
           <div>
-            <h4 class="c-title-large">
+            <h4 class="title-2xl decoration-red pt-2 mb-3">
               D3
             </h4>
             <p>
@@ -359,11 +363,11 @@
 <section class="c-bg-big py-5 py-md-7">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-lg-10 offset-lg-1">
         <div class="c-texto--center">
-          <h3 class="c-title--big mb-4">
-            ¿Tienes alguna <strong>duda</strong> sobre este <strong>proyecto?</strong> <br>¿Te gustaría ver otros similares?
-          </h3>
+          <h2 class="title-7xl mb-4">
+            ¿Tienes alguna duda sobre este proyecto?<br>¿Te gustaría ver otros similares?
+          </h2>
           <p class="mb-4">
             Cuéntanos qué necesitas. Estaremos encantados de poder atenderte.
           </p>
@@ -377,15 +381,14 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-<div class="c-separator--line"><hr /></div>
+<div class="container d-flex flex-row justify-content-center py-6">
+    <a class="action-up color-blue d-flex flex-column align-items-center decoration-none" href="#top">
+        <svg class="icon-up mb-4">
+            <use xlink:href="/assets/svg/sprite/sprite.svg#arrow-slim"></use>
+        </svg>
+        <span class="text-uppercase color-blue text-sm letter-base font-400">Subir</span>
+    </a>
+</div>
 {% include "@includes/contact.twig" %}
 
 {% endblock %}
