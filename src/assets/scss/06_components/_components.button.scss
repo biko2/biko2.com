@@ -61,10 +61,9 @@
     border-radius: 72px;
 
     &:hover {
-        border-color: $red;
-        color: $red;
+        color: $blue;
         text-decoration: none;
-        background: transparent;
+        background: white;
         border-radius: 72px;
     }
 }
