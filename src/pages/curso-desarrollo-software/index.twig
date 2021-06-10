@@ -1,6 +1,8 @@
 {# ----- HOME ----- #}
-{% extends "@layouts/page.twig" %}
+{% extends "@layouts/page-clean.twig" %}
 {% block page %}
+<div class="bg-d rellax" data-rellax-speed="-5"></div>
+<div class="bg-s rellax" data-rellax-speed="-9"></div>
 <section class="c-hero p-home__hero" id="top">
   <div class="container">
     <div class="row">
@@ -369,4 +371,8 @@
 </div>
 
 {% include "@includes/contact.twig" %}
+{% include "@includes/site-footer.twig" %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+<script>var rellax = new Rellax('.rellax');</script>
 {% endblock %}
