@@ -2,24 +2,18 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
-<section class="c-hero p-proyectos__hero" id="top">
+<section class="c-hero p-home__hero" id="top">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-10">
-        <h1 class="title-hero mb-4 text-left">
+      <div class="col-12 col-md-10 offset-md-1">
+        <h1 class="title-hero mb-4 text-center">
             Tenemos más motivación que 50 tazas de desayuno juntas
         </h1>
-        <p class="font-secondary text-3xl color-red mb-4 text-left">(pero sabemos que eso no basta para convencerte)</p>
+        <p class="font-secondary text-3xl color-red mb-4 text-center">(pero sabemos que eso no basta para convencerte)</p>
       </div>
-      <div class="col-12 text-left">
-        <div class="row">
-          <div class="col-lg-5">
-            <p class="text-2xl">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
-          </div>
-          <div class="col-lg-5">
-            <p class="text-2xl">Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</p>
-          </div>
-        </div>
+      <div class="col-12 col-md-10 offset-md-1 text-center">
+      <p class="text-2xl">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos.</p>
+      <p class="text-2xl">Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</p>
         <div class="c-separator--icon">
           <a class="c-separator--icon__animated" href="#que">
             <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -37,6 +31,7 @@
     </div>
   </div>
 </section>
+
 
 {% include "@base/proyectos/proyecto-destacado.twig" %}
 
