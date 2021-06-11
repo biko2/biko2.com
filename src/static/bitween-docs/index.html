@@ -16,18 +16,31 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
     />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+      title="docsify-darklight-theme"
+      type="text/css"
+    />
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
         name: "Bitween suite",
-        repo: "",
+        repo: "https://git.drupalcode.org/project/static_suite",
         loadSidebar: true,
         coverpage: true,
+        sidebarDisplayLevel: 2,
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- plugins -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+      type="text/javascript"
+    ></script>
   </body>
 </html>
