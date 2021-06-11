@@ -130,19 +130,25 @@
     z-index: -9999999999;
     transition: background-position 1s;
 
+
     @include media-breakpoint-down(lg) {
         background-position: -133% 0%;
     }
 
 
     @include media-breakpoint-down(md) {
-        background-position: 162% 0%;
-        background-size: 157%;
+        background-position: 350% 0%;
+        //background-size: 157%;
+    }
+
+
+    @include media-breakpoint-up(xl) {
+        background-position: -10% 0%;
     }
 }
 
 @media only screen and (min-width: 1960px) {
-    .bg-b {
+    .bg-d {
         max-width: 2000px;
         background-position: -4% 0%;
     }
