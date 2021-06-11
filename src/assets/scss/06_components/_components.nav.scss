@@ -46,9 +46,15 @@
   position: relative;
   margin: 0;
 
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(sm) {
+    margin: 0 0 0 24px;
+  }
+
+  @include media-breakpoint-up(xl) {
     margin: 0 0 0 48px;
   }
+
+
 
   &:before {
     content: "";
