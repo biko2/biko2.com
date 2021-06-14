@@ -1,7 +1,7 @@
 {# ----- PROYECTO ----- #}
 {% extends "@layouts/page.twig" %}
 {% block page %}
-
+<!--Bloque hero-->
 <section class="mb-5 mb-md-7" id="top">
   <div class="p-proyecto__hero-new p-proyecto__hero--canalmarch text-left">
     <div class="container">
@@ -88,7 +88,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-xl-10">
-        <p class="mb-5 mb-md-7 title-slim-6xl u-strong-red">Audio, vídeo, conciertos, series… un universo de contenido por explorar apto incluso para los paladares más sibaritas.
+        <p class="mb-5 mb-md-7 title-slim-6xl u-strong-red">Audio, vídeo, conciertos, series… un universo de contenido por explorar apto incluso para los paladares más sibaritas.</p>
       </div>
     </div>
   </div>
@@ -189,6 +189,40 @@
       </div>
       <div class="col-md-12 col-lg-6 col-xl-7 offset-xl-1 mb-5 mb-lg-0 mb-xl-4">
         <img data-src="/assets/images/proyectos/canal-march-producto-final-1" class="lazyloaded u-img-fluid" alt="Pantalla diseño Canal March" src="/assets/images/proyectos/canal-march-producto-final-1.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Bloque Para saber mas-->
+<section id="parasabermas" class="mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6">
+        <div>
+          <img data-src="/assets/images/proyectos/canal-dfinal.jpg" class="lazyloaded u-img-fluid" alt="Pantalla móvil y tablet de la página de economía circular" src="/assets/images/proyectos/canal-dfinal.jpg">
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-6 d-flex c-bg-pattern c-bg-pattern__rigth">
+        <div class="d-flex">
+          <div class="d-flex  align-items-center c-gallery__bg">
+            <div class="c-gallery--contenido d-flex justify-content-between  u-relative my-5 mx-md-6 mx-xl-7">
+              <div class="c-gallery--icono c-icon--medium  c-icon--white u-bg-red">
+                {{svgSprite('link')}}
+              </div>
+              <div class="mr-4">
+                <h4 class="title-2xl decoration-red pt-2 mb-3">Para saber más:</h4>
+                   <a href="https://canal.march.es/es/" target="_blank">
+                  <span class="c-link-especial">
+                    Visita Canal March
+                  </span>
+                </a>
+              </div>
+              <div class="align-self-end c-icon--arrow c-icon--black">
+                {{svgSprite('flecha-right')}}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
