@@ -2,6 +2,7 @@
 {% extends "@layouts/page.twig" %}
 {% block page %}
 
+<!--Bloque hero-->
 <section class="mb-5 mb-md-7" id="top">
   <div class="p-proyecto__hero-new p-proyecto__hero--escuelamusica text-left">
     <div class="container">
@@ -24,8 +25,8 @@
     </div>
   </div>
 </section>
-
-<section>
+<!--Bloque entradilla y datos-->
+<section class="mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -44,10 +45,10 @@
     </div>
   </div>
 </section>
-
+<!--Separador-->
 <div class="c-separator--line c-separator--line__horizontal"><hr /></div>
-
-<section class="contenedor-secciones mb-md-7 mb-lg-5 mb-xl-4">
+<!--Bloque El Desafio-->
+<section id="desafio" class="contenedor-secciones mb-md-7 mb-lg-5 mb-xl-3">
   <div class="c-grid-image--right--big mb-4 mb-mb-0">
     <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-desafio.jpg" class="lazyloaded" alt="Manos sobre un teclado de piano" src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-desafio.jpg">
   </div>
@@ -62,15 +63,16 @@
     </div>
   </div>
 </section>
-<section class="c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
+<!--Bloque Nuestro enfoque-->
+<section id="enfoque" class="c-bg-pattern__left mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <div class="mb-4 mb-md-0">
+      <div class="col-lg-6 order-md-2 order-lg-1">
+        <div class="mb-4">
           <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-enfoque.png" class="lazyloaded u-img-fluid" alt="Composición que representa un vídeo de concierto y un instrumento con partitura"  src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-enfoque.png">
         </div>
       </div>
-      <div class="col-md-6 col-lg-4 offset-lg-1">
+      <div class="col-lg-6 col-xl-4 offset-xl-1 order-md-1 order-lg-2">
         <h3 class="title-7xl mb-4">Nuestro enfoque</h3>
         <p>Convertimos la web en la herramienta de comunicación clave para la Escuela. Para ello aprovechamos toda la potencia de <strong>Drupal 8 </strong>como solución de gestión de contenidos y toda su capacidad para integrar contenidos de distintas fuentes internas y conectar con otros servicios de la Escuela.
         </p>
@@ -78,50 +80,56 @@
     </div>
   </div>
 </section>
-<section class="mb-5 mb-md-6 mb-lg-7">
-  <div class="c-gallery">
-    <div class="container">
-      <div class="row mb-4 mb-md-5">
-        <div class="col-12 col-lg-10">
-          <p class="mb-5 mb-md-7 title-slim-6xl u-strong-red">Nueva arquitectura, nuevo CMS y una mejor integración de las fuentes de información internas
-          </p>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-4">
-          <div class="d-flex flex-column">
-            <h3 class="title-7xl mb-4">
-              Producto final
-            </h3>
-            <p>Una solución verdaderamente útil para la escuela: <strong> visual, fácil de gestionar</strong>, con información en constante renovación que facilita la interacción entre los alumnos y también con los candidatos. Además, conecta con las personas que siguen fielmente su agenda, que anuncia más de 300 conciertos al año. </p>
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 col-xl-7 offset-xl-1 mb-5 mb-lg-0 mb-xl-4">
-          <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-1.png" class="lazyloaded u-img-fluid" alt="Pantalla Móvil de la página de la Escuela Superior de Música Reina Sofía" src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-1.png">
+<!--Bloque frase-->
+<section id="frase1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-xl-10">
+        <p class="mb-5 mb-md-7 title-slim-6xl u-strong-red">Nueva arquitectura, nuevo CMS y una mejor integración de las fuentes de información internas
+      </div>
+    </div>
+  </div>
+</section>
+<!--Bloque Producto final-->
+<section id="productofinal" class="mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6 col-xl-4">
+        <h3 class="title-7xl mb-4">Producto final</h3>
+        <p>Una solución verdaderamente útil para la escuela: <strong> visual, fácil de gestionar</strong>, con información en constante renovación que facilita la interacción entre los alumnos y también con los candidatos. Además, conecta con las personas que siguen fielmente su agenda, que anuncia más de 300 conciertos al año. </p>
+      </div>
+      <div class="col-md-12 col-lg-6 col-xl-7 offset-xl-1 mb-5 mb-lg-0 mb-xl-4">
+        <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-1.png" class="lazyloaded u-img-fluid" alt="Pantalla Móvil de la página de la Escuela Superior de Música Reina Sofía" src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-1.png">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Bloque Para saber mas-->
+<section id="parasabermas" class="mb-5 mb-md-6 mb-lg-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-6">
+        <div>
+          <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-2.jpg" class="lazyloaded u-img-fluid" alt="Pantalla de la página de la Escuela Superior de Música Reina Sofía" src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-2.jpg">
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12 col-lg-6">
-          <div>
-            <img data-src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-2.jpg" class="lazyloaded u-img-fluid" alt="Pantalla de la página de la Escuela Superior de Música Reina Sofía" src="/assets/images/proyectos/escuela-superior-musica-reina-sofia-producto-final-2.jpg">
-          </div>
-        </div>
-        <div class="col-md-12 col-lg-6 d-flex c-bg-pattern c-bg-pattern__rigth">
-          <div class="d-flex">
-            <div class="d-flex  align-items-center c-gallery__bg">
-              <div class="c-gallery--contenido d-flex justify-content-between  u-relative my-5 mx-md-6 mx-xl-7">
-                <div class="c-gallery--icono c-icon--medium  c-icon--white u-bg-red">
-                  {{svgSprite('link')}}
-                </div>
-                <div class="mr-4">
-                  <h4 class="title-2xl decoration-red pt-2 mb-3">Para saber más:</h4>
-                     <a href="https://www.escuelasuperiordemusicareinasofia.es/" target="_blank">
-                    <span class="c-link-especial">
-                      Escuela Superior de Música Reina Sofía
-                    </span>
-                  </a>
-                </div>
-                <div class="align-self-end c-icon--arrow c-icon--black">
-                  {{svgSprite('flecha-right')}}
-                </div>
+      <div class="col-md-12 col-lg-6 d-flex c-bg-pattern c-bg-pattern__rigth">
+        <div class="d-flex">
+          <div class="d-flex  align-items-center c-gallery__bg">
+            <div class="c-gallery--contenido d-flex justify-content-between  u-relative my-5 mx-md-6 mx-xl-7">
+              <div class="c-gallery--icono c-icon--medium  c-icon--white u-bg-red">
+                {{svgSprite('link')}}
+              </div>
+              <div class="mr-4">
+                <h4 class="title-2xl decoration-red pt-2 mb-3">Para saber más:</h4>
+                   <a href="https://www.escuelasuperiordemusicareinasofia.es/" target="_blank">
+                  <span class="c-link-especial">
+                    Escuela Superior de Música Reina Sofía
+                  </span>
+                </a>
+              </div>
+              <div class="align-self-end c-icon--arrow c-icon--black">
+                {{svgSprite('flecha-right')}}
               </div>
             </div>
           </div>
@@ -130,28 +138,23 @@
     </div>
   </div>
 </section>
+<!--Bloque Tecnologia-->
 <section class="mb-5 mb-md-6 mb-lg-7">
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-xl-10 mb-4 mb-md-6">
-        <p class="title-slim-6xl u-strong-red">
-          Hemos incluido herramientas en la propia gestión de contenidos que permiten la máxima personalización en función de los dispositivos de los usuarios:
-        </p>
+        <p class="title-slim-6xl u-strong-red">Hemos incluido herramientas en la propia gestión de contenidos que permiten la máxima personalización en función de los dispositivos de los usuarios:</p>
       </div>
     </div>
     <div class="row">
-       <div class="col-md-12 col-lg-6">
+      <div class="col-12">
         <div class="d-flex">
           <div class="mr-4 c-icon--large c-icon--red">
             {{svgSprite('drupal')}}
           </div>
           <div>
-            <h4 class="title-2xl decoration-red pt-2 mb-3">
-              Drupal
-            </h4>
-            <p>
-            Para una gestión de contenidos modulable, fluida y muy sencilla.
-            </p>
+            <h4 class="title-2xl decoration-red pt-2 mb-3">Drupal</h4>
+            <p>Para una gestión de contenidos modulable, fluida y muy sencilla.</p>
           </div>
         </div>
       </div>
