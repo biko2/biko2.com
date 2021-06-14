@@ -74,7 +74,7 @@
 }
 
 .c-filtrado__container {
-  background: $blue-ligth;
+  /*background: $blue-ligth;*/
   padding: 16px 0 16px 0;
 }
 
@@ -98,7 +98,7 @@
   padding: 35px 0;
   margin: 3px;
   position: relative;
-  border: 1px solid $gray-light;
+  /*border: 1px solid $gray-light;*/
 
   @include media-breakpoint-up(md) {
     flex-basis: 49%;
@@ -123,7 +123,7 @@
     display: block;
     border-top: 3px solid $red;
     transition: all .5s ease;
-    width: 25px;
+    width: 0%;
     height: 4px;
     position: absolute;
     top: 0;
