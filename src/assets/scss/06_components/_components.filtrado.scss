@@ -132,9 +132,10 @@
   }
 
   &:hover {
-    &:before {
+    /*&:before {
       width: 100%;
-    }
+    }*/
+    filter:invert(100%);
   }
 
   &--active {
