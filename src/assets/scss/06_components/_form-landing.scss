@@ -12,10 +12,11 @@
         display: inline-block;
         text-transform: uppercase;
         border: 2px solid $red;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         transition: 0.5s all;
         font-size: 16px;
-      
+        font-weight: bold;
+
 
         &:hover {
             background-color: $redstrong;
