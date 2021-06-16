@@ -76,6 +76,8 @@
 .c-filtrado__container {
   /*background: $blue-ligth;*/
   padding: 16px 0 16px 0;
+  
+    
 }
 
 .c-filtrado__list {
@@ -84,6 +86,14 @@
 	justify-content: flex-start;
 	align-items: center;
   align-content: center;
+  
+      @include media-breakpoint-down(xs) {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: 100%;
+        &::-webkit-scrollbar {display: none;}
+      }
+      
 }
 
 
@@ -93,10 +103,8 @@
   justify-content: center;
   flex-basis: 100%;
 	align-items: center;
-  background: white;
   min-height: 161px;
-  padding: 35px 0;
-  margin: 3px;
+  margin: 12px;
   position: relative;
   /*border: 1px solid $gray-light;*/
 
@@ -104,6 +112,7 @@
     flex-basis: 49%;
     min-height: 262px;
     padding: 24px;
+    margin: 3px;
   }
   @include media-breakpoint-up(lg) {
     flex-basis: 32.5%;
