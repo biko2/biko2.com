@@ -87,8 +87,7 @@
         top: 89px;
 
         @include media-breakpoint-down(md) {
-            left: 250px;
-            right: auto;
+            display: none;
         }
     }
 }
