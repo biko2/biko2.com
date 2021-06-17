@@ -41,6 +41,34 @@
   }
 }
 
+.c-imagen-posicionada--testimonial {
+  position: relative;
+  @include media-breakpoint-up(lg) {
+    position: absolute;
+    top: 0;
+    right: -13%;
+  }
+
+  @include media-breakpoint-up(xlg) {
+    right: -35%;
+  }
+  @include media-breakpoint-up(xl) {
+    right: -2%;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    right: -10%;
+  }
+  @include media-breakpoint-up(xxxl) {
+    right: 5%;
+  }
+
+
+  img {
+    width: 100%;
+  }
+}
+
 
 //.page-curso-desarrollo-software {
 //  #main-wrapper{
