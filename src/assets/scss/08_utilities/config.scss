@@ -11,6 +11,7 @@ $gray-extradark: #4E5C65;
 $gray: #999;
 $gray-dark: #666;
 $gray-light: #DDE4E9;
+$gray-middle: #c4c9cc;
 $white: #ffffff;
 $blue: #22223C;
 $blue-ligth: rgba(19, 38, 49, 0.1);
@@ -69,7 +70,7 @@ $letter-spacing: (base: 1px, tightest: -0.05em, tighter: -0.025em, tight: -0.015
 ==  Hovers config     =============
 ===========================================
 */
-$hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -77,7 +78,7 @@ $hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extraligh
 ===========================================
 */
 
-$themecolors: (red: $red, redstrong: $redstrong, red-extralight: $red-extralight, red-middle: $red-middle, red-light: $red-light, gray: $gray, bluesoft: $blue-soft, gray-dark: $gray-dark, gray-light: $gray-light, white: $white, gray-extradark: $gray-extradark);
+$themecolors: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -85,7 +86,7 @@ $themecolors: (red: $red, redstrong: $redstrong, red-extralight: $red-extralight
 ===========================================
 */
 
-$backgrounds: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$backgrounds: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
