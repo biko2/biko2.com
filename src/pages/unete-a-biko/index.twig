@@ -87,7 +87,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 offset-md-1">
-        <h2 class="title-7xl mb-5">Para trabajar con nosotros, primero debes saber algunas cosas:</h2>
+        <h2 class="title-6xl mb-4 mb-md-5">Para trabajar con nosotros, primero debes saber algunas cosas:</h2>
       </div>
       <div class="landing-nav-section__wrap d-none d-xl-inline ">
         <div class="landing-nav-section text-xs color-bluesoft font-400"><span class="line-decoration">Qué debes saber para trabajar en Biko</span></div>
@@ -95,7 +95,7 @@
     </div>
   </div>
 
-  <div class="container mb-0">
+  <div class="container mb-4 mb-md-7">
     <div class="row">
         <div class="col-md-10 offset-md-1">
           <div class="row">
@@ -118,47 +118,32 @@
 </section>
 
 
-
-<div class="c-separator--line"><hr /></div>
-
-<section id="contactar" class="p-unete-equipo c-bg-pattern__right mb-5 mb-md-7">
+<!--bloque dudas final-->
+<section class="c-bg-big py-5 py-md-7">
   <div class="container">
     <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div class="c-texto--center">
+          <h2 class="title-6xl mb-4">
+            ¿Te apetece unirte al equipo?
+          </h2>
+          <p class="font-secondary text-3xl color-red mb-4 text-center">(vamos a conocernos mejor)</p>
+          <p>Si te interesa trabajar en Biko y crees que puedes aportar con tu talento, por favor, escríbenos y adjunta tu currículum. Nosotros nos encargamos del resto.</p>
+        </div>
+      </div>
       <div class="col-md-10 offset-md-1">
-      <div class="c-icon-square mb-4 mb-md-5">
-        {{svgSprite('smile')}}
+        <div class="d-flex flex-column align-items-center text-center" data-drip-show-form="740822926">
+          <a class="c-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=unete@biko2.com">Envíanos tu currículum a <br />
+          <span class="c-button--minus">unete@biko2.com</span></a>
+        </div>
       </div>
-      <h2 class="title-7xl mb-4 text-left">¿Te apetece unirte al equipo?</h2>
-        <p class="font-secondary text-3xl color-red mb-4 text-left">(vamos a conocernos mejor)</p>
-      </div>
-      <div class="landing-nav-section__wrap d-none d-xl-inline ">
-        <div class="landing-nav-section text-xs color-bluesoft font-400"><span class="line-decoration">Únete al equipo Biko</span></div>
-      </div>
-
     </div>
-  </div>
-  <div class="container mb-0">
-    <div class="row">
-        <div class="col-md-10 offset-md-1">
-          <div class="row">
-            <div class="col-lg-10">
-                <p class="text-2xl mb-4 mb-md-5">Si te interesa trabajar en Biko y crees que puedes aportar con tu talento, por favor, escríbenos y adjunta tu currículum. Nosotros nos encargamos del resto.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-10 offset-md-1">
-          <div class="d-flex" data-drip-show-form="740822926">
-            <a class="c-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=unete@biko2.com">Envíanos tu currículum a <br />
-            <span class="c-button--minus">unete@biko2.com</span></a>
-          </div>
-        </div>
-      </div>
   </div>
 </section>
 
 
 
-<section class="p-unete-open">
+<section class="p-unete-open mb-0">
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-xl-6">
@@ -174,9 +159,6 @@
 </section>
 
 
-
+{% include "@includes/subir.twig" %}
 {% include "@includes/contact.twig" %}
-
-
-
 {% endblock %}
