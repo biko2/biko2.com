@@ -141,6 +141,8 @@ $font-secondary: "courier_primeregular";
 
     @extend .font-primary;
 
+    @extend .line-xl-7xl;
+
     @extend .line-lg-6xl;
 
     @extend .line-md-5xl;
@@ -159,6 +161,8 @@ $font-secondary: "courier_primeregular";
 
     @extend .line-lg-5xl;
 
+    @extend .line-md-5xl;
+
     @extend .line-4xl;
 
     font-weight: 700;
@@ -166,6 +170,8 @@ $font-secondary: "courier_primeregular";
 
 .title-6xl {
     @include responsive-font-size($size-6xl);
+
+    
 
     @extend .line-lg-5xl;
 
