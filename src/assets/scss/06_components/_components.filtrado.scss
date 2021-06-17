@@ -75,9 +75,9 @@
 
 .c-filtrado__container {
   /*background: $blue-ligth;*/
-  padding: 16px 0 16px 0;
-  @include media-breakpoint-down(xs) {border: 1px solid $gray-light}
-    
+  padding: 16px 0 0 0;
+  //@include media-breakpoint-down(xs) {border: 1px solid $gray-light}
+
 }
 
 .c-filtrado__list {
@@ -86,14 +86,14 @@
 	justify-content: flex-start;
 	align-items: center;
   align-content: center;
-  
+
       @include media-breakpoint-down(xs) {
         flex-wrap: nowrap;
         overflow-x: auto;
         max-width: 100%;
         &::-webkit-scrollbar {display: none;}
       }
-      
+
 }
 
 
