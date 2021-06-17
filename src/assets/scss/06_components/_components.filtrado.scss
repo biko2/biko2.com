@@ -91,9 +91,7 @@
         flex-wrap: nowrap;
         overflow-x: auto;
         max-width: 100%;
-        &::-webkit-scrollbar {display: none;}
-      }
-
+        //&::-webkit-scrollbar {display: none;}
 }
 
 
@@ -176,4 +174,5 @@
     color: $black;
   }
 
+}
 }
