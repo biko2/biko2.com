@@ -282,6 +282,16 @@
   }
 }
 
+.p-proyecto__datos {
+  margin: 0 16px;
+  @include media-breakpoint-up(md) {
+    margin: 0 32px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin: 0 56px;
+  }
+}
+
 .contenedor-secciones {
   @include media-breakpoint-up(md) {
     min-height: 424px;
