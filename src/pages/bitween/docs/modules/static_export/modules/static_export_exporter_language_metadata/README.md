@@ -4,11 +4,12 @@ Provides a custom exporter that exports language metadata (available languages, 
 metadata is useful when building a site, to dynamically know which language is the default one, their prefixes, etc.
 
 It exports its data when any of the following configuration objects changes:
+
 - language.negotiation
 - system.site
 - language.type
-- language.entity.*
+- language.entity.\*
 
-## INSTALLATION ##
+## INSTALLATION
+
 Run `composer require drupal/static_export_exporter_language_metadata`.
-

@@ -1,18 +1,22 @@
 # Static Build
+
 Base module that enables building static sites from data exported by
 Static Export module.
 
-## INTRODUCTION ##
+## INTRODUCTION
+
 This module serves as an orchestrator for the process of building a site,
 and should be complemented with a compatible "static builder" module.
 
 At this moment, you can install any of the following static builders:
-* [Gatsby](https://www.drupal.org/project/static_builder_gatsby) (runs locally
+
+- [Gatsby](https://www.drupal.org/project/static_builder_gatsby) (runs locally
   on your server)
-* [AWS Codebuild](https://www.drupal.org/project/static_builder_codebuild)
+- [AWS Codebuild](https://www.drupal.org/project/static_builder_codebuild)
   (runs on a CI/CD service)
 
-## RUNNING A BUILD ##
+## RUNNING A BUILD
+
 This module and its builders work by spawning a background process which
 actually runs a build command on a bash shell. That build command is defined
 by the builder of your choice.
@@ -23,58 +27,67 @@ means having that command installed and available in `www-data` user's `$PATH`
 environment variable).
 
 Once your site is built, it can be:
-* Served by your own server: 1) use a separate domain for your site, or 2) add
-some rewrite rules to your web server. Find out more on this at the end of
-this document.
-* Deployed to any external CDN/hosting service: use
-[Static Deploy](https://www.drupal.org/project/static_suite) module.
 
-## ADDING CUSTOM BUILDERS ##
+- Served by your own server: 1) use a separate domain for your site, or 2) add
+  some rewrite rules to your web server. Find out more on this at the end of
+  this document.
+- Deployed to any external CDN/hosting service: use
+  [Static Deploy](https://www.drupal.org/project/static_suite) module.
+
+## ADDING CUSTOM BUILDERS
+
 Static builders are plugins that must follow these rules:
-* Be annotated with @StaticBuilder annotation
-* Implement Drupal\static_build\Plugin\StaticBuilderInterface
-interface.
-* Declare a route for editing configuration, named after this rule:
-static_builder_{PLUGIN_ID}.settings
 
-Example (static_builder_{PLUGIN_ID}.routing.yml):
-```
+- Be annotated with @StaticBuilder annotation
+- Implement Drupal\static_build\Plugin\StaticBuilderInterface
+  interface.
+- Declare a route for editing configuration, named after this rule:
+  static*builder*{PLUGIN_ID}.settings
+
+Example (static*builder*{PLUGIN_ID}.routing.yml):
+
+```yml
 static_builder_{PLUGIN_ID}.settings:
-path: '/admin/config/static/build/{PLUGIN_ID}'
+path: "/admin/config/static/build/{PLUGIN_ID}"
 defaults:
   _form: \Drupal\static_builder_{PLUGIN_ID}\Form\SettingsForm
-  _title: 'Static Builder - {PLUGIN_ID}: Settings'
+  _title: "Static Builder - {PLUGIN_ID}: Settings"
 requirements:
-  _permission: 'administer site configuration'
+  _permission: "administer site configuration"
 ```
 
-## INSTALLATION ##
+## INSTALLATION
+
 Run `composer require drupal/static_build`
 
-## REQUIREMENTS ##
+## REQUIREMENTS
+
 `rsync` is required to perform various I/O operations. It must be executable
 by the user running your web server (usually "www-data".)
 
-## CONFIGURATION ##
+## CONFIGURATION
+
 Configuration available at /admin/config/static/build.
 
-## SERVING YOUR SITE FROM YOUR WEB SERVER ##
+## SERVING YOUR SITE FROM YOUR WEB SERVER
+
 After your site is built, it's placed at
- `[BASE_DIRECTORY]/[BUILDER_ID]/live/current`
+`[BASE_DIRECTORY]/[BUILDER_ID]/live/current`
 
 There are two possible ways of serving it from your own web server:
-* Use a domain for Drupal and another separate one for serving your static
-site: configure the document root of your virtual host to point to
-`[BASE_DIRECTORY]/[BUILDER_ID]/live/current`
-* Use the same domain for Drupal and your static site: configure a set of
-rewrite rules to serve some routes from Drupal, and other ones from the
- filesystem.
+
+- Use a domain for Drupal and another separate one for serving your static
+  site: configure the document root of your virtual host to point to
+  `[BASE_DIRECTORY]/[BUILDER_ID]/live/current`
+- Use the same domain for Drupal and your static site: configure a set of
+  rewrite rules to serve some routes from Drupal, and other ones from the
+  filesystem.
 
 This is a working example of "Rewrite Rules" for Apache and Gatsby (tweak it
 to your needs) where we check if a path exists in the filesystem before
 routing it to Drupal:
 
-```
+```apacheconf
   ######### GATSBY CONFIG START ########
 
   # Due to security filters applied by Drupal's .htaccess,

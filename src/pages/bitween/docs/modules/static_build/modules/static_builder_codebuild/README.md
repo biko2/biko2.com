@@ -1,8 +1,10 @@
 # AWS Codebuild Static Builder
+
 This module is a plugin for Static Build module and builds a static site using
 [AWS Codebuild](https://aws.amazon.com/codebuild/).
 
-## INTRODUCTION ##
+## INTRODUCTION
+
 Since AWS Codebuild is a CI/CD service, it must handle not only building your
 site, but also deploying it to the CDN/hosting service of your choice.
 Therefore, how AWS Codebuild behaves is completely up to the way you configure
@@ -15,30 +17,34 @@ build is triggered. AWS Codebuild needs to get that file from the server
 running your Drupal instance. See a working example at the end of this
 document.
 
-## REQUIREMENTS ##
+## REQUIREMENTS
+
 AWS PHP SDK (automatically installed when using composer)
 
-## INSTALLATION ##
+## INSTALLATION
+
 Run `composer require drupal/static_builder_codebuild`.
 
 Follow the instructions available at `/admin/config/static/build`, and
 create the directory structure as stated in that configuration page.
 
-## CONFIGURATION ##
+## CONFIGURATION
+
 There are two configuration types involved in this module.
-* global configuration for the Static Build module:
+
+- global configuration for the Static Build module:
   `/admin/config/static/build`
-* AWS Codebuild configuration: `/admin/config/static/build/codebuild`
+- AWS Codebuild configuration: `/admin/config/static/build/codebuild`
 
-## Sample buildspec.yml: Gastby + deployment to AWS S3 ##
+## Sample buildspec.yml: Gastby + deployment to AWS S3
 
-```
+```yml
 version: 0.2
 
 # Save SSH KEY to access your Drupal instance in AWS Parameter Store
 env:
   parameter-store:
-    drupal_ssh_key: '/drupal-ssh-key/my-user'
+    drupal_ssh_key: "/drupal-ssh-key/my-user"
 
 phases:
   install:
@@ -68,7 +74,7 @@ phases:
 
   build:
     commands:
-      - 'yarn build'
+      - "yarn build"
 
   # Upload artifacts using https://packagist.org/packages/asilgag/aws-s3-incremental-deployer, suitable for large sites.
   post_build:
@@ -85,22 +91,23 @@ phases:
 
       # Execute deploy-s3.php program (source code available in this README file)
       - php -q deploy-s3.php --source-dir=/build-directory/public/ --bucket=my-bucket --region=us-east-1
-
 ```
 
-## Sample composer.json for deploy-s3.php program ##
-```
+## Sample composer.json for deploy-s3.php program
+
+```json
 {
-    "name": "my-project/aws-s3-incremental-deployer",
-    "type": "project",
-    "require": {
-        "asilgag/aws-s3-incremental-deployer": "^1.0"
-    }
+  "name": "my-project/aws-s3-incremental-deployer",
+  "type": "project",
+  "require": {
+    "asilgag/aws-s3-incremental-deployer": "^1.0"
+  }
 }
 ```
 
-## Sample deploy-s3.php program ##
-```
+## Sample deploy-s3.php program
+
+```php
 <?php
 use Asilgag\AWS\S3\AwsS3IncrementalDeployer;
 use Asilgag\AWS\S3\Logger\MultiLogger;
