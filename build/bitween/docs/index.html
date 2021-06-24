@@ -29,11 +29,52 @@
     />
   </head>
   <style>
+    /* sidebar */
+    .app-name {
+      text-align: left !important;
+      padding-left: 15px !important;
+    }
+    .app-name-link {
+      font-weight: bold;
+    }
+    .logo {
+      padding-left: 15px;
+    }
+
+    /* dark light theme toggle button */
     @media (max-width: 768px) {
       #docsify-darklight-theme {
         position: static;
         margin: 20px 0;
       }
+    }
+
+    /* links footer */
+    .separator-footer {
+      margin-top: 5em !important;
+    }
+    .c-footer__bottom-list {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      padding-left: 0 !important;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin: 0;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    .c-footer__bottom-list__item {
+      padding: 5px;
+    }
+    .c-footer__bottom-list__item a {
+      font-size: 0.79012rem;
+      line-height: 20px;
+      color: #aaa;
     }
   </style>
   <body>
@@ -44,7 +85,7 @@
         repo: "https://git.drupalcode.org/project/static_suite",
         loadSidebar: true,
         coverpage: false,
-        sidebarDisplayLevel: 2,
+        sidebarDisplayLevel: 1,
         copyCode: {
           buttonText: "Copy to clipboard",
           errorText: "Error",
@@ -53,6 +94,13 @@
         customPageTitle: {
           suffix: "Bitween Suite",
           seprator: "|",
+        },
+        footer: {
+          copy: '<ul class="c-footer__bottom-list"><li class="c-footer__bottom-list__item"><a class="c-link" rel="nofollow" href="/aviso-legal">Aviso legal</a></li><li class="c-footer__bottom-list__item"><a class="c-link" rel="nofollow" href="/politica-de-cookies">Cookies</a></li><li class="c-footer__bottom-list__item"><a class="c-link" rel="nofollow" href="/proteccion-de-datos">Protección de datos</a></li><li class="c-footer__bottom-list__item"><a class="c-link" href="/unete-a-biko">Únete</a></li></ul>',
+          auth: " ",
+          pre: '<hr class="separator-footer"/>',
+          style: "text-align: right;",
+          class: "className",
         },
         darklightTheme: {
           siteFont: "Montserrat, Arial, sans-serif, PT Sans",
@@ -103,6 +151,7 @@
       type="text/javascript"
     ></script>
     <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
+    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
     <script src="//unpkg.com/docsify-copy-code@2"></script>
     <script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
