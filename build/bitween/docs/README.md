@@ -1,6 +1,6 @@
 # Bitween Suite, the delightful Drupal and React connector
 
-Our model for building up modern websites, focused on users and content,
+Our model for building modern websites, focused on users and content,
 with the fastest and safest frontend, keeping up flexibility and dynamism
 needed on your digital activity and the most delightful connection between both sides.
 
