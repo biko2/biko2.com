@@ -281,3 +281,38 @@
         }
     }
 }
+
+.c-bg-pattern__left {
+  background-image:  none;
+
+  @include media-breakpoint-up(md) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:0 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:900% 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:-195% 0;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:-195% 0;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:-35% 0;
+  }
+
+}

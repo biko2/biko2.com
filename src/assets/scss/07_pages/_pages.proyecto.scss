@@ -246,6 +246,13 @@
   background: $blue url("/assets/images/home-nationale-nederlanden.jpg") center center no-repeat;
 }
 
+.c-bg-pattern__left {
+
+  @include media-breakpoint-up(md) {
+    background: none;
+  }
+
+}
 
 .p-proyecto__hero .c-grid-image--right {
 

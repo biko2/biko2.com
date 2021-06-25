@@ -1,9 +1,9 @@
 .c-bg-pattern {
-  background: url("../images/bg-pattern-footer.png") repeat left top;
+  background: url("../images/bg-pattern.png") repeat left top;
 }
 
 .c-bg-pattern__right {
-  background-image:  url("../images/bg-pattern-tiny.png");
+  background-image:  url("../images/bg-pattern.png");
   background-position: 400% 0;
   background-repeat: no-repeat;
 
@@ -49,7 +49,7 @@
 }
 
 .c-bg-pattern__left {
-  background-image:  url("../images/bg-pattern-tiny.png");
+  background-image:  url("../images/bg-pattern.png");
   background-position: 0 400%;
   background-repeat: no-repeat;
 
@@ -58,21 +58,52 @@
   }
 
   @include media-breakpoint-up(md) {
-    background-position: 0 128%;
+    background-position: 0 0;
   }
 
   @include media-breakpoint-up(lg) {
     background-image:  url(../images/bg-pattern.png);
-    background-position: 0 160%;
+    background-position: 0 0;
   }
 
   @include media-breakpoint-up(xl) {
-    background-position: left top;
+    background-position:-15% 0;
   }
-  
+
 }
 
+.c-bg-pattern__proyectos {
+  background-image:  url("../images/bg-pattern.png");
+  background-position: 0 400%;
+  background-repeat: no-repeat;
 
+  @include media-breakpoint-up(sm) {
+    background-position: 0 150% ;
+  }
+
+  @include media-breakpoint-up(md) {
+    background: none;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-image:  url("../images/bg-pattern.png");
+    background-repeat: no-repeat;
+    background-position:1100% 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position:-120% 0;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    background-position:-85% 0;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-position:0 0;
+  }
+
+}
 
 .c-bg-pattern__center {
 
