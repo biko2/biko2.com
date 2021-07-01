@@ -254,6 +254,33 @@
 
 }
 
+.c-bg-pattern__right {
+  background-image:  url("../images/bg-pattern.png");
+  background-position: 400% 0;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-up(sm) {
+    background-position: 150% 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position: 128% 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position: 160% 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    background-position: 200% 0;
+  }
+
+  @include media-breakpoint-up(xxxl) {
+    background-position: right top;
+  }
+}
+
+
 .p-proyecto__hero .c-grid-image--right {
 
   @include media-breakpoint-down(sm) {

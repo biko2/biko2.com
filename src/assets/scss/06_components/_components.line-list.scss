@@ -51,3 +51,14 @@
     padding: 50px 40px 50px 70px;
   }
 }
+
+.c-listado-linea__clave {
+  flex-basis: 40%;
+  @include media-breakpoint-up(xxl) {
+    flex-basis: 30%;
+  }
+}
+
+.flex-1 {
+  flex: 1;
+}

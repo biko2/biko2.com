@@ -11,6 +11,7 @@ $gray-extradark: #4E5C65;
 $gray: #999;
 $gray-dark: #666;
 $gray-light: #DDE4E9;
+$gray-extralight: #F1F4F6;
 $gray-middle: #c4c9cc;
 $white: #ffffff;
 $blue: #20314B;
@@ -70,7 +71,7 @@ $letter-spacing: (base: 1px, tightest: -0.05em, tighter: -0.025em, tight: -0.015
 ==  Hovers config     =============
 ===========================================
 */
-$hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, gray-extralight: $gray-extralight, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -78,7 +79,7 @@ $hovers: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extraligh
 ===========================================
 */
 
-$themecolors: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$themecolors: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, gray-extralight: $gray-extralight, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -86,7 +87,7 @@ $themecolors: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extr
 ===========================================
 */
 
-$backgrounds: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
+$backgrounds: (red: $red, redstrong: $redstrong, red-light: $red-light, red-extralight: $red-extralight, red-middle: $red-middle, blue: $blue, gray: $gray, gray-extradark: $gray-extradark, gray-dark: $gray-dark, gray-middle: $gray-middle, gray-light: $gray-light, gray-extralight: $gray-extralight, white: $white, black-soft: $black-soft, blue-ligth: $blue-ligth, blue-soft: $blue-ligth);
 
 /*
 ===========================================
@@ -189,8 +190,6 @@ $font-secondary: "courier_primeregular";
 .title-slim-6xl {
     @include responsive-font-size($size-6xl);
 
-
-
     @extend .line-lg-5xl;
 
     @extend .line-md-4xl;
@@ -205,7 +204,7 @@ $font-secondary: "courier_primeregular";
 .title-4xl {
   @include responsive-font-size($size-4xl);
 
-    @extend .line-2xl;
+    @extend .line-3xl;
 
     font-weight: 700 !important;
 
@@ -221,6 +220,14 @@ $font-secondary: "courier_primeregular";
     @extend .line-2xl;
 
     font-weight: 700;
+}
+
+.title-3xl {
+    @extend .text-3xl;
+
+    font-weight: bold;
+
+    @extend .line-2xl;
 }
 
 .title-2xl {
