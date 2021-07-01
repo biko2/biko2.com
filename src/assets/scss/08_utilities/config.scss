@@ -204,7 +204,7 @@ $font-secondary: "courier_primeregular";
 .title-4xl {
   @include responsive-font-size($size-4xl);
 
-    @extend .line-3xl;
+    @extend .line-2xl;
 
     font-weight: 700 !important;
 
