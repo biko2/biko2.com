@@ -1,0 +1,95 @@
+{# ----- PROYECTOS ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+<!--hero-->
+<section class="c-hero p-home__hero" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <h1 class="title-hero mb-4 text-center">
+            Tenemos más motivación que 50 tazas de desayuno juntas
+        </h1>
+        <p class="font-secondary text-3xl color-red mb-4 text-center">(pero sabemos que eso no basta para convencerte)</p>
+      </div>
+      <div class="col-12 col-md-10 offset-md-1 text-left">
+      <p class="text-2xl line-2xl">Nuestros proyectos son nuestra seña de identidad. Cada uno de ellos es distinto, pero todos tienen en común las ganas que les echamos. Si quieres conocernos un poco más, lo mejor es que veas qué hemos hecho.</p>
+        <div class="c-separator--icon">
+          <a class="c-separator--icon__animated" href="#proyecto-destacado">
+            <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-714.000000, -854.000000)" fill="#000000">
+                  <g>
+                    <path d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z" transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) "></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--proyecto destacado-->
+{% include "@base/proyectos/proyecto-destacado.twig" %}
+<!--clientes logos-->
+<section class="c-filtrado md-4 md-mb-7" id="listado-proyectos">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="title-6xl mb-4 text-center">Más proyectos interesantes</h2>
+      </div>
+    </div>
+  </div>
+  <div class="c-filtrado__container">
+
+      {% include "@base/proyectos/proyecto-filtrado.twig" %}
+
+  </div>
+</section>
+
+<!--premios-->
+<section class="mb-5 mb-md-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <h2 class="title-6xl mb-4">Premios Laus, Awwwards, Red Dot, menciones... </h2>
+        <p class="font-secondary text-3xl color-red mb-4">(lorem ipsum dolor sit amet)</p>
+      </div>
+      <div class="col-12 col-lg-10 offset-lg-1 mb-lg-2">
+        <p class="text-base line-base">Fusce convallis metus id felis luctus adipiscing. Donec id justo. In ac felis quis tortor malesuada pretium. Nam eget dui. Fusce a quam.
+Fusce ac felis sit amet ligula pharetra condimentum. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Maecenas malesuada. Etiam imperdiet imperdiet orci. Curabitur ullamcorper ultricies nisi.
+Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Quisque ut nisi. Suspendisse feugiat. Nullam dictum felis eu pede mollis pretium. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--contacto-->
+<section class="c-bg-big py-4 py-md-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <h2 class="title-6xl mb-4 text-center">Tenemos que hablar</h2>
+        <p class="font-secondary text-3xl color-red mb-4 text-center">(tranquilo/a, lo nuestro tiene mucho futuro)</p>
+      </div>
+      <div class="col-12 col-lg-10 offset-lg-1 mb-lg-2">
+        <p class="text-base line-base">Sabemos que ganamos en las distancias cortas, así que podemos tomarnos un café, hacer una videollamada o, simplemente, charlar por teléfono. Puedes escribirnos o llamarnos para preguntarnos lo que sea, solicitar información o conocernos en persona. </p>
+        <p class="text-base line-base mb-4">Tenemos el don de la ubicuidad, así que podemos desplazarnos donde nos indiques sin ningún problema.</p>
+        <div class="text-center" data-drip-show-form="740822926">
+          <a class="c-button gtm-lead-proyecto" href="#" target="_blank">
+            Contacta con nosotros
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "@includes/subir.twig" %}
+
+{% include "@includes/contact.twig" %}
+
+
+
+{% endblock %}
