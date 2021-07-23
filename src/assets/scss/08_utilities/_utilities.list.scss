@@ -6,6 +6,18 @@
     }
 }
 
+.u-list-clean {
+    list-style: none;
+    padding-left: 0;
+    li{
+      &:before {
+          display: none;
+          margin: 0;
+      }
+    }
+
+}
+
 .u-strong-red {
     strong {
         color: $red;
