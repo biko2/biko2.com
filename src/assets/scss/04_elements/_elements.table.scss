@@ -30,3 +30,51 @@ table {
     border-right: 1px solid white;
   }
 }
+
+table.table-horizontal {
+  width: 100%;
+  @include typi(small);
+  border-bottom: 1px solid $gray-light;
+  margin-bottom: 40px;
+  border: 1px solid $gray-light;
+  caption {
+    visibility: hidden; 
+  }
+  thead {
+    th {
+      font-weight: normal;
+      background: $gray-light;
+      color: $black;
+      padding: 8px 24px;
+    }
+  }
+
+  tbody {
+    th {
+      font-weight: normal;
+      background: $red;
+      color: white;
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+      padding: 5px 10px;
+      @include typi(small);
+    }
+  }
+  tr {
+    transition: background .3s ease;
+
+    &:nth-child(2n+3) {
+      background: none;
+    }
+
+    &:hover {
+      background: $red-light;
+      cursor: default;
+    }
+  }
+
+  td {
+    padding: 8px 10px;
+    border-bottom: 1px solid $gray-light;
+  }
+}
