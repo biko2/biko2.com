@@ -254,6 +254,10 @@
   background: $blue url("/assets/images/home-elcorteingles.jpg") center center no-repeat;
 }
 
+.p-proyecto__hero--familiados{
+  background: $blue url("/assets/images/home-familiados.jpg") center center no-repeat;
+}
+
 .c-bg-pattern__left {
 
   @include media-breakpoint-up(md) {
