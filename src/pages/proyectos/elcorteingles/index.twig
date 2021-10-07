@@ -1,7 +1,6 @@
 {# ----- PROYECTO ----- #}
 {% extends "@layouts/page.twig" %}
 {% block page %}
-<!--Bloque hero-->
 <section class="mb-5 mb-md-7" id="top">
   <div class="p-proyecto__hero-new p-proyecto__hero--elcorteingles text-left">
     <div class="container">
@@ -9,9 +8,7 @@
         <div class="col-12">
         <img src="/assets/images/proyectos/logos/fichas/logo-elcorteingles.svg" class="mb-3" alt="Logotipo El Corte inglés" />
         <p class="mb-2 text-uppercase text-2xl letter-base font-400">Hipercor + Primeriti + LTC</p>
-          <h1 class="title-hero mb-4">
-          El ecommerce, renovado
-          </h1>
+          <h1 class="title-hero mb-4">El ecommerce, renovado</h1>
           <p class="font-secondary text-3xl color-red-middle mb-4">(en canales de hoy y de toda la vida)</p>
         </div>
         <div class="col-12">
@@ -25,6 +22,7 @@
     </div>
   </div>
 </section>
+
 <!--Bloque entradilla-->
 <section class="mb-4 mb-md-5">
   <div class="container">
@@ -50,31 +48,35 @@
             <div class="flex-1">Convergencia tecnológica</div>
           </div>
           <div class="d-flex py-1 c-listado-linea u-bt-gray-light">
+            <div class="c-listado-linea__clave"><strong>Diseño:</strong></div>
+            <div class="flex-1">UI <span class="color-red">+</span> Diseño web</div>
+          </div>
+          <div class="d-flex py-1 c-listado-linea u-bt-gray-light">
             <div class="c-listado-linea__clave"><strong>Tecnología:</strong></div>
             <div class="flex-1">NodeJS <span class="color-red">+</span> Express <span class="color-red">+</span> OpenShift</div>
           </div>
           <div class="d-flex py-1 c-listado-linea u-bt-gray-light mb-0">
-            <div class="c-listado-linea__clave"><strong>Web:</strong></div>
-            <div class="flex-1"><a class="c-link" href="https://www.primeriti.es/" target="_blank">Primeriti</a> <span class="color-red">+</span> <a class="c-link" href="https://www.hipercor.es/" target="_blank">Hipercor</a> <span class="color-red">+</span> <a class="c-link" href="https://www.latiendaencasa.es/" target="_blank">La Tienda en casa</a></div>
+          <div class="c-listado-linea__clave"><strong>Web:</strong></div>
+          <div class="flex-1"><a class="c-link" href="https://www.primeriti.es/" target="_blank">Primeriti</a> <span class="color-red">+</span> <a class="c-link" href="https://www.hipercor.es/" target="_blank">Hipercor</a> <span class="color-red">+</span> <a class="c-link" href="https://www.latiendaencasa.es/" target="_blank">La Tienda en casa</a></div>
           </div>
-
       </div>
     </div>
   </div>
 </section>
-<!--Separador-->
+
 <div class="c-separator--line c-separator--line__horizontal"><hr /></div>
 
-<!--Bloque El Desafio-->
-<section id="desafio" class="contenedor-secciones mb-md-7 mb-lg-5 mb-xl-3">
+<section class="contenedor-secciones mb-md-7 mb-lg-5 mb-xl-4">
   <div class="c-grid-image--right--big mb-4 mb-mb-0">
     <img data-src="/assets/images/proyectos/primeriti-ltc-desafio" class="lazyloaded" alt="Primeriti" src="/assets/images/proyectos/primeriti-ltc-desafio.jpg">
   </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-5 col-xl-4">
-        <h3 class="title-6xl mb-4">El desafío</h3>
-        <p>Necesitaban un nuevo partner con la experiencia y solvencia técnica necesaria que les ayudase a migrar su plataforma de comercio electrónico. Entre los requisitos innegociables se encontraba la necesidad de trabajar con un alto nivel de autonomía y minimizar el impacto del proyecto tanto en el negocio como en el día a día de las operaciones de las tiendas online.</p>
+        <div>
+          <h3 class="title-6xl mb-4">El desafío</h3>
+          <p>Necesitaban un nuevo partner con la experiencia y solvencia técnica necesaria que les ayudase a migrar su plataforma de comercio electrónico. Entre los requisitos innegociables se encontraba la necesidad de trabajar con un alto nivel de autonomía y minimizar el impacto del proyecto tanto en el negocio como en el día a día de las operaciones de las tiendas online.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -83,10 +85,10 @@
 <!--Bloque Nuestro enfoque-->
 <section id="enfoque" class="c-bg-pattern__proyectos mb-5 mb-md-6 mb-lg-7">
   <div class="container">
-    <div class="row">
+    <div class="row mb-xl-7">
       <div class="col-lg-6 order-md-2 order-lg-1">
         <div class="mb-4 mb-md-0">
-          <img data-src="/assets/images/proyectos/primeriti-ltc-enfoque" class="lazyloaded u-img-fluid" alt="Primeriti" src="/assets/images/proyectos/primeriti-ltc-enfoque.jpg">
+        <img data-src="/assets/images/proyectos/primeriti-ltc-enfoque" class="lazyloaded u-img-fluid" alt="Primeriti" src="/assets/images/proyectos/primeriti-ltc-enfoque.jpg">
         </div>
       </div>
       <div class="col-lg-6 col-xl-4 offset-xl-1 order-md-1 order-lg-2 d-flex align-items-center">
