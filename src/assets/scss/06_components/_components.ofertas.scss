@@ -14,11 +14,11 @@
     padding: 48px;
   }
 
-  &:nth-child(odd) {
-    @include media-breakpoint-up(md) {
-      margin-right: 3%;
-    }
-  }
+  //&:nth-child(odd) {
+    //@include media-breakpoint-up(md) {
+      //margin-right: 3%;
+    //}
+  //}
 
   &:hover {
     box-shadow: 0 2px 20px #AEB8BD;
