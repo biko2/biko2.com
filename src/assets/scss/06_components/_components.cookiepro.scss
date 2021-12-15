@@ -1,0 +1,49 @@
+#onetrust-policy-title {
+  color: #000 !important;
+  font-size: 24px !important;
+}
+
+#onetrust-banner-sdk #onetrust-policy-text {
+  font-size: 18px !important;
+}
+
+#onetrust-banner-sdk {
+  border: 3px solid $red !important;
+  padding: 16px 24px !important;
+}
+
+#onetrust-button-group-parent
+  #onetrust-button-group
+  #onetrust-accept-btn-handler {
+  @extend .c-button;
+  //@extend .c-button--outline;
+  padding: 10px;
+  margin-right: 10px;
+  @include typi(small);
+
+  @include media-breakpoint-up(md) {
+    margin-top: 12px;
+    margin-right: 5px;
+    padding: 15px 20px;
+    @include typi(base);
+  }
+}
+
+#onetrust-pc-btn-handler {
+  padding: 32px 10px !important;
+  margin: 12px 5px 16px 0 !important;
+}
+
+#onetrust-consent-sdk .ot-pc-refuse-all-handler,
+#onetrust-consent-sdk .save-preference-btn-handler {
+  @extend .c-button;
+  @extend .c-button--second;
+  color: #000 !important;
+  border-color: #000 !important;
+}
+
+#onetrust-consent-sdk #accept-recommended-btn-handler {
+  @extend .c-button;
+  @extend .c-button--second;
+  border-color: $red !important;
+}
