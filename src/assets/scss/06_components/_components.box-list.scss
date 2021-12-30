@@ -5,9 +5,10 @@
 
 .c-box-list__item {
   padding: 48px 24px 48px 48px;
-  border: 8px solid $red;
+  border-top: 8px solid $blue;
+  border-bottom: 2px solid $blue;
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 0;
   background: $white;
 
   @include media-breakpoint-up(lg) {
@@ -18,8 +19,13 @@
     display: none;
   }
 
+  &:first-child {
+    border-top: 9px solid $blue;
+  }
+
   &:last-child {
     margin-bottom: 0;
+    border-bottom: 9px solid $blue;
   }
 }
 

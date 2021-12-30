@@ -1,10 +1,10 @@
 .c-summary {
   padding-top: 96px;
-  
+
   @include media-breakpoint-up(lg) {
     padding-top: 192px;
   }
-  
+
   h2 {
     @include typi(huge);
     margin-bottom: 32px;
@@ -12,23 +12,30 @@
 }
 
 .c-summary__bk-img {
-  
+
   @include media-breakpoint-up(lg) {
     padding-top: 63px;
     background: url('../images/insights/img-insights-interior.png') right top no-repeat;
   }
 }
 
+.c-summary__bk2021-img {
+  @include media-breakpoint-up(lg) {
+    padding-top: 63px;
+    background: url('../images/insights/img-insights-interior-2021.jpg') right top no-repeat;
+  }
+}
+
 .c-summary__description {
-  @include media-breakpoint-up(lg) { 
+  @include media-breakpoint-up(lg) {
     position: relative;
   }
 }
 
 .c-summary__description__text {
   display: none;
-  
-  @include media-breakpoint-up(lg) { 
+
+  @include media-breakpoint-up(lg) {
     display: block;
     position: absolute;
     left: 0;

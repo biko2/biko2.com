@@ -16,21 +16,21 @@
   @include media-breakpoint-up(lg) {
     padding-top: 192px;
   }
-  
+
   h2 {
     margin-bottom: 48px;
   }
 }
 
 .page-insights {
-  
+
   .c-box {
     width: 100%;
     padding: 24px;
-    @include media-breakpoint-up(lg) { 
+    @include media-breakpoint-up(lg) {
       padding: 72px 72px 200px 72px;
     }
-    @include media-breakpoint-up(xl) { 
+    @include media-breakpoint-up(xl) {
       padding: 96px 122px 305px 122px;
     }
   }
@@ -43,14 +43,14 @@
 
   .p-insights__line {
     border-bottom: 1px solid #ccc;
-    @include media-breakpoint-up(lg) { 
+    @include media-breakpoint-up(lg) {
       border-bottom: none;
     }
   }
 
   .p-line {
     margin-bottom: 96px;
-    @include media-breakpoint-up(lg) { 
+    @include media-breakpoint-up(lg) {
       margin-bottom: 192px;
     }
   }
@@ -59,7 +59,7 @@
 .p-insights-intro {
   padding-top: 0;
   @include media-breakpoint-up(lg) {
-    padding-top: 128px;
+    padding-top: 56px;
   }
 
   .p-insights-intro_img {
@@ -97,23 +97,22 @@
     img {
       width: 40%;
       margin-bottom: 24px;
-      @include media-breakpoint-up(md) { 
+      @include media-breakpoint-up(md) {
         width: 52%;
       }
-      @include media-breakpoint-up(lg) { 
+      @include media-breakpoint-up(lg) {
         width: 80%;
       }
-      @include media-breakpoint-up(xl) { 
+      @include media-breakpoint-up(xl) {
         width: 100%;
       }
     }
   }
-  
+
   .p-insights-intro_texto {
-    
-    @include media-breakpoint-up(lg) { 
+
+    @include media-breakpoint-up(lg) {
       margin-top: -300px;
     }
   }
 }
-

@@ -69,7 +69,8 @@
 }
 
 .c-button--second {
-    padding: 12px 24px;
+    //padding: 12px 24px;
+    padding: 20px;
     color: $blue;
 
     @include typi(small);
@@ -78,7 +79,7 @@
     border: 2px solid $black;
 
     @include media-breakpoint-up(xl) {
-        display: flex;
+        //display: flex;
         align-items: center;
     }
 
@@ -96,7 +97,7 @@
     svg {
         width: 24px;
         height: 24px;
-        margin-right: 8px;
+        //margin-right: 8px;
     }
 }
 
