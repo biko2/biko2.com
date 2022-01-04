@@ -1,6 +1,15 @@
 title: Biko Insights 5, 2022
 description: Nuestro informe anual de tendencias digitales para un mundo en constante cambio.
 og:
+  title: Biko Insights 5, 2022
+  description: Nuestro informe anual de tendencias digitales para un mundo en constante cambio.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/insights/insights-twitter.jpg
 twitter:
+  card: summary
+  title: Biko Insights 5, 2022
+  description: Nuestro informe anual de tendencias digitales para un mundo en constante cambio.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/insights/insights-twitter.jpg
