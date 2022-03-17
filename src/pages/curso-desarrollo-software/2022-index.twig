@@ -42,7 +42,7 @@
 <!--bootcamp-->
 {% include "@base/curso-desarrollo-software/bootcamp.twig" %}
 <!--datos de interes-->
-<section class="bg-blue py-5 py-md-7 mb-0">
+<!--<section class="bg-blue py-5 py-md-7 mb-0">
   <div class="container">
     <div class="row mb-0">
       <div class="col-12">
@@ -52,11 +52,35 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
+<!--presentacion-->
+{% include "@base/curso-desarrollo-software/cuando-donde.twig" %}
 <!--para mi-->
 {% include "@base/curso-desarrollo-software/para-mi.twig" %}
 <!--form-->
 <section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-12">
+            <h2 class="title-slim-6xl u-strong-red mb-5">
+              Si has llegado hasta aquí, es que esto <strong>te interesa</strong>
+            </h2>
+          </div>
+          <div class="col-12 col-md-10 col-lg-12">
+            <p>Y tienes que darte prisa, porque el curso es gratuito y las plazas vuelan.</p>
+            <p>Inscríbete completando el siguiente formulario. Has de saber que inscribirse no significa obtener una plaza automáticamente. Primero tenemos que hacer el proceso de selección (recuerda que son <strong>solo 15 plazas</strong>).</p>
+            <p>¡Anímate y nos ponemos en marcha!</p>
+          </div>
+        </div>
+      </div>
+      {% include "@base/curso-desarrollo-software/form-inscripcion.twig" %}
+    </div>
+  </div>
+</section>
+<!--form-->
+<!--<section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-10">
@@ -66,7 +90,7 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <!--bloque video edicion pasada-->
 {% include "@base/curso-desarrollo-software/edicion-pasada.twig" %}
 <!--bloque testimonial-->
