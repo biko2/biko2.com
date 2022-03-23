@@ -5,13 +5,13 @@ require("gulp-tasks-pleasure")(gulp);
 gulp.task(
   "build",
   gulp.series(
-    "sass",
-    "js",
-    //"images",
-    "fonts",
-    "svg",
-    "videos",
-    "static",
-    "twigPages"
+    //"sass",
+    //"js",
+    "images",
+    //"fonts",
+    //"svg",
+    //"videos",
+    //"static",
+    //"twigPages"
   )
 );
