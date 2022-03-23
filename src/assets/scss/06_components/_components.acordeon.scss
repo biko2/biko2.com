@@ -13,7 +13,7 @@
   @include media-breakpoint-up(md) {
     padding: 24px 0;
   }
-  
+
 }
 .c-acordeon__card:last-child {
   border-bottom: 1px solid $gray-light;
@@ -44,3 +44,21 @@
   -webkit-border-radius: 0;
 }
 
+.c-acordeon__card-solid {
+  margin: 0 0 12px 0;
+  padding: 16px 24px;
+  list-style: none;
+  background: $white;
+  border-radius: 12px;
+  &::before {
+    display: none;
+  }
+  @include media-breakpoint-up(md) {
+    padding: 24px 48px;
+  }
+
+  .c-acordeon__card__link {
+    text-decoration:none !important;
+  }
+
+}

@@ -1,0 +1,60 @@
+{# ----- HOME ----- #}
+{% extends "@layouts/page-clean.twig" %}
+{% block page %}
+<div class="bg-o rellax" data-rellax-speed="-5"></div>
+<div class="bg-s rellax" data-rellax-speed="-9"></div>
+<!--bloque hero-->
+<section class="c-hero p-home__hero" id="top">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <p class="text-center"><span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">NUEVA EDICIÓN</span> </p>
+        <h1 class="title-hero mb-4 text-center">
+            Open Space... ¡VOLVEMOS!
+        </h1>
+        <p class="font-secondary text-3xl color-red mb-4 text-center">(y tenemos muchas ganas de que nos acompañes)</p>
+      </div>
+      <div class="col-12 col-md-10 offset-md-1 text-center">
+        <p class="text-2xl">Aquí pondría un pequeño texto motivador o algo así, a tu libre albedrío, Sergio. Lorem ipsum dolor sit amet consectetur adipiscing elit sapien, purus integer aliquam parturient interdum congue est, pulvinar faucibus gravida non leo mattis felis.</p>
+        <div class="c-separator--icon">
+          <a class="c-separator--icon__animated" href="#presentacion">
+            <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-714.000000, -854.000000)" fill="#000000">
+                  <g>
+                    <path d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z" transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) "></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--presentacion-->
+{% include "@base/_open-space/presentacion.twig" %}
+<!--otra historia-->
+{% include "@base/_open-space/que-es-open-space.twig" %}
+<!-- de q hablaremos-->
+{% include "@base/_open-space/hablaremos.twig" %}
+
+<!-- razones-->
+{% include "@base/_open-space/razones.twig" %}
+
+<!--dudas resueltas-->
+{% include "@base/_open-space/dudas-resueltas.twig" %}
+
+<!--hashtag-->
+{% include "@base/_open-space/hashtag.twig" %}
+
+
+
+{% include "@includes/subir.twig" %}
+{% include "@includes/contact.twig" %}
+{% include "@includes/site-footer.twig" %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+<script>var rellax = new Rellax('.rellax');</script>
+{% endblock %}
