@@ -149,20 +149,128 @@
   </div>
 </section>
 -->
-<!--Bloque Nuestro Enfoque contenido segundo nivel-->
-<section class="bg-gray-light mb-5 mb-md-6 mb-lg-7 py-5 py-md-7">
+<section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h4 class="title-4xl line-3xl mb-4">
-         Decir adiós a las antiguas arquitecturas
-        </h4>
-        <h5 class="title-2xl mb-3">¿Cómo funciona nuestro modelo?</h5>
-        <p>Bloque para contenido nuevo que está rehaciendo Sergio.</p>
+      <div class="col-12 offset-md-2 col-md-8">
+        <h2 class="title-4xl line-3xl mb-4">Decir adiós a las antiguas arquitecturas</h2>
+      </div>
+      <div class="col-12 offset-md-2 col-md-8">
+        <ul class="c-acordeon" id="acordeonAnidado">
+          <li class="c-acordeon__card-solid">
+            <div class="c-acordeon__card__header" id="headingUno">
+              <a class="c-acordeon__card__link textl-2xl" type="button" data-toggle="collapse" data-target="#collapseUno" aria-expanded="false" aria-controls="collapseUno">
+                <div class="c-icon--base c-icon--black c-acordeon__card__icono">
+                  {{svgSprite('arrow')}}
+                </div>
+                Cómo funciona el modelo antiguo
+              </a>
+            </div>
+            <div id="collapseUno" class="collapse" aria-labelledby="headingUno" data-parent="#acordeonAnidado">
+              <div class="c-acordeon__card__body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <p class="mb-4 mb-md-5">En el preciso instante que accedes a una página, en una antigua arquitectura necesitamos usar tres tipos de servidores:</p>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="row">
+                            <div class="col-lg-4">
+                              <p class="title-2xl decoration-red pt-2 mb-2">Servidores web</p>
+                              <p class="text-base line-base">Gestionan las peticiones de ficheros e intermedian con el resto de servidores.</p>
+                            </div>
+                            <div class="col-lg-4">
+                              <p class="title-2xl decoration-red pt-2 mb-2">De aplicaciones</p>
+                              <p class="text-base line-base">Generan la página dinámicamente, ejecutando código como PHP. </p>
+                            </div>
+                            <div class="col-lg-4">
+                              <p class="title-2xl decoration-red pt-2 mb-2">De base de datos</p>
+                              <p class="text-base line-base mb-3 mb-md-5">Donde se aloja el contenido que usa tu aplicación para generar la página.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <p>En los modelos acoplados, un mayor tráfico equivale a un mayor uso de la totalidad de la arquitectura, una redundancia innecesaria que hace aumentar desarrollos, mantenimientos, costes y potenciales problemas. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="c-acordeon__card-solid">
+            <div class="c-acordeon__card__header" id="headingDos">
+              <a class="c-acordeon__card__link" type="button" data-toggle="collapse" data-target="#collapseDos" aria-expanded="false" aria-controls="collapseDos">
+                <div class="c-icon--base c-icon--black c-acordeon__card__icono">
+                  {{svgSprite('arrow')}}
+                </div>
+                Cómo funciona nuestro modelo
+              </a>
+            </div>
+            <div id="collapseDos" class="collapse" aria-labelledby="headingDos" data-parent="#acordeonAnidado">
+              <div class="c-acordeon__card__body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <p class="mb-4 mb-md-5">En cambio, con un modelo desacoplado, acceder a una página, no requiere servidores salvo el CDN:</p>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <p class="title-2xl decoration-red pt-2 mb-2">Es Serverless</p>
+                            <p class="text-base line-base">No se consultan bases de datos, ni se ejecutan procesos como PHP que necesitan servidores, desde el frontend. </p>
+                          </div>
+                          <div class="col-md-4">
+                            <p class="title-2xl decoration-red pt-2 mb-2">Estatificación</p>
+                            <p class="text-base line-base">No se generan páginas in situ, de forma dinámica. Las páginas son ficheros planos pregenerados, o estáticos, que están alojadas en un CDN. </p>
+                          </div>
+                          <div class="col-md-4">
+                            <p class="title-2xl decoration-red pt-2 mb-2">Desacopla y separa responsabilidades</p>
+                            <p class="text-base line-base mb-3 mb-md-5">Es decir, separamos el backend, del frontend, este último es la capa expuesta al usuario y a internet. Toda necesidad de funcionalidad extra es suministrada por conexiones a API’s que se ciñen a su responsabilidad.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p>De este modo, obtenemos un backend aislado de internet, sin las dependencias del tráfico de la web, reservado exclusivamente para generar y editar contenido, en su mínima expresión funcional pero con la máxima potencia de Drupal.  </p>
+                    <p class="text-md-2xl line-md-2xl"><strong>Poder apagar tu servidor durante los fines de semana, que no afecte de ninguna manera a tu web y clientes. La innovación suena revolucionaria.</strong>  </p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </li>
+          <li class="c-acordeon__card-solid">
+            <div class="c-acordeon__card__header" id="headingTres">
+              <a class="c-acordeon__card__link" type="button" data-toggle="collapse" data-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                <div class="c-icon--base c-icon--black c-acordeon__card__icono">
+                  {{svgSprite('arrow')}}
+                </div>
+                Dar el paso, decir adiós a las antiguas arquitecturas
+              </a>
+            </div>
+            <div id="collapseTres" class="collapse" aria-labelledby="headingTres" data-parent="#acordeonAnidado">
+              <div class="c-acordeon__card__body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <p>Hacer más con menos es la belleza buscada habitualmente por los mejores arquitectos, ingenieros y diseñadores. </p>
+                    <p>
+                    Las infraestructuras tecnológicamente sobredimensionadas son comunes en nuestros días, efecto de una complejidad acumulada que hemos normalizado, pero que hoy se puede subsanar. </p>
+                    <p>
+                    Tomar la decisión de liberarse de esa pesada carga, casi estándar en la industria, puede ser vista como una decisión radical y a contracorriente, aun siendo crucial. Por eso podemos decir que:</p>
+                    <p class="text-md-2xl line-md-2xl"><strong>Una arquitectura desacoplada envidiable nace de saber deshacerse de lo que en su día sirvió, pero hoy es innecesario.</strong></p>
+                    <p>Dar ese paso inteligente, contra la inercia, es ser vanguardia.</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
+
 
 <!--Bloque enfoque segundo nivel -->
 <section class="mb-5 mb-md-7">
