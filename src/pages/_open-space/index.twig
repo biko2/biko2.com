@@ -10,7 +10,7 @@
       <div class="col-12">
         <p class="text-center"><span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">NUEVA EDICIÓN</span> </p>
         <h1 class="title-hero mb-4 text-center">
-            Open Space... ¡VOLVEMOS!
+            Open Space XX ¡VOLVEMOS!
         </h1>
         <p class="font-secondary text-3xl color-red mb-4 text-center">(y tenemos muchas ganas de que nos acompañes)</p>
       </div>
@@ -37,11 +37,38 @@
 {% include "@base/_open-space/presentacion.twig" %}
 <!--otra historia-->
 {% include "@base/_open-space/que-es-open-space.twig" %}
+
+<!-- cuando y donde-->
+{% include "@base/_open-space/cuando-donde.twig" %}
+
 <!-- de q hablaremos-->
 {% include "@base/_open-space/hablaremos.twig" %}
 
 <!-- razones-->
 {% include "@base/_open-space/razones.twig" %}
+
+<!--form-->
+<section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-12">
+            <h2 class="title-slim-6xl u-strong-red mb-5">
+              Si has llegado hasta aquí, es que esto <strong>te interesa</strong>
+            </h2>
+          </div>
+          <div class="col-12 col-md-10 col-lg-12">
+            <p>Inscríbete completando el siguiente formulario. Incribirse no te obliga a asistir, pero sería muy top que nos avisaras si finalmente no pudieras venir.</p>
+            <p>¡Anímate, será un día inolvidable!</p>
+          </div>
+        </div>
+      </div>
+      {% include "@base/curso-desarrollo-software/form-inscripcion.twig" %}
+    </div>
+  </div>
+</section>
+<!--form-->
 
 <!--dudas resueltas-->
 {% include "@base/_open-space/dudas-resueltas.twig" %}
