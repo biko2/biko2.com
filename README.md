@@ -2,7 +2,7 @@
 
 # Pleasure Static Site Generator
 > Twig based Static Site generator powered by gulp.
-
+ 
 ## Motivation
 There are a lot of static site generator out there but we always found ourselves tweaking and adjusting them.
 The idea is to use it as a boiler plate for basic static web sites. Tailored to our needs and workflows, its intended to use as it is with no config required.
