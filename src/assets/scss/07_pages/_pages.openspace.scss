@@ -480,5 +480,13 @@ h3 {
     outline: none;
   }
 
+    .photos-open-space {
+        background: #1b1b1b;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5%;
+      }
 
 }
