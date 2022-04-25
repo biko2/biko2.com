@@ -38,7 +38,7 @@
   }
 
   .c-separator--line hr {
-    border-color: white;
+    border-color: #666;
   }
 
   .c-bg-pattern {
@@ -88,5 +88,8 @@
 
   .c-cita__box__texto {color: $black;}
 
+  .video {
+    border: 1px solid #666;
+  }
 
 }
