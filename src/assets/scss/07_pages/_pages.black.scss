@@ -97,5 +97,9 @@
   }
 
   a {color: $red-middle;}
+  .c-footer__bottom-list__item a {
+    color: #000 !important;
+    text-decoration: none;
+  }
 
 }
