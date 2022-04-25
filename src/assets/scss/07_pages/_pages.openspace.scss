@@ -384,9 +384,7 @@ h3 {
     }
   }
 
-  .p-openspace-hashtag a{
-    color: white !important;
-  }
+
 
   .parallax-open {
   /* The image used */
@@ -412,6 +410,10 @@ h3 {
     //background-size: cover !important;
     //background: $black-soft url("../images/openspace-biko-3.jpg") center center no-repeat;
     background-image: url("../images/openspace-biko-3.jpg");
+  }
+  .p-openspace-hashtag {
+    background-image: url("../images/openspace-biko-2.jpg");
+    a {color: white !important;}
   }
   .page-open-space-hero {
     padding-top: 0;
