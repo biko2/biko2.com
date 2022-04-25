@@ -372,3 +372,107 @@ h3 {
     100% { opacity: 0 }
 }
 /*aqui termina css del bloque de imgs random */
+
+.page-_open-space-black {
+
+
+  #main-wrapper {
+    background: $black-soft url("../images/bk-open-space-2022.jpg") left top no-repeat;
+
+    @include media-breakpoint-up(xxxl) {
+      background-size: contain;
+    }
+  }
+
+  .p-openspace-hashtag a{
+    color: white !important;
+  }
+
+  .parallax-open {
+  /* The image used */
+  background-color: $black-soft;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .page-open-space-app-charlas {
+    //background-size: cover !important;
+    //background: $black-soft url("../images/bk-open-space-charlas.jpg") center center no-repeat;
+    background-image: url("../images/bk-open-space-charlas.jpg");
+  }
+
+  .page-open-space-form {
+    //background-size: cover !important;
+    //background: $black-soft url("../images/openspace-biko-3.jpg") center center no-repeat;
+    background-image: url("../images/openspace-biko-3.jpg");
+  }
+  .page-open-space-hero {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 0;
+    }
+
+    .page-open-space-hero__container {
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+
+        .c-grid-image--right {
+          order: 3;
+        }
+      }
+    }
+
+    .c-grid-image--right {
+      //margin-top: -60px;
+      width: 100%;
+      height: auto;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+        width: 56%;
+        height: 477px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 54%;
+        height: 628px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 50%;
+        height: 775px;
+      }
+
+    }
+  }
+
+  .c-icon-list__icon svg {
+    width: 80%;
+  }
+
+  .c-card {
+    padding: 60px 0 80px;
+
+    .c-icon-square {
+      @include media-breakpoint-down(sm) {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  video {
+    width: 100%;
+    outline: none;
+  }
+}

@@ -14,10 +14,27 @@
     background: white;
   }
 
+  .p-openspace-hashtag {
+    color: white;
+  }
+
   .c-nav__navbar.show {background: $black-soft; }
-  
+
   .c-button {
-    background: $black-soft;
+    background: transparent;
+    color: $red-middle;
+    border-color: $red-middle;
+    &:hover {
+        color: white;
+    }
+  }
+
+  .c-button--outline--white {
+    border-color: white;
+    color: white;
+    &:hover {
+        color: $red-middle;
+    }
   }
 
   .c-separator--line hr {

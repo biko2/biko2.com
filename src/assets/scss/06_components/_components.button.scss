@@ -68,6 +68,20 @@
     }
 }
 
+.c-button--outline--white-2 {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 72px;
+
+    &:hover {
+        color: $red;
+        text-decoration: none;
+        background: white;
+        border-radius: 72px;
+    }
+}
+
 .c-button--second {
     //padding: 12px 24px;
     padding: 20px;
