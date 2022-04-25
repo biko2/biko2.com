@@ -26,6 +26,19 @@
 
 (function($){
     $(document).ready(function(){
+        var urlParam = 'open';
+        var messageElement = '.js-open-ok';
+        var hiddenClass = 'd-none';
+
+        if(window.location.search.indexOf(urlParam)>-1){
+
+            $(messageElement).removeClass(hiddenClass);
+        }
+    });
+}(jQuery));
+
+(function($){
+    $(document).ready(function(){
         var urlParam = 'sugerencia';
         var messageElement = '.js-sugerencia-ok';
         var hiddenClass = 'd-none';
