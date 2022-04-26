@@ -1,8 +1,15 @@
-title: Definimos, diseñamos y construimos proyectos digitales.
-description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
-cita: De cerca, nadie es normal
-citafirma: Aitor Resano, Bikolabs
-og:
-  image: https://www.biko2.com/assets/images/share/home-biko-twitter.jpg
-twitter:
-  image: https://www.biko2.com/assets/images/share/home-biko-twitter.jpg
+  title: XXI Open Space de Biko, 27 mayo 2022.
+  description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
+  og:
+    title: XXI Open Space de Biko, 27 mayo 2022.
+    description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
+    type: article
+    locale: es_ES
+    image: https://www.biko2.com/assets/images/share/home-biko-twitter.jpg
+  twitter:
+    card: summary_large_image
+    title: XXI Open Space de Biko, 27 mayo 2022.
+    description: Te ayudamos a idear y diseñar soluciones de negocio. Somos un equipo multidisciplinar expertos en desarrollo de software en coherencia con la cultura ágil.
+    site: '@biko2'
+    creator: '@biko2'
+    image: https://www.biko2.com/assets/images/share/home-biko-twitter.jpg
