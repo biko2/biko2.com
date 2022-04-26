@@ -7,7 +7,7 @@ og:
   locale: es_ES
   image: https://www.biko2.com/assets/images/share/open-space-twitter.png
 twitter:
-  card: summary
+  card: summary_large_image
   title: XXI Open Space de Biko, 27 mayo 2022.
   description: Un día para descubrir las tendencias del universo tecnológico. Un evento profesional, gratuito y abierto sobre las últimas tendencias en tecnología, software e innovación, pero sobre todo personas.
   site: '@biko2'
