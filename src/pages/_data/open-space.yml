@@ -1,8 +1,15 @@
-title: Open Space
+title: Open Space XXI, 2022
 description: Un día para descubrir las tendencias del universo tecnológico. Un evento donde compartir conocimiento en un ambiente multidisciplinar. ¿Te apuntas?
-cita: Más de cero es positivo
-citafirma: Miren Arrese, Product Owner
 og:
-  image: https://www.biko2.com/assets/images/open-mayo2019.jpg
+  title: Open Space XXI, 2022
+  description: Un día para descubrir las tendencias del universo tecnológico. Un evento donde compartir conocimiento en un ambiente multidisciplinar. ¿Te apuntas?
+  type: article
+  locale: es_ES
+  image: https://www.biko2.com/assets/images/share/open-space-twitter.png
 twitter:
-  image: https://www.biko2.com/assets/images/open-mayo2019.jpg
+  card: summary
+  title: Open Space XXI, 2022
+  description: Un día para descubrir las tendencias del universo tecnológico. Un evento donde compartir conocimiento en un ambiente multidisciplinar. ¿Te apuntas?
+  site: '@biko2'
+  creator: '@biko2'
+  image: https://www.biko2.com/assets/images/share/open-space-twitter.png
