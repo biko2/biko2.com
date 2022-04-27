@@ -14,6 +14,10 @@
     background: white;
   }
 
+  #header a.c-nav__link:hover, #header a.c-nav__link.active {
+    color: $red-middle !important;
+  }
+
   .p-openspace-hashtag {
     color: white;
   }
