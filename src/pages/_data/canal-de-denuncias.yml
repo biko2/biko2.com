@@ -1,6 +1,15 @@
 title: Canal de denuncias
 description: BIKO pone a disposición de empleados, proveedores, clientes y colaboradores un canal de denuncias para que puedan comunicar cualquier duda, consulta o la comisión.
 og:
+  title: Canal de denuncias
+  description: BIKO pone a disposición de empleados, proveedores, clientes y colaboradores un canal de denuncias para que puedan comunicar cualquier duda, consulta o la comisión.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/open-biko.jpg
 twitter:
+  card: summary_large_image
+  title: Canal de denuncias
+  description: BIKO pone a disposición de empleados, proveedores, clientes y colaboradores un canal de denuncias para que puedan comunicar cualquier duda, consulta o la comisión.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/open-biko.jpg

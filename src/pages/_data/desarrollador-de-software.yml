@@ -1,9 +1,15 @@
 title: Desarrollador de Software
 description: Buscamos un perfil de desarrollo con Javascript para incorporar a nuestro equipo.
-cita: ¿De qué color es esto?
-citafirma: Enrique Arbuniés, Desarrollador frontend (daltónico)
-slug: desarrollador-de-javascript-node
 og:
+  title: Desarrollador de Software
+  description: Buscamos un perfil de desarrollo con Javascript para incorporar a nuestro equipo.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/parte-del-equipo-biko.jpg
 twitter:
+  card: summary_large_image
+  title: Desarrollador de Software
+  description: Buscamos un perfil de desarrollo con Javascript para incorporar a nuestro equipo.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/parte-del-equipo-biko.jpg

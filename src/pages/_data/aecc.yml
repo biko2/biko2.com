@@ -1,8 +1,15 @@
 title: Asociación Española Contra el Cáncer (AECC)
 description: Cómo poner a los usuarios y sus necesidades en el centro de toda la estrategia online.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Asociación Española Contra el Cáncer (AECC)
+  description: Cómo poner a los usuarios y sus necesidades en el centro de toda la estrategia online.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/aecc-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Asociación Española Contra el Cáncer (AECC)
+  description: Cómo poner a los usuarios y sus necesidades en el centro de toda la estrategia online.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/aecc-twitter.jpg

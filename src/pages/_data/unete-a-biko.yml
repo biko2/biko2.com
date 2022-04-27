@@ -1,8 +1,15 @@
-title: Únete
+title: Únete a Biko
 description: Echa un vistazo a nuestras ofertas de empleo. Estamos en búsqueda continua de gente interesante.
-cita: Los nuevos tienen que traer almuerzo de bienvenida
-citafirma: Pablo Albizu, CTO de Biko
 og:
+  title: Únete a Biko
+  description: Echa un vistazo a nuestras ofertas de empleo. Estamos en búsqueda continua de gente interesante.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/unete-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Únete a Biko
+  description: Echa un vistazo a nuestras ofertas de empleo. Estamos en búsqueda continua de gente interesante.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/unete-twitter.jpg

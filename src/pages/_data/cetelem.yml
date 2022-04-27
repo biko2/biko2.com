@@ -1,8 +1,15 @@
 title: Cetelem
-description: Cetelem, empresa líder en préstamos y tarjetas de crédito en España y Europa, acudió a Biko con el objetivo de encontrar un partner de desarrollo digital de largo recorrido. 
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
+description: Cetelem, empresa líder en préstamos y tarjetas de crédito en España y Europa, acudió a Biko con el objetivo de encontrar un partner de desarrollo digital de largo recorrido.
 og:
+  title: Cetelem
+  description: Cetelem, empresa líder en préstamos y tarjetas de crédito en España y Europa, acudió a Biko con el objetivo de encontrar un partner de desarrollo digital de largo recorrido.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/cetelem-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Cetelem
+  description: Cetelem, empresa líder en préstamos y tarjetas de crédito en España y Europa, acudió a Biko con el objetivo de encontrar un partner de desarrollo digital de largo recorrido.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/cetelem-twitter.jpg

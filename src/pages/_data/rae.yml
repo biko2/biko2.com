@@ -1,8 +1,15 @@
 title: RAE
 description: Un nuevo site construido desde cero, totalmente responsive, con un diseño auténtico e innovador.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: RAE
+  description: Un nuevo site construido desde cero, totalmente responsive, con un diseño auténtico e innovador.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/rae-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: RAE
+  description: Un nuevo site construido desde cero, totalmente responsive, con un diseño auténtico e innovador.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/rae-twitter.jpg

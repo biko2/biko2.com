@@ -1,8 +1,15 @@
 title: MACBA
-description: El Museo de Arte Contemporáneo de Barcelona necesitaba dar un giro a su presencia online a través de la web. 
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
-og:
-  image: https://www.biko2.com/assets/images/share/macba-twitter.jpg
-twitter:
-  image: https://www.biko2.com/assets/images/share/macba-twitter.jpg
+  description: El Museo de Arte Contemporáneo de Barcelona necesitaba dar un giro a su presencia online a través de la web.
+  og:
+    title: MACBA
+    description: El Museo de Arte Contemporáneo de Barcelona necesitaba dar un giro a su presencia online a través de la web.
+    type: article
+    locale: es_ES
+    image: https://www.biko2.com/assets/images/share/macba-twitter.jpg
+  twitter:
+    card: summary_large_image
+    title: MACBA
+    description: El Museo de Arte Contemporáneo de Barcelona necesitaba dar un giro a su presencia online a través de la web.
+    site: '@biko2'
+    creator: '@biko2'
+    image: https://www.biko2.com/assets/images/share/macba-twitter.jpg

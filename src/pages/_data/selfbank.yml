@@ -1,8 +1,15 @@
 title: Selfbank
 description: Dos equipos multidisciplinares para conceptualizar, diseñar y construir piezas como el site corporativo de información y venta, su centro de asesoramiento y comunidad de ayuda, su gestión de alimentación de leads, así como el diseño de su banca electrónica y homebanking.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Selfbank
+  description: Dos equipos multidisciplinares para conceptualizar, diseñar y construir piezas como el site corporativo de información y venta, su centro de asesoramiento y comunidad de ayuda, su gestión de alimentación de leads, así como el diseño de su banca electrónica y homebanking.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/selfbank-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Selfbank
+  description: Dos equipos multidisciplinares para conceptualizar, diseñar y construir piezas como el site corporativo de información y venta, su centro de asesoramiento y comunidad de ayuda, su gestión de alimentación de leads, así como el diseño de su banca electrónica y homebanking.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/selfbank-twitter.jpg

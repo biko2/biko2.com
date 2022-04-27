@@ -1,8 +1,15 @@
 title: Curso de Desarrollador especializado en servicios digitales
 description: En este curso aprenderás todo lo necesario para enfrentarte a los retos reales que demandan cualquier empresa en desarrollo de software. ¡Apúntate! Es totalmente gratis.
-cita: De cerca, nadie es normal
-citafirma: Aitor Resano, desarrollador frontend y gamer
 og:
+  title: Curso de Desarrollador especializado en servicios digitales
+  description: En este curso aprenderás todo lo necesario para enfrentarte a los retos reales que demandan cualquier empresa en desarrollo de software. ¡Apúntate! Es totalmente gratis.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/bikoschool-2-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Curso de Desarrollador especializado en servicios digitales
+  description: En este curso aprenderás todo lo necesario para enfrentarte a los retos reales que demandan cualquier empresa en desarrollo de software. ¡Apúntate! Es totalmente gratis.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/bikoschool-2-twitter.jpg

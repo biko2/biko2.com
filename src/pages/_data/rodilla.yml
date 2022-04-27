@@ -1,8 +1,15 @@
 title: Rodilla
 description: Tres proyectos, un cliente y un mundo de posibilidades por explorar.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Rodilla
+  description: Tres proyectos, un cliente y un mundo de posibilidades por explorar.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/rodilla-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Rodilla
+  description: Tres proyectos, un cliente y un mundo de posibilidades por explorar.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/rodilla-twitter.jpg
