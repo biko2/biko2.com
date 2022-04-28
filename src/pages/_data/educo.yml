@@ -1,8 +1,12 @@
 title: Educo
-description: Una web atractiva con un storytelling personalizado y estructurado según los flujos de navegación, que facilitan el proceso de donación de los usuarios.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
-og:
-  image: https://www.biko2.com/assets/images/share/educo-twitter.jpg
-twitter:
-  image: https://www.biko2.com/assets/images/share/educo-twitter.jpg
+    description: Una web atractiva con un storytelling personalizado y estructurado según los flujos de navegación, que facilitan el proceso de donación de los usuarios.
+    type: article
+    locale: es_ES
+    image: https://www.biko2.com/assets/images/share/educo-twitter.jpg
+  twitter:
+    card: summary_large_image
+    title: Educo
+    description: Una web atractiva con un storytelling personalizado y estructurado según los flujos de navegación, que facilitan el proceso de donación de los usuarios.
+    site: '@biko2'
+    creator: '@biko2'
+    image: https://www.biko2.com/assets/images/share/educo-twitter.jpg

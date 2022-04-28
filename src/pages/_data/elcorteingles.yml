@@ -1,6 +1,12 @@
 title: El Corte inglés; Primeriti, Hipercor y LTC
-description:  El ecommerce renovado, en canales de hoy y de toda la vida
-og:
+  description: El ecommerce renovado, en canales de hoy y de toda la vida
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/elcorteingles-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: El Corte inglés; Primeriti, Hipercor y LTC
+  description: El ecommerce renovado, en canales de hoy y de toda la vida
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/elcorteingles-twitter.jpg

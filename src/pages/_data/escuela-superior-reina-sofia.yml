@@ -1,8 +1,15 @@
 title: Escuela Superior de Música Reina Sofía
 description: Nueva arquitectura, nuevo CMS y una mejor integración de las fuentes de información internas.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Escuela Superior de Música Reina Sofía
+  description: Nueva arquitectura, nuevo CMS y una mejor integración de las fuentes de información internas.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/reina-sofia-ecuela-musica-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Escuela Superior de Música Reina Sofía
+  description: Nueva arquitectura, nuevo CMS y una mejor integración de las fuentes de información internas.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/reina-sofia-ecuela-musica-twitter.jpg
