@@ -19,6 +19,7 @@
     "include-media": "^1.4.9",
     "jquery": "^3.3.1",
     "modularscale-sass": "^3.0.8",
+    "prettier-plugin-twig-melody": "^0.4.6",
     "typi": "^3.2.0"
   },
   "dependencies": {
