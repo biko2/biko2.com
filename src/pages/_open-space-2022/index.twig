@@ -1,0 +1,84 @@
+{# ----- OPEN SAPCE 2022 ----- #}
+{% extends '@layouts/page-black.twig' %}
+{% block page %}
+  <!-- bloque hero -->
+  <section class="c-hero p-open-space-hero pt-5 pt-md-6">
+    <div class="page-open-space-hero__container">
+      <div class="c-grid-image--right d-none d-lg-block">
+        <img data-src="/assets/images/openspace-2022-fecha.png"
+          class="lazyload"
+          alt="27 mayo" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-9 col-lg-7">
+            <h1>
+              Open Space XXI
+              <strong>¡Volvemos!</strong>
+            </h1>
+            <p class="font-secondary text-3xl color-red-middle mb-4 text-left">
+              (Un día para descubrir las tendencias del universo tecnológico)
+            </p>
+            <p class="text-base line-base text-md-2xl line-md-2xl">
+              Después de estos dos años de impasse forzado, por fin podemos
+              retomar los preparativos de nuestro #openbiko, un evento
+              profesional, gratuito y abierto sobre las últimas tendencias en
+              tecnología, software e innovación, pero sobre todo personas.
+            </p>
+            <p class="text-base line-base text-md-2xl line-md-2xl">
+              En
+              <strong class="color-red-middle">2022</strong>
+              la fecha elegida será el
+              <strong class="color-red-middle">27 de mayo</strong>, un plan
+              perfecto para compartir y aprender. El
+              <strong class="color-red-middle">Open Space de Biko</strong>
+              será durante todo el día, desde la mañana hasta lo que aguantemos por
+              la noche.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid my-6 d-flex justify-content-end">
+    <img data-src="/assets/images/open-space-plus.png"
+      class="lazyload"
+      alt="Sumamos" />
+  </div>
+
+  <!-- presentacion -->
+  {% include '@base/open-space/presentacion.twig' %}
+
+  <div class="c-separator--line">
+    <hr />
+  </div>
+
+  <!-- de q hablaremos -->
+  {% include '@base/open-space/hablaremos-post.twig' %}
+
+  <div class="c-separator--line">
+    <hr />
+  </div>
+
+  <!-- aperitivo -->
+  {% include '@base/open-space/edicion-pasada.twig' %}
+  <div class="c-separator--line">
+    <hr />
+  </div>
+  <!-- fotos -->
+  {% include '@base/open-space/fotos.twig' %}
+  <div class="c-separator--line c-separator--line-top">
+    <hr />
+  </div>
+  <!-- dudas resueltas -->
+  {% include '@base/open-space/dudas-resueltas.twig' %}
+  <div class="c-separator--line c-separator--line-top">
+    <hr />
+  </div>
+
+  <!-- hashtag -->
+  {% include '@base/open-space/hashtag.twig' %}
+
+  {% include '@includes/contact.twig' %}
+{% endblock %}

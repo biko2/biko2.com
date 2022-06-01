@@ -277,6 +277,9 @@ h3 {
 
   /* Set a specific height */
   min-height: 500px;
+  @include media-breakpoint-up(md) {
+    min-height: 550px;
+  }
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
