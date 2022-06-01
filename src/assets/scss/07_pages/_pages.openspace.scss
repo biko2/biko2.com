@@ -281,7 +281,7 @@ h3 {
     min-height: 550px;
   }
   /* Chequear si soporta el css */
-  @supports (background-attachment: fixed) {
+  @supports not (-webkit-touch-callout: none) {
     background-attachment: fixed;
   }
 
