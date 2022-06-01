@@ -281,7 +281,7 @@ h3 {
     min-height: 550px;
   }
   /* Chequear si soporta el css */
-  @supports not (-webkit-touch-callout: none) {
+  @include media-breakpoint-up(lg) {
     background-attachment: fixed;
   }
 
