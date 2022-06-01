@@ -280,9 +280,12 @@ h3 {
   @include media-breakpoint-up(md) {
     min-height: 550px;
   }
+  /* Chequear si soporta el css */
+  @supports (background-attachment: fixed) {
+    background-attachment: fixed;
+  }
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* Create the parallax scrolling effect */ 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
