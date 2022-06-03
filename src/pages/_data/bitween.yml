@@ -1,31 +1,15 @@
 title: Bitween suite
-  description: Nuestro modelo para construir webs modernas, enfocadas en
-                      el usuario y
-                      el
-                      contenido, con el
-                      frontend más rápido y
-                      seguro, manteniendo la flexibilidad y el dinamismo que requiere tu actividad digital. y la más
-                      deliciosa
-                      conexión entre
-                      ambas piezas.
-  og:
-    title: Bitween suite
-    description: Nuestro modelo para construir webs modernas, enfocadas en
-                        el usuario y
-                        el
-                        contenido, con el
-                        frontend más rápido y
-                        seguro, manteniendo la flexibilidad y el dinamismo que requiere tu actividad digital. y la más
-                        deliciosa
-                        conexión entre
-                        ambas piezas.
-    type: article
-    locale: es_ES
-    image: https://www.biko2.com/assets/images/share/bitween-twitter.jpg
-  twitter:
-    card: summary_large_image
-    title: Bitween suite
-    description: Cómo poner a los usuarios y sus necesidades en el centro de toda la estrategia online.
-    site: '@biko2'
-    creator: '@biko2'
-    image: https://www.biko2.com/assets/images/share/bitween-twitter.jpg
+description: Nuestro modelo para construir webs modernas, enfocadas en el usuario y el contenido, con el frontend más rápido y seguro, manteniendo la flexibilidad y el dinamismo que requiere tu actividad digital y la más deliciosa conexión entre ambas piezas.
+og:
+  title: Bitween suite
+  description: Nuestro modelo para construir webs modernas, enfocadas en el usuario y el contenido, con el frontend más rápido y seguro, manteniendo la flexibilidad y el dinamismo que requiere tu actividad digital y la más deliciosa conexión entre ambas piezas.
+  type: article
+  locale: es_ES
+  image: https://www.biko2.com/assets/images/share/bitween-twitter.jpg
+twitter:
+  card: summary_large_image
+  title: Bitween suite
+  description: Nuestro modelo para construir webs modernas, enfocadas en el usuario y el contenido, con el frontend más rápido y seguro, manteniendo la flexibilidad y el dinamismo que requiere tu actividad digital y la más deliciosa conexión entre ambas piezas.
+  site: '@biko2'
+  creator: '@biko2'
+  image: https://www.biko2.com/assets/images/share/bitween-twitter.jpg
