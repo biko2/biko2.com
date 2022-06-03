@@ -221,3 +221,20 @@
   height: 100%;
   top: 0;
 }
+
+.p-bikoschool-cursos {
+  .c-title--pre {
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .c-title--sub {
+    @include typi(large);
+  }
+
+}
+
+.p-bikoschool-cursos {
+  background-size: cover;
+  background: $blue url("/assets/images/bk-bikoschool.jpg") center center no-repeat;
+}
