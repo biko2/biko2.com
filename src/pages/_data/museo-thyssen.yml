@@ -1,8 +1,15 @@
 title: Museo Thyssen-Bornemisza
 description: El ecosistema web de un gran museo basado en Drupal. Multisite, multidominio, multiidioma
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Museo Thyssen-Bornemisza
+  description: El ecosistema web de un gran museo basado en Drupal. Multisite, multidominio, multiidioma
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/museo-reina-sofia-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Museo Thyssen-Bornemisza
+  description: El ecosistema web de un gran museo basado en Drupal. Multisite, multidominio, multiidioma
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/museo-reina-sofia-twitter.jpg

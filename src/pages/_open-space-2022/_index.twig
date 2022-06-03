@@ -1,0 +1,98 @@
+{# ----- OPEN SAPCE 2022 ----- #}
+{% extends "@layouts/page-black.twig" %}
+{% block page %}
+<!--bloque hero-->
+<section class="c-hero p-open-space-hero pt-5 pt-md-6">
+  <div class="page-open-space-hero__container">
+
+  <div class="c-grid-image--right d-none d-lg-block">
+    <img data-src="/assets/images/openspace-2022-fecha.png" class="lazyload" alt="27 mayo" />
+  </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-9 col-lg-7">
+          <span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-1">¡Ya somos más de 200 participantes!</span>
+          <h1>Open Space XXI <strong>¡Volvemos!</strong></h1>
+          <p class="font-secondary text-3xl color-red-middle mb-4 text-left">(Un día para descubrir las tendencias del universo tecnológico)</p>
+          <p class="text-base line-base text-md-2xl line-md-2xl">
+            Después de estos dos años de impasse forzado, por fin podemos retomar los preparativos de nuestro #openbiko, un evento profesional, gratuito y abierto sobre las últimas tendencias en tecnología, software e innovación, pero sobre todo personas.
+          </p>
+          <p class="text-base line-base text-md-2xl line-md-2xl">
+            En <strong class="color-red-middle">2022</strong> la fecha elegida será el <strong class="color-red-middle">27 de mayo</strong>, un plan perfecto para compartir y aprender. El <strong class="color-red-middle">Open Space de Biko</strong> será durante todo el día, desde la mañana hasta lo que aguantemos por la noche.
+          </p>
+          <a class="c-button c-button--fill" href="#formulario">Quiero una de las últimas plazas</a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid my-6 d-flex justify-content-end">
+  <img data-src="/assets/images/open-space-plus.png" class="lazyload" alt="Sumamos" />
+</div>
+
+<!--presentacion-->
+{% include "@base/open-space/presentacion.twig" %}
+
+<div class="c-separator--line"><hr></div>
+
+<!-- que-es-->
+{% include "@base/open-space/que-es.twig" %}
+
+<!-- de q hablaremos-->
+{% include "@base/open-space/hablaremos-agenda.twig" %}
+
+<!-- razones-->
+{% include "@base/open-space/razones.twig" %}
+
+<!-- cuando y donde-->
+{% include "@base/open-space/cuando-donde.twig" %}
+
+<div class="c-separator--line"><hr></div>
+
+<!--aperitivo-->
+{% include "@base/open-space/edicion-pasada.twig" %}
+
+
+<!--form-->
+<section class="parallax-open page-open-space-form mb-5 mb-md-7 py-5 py-md-7" id="formulario">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-12">
+            <h2 class="title-slim-6xl u-strong-red mb-5">
+              Si has llegado hasta aquí, es que esto <strong class="color-red-middle">te interesa</strong>
+            </h2>
+          </div>
+          <div class="col-12 col-md-10 col-lg-12">
+            <p class="text-base line-base text-md-xl line-md-xl">Inscríbete completando el siguiente formulario. Incribirse no te obliga a asistir, pero sería muy top que nos avisaras si finalmente no pudieras venir.</p>
+            <p class="text-base line-base text-md-xl line-md-xl">Debido a la alta demanda, <strong>todavía hay plazas</strong>, por ello las gestionamos manualmente bajo una lista de espera.</p>
+            <p class="text-base line-base text-md-xl line-md-xl">¡Anímate, será un día inolvidable!</p>
+          </div>
+        </div>
+      </div>
+      {% include "@base/open-space/form-inscripcion.twig" %}
+    </div>
+  </div>
+</section>
+<!--form-->
+<!--fotos-->
+{% include "@base/open-space/fotos.twig" %}
+<div class="c-separator--line c-separator--line-top"><hr /></div>
+<!--dudas resueltas-->
+{% include "@base/open-space/dudas-resueltas.twig" %}
+<div class="c-separator--line c-separator--line-top"><hr /></div>
+
+<!--como llegar-->
+{% include "@base/open-space/como-llegar.twig" %}
+
+<!--hashtag-->
+{% include "@base/open-space/hashtag.twig" %}
+
+{% include "@includes/contact.twig" %}
+
+{% endblock %}

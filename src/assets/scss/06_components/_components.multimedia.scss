@@ -20,7 +20,10 @@ height: 100%;
 overflow: hidden;
 padding-bottom: 40%;
 position: relative;
-height: 0;
+height: 350px;
+@include media-breakpoint-up(md) {
+  height: 700px;
+}
 }
 .c-mapa iframe {
 left: 0;

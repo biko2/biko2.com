@@ -1,8 +1,15 @@
 title: Laboral kutxa
 description: Podemos estar orgullosos de haber definido y diseñado toda la operativa de Laboral Kutxa, tanto la banca electrónica, como nuevas funcionalidades online.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Laboral kutxa
+  description: Podemos estar orgullosos de haber definido y diseñado toda la operativa de Laboral Kutxa, tanto la banca electrónica, como nuevas funcionalidades online.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/lk-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Laboral kutxa
+  description: Podemos estar orgullosos de haber definido y diseñado toda la operativa de Laboral Kutxa, tanto la banca electrónica, como nuevas funcionalidades online.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/lk-twitter.jpg

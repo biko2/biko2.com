@@ -1,8 +1,15 @@
 title: Helvetia España
 description: Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online hacia una evolución en la captación de negocio.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Helvetia España
+  description: Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online hacia una evolución en la captación de negocio.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/helvetia-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Helvetia España
+  description: Acompañamos a Helvetia, aseguradora suiza con fuerte presencia en España, desde sus primeros pasos online hacia una evolución en la captación de negocio.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/helvetia-twitter.jpg

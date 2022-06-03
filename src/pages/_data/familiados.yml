@@ -1,6 +1,15 @@
 title: Familiados
-description:  Marketplace para el cuidado de personas, encuentra a la persona que necesitas, y quédate tranquilo
+description: Marketplace para el cuidado de personas, encuentra a la persona que necesitas, y quédate tranquilo.
 og:
+  title: Familiados
+  description: Marketplace para el cuidado de personas, encuentra a la persona que necesitas, y quédate tranquilo.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/familiados-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Familiados
+  description: Marketplace para el cuidado de personas, encuentra a la persona que necesitas, y quédate tranquilo.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/familiados-twitter.jpg

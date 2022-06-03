@@ -1,8 +1,15 @@
 title: Oxford University Press
 description: Una nueva web basada en un storytelling y una narrativa muy trabajados. Con un diseño atrevido a partir de recursos gráficos desenfadados y dinámicos.
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
 og:
+  title: Oxford University Press
+  description: Una nueva web basada en un storytelling y una narrativa muy trabajados. Con un diseño atrevido a partir de recursos gráficos desenfadados y dinámicos.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/oxford-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Oxford University Press
+  description: Una nueva web basada en un storytelling y una narrativa muy trabajados. Con un diseño atrevido a partir de recursos gráficos desenfadados y dinámicos.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/oxford-twitter.jpg

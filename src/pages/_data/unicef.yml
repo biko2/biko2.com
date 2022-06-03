@@ -1,8 +1,15 @@
 title: Unicef
-description:  
-cita: Los proyectos no se empiezan, se terminan
-citafirma: Aritz Suescun, Director de Operaciones
+description:
 og:
+  title: Unicef
+  description:
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/share/unicef-twitter.jpg
 twitter:
+  card: summary_large_image
+  title: Unicef
+  description: 
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/share/unicef-twitter.jpg

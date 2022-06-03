@@ -1,8 +1,15 @@
-title: Open Space
-description: Un día para descubrir las tendencias del universo tecnológico. Un evento donde compartir conocimiento en un ambiente multidisciplinar. ¿Te apuntas?
-cita: Más de cero es positivo
-citafirma: Miren Arrese, Product Owner
+title: Así fue el XXI Open Space de Biko del 27 mayo 2022.
+description: Este año ha sido un Open muy especial, te lo contamos de manera sencilla, deseando que nos acompañes en la siguiente edición.
 og:
-  image: https://www.biko2.com/assets/images/open-mayo2019.jpg
+  title: Así fue el XXI Open Space de Biko del 27 mayo 2022.
+  description: Este año ha sido un Open muy especial, te lo contamos de manera sencilla, deseando que nos acompañes en la siguiente edición.
+  type: article
+  locale: es_ES
+  image: https://www.biko2.com/assets/images/share/post-open-space-twitter.jpg
 twitter:
-  image: https://www.biko2.com/assets/images/open-mayo2019.jpg
+  card: summary_large_image
+  title: Así fue el XXI Open Space de Biko del 27 mayo 2022.
+  description: Este año ha sido un Open muy especial, te lo contamos de manera sencilla, deseando que nos acompañes en la siguiente edición.
+  site: '@biko2'
+  creator: '@biko2'
+  image: https://www.biko2.com/assets/images/share/post-open-space-twitter.jpg

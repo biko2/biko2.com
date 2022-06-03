@@ -81,6 +81,30 @@
   }
 }
 
+.p-openspace__destacado {
+  background: $blue url("/assets/images/home-openspace.jpg") center center no-repeat;
+  background-size: cover;
+  color: white !important;
+  padding: 48px 0;
+  margin: 0 16px;
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    padding: 72px 48px;
+    margin: 0 32px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 160px 64px;
+    margin: 0 56px;
+  }
+
+  .c-icon-square {
+    background: none;
+    margin: 0 auto;
+  }
+}
+
 h3 {
   font-weight: 600;
 }
@@ -232,4 +256,132 @@ h3 {
   @include media-breakpoint-up(lg) {
     padding: 20px 40px 0 0;
   }
+}
+.page-open-space {
+
+  #main-wrapper {
+    background: $black-soft url("../images/bk-open-space-2022.jpg") left top no-repeat;
+
+    @include media-breakpoint-up(xxxl) {
+      background-size: contain;
+    }
+  }
+
+  .c-hero {
+    padding-bottom: 0;
+  }
+
+  .parallax-open {
+  /* The image used */
+  background-color: $black-soft;
+
+  /* Set a specific height */
+  min-height: 500px;
+  @include media-breakpoint-up(md) {
+    min-height: 550px;
+  }
+  /* Chequear si soporta el css */
+  @include media-breakpoint-up(lg) {
+    background-attachment: fixed;
+  }
+
+  /* Create the parallax scrolling effect */ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .page-open-space-app-charlas {
+    background-image: url("../images/bk-open-space-charlas.jpg");
+  }
+
+  .page-open-space-form {
+    background-image: url("../images/openspace-biko-3.jpg");
+  }
+  .p-openspace-hashtag {
+    background-image: url("../images/openspace-biko-2.jpg");
+    a {color: white !important;}
+  }
+  .page-open-space-hero {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 0;
+    }
+
+    .page-open-space-hero__container {
+      @include media-breakpoint-down(sm) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+
+        .c-grid-image--right {
+          order: 3;
+        }
+      }
+    }
+
+    .c-grid-image--right {
+      //margin-top: -60px;
+      width: 100%;
+      height: auto;
+
+      @include media-breakpoint-up(md) {
+        margin-top: 0;
+        width: 56%;
+        height: 477px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 54%;
+        height: 628px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 50%;
+        height: 775px;
+      }
+
+    }
+  }
+
+  .c-icon-list__icon svg {
+    width: 80%;
+  }
+
+  .c-card {
+    padding: 60px 0 80px;
+
+    .c-icon-square {
+      @include media-breakpoint-down(sm) {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  video {
+    width: 100%;
+    outline: none;
+  }
+
+    .photos-open-space {
+        background: #1b1b1b;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5%;
+      }
+
+  .c-button--fill {
+      background: $red;
+      color: white;
+      border: none;
+
+      &:hover {
+          background: darken($red, 15%);
+      }
+  }
+
 }

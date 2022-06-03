@@ -1,9 +1,15 @@
 title: Desarrollador/a software - Oferta de empleo
 description: Buscamos un perfil de desarrollo de software con experiencia para incorporar a nuestro equipo.
-cita: ¿De qué color es esto?
-citafirma: Enrique Arbuniés, Desarrollador frontend (daltónico)
-slug: desarrollador-de-software
 og:
+  title: Desarrollador/a software - Oferta de empleo
+  description: Buscamos un perfil de desarrollo de software con experiencia para incorporar a nuestro equipo.
+  type: article
+  locale: es_ES
   image: https://www.biko2.com/assets/images/parte-del-equipo-biko.jpg
 twitter:
+  card: summary_large_image
+  title: Desarrollador/a software - Oferta de empleo
+  description: Buscamos un perfil de desarrollo de software con experiencia para incorporar a nuestro equipo.
+  site: '@biko2'
+  creator: '@biko2'
   image: https://www.biko2.com/assets/images/parte-del-equipo-biko.jpg
