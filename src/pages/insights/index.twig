@@ -1,92 +1,148 @@
 {# ----- INSIGHT ----- #}
-{% extends "@layouts/page.twig" %}
+{% extends '@layouts/page.twig' %}
 {% block page %}
-
-<section class="pt-6 pt-md-6 pt-lg-8" id="top">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1">
-      <p class="text-center"><span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">Nueva edición</span> </p>
-        <h1 class="title-hero mb-4 text-center">
+  <section class="pt-6 pt-md-6 pt-lg-8" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <p class="text-center">
+            <span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">
+              Nueva edición
+            </span>
+          </p>
+          <h1 class="title-hero mb-4 text-center">
             Biko Insights #5
-        </h1>
-        <p class="font-secondary text-3xl color-red mb-3 text-center">(algunos temas de hoy que tendrán impacto mañana)</p>
-
-      </div>
-    </div>
-  </div>
-</section>
-<section id="intro" class="p-insights-intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="p-insights-intro__container">
-          <div class="p-insights-intro_img">
-            <img data-src="/assets/images/insights/img-insights-2021.jpg" class="lazyload" alt="Biko Insights 5" />
-          </div>
-          <div class="p-insights-intro_numero">
-            <img data-src="/assets/images/insights/quinto.png" class="lazyload" alt="#cinco" />
-          </div>
+          </h1>
+          <p class="font-secondary text-3xl color-red mb-3 text-center">
+            (algunos temas de hoy que tendrán impacto mañana)
+          </p>
         </div>
       </div>
-      <div class="col-md-8 offset-md-2 col-lg-5 offset-lg-7 p-insights-intro_texto">
-        <p>
-          Ya está disponible la <strong>quinta edición</strong> de <strong>Biko Insights</strong>, el documento que contiene nuestra visión sobre lo que se está moviendo (y sobre lo que creemos que se moverá) en el entorno digital.
-        </p>
-        <p>
-          En cada entrega tratamos distintos temas relacionados con tecnología, software, experimentación digital...
-        </p>
-        <a href="#sumario" title="">
-          ¿Qué encontrarás en este Biko Insights #5?
-        </a>
-      </div>
     </div>
-  </div>
-</section>
-<section class="pt-6 pt-md-6 pt-lg-8 mt-md-6 mb-5 mb-md-8">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1">
-        <div class="d-flex justify-content-center mb-3 mb-md-5">
-          <a class="c-button c-button--fill gtm-lead-insightscinco" download="BIKO-INSIGHTS-5-2022.pdf" href="https://www.biko2.com/insights/BIKO-INSIGHTS-5-2022.pdf" target="_blank">Descargar Biko Insights #5</a>
+  </section>
+  <section id="intro" class="p-insights-intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="p-insights-intro__container">
+            <div class="p-insights-intro_img">
+              <img data-src="/assets/images/insights/img-insights-2021.jpg"
+                class="lazyload"
+                alt="Biko Insights 5" />
+            </div>
+            <div class="p-insights-intro_numero">
+              <img data-src="/assets/images/insights/quinto.png"
+                class="lazyload"
+                alt="#cinco" />
+            </div>
+          </div>
         </div>
-        <p class="justify-content-center font-secondary text-xl text-md-3xl color-red mb-3 text-center">(A nuestro CEO le hace muy feliz saber quién lo descarga) <br /> <a class="c-link" data-toggle="collapse" href="#collapseEmail" role="button" aria-expanded="false" aria-controls="collapseEmail">¿nos dejas tu email?</a></p>
+        <div class="col-md-8 offset-md-2 col-lg-5 offset-lg-7 p-insights-intro_texto">
+          <p>
+            Ya está disponible la <strong>quinta edición</strong> de <strong>
+              Biko Insights
+            </strong>, el documento que contiene nuestra visión sobre lo que se
+            está moviendo (y sobre lo que creemos que se moverá) en el entorno
+            digital.
+          </p>
+          <p>
+            En cada entrega tratamos distintos temas relacionados con
+            tecnología, software, experimentación digital...
+          </p>
+          <a href="#sumario" title="">
+            ¿Qué encontrarás en este Biko Insights #5?
+          </a>
+        </div>
       </div>
     </div>
+  </section>
+  <section class="pt-6 pt-md-6 pt-lg-8 mt-md-6 mb-5 mb-md-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <div class="d-flex justify-content-center mb-3 mb-md-5">
+            <a class="c-button c-button--fill gtm-lead-insightscinco"
+              download="BIKO-INSIGHTS-5-2022.pdf"
+              href="https://www.biko2.com/insights/BIKO-INSIGHTS-5-2022.pdf"
+              target="_blank">
+              Descargar Biko Insights #5
+            </a>
+          </div>
+          <p class="justify-content-center font-secondary text-xl text-md-3xl color-red mb-3 text-center">
+            (A nuestro CEO le hace muy feliz saber quién lo descarga) <br /> <a class="c-link" data-toggle="collapse" href="#collapseEmail" role="button" aria-expanded="false" aria-controls="collapseEmail">¿nos
+              dejas tu email?</a>
+          </p>
+        </div>
+      </div>
 
-    <div class="row">
-      <div class="col-12 col-lg-8 offset-lg-2">
-        <div class="collapse" id="collapseEmail">
-          <p class="mt-4 mb-4"> Y de paso, te suscribimos a nuestra newsletter.</p>
+      <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2">
+          <div class="collapse" id="collapseEmail">
+            <p class="mt-4 mb-4">
+              Y de paso, te suscribimos a nuestra newsletter.
+            </p>
 
-          <form class="form-type-one" action="https://www.getdrip.com/forms/858271994/submissions" method="post" data-drip-embedded-form="858271994" id="drip-ef-858271994">
+            <form class="form-type-one"
+              action="https://www.getdrip.com/forms/858271994/submissions"
+              method="post"
+              data-drip-embedded-form="858271994"
+              id="drip-ef-858271994">
               <div>
                 <div class="mb-2">
                   <label for="drip-insights-email" class="d-none"></label>
-                  <input type="email" id="drip-insights-email" name="fields[email]" value="" placeholder="Escribe tu email...">
+                  <input type="email"
+                    id="drip-insights-email"
+                    name="fields[email]"
+                    value=""
+                    placeholder="Escribe tu email..." />
                 </div>
                 <div class="mb-2">
-                  <input type="checkbox" id="check-insights" required>
-                  <label for="check-insights" class="text-sm">Acepto la remisión de comunicaciones comerciales.</label>
+                  <input type="checkbox" id="check-insights" required />
+                  <label for="check-insights" class="text-sm">
+                    Acepto la remisión de comunicaciones comerciales.
+                  </label>
                 </div>
               </div>
-              <button type="submit" data-drip-attribute="sign-up-button" class="mb-4 c-button c-button--second gtm-lead-insightscinco">Enviar</button>
-          </form>
-          <div class="text-xs mb-0 pt-1 line-sm">
-          <p class="c-form__legal"><a href="/proteccion-de-datos#responsable" target="_blank">BIKO2 2006, S.L.</a> es el responsable del tratamiento de sus datos. La <a href="/proteccion-de-datos#finalidad" target="_blank">finalidad</a> es gestionar tu suscripción y mandarle comunicaciones comerciales por medios electrónicos. Usted puede ejercer los <a href="/proteccion-de-datos#derechos" target="_blank">derechos</a> de acceso, rectificación o supresión de sus datos así como otros derechos, como se explica en la <a href="/proteccion-de-datos/#derechos" target="_blank">información adicional</a>. Puede consultar la información adicional y detallada sobre <strong>Protección de Datos</strong>
-          <a href="/proteccion-de-datos" target="_blank">desde este enlace</a>.</p>
+              <button type="submit"
+                data-drip-attribute="sign-up-button"
+                class="mb-4 c-button c-button--second gtm-lead-insightscinco">
+                Enviar
+              </button>
+            </form>
+            <div class="text-xs mb-0 pt-1 line-sm">
+              <p class="c-form__legal">
+                <a href="/proteccion-de-datos#responsable" target="_blank">
+                  BIKO2 2006, S.L.
+                </a> es el responsable del tratamiento de sus datos. La <a href="/proteccion-de-datos#finalidad"
+                  target="_blank">
+                  finalidad
+                </a> es gestionar tu suscripción y mandarle comunicaciones comerciales
+                por medios electrónicos. Usted puede ejercer los <a href="/proteccion-de-datos#derechos"
+                  target="_blank">
+                  derechos
+                </a> de acceso, rectificación o supresión de sus datos así como otros
+                derechos, como se explica en la <a href="/proteccion-de-datos/#derechos"
+                  target="_blank">
+                  información adicional
+                </a>. Puede consultar la información adicional y detallada sobre <strong>
+                  Protección de Datos
+                </strong>
+                <a href="/proteccion-de-datos" target="_blank">
+                  desde este enlace
+                </a>.
+              </p>
+            </div>
+
+            <div class="c-separator--line--horizontal mb-5">
+              <hr />
+            </div>
           </div>
-
-          <div class="c-separator--line--horizontal mb-5"><hr></div>
-
         </div>
       </div>
     </div>
+  </section>
 
-  </div>
-</section>
-
-<!--
+  <!--  
 <section class="c-testimonial c-bg-pattern__right">
   <div class="container">
     <div class="row">
@@ -99,291 +155,320 @@
     </div>
   </div>
 </section>
--->
-<section id="sumario">
-  <div class="container c-summary__bk2021-img">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="title-6xl mb-4">Sumario</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6 offset-lg-1">
-        <ul class="c-box-list">
-          <li class="c-box-list__item">
-            <span class="c-box-list__number">
-              1
-            </span>
-            <p class="c-box-list__title">
-              <strong>La automatización paternalista</strong>
-            </p>
-            <p class="c-box-list__description">
-              Un artículo de Ujué Agudo y Karlos G. Liberal
-            </p>
-          </li>
-          <li class="c-box-list__item">
-            <span class="c-box-list__number">
-              2
-            </span>
-            <p class="c-box-list__title">
-              <strong>Entrevista a Luis Montero</strong>
-            </p>
-            <p class="c-box-list__description">
-              Una entrevista de Bikolabs
-            </p>
-          </li>
-          <li class="c-box-list__item">
-            <span class="c-box-list__number">
-              3
-            </span>
-            <p class="c-box-list__title">
-              <strong>NFT y Criptomonedas. El Blockchain desembarca en el mundo del arte</strong>
-            </p>
-            <p class="c-box-list__description">
-              Un artículo de Diego Cenzano
-            </p>
-          </li>
-          <li class="c-box-list__item">
-            <span class="c-box-list__number">
-              4
-            </span>
-            <p class="c-box-list__title">
-              <strong>Una empresa que crea escuela</strong>
-            </p>
-            <p class="c-box-list__description">
-              Un artículo de Aritz Suescun y Pablo Albizu
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-4 offset-lg-1 c-summary__description">
-        <p class="c-summary__description__text">
-          En esta edición tratamos temas que nos tocan muy de cerca: la automatización paternalista, una entrevista muy jugosa al filósofo contemporáneo Luis Montero, nuestra visión acerca de los NFT y las criptomonedas en el mundo del arte y un recorrido por  nuestra Bikoschool.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- descargar insights pasados-->
-<section class="p-insights-download c-bg-pattern__right mt-5 mt-lg-8">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h2 class="title-slim-6xl mb-md-5">
-          ¿Te perdiste algún Biko Insights?<br>
-          <strong>Descárgatelos desde aquí:</strong>
-        </h2>
-      </div>
-    </div>
-    <div class="c-separator--line--horizontal mb-4"><hr></div>
-    <div class="row">
-    <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
-      <img data-src="/assets/images/insights/img-biko-insights-4.jpg" class="lazyload c-download__img" alt="Biko Insights 4" />
-      <div>
-        <div class="row">
-          <div class="col-8">
-            <div class="mb-3 mb-xl-0">
-              <h3 class="c-download__title mr-3">
-                Biko Insights #4
-              </h3>
-              <span>
-                2021
-              </span>
-            </div>
-          </div>
-          <div class="col-4 text-right">
-            <a href="/insights/BIKO-INSIGHTS-4-2021.pdf" class="c-button c-button--second gtm-lead" target="_blank">
-              <svg><use xlink:href="/assets/svg/sprite/sprite.svg#download"></use></svg>
-            </a>
-          </div>
+  -->
+  <section id="sumario">
+    <div class="container c-summary__bk2021-img">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-6xl mb-4">
+            Sumario
+          </h2>
         </div>
-        <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4"><hr></div>
-        <ul>
-          <li>
-            <strong>La gestión de contenidos en la era Jamstack</strong>
-            <p>
-            El reto de Biko de integrar un CMS como Drupal en arquitecturas Jamstack.
-            </p>
-          </li>
-          <li>
-            <strong>¿Hacia la singularidad o hacia un nuevo invierno en la IA?</strong>
-            <p>
-              Una entrevista de Radio3.
-            </p>
-          </li>
-          <li>
-            <strong>Claves para hacer frente a la desinformación</strong>
-            <p>
-              El mayor peligro somos nosotros mismos.
-            </p>
-          </li>
-          <li>
-            <strong>Sociocracia 3.0</strong>
-            <p class="mb-0">
-              Un año de recorrido en Biko.
-            </p>
-          </li>
-        </ul>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <ul class="c-box-list">
+            <li class="c-box-list__item">
+              <span class="c-box-list__number">1</span>
+              <p class="c-box-list__title">
+                <strong>La automatización paternalista</strong>
+              </p>
+              <p class="c-box-list__description">
+                Un artículo de Ujué Agudo y Karlos G. Liberal
+              </p>
+            </li>
+            <li class="c-box-list__item">
+              <span class="c-box-list__number">2</span>
+              <p class="c-box-list__title">
+                <strong>Entrevista a Luis Montero</strong>
+              </p>
+              <p class="c-box-list__description">
+                Una entrevista de Bikolabs
+              </p>
+            </li>
+            <li class="c-box-list__item">
+              <span class="c-box-list__number">3</span>
+              <p class="c-box-list__title">
+                <strong>
+                  NFT y Criptomonedas. El Blockchain desembarca en el mundo del
+                  arte
+                </strong>
+              </p>
+              <p class="c-box-list__description">
+                Un artículo de Diego Cenzano
+              </p>
+            </li>
+            <li class="c-box-list__item">
+              <span class="c-box-list__number">4</span>
+              <p class="c-box-list__title">
+                <strong>Una empresa que crea escuela</strong>
+              </p>
+              <p class="c-box-list__description">
+                Un artículo de Aritz Suescun y Pablo Albizu
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 offset-lg-1 c-summary__description">
+          <p class="c-summary__description__text">
+            En esta edición tratamos temas que nos tocan muy de cerca: la
+            automatización paternalista, una entrevista muy jugosa al filósofo
+            contemporáneo Luis Montero, nuestra visión acerca de los NFT y las
+            criptomonedas en el mundo del arte y un recorrido por nuestra
+            Bikoschool.
+          </p>
+        </div>
       </div>
     </div>
+  </section>
 
-      <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
-        <img data-src="/assets/images/insights/img-biko-insights-3.jpg" class="lazyload c-download__img" alt="Biko Insights 3" />
-        <div>
-          <div class="row">
-            <div class="col-8">
-              <div class="mb-3 mb-xl-0">
-                <h3 class="c-download__title mr-3">
-                  Biko Insights #3
-                </h3>
-                <span>
-                  2020
-                </span>
+  <!-- descargar insights pasados -->
+  <section class="p-insights-download c-bg-pattern__right mt-5 mt-lg-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="title-slim-6xl mb-md-5">
+            ¿Te perdiste algún Biko Insights?<br />
+            <strong>Descárgatelos desde aquí:</strong>
+          </h2>
+        </div>
+      </div>
+      <div class="c-separator--line--horizontal mb-4">
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
+          <img data-src="/assets/images/insights/img-biko-insights-4.jpg"
+            class="lazyload c-download__img"
+            alt="Biko Insights 4" />
+          <div>
+            <div class="row">
+              <div class="col-8">
+                <div class="mb-3 mb-xl-0">
+                  <h3 class="c-download__title mr-3">
+                    Biko Insights #4
+                  </h3>
+                  <span>2021</span>
+                </div>
+              </div>
+              <div class="col-4 text-right">
+                <a href="/insights/BIKO-INSIGHTS-4-2021.pdf"
+                  class="c-button c-button--second gtm-lead"
+                  target="_blank">
+                  <svg>
+                    <use xlink:href="/assets/svg/sprite/sprite.svg#download"></use>
+                  </svg>
+                </a>
               </div>
             </div>
-            <div class="col-4 text-right">
-              <a href="/insights/BIKO-INSIGHTS-3-2020.pdf" class="c-button c-button--second gtm-lead" target="_blank">
-                <svg><use xlink:href="/assets/svg/sprite/sprite.svg#download"></use></svg>
-              </a>
+            <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4">
+              <hr />
             </div>
+            <ul>
+              <li>
+                <strong>La gestión de contenidos en la era Jamstack</strong>
+                <p>
+                  El reto de Biko de integrar un CMS como Drupal en
+                  arquitecturas Jamstack.
+                </p>
+              </li>
+              <li>
+                <strong>
+                  ¿Hacia la singularidad o hacia un nuevo invierno en la IA?
+                </strong>
+                <p>
+                  Una entrevista de Radio3.
+                </p>
+              </li>
+              <li>
+                <strong>Claves para hacer frente a la desinformación</strong>
+                <p>
+                  El mayor peligro somos nosotros mismos.
+                </p>
+              </li>
+              <li>
+                <strong>Sociocracia 3.0</strong>
+                <p class="mb-0">
+                  Un año de recorrido en Biko.
+                </p>
+              </li>
+            </ul>
           </div>
-          <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4"><hr></div>
-
-          <ul>
-            <li>
-              <strong>Gestión de contenidos moderna</strong>
-              <p>
-                Un cambio de paradigma.
-              </p>
-            </li>
-            <li>
-              <strong>Estrategia digital</strong>
-              <p>
-                Qué podemos aprender de los museos.
-              </p>
-            </li>
-            <li>
-              <strong>Open Space</strong>
-              <p>
-                La autoorganización como motor del cambio.
-              </p>
-            </li>
-            <li>
-              <strong>Narrativa de la convivencia</strong>
-              <p class="mb-0">
-                En las relaciones humano-inteligencia artificial.
-              </p>
-            </li>
-          </ul>
         </div>
-      </div>
-      <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
-        <img data-src="/assets/images/insights/img-biko-insights-2.jpg" class="lazyload c-download__img" alt="Biko Insights 2" />
-        <div>
-          <div class="row">
-            <div class="col-8">
-              <div class="mb-3 mb-xl-0">
-                <h3 class="c-download__title mr-3">
-                  Biko Insights #2
-                </h3>
-                <span>
-                  2019
-                </span>
+
+        <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
+          <img data-src="/assets/images/insights/img-biko-insights-3.jpg"
+            class="lazyload c-download__img"
+            alt="Biko Insights 3" />
+          <div>
+            <div class="row">
+              <div class="col-8">
+                <div class="mb-3 mb-xl-0">
+                  <h3 class="c-download__title mr-3">
+                    Biko Insights #3
+                  </h3>
+                  <span>2020</span>
+                </div>
+              </div>
+              <div class="col-4 text-right">
+                <a href="/insights/BIKO-INSIGHTS-3-2020.pdf"
+                  class="c-button c-button--second gtm-lead"
+                  target="_blank">
+                  <svg>
+                    <use xlink:href="/assets/svg/sprite/sprite.svg#download"></use>
+                  </svg>
+                </a>
               </div>
             </div>
-            <div class="col-4 text-right">
-              <a href="/insights/BIKO-INSIGHTS-2-2019.pdf" class="c-button c-button--second gtm-lead" target="_blank">
-                <svg><use xlink:href="/assets/svg/sprite/sprite.svg#download"></use></svg>
-              </a>
+            <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4">
+              <hr />
             </div>
-          </div>
-          <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4"><hr></div>
 
-          <ul>
-            <li>
-              <strong>Movidos por el sonido</strong>
-              <p>
-                Cuando las ondas sonoras construyen interfaces de usuario.
-              </p>
-            </li>
-            <li>
-              <strong>Narrativas metafóricas</strong>
-              <p>
-                En el extrarradio de la palabra.
-              </p>
-            </li>
-            <li>
-              <strong>Machine learning</strong>
-              <p class="mb-0">
-                La responsabilidad de la predicción.
-              </p>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <strong>Gestión de contenidos moderna</strong>
+                <p>
+                  Un cambio de paradigma.
+                </p>
+              </li>
+              <li>
+                <strong>Estrategia digital</strong>
+                <p>
+                  Qué podemos aprender de los museos.
+                </p>
+              </li>
+              <li>
+                <strong>Open Space</strong>
+                <p>
+                  La autoorganización como motor del cambio.
+                </p>
+              </li>
+              <li>
+                <strong>Narrativa de la convivencia</strong>
+                <p class="mb-0">
+                  En las relaciones humano-inteligencia artificial.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
+          <img data-src="/assets/images/insights/img-biko-insights-2.jpg"
+            class="lazyload c-download__img"
+            alt="Biko Insights 2" />
+          <div>
+            <div class="row">
+              <div class="col-8">
+                <div class="mb-3 mb-xl-0">
+                  <h3 class="c-download__title mr-3">
+                    Biko Insights #2
+                  </h3>
+                  <span>2019</span>
+                </div>
+              </div>
+              <div class="col-4 text-right">
+                <a href="/insights/BIKO-INSIGHTS-2-2019.pdf"
+                  class="c-button c-button--second gtm-lead"
+                  target="_blank">
+                  <svg>
+                    <use xlink:href="/assets/svg/sprite/sprite.svg#download"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4">
+              <hr />
+            </div>
+
+            <ul>
+              <li>
+                <strong>Movidos por el sonido</strong>
+                <p>
+                  Cuando las ondas sonoras construyen interfaces de usuario.
+                </p>
+              </li>
+              <li>
+                <strong>Narrativas metafóricas</strong>
+                <p>
+                  En el extrarradio de la palabra.
+                </p>
+              </li>
+              <li>
+                <strong>Machine learning</strong>
+                <p class="mb-0">
+                  La responsabilidad de la predicción.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="c-separator--line--horizontal mt-4 mb-5"><hr></div>
-    <div class="row">
-    <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
-        <img data-src="/assets/images/insights/img-biko-insights-1.jpg" class="lazyload c-download__img" alt="Biko Insights 1" />
-        <div>
-        <div class="row">
-          <div class="col-8">
-            <div class="mb-3 mb-xl-0">
-              <h3 class="c-download__title mr-3">
-                Biko Insights #1
-              </h3>
-              <span>
-                2018
-              </span>
+      <div class="c-separator--line--horizontal mt-4 mb-5">
+        <hr />
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 d-md-flex d-lg-block mb-5 mb-lg-0 pb-5 p-insights__line">
+          <img data-src="/assets/images/insights/img-biko-insights-1.jpg"
+            class="lazyload c-download__img"
+            alt="Biko Insights 1" />
+          <div>
+            <div class="row">
+              <div class="col-8">
+                <div class="mb-3 mb-xl-0">
+                  <h3 class="c-download__title mr-3">
+                    Biko Insights #1
+                  </h3>
+                  <span>2018</span>
+                </div>
+              </div>
+              <div class="col-4 text-right">
+                <a href="/insights/BIKO-INSIGHTS-1-2018.pdf"
+                  class="c-button c-button--second gtm-lead"
+                  target="_blank">
+                  <svg>
+                    <use xlink:href="/assets/svg/sprite/sprite.svg#download"></use>
+                  </svg>
+                </a>
+              </div>
             </div>
+            <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4">
+              <hr />
+            </div>
+            <ul>
+              <li>
+                <strong>React</strong>
+                <p>
+                  El desarrollo por componentes.
+                </p>
+              </li>
+              <li>
+                <strong>Marketing automation</strong>
+                <p>
+                  Saber más para conocer mejor.
+                </p>
+              </li>
+              <li>
+                <strong>Adopta un científico</strong>
+                <p>
+                  La metodología científica desde la perspectiva de negocio.
+                </p>
+              </li>
+              <li>
+                <strong>Immersive Web</strong>
+                <p class="mb-0">
+                  Las interfaces mutan.
+                </p>
+              </li>
+            </ul>
           </div>
-          <div class="col-4 text-right">
-            <a href="/insights/BIKO-INSIGHTS-1-2018.pdf" class="c-button c-button--second gtm-lead" target="_blank">
-              <svg><use xlink:href="/assets/svg/sprite/sprite.svg#download"></use></svg>
-            </a>
-          </div>
-        </div>
-        <div class="c-separator--line c-separator--line__horizontal mt-3 mb-4"><hr></div>
-          <ul>
-            <li>
-              <strong>React</strong>
-              <p>
-                El desarrollo por componentes.
-              </p>
-            </li>
-            <li>
-              <strong>Marketing automation</strong>
-              <p>
-                Saber más para conocer mejor.
-              </p>
-            </li>
-            <li>
-              <strong>Adopta un científico</strong>
-              <p>
-                La metodología científica desde la perspectiva de negocio.
-              </p>
-            </li>
-            <li>
-              <strong>Immersive Web</strong>
-              <p class="mb-0">
-                Las interfaces mutan.
-              </p>
-            </li>
-          </ul>
         </div>
       </div>
+      <div class="c-separator--line--horizontal mt-4">
+        <hr />
+      </div>
     </div>
-    <div class="c-separator--line--horizontal mt-4"><hr></div>
-  </div>
-</section>
+  </section>
 
-
-{% include "@includes/subir.twig" %}
-{% include "@includes/contact.twig" %}
-
-
+  {% include '@includes/subir.twig' %}
+  {% include '@includes/contact.twig' %}
 {% endblock %}
