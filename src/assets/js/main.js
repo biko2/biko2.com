@@ -134,8 +134,6 @@ $(document).ready(function () {
 });
 
 
-
-
 // NAVBAR SCROLL
 // $(window).scroll(function(e) {
 //  var scroll = $(window).scrollTop();
