@@ -23,12 +23,12 @@
     border-right: 1px solid $gray-light;
     border-bottom:0;
 
-    &:nth-child(n+3) {
-      border-top: 1px solid $gray-light;
-    }
-    &:nth-child(even) {
-      border-right: 0;
-    }
+     //&:nth-child(n+3) {
+     // border-top: 1px solid $gray-light;
+    //}
+    //&:nth-child(even) {
+     // border-right: 0;
+    //}
   }
 
   @include media-breakpoint-up(lg) {
