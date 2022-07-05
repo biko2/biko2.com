@@ -34,6 +34,17 @@
   }
 }
 
+.c-link-nounderline {
+  text-decoration: none;
+  :hover {
+    text-decoration: underline;
+  }
+}
+
+.c-link__w {
+  color: white;
+}
+
 .c-link-proyecto {
   position: relative;
   @include media-breakpoint-up(lg) {

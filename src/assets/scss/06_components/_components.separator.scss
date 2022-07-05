@@ -178,3 +178,13 @@
       background: $gray-light;
   }
 }
+
+.c-separator--line__horizontal-dotted {
+    hr {
+        width: 100%;
+        height: 1px;
+        margin: 0;
+        border: 0;
+        border-top: 2px dotted $red-middle;
+    }
+}
