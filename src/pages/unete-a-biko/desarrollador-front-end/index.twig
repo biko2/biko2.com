@@ -1,93 +1,13 @@
 {# ----- OFERTA ----- #}
-{% extends "@layouts/page.twig" %}
+{% extends '@layouts/page.twig' %}
 {% block page %}
-
-<section class="p-oferta-hero">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-md-1 mt-7">
-        <h1 class="title-hero mb-3 text-center">Desarrollador/a Front End</h1>
-        <p class="font-secondary text-3xl color-red text-center mb-4 mb-md-5">(Pamplona)</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-10 offset-md-1 mb-5">
-        <h2 class="title-5xl mb-5">¿En qué consiste tu puesto?</h2>
-        <div class="row">
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Trabajarás junto al resto de tu equipo en la construcción de aplicaciones web con React, Typescript / ES6, CSS3 y HTML5. Te enfrentarás diariamente con retos relacionados con el mundo front-end. Participarás en todas las dinámicas ágiles de ejecución de los proyectos y en el ciclo completo del desarrollo de software.</p>
-              <p class="decoration-red pt-2 mb-5">Participarás en la evolución técnica y tecnológica de los proyectos front-end aplicando tu experiencia o investigaciones que se realizan continuamente.</p>
-          </div>
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Nos gusta escribir código legible y mantenible así que aplicarás prácticas y técnicas como son el testing, principios SOLID, refactorización, arquitectura hexagonal y muchos otras buenas prácticas que hacemos y otras nuevas que puedes proponer en tu día a día.</p>
-              <p class="decoration-red pt-2">Creemos que las personas son lo más valioso para conseguir soluciones excelentes. Por eso, ayudarás en la formación de tus compañeros y en la tuya propia para seguir creciendo mediante charlas, talleres, open spaces, hacer pair programming, revisiones de código, etc.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-10 offset-md-1 mb-5">
-          <h2 class="title-5xl mb-5">¿Qué consideramos importante para optar al puesto?</h2>
-          <div class="row">
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Que te guste el trabajo bien hecho, cuidar los detalles y escribir un código semántico y legible. Estar motivado y que te guste trabajar en equipo. Puede sonar a tópico, pero es importante que estés donde quieras estar.</p>
-              <p class="decoration-red pt-2 mb-5">Que te guste aprender nuevas tecnologías y formas de hacer mejor tu trabajo.</p>
-              <p class="decoration-red pt-2 mb-5">Tener cierto pensamiento crítico, esto es, no conformarse con hacer las cosas de cualquier manera.</p>
-          </div>
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Ser un apasionado del aprendizaje y la programación.</p>
-              <p class="decoration-red pt-2 mb-5">Ser resolutivo.</p>
-              <p class="decoration-red pt-2 mb-5">Nivel intermedio de inglés.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-10 offset-md-1 mb-5">
-          <h2 class="title-5xl mb-5">¿Y qué sería TOP?</h2>
-          <div class="row">
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Que tengas a tu espalda unos cuantos años desarrollando aplicaciones web con React, Angular, Vue, StencilJS o Polymer con ES6 o Typescript.</p>
-              <p class="decoration-red pt-2 mb-5">Tener experiencia en maquetación con CSS3 y HTML5.</p>
-              <p class="decoration-red pt-2 mb-5">Tener conocimiento y ejecutar buenas prácticas de programación. Valoramos experiencia en testing, TDD, SOLID, clean Code y refactorización.</p>
-          </div>
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Unas buenas habilidades de comunicación, capacidad para colaborar y presentar tus ideas de forma clara y efectiva al resto del equipo y de la empresa. Al final, se trata de relacionarse 🙂</p>
-              <p class="decoration-red pt-2 mb-5">Que te sientas cómodo trabajando con code reviews y pull requests.</p>
-              <p class="decoration-red pt-2 mb-5">Tener experiencia con metodologías ágiles. Es nuestra manera de trabajar.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="row">
-      <div class="col-md-10 offset-md-1 mb-5">
-        <h2 class="title-5xl mb-5">¿Qué ofrecemos?</h2>
-        <div class="row">
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Un sueldo entre 20.000€ y 30.000€, dependiendo de lo que puedas aportar.</p>
-              <p class="decoration-red pt-2 mb-5">Horario flexible de entrada y salida. La única regla es que cumplas con tus horas, aunque tú decides cómo las encajas.</p>
-          </div>
-          <div class="col-lg-6 pr-4 pr-lg-6 mb-4">
-              <p class="decoration-red pt-2 mb-5">Ofrecemos la posibilidad de trabajar en remoto, aunque lo ideal es que primero nos conozcamos personalmente.</p>
-              <p class="decoration-red pt-2">Un ambiente enriquecedor y diverso, donde desarrollarte como profesional, como persona y con unos compañeros muy majos.</p>
-          </div>
-        </div>
-        <p class="text-center">¿Te gusta la oferta? Pues mándanos tu CV, estamos deseando conocerte.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-{% include "@base/unete-a-biko/enviar-cv.twig" %}
-{% include "@includes/subir.twig" %}
-{% include "@includes/contact.twig" %}
-
-
+  {% include '@base/unete-a-biko/desarrollador-front-end/hero.twig' %}
+  {% include '@base/unete-a-biko/quienes-somos.twig' %}
+  {% include '@base/unete-a-biko/desarrollador-front-end/tu-puesto.twig' %}
+  {% include '@base/unete-a-biko/desarrollador-front-end/importante.twig' %}
+  {% include '@base/unete-a-biko/desarrollador-front-end/top.twig' %}
+  {% include '@base/unete-a-biko/desarrollador-front-end/que-ofrecemos.twig' %}
+  {% include '@base/unete-a-biko/enviar-cv.twig' %}
+  {% include '@includes/subir.twig' %}
+  {% include '@includes/contact.twig' %}
 {% endblock %}
