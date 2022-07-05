@@ -1,6 +1,8 @@
 .p-unete-hero {
   padding-top: 0;
   padding-bottom: 0;
+  background-color: red;
+
 
   @include media-breakpoint-up(md) {
     padding-top: 48px;
@@ -162,5 +164,25 @@
   }
   .c-box-white {
     background-color:rgba(255, 255, 255, 0.95);
+  }
+}
+
+.p-unete-drupal {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  position: relative;
+  -webkit-box-pack: center;
+  justify-content: center;
+  ::before {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background-image: linear-gradient(147deg, rgb(185, 58, 152) 0%, rgba(30, 7, 110, 0.6) 70%, transparent 100%);
+    mix-blend-mode: hard-light;
+    z-index: 1;
   }
 }
