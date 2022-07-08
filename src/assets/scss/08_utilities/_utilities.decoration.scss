@@ -1,0 +1,27 @@
+.u-decoration-red {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: -6px;
+        left: 0;
+        content: '';
+        width: 24px;
+        height: 3px;
+        background-color: $red;
+    }
+}
+
+.u-decoration-red__middle {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        top: -6px;
+        left: 50%;
+        content: '';
+        width: 24px;
+        height: 3px;
+        background-color: $red;
+    }
+}
