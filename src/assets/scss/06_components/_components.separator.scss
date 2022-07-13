@@ -188,3 +188,30 @@
         border-top: 2px dotted $red-middle;
     }
 }
+
+
+
+.c-separator--line__horizontal__min {
+    margin: 64px 0;
+    text-align: center;
+
+
+    @include media-breakpoint-up(lg) {
+        margin: 96px 0;
+    }
+
+
+    @include media-breakpoint-up(xl) {
+        margin: 96px 0;
+    }
+
+    hr {
+        width: 200px;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #DDE4E9;
+        margin-top: 0;
+        margin-bottom: 0;
+        box-shadow: none;
+    }
+}
