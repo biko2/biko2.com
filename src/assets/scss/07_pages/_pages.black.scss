@@ -25,21 +25,22 @@
   .c-nav__navbar.show {background: $black-soft; }
 
   .c-button {
-    background: transparent;
-    color: $red-middle;
-    border-color: $red-middle;
+    color: white;
     &:hover {
         color: white;
     }
   }
 
-  .c-button--outline--white {
-    border-color: white;
-    color: white;
+  .c-button__secondary--outline {
+    color: $red-middle;
+    border: 2px solid $red-middle;
+
     &:hover {
-        color: $red-middle;
+        background: $red;
+        color: white;
+        border: 2px solid $red;
     }
-  }
+}
 
   .c-separator--line hr {
     border-color: #666;

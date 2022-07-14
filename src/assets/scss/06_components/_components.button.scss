@@ -4,10 +4,10 @@
     text-decoration: none;
     text-align: center;
     font-weight: 600;
-    color: $red;
-    padding: 16px 24px;
-    background: white;
-    border: 2px solid $red;
+    color: white;
+    padding: 24px 32px;
+    background: $red;
+    border: none;
     border-radius: 72px;
     transition: all .3s ease;
     letter-spacing: 2px;
@@ -23,28 +23,43 @@
 
 
     &:hover {
-        background: $red;
+        background: darken($red, 15%);
         color: white;
         text-decoration: none;
         border-radius: 72px;
     }
 }
 
-.c-button--fill {
-    background: $red;
-    color: white;
-    border: none;
+.c-button__primary--outline {
+    color: $red;
+    background: transparent;
+    border: 2px solid $red;
 
     &:hover {
-        background: darken($red, 15%);
+        background: $red;
+        color: white;
     }
 }
 
-.c-button--outline {
+.c-button__primary--outline--white {
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+
+    &:hover {
+        background: white;
+        color: $red;
+    }
+}
+
+.c-button__secondary--outline {
     color: $black;
     background: transparent;
     border: 2px solid $black;
     border-radius: 72px;
+    font-size:12.64px;
+    line-height: 20px;
+    padding: 12px 24px;
 
     &:hover {
         background: $black;
@@ -52,39 +67,40 @@
         text-decoration: none;
         border-radius: 72px;
     }
+    @include media-breakpoint-up(md) {
+        padding: 16px 24px;
+        font-size:12.64px;
+        line-height: 20px;
+        border-radius: 72px;
+    }
 }
 
-.c-button--outline--white {
+.c-button__secondary--outline--white {
     color: white;
     background: transparent;
     border: 2px solid white;
     border-radius: 72px;
+    font-size:12.64px;
+    line-height: 20px;
+    padding: 12px 24px;
 
     &:hover {
+        background: white;
         color: $blue;
         text-decoration: none;
-        background: white;
+        border-radius: 72px;
+    }
+    @include media-breakpoint-up(md) {
+        padding: 16px 24px;
+        font-size:12.64px;
+        line-height: 20px;
         border-radius: 72px;
     }
 }
 
-.c-button--outline--white-2 {
-    color: white;
-    background: transparent;
-    border: 2px solid white;
-    border-radius: 72px;
-
-    &:hover {
-        color: $red;
-        text-decoration: none;
-        background: white;
-        border-radius: 72px;
-    }
-}
 
 .c-button--second {
-    //padding: 12px 24px;
-    padding: 20px;
+    padding: 12px;
     color: $blue;
 
     @include typi(small);
@@ -93,7 +109,6 @@
     border: 2px solid $black;
 
     @include media-breakpoint-up(xl) {
-        //display: flex;
         align-items: center;
     }
 
@@ -111,114 +126,9 @@
     svg {
         width: 24px;
         height: 24px;
-        //margin-right: 8px;
     }
 }
-
-.c-button--second__light {
-    color: white;
-    border: 2px solid white !important;
-
-    &:hover {
-        background: white;
-        color: $blue;
-        text-decoration: none;
-
-    }
-
-    svg {
-        width: 24px;
-        height: 24px;
-        margin-right: 8px;
-    }
-}
-
 .c-button--minus {
     text-transform: lowercase;
     font-weight: normal;
-}
-
-.c-button--full {
-    width: 100%;
-}
-
-.c-button-rounded {
-    border-radius: 72px 72px;
-    border: 2px solid transparent;
-    text-transform: uppercase;
-    padding: 16px 24px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    line-height: 24px;
-    display: inline-block;
-    font-size:14.222px;
-    line-height: 20px;
-    &:hover {
-        border-radius: 72px 72px;
-    }
-    @include media-breakpoint-up(sm) {
-        padding: 24px 32px;
-        font-size:16px;
-        line-height: 24px;
-    }
-}
-
-.c-button-rounded--primary {
-    border: 2px solid $red;
-    font-weight: 600;
-
-    @include transition;
-
-    &:hover {
-        background-color: $red;
-        color: $white;
-        border-radius: 72px 72px;
-    }
-}
-
-.c-button-rounded--secondary {
-    border: 2px solid $blue;
-
-    @include transition;
-
-    &:hover {
-        background-color: $blue;
-        color: $white;
-    }
-}
-
-.c-button-rounded--primary__miniwhite {
-    padding: 16px 24px;
-    border: 2px solid $white;
-    color: $white;
-    font-weight: 600;
-
-    &:hover {
-        background-color: $white;
-        color: $blue;
-    }
-}
-
-.c-button-rounded--primary__red {
-    padding: 16px 24px;
-    border: 2px solid $red;
-    color: $red;
-    font-weight: 600;
-
-    &:hover {
-        background-color: $red;
-        color: $white;
-    }
-}
-
-.c-button-rounded--primary__dark {
-    padding: 16px 24px;
-    border: 2px solid $blue;
-    color: $blue;
-    font-weight: 600;
-
-    &:hover {
-        background-color: $blue;
-        color: $white;
-    }
 }
