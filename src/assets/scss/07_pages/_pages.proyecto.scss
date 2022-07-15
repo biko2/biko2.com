@@ -116,22 +116,20 @@
   }
 }
 
-
+//Nuevos bloques hero con imagenes de fondo
 .p-proyecto__hero-new {
   background-size: cover;
   color: white !important;
   padding: 48px 0;
-  margin: 0 16px;
+  margin: 0;
   text-align: center;
 
   @include media-breakpoint-up(md) {
     padding: 72px 48px;
-    margin: 0 32px;
   }
 
   @include media-breakpoint-up(lg) {
     padding: 160px 64px;
-    margin: 0 56px;
   }
 }
 
