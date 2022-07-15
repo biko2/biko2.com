@@ -13,7 +13,7 @@
 }
 
 .c-footer__bottom-list{
-  display: flex;
+
   list-style: none;
   padding-left: 0;
   align-items: center;
@@ -21,7 +21,9 @@
   justify-content: center; /*flex-start*/
   margin-bottom: 20px;
 
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-direction: row;
     margin: 0;
   }
 }

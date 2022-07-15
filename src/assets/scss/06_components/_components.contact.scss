@@ -78,12 +78,12 @@
 .c-contact__item__ciudad {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 0;
   position: relative;
   width: 100%;
 
   @include media-breakpoint-up(sm) {
-    padding: 20px;
+    padding: 0;
   }
 
   .c-contact__item__ciudad__map {
@@ -98,6 +98,7 @@
     width: 48px;
     height: 36px;
     transition: all .3s ease;
+    text-decoration: none;
 
     //@include media-breakpoint-up(xl) {
       //right: 15px;
