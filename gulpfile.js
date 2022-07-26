@@ -16,7 +16,7 @@ gulp.task(
     "docs-bitween",
     "sass",
     "js",
-    //"images",
+    "images",
     "fonts",
     "svg",
     "videos",
