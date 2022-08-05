@@ -21,7 +21,7 @@
    width: 320px;
    position: relative;
    margin: 10% auto;
-   padding: 4px 24px 24px;
+   padding: 24px 24px;
    border-radius: 12px;
    background: #fff;
    background: -moz-linear-gradient(#fff, #999);
@@ -29,7 +29,7 @@
    background: -o-linear-gradient(#fff, #999);
    @include media-breakpoint-up(md) {
      width: 550px;
-     padding: 8px 32px 32px;
+     padding: 32px 32px;
    }
  }
  .close {
