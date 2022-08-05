@@ -6,7 +6,7 @@
     font-weight: 600;
     color: white;
     padding: 24px 32px;
-    background: $red;
+    background: linear-gradient(135deg,#E73F39 0,#AD2F2B 100%);
     border: none;
     border-radius: 72px;
     transition: all .3s ease;
@@ -23,7 +23,8 @@
 
 
     &:hover {
-        background: darken($red, 15%);
+        //background: darken($red, 15%);
+        background: linear-gradient(135deg,#AD2F2B 0,#E73F39 100%);
         color: white;
         text-decoration: none;
         border-radius: 72px;
