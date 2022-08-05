@@ -35,12 +35,6 @@
     }
   }
 
-  ul, li {
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
   .p-insights__line {
     border-bottom: 1px solid #ccc;
     @include media-breakpoint-up(lg) {
