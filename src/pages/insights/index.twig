@@ -1,148 +1,100 @@
 {# ----- INSIGHT ----- #}
 {% extends '@layouts/page.twig' %}
 {% block page %}
-  <section class="pt-6 pt-md-6 pt-lg-8" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <p class="text-center">
-            <span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">
-              Nueva edición
-            </span>
-          </p>
-          <h1 class="title-hero mb-3 text-center">
-            Biko Insights #5
-          </h1>
-          <p class="font-secondary text-2xl text-md-3xl color-red mb-5 text-center">
-            (algunos temas de hoy que tendrán impacto mañana)
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="intro" class="p-insights-intro">
-    <div class="container">
-      <div class="row">
+  <section id="top" class="p-insights-cover">
+    <!-- video-->
+    <div class="container-fluid pr-0 pl-0">
+      <div class="row flex-sm-row-reverse justify-content-end">
         <div class="col-12">
-          <div class="p-insights-intro__container">
-            <div class="p-insights-intro_img">
-              <img data-src="/assets/images/insights/img-insights-2021.jpg"
-                class="lazyload"
-                alt="Biko Insights 5" />
-            </div>
-            <div class="p-insights-intro_numero">
-              <img data-src="/assets/images/insights/quinto.png"
-                class="lazyload"
-                alt="#cinco" />
-            </div>
+          <div class="p-insights-cover__imgWrap_horizontal">
+            <video muted="" poster="/assets/images/cover/insights5-h.jpg" autoplay="" loop="" class="w-100 p-insights-cover__video" style="pointer-events: none;">
+              <source src="/assets/videos/insights-cover.mp4" type="video/mp4">
+              <source src="/assets/videos/insights-cover.ogv" type="video/ogg">Composicion de la portada del BikoInsights 5.
+            </video>
           </div>
-        </div>
-        <div class="col-md-8 offset-md-2 col-lg-5 offset-lg-7 p-insights-intro_texto">
-          <p>
-            Ya está disponible la <strong>quinta edición</strong> de <strong>
-              Biko Insights
-            </strong>, el documento que contiene nuestra visión sobre lo que se
-            está moviendo (y sobre lo que creemos que se moverá) en el entorno
-            digital.
-          </p>
-          <p>
-            En cada entrega tratamos distintos temas relacionados con
-            tecnología, software, experimentación digital...
-          </p>
-          <a href="#sumario" title="">
-            ¿Qué encontrarás en este Biko Insights #5?
-          </a>
         </div>
       </div>
     </div>
-  </section>
-  <section class="pt-6 pt-md-6 pt-lg-8 mt-md-6 mb-5 mb-md-8">
+    <!--fin video-->
+    <!--caja de texto container-->
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="d-flex justify-content-center mb-3 mb-md-5">
-            <a class="c-button gtm-lead-insightscinco"
-              download="BIKO-INSIGHTS-5-2022.pdf"
-              href="https://www.biko2.com/insights/BIKO-INSIGHTS-5-2022.pdf"
-              target="_blank">
-              Descargar Biko Insights #5
-            </a>
-          </div>
-          <p class="justify-content-center font-secondary text-2xl text-md-3xl color-red mb-3 text-center">
-            (A nuestro CEO le hace muy feliz saber quién lo descarga) <br /> <a class="c-link" data-toggle="collapse" href="#collapseEmail" role="button" aria-expanded="false" aria-controls="collapseEmail">¿nos
-              dejas tu email?</a>
-          </p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12 col-lg-8 offset-lg-2">
-          <div class="collapse" id="collapseEmail">
-            <p class="mt-4 mb-4">
-              Y de paso, te suscribimos a nuestra newsletter.
+        <!-- caja contenedora card-->
+        <div class="p-insights-cover__textos">
+          <div class="col-12 col-md-10 col-xxl-8 py-5 pr-3 pl-3 pr-lg-5 pl-lg-5 py-xxxl-7 pr-xxxl-7 pl-xxxl-7 bg-white">
+            <p class="text-center"><span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">Última edición</span></p>
+            <h1 class="title-hero mb-2 text-center">Biko Insights #5</h1>
+            <h2 class="text-xl text-md-2xl line-xl font-500 u-text-uppercase mb-1 text-center mb-5 mb-md-7">Tendencias digitales para un mundo en constante cambio</h2>
+            <div class="d-flex justify-content-center">
+              <a class="c-button gtm-lead-insights5 mb-4"  href="https://www.biko2.com/insights/BIKO-INSIGHTS-5-2022.pdf" target="_blank" alt="Descargar Biko Insights 5">Descargar Biko Insights #5</a>
+            </div>
+            <p class="justify-content-center font-secondary text-xl color-red mb-3 text-center">
+              (a nuestro CEO le hace muy feliz saber quién lo descarga) <br /> 
+              <a class="c-link" href="#p-insights-modal">¿nos dejas tu email?</a>
             </p>
-
-            <form class="form-type-one"
-              action="https://www.getdrip.com/forms/858271994/submissions"
-              method="post"
-              data-drip-embedded-form="858271994"
-              id="drip-ef-858271994">
+          </div>
+        </div>
+        <!-- fin caja contenedora card-->
+        <!--modal-->
+        <div id="p-insights-modal" class="c-modal__dialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <p class="mt-4 mb-4">Y de paso, te suscribimos a nuestra newsletter.</p>
+            <!--formulario-->
+            <form class="form-type-one" action="https://www.getdrip.com/forms/858271994/submissions" method="post" data-drip-embedded-form="858271994" id="drip-ef-858271994">
               <div>
                 <div class="mb-2">
                   <label for="drip-insights-email" class="d-none"></label>
-                  <input type="email"
-                    id="drip-insights-email"
-                    name="fields[email]"
-                    value=""
-                    placeholder="Escribe tu email..." />
+                  <input type="email" id="drip-insights-email" name="fields[email]" value="" placeholder="Escribe tu email..." />
                 </div>
                 <div class="mb-2">
                   <input type="checkbox" id="check-insights" required />
-                  <label for="check-insights" class="text-sm">
-                    Acepto la remisión de comunicaciones comerciales.
-                  </label>
+                  <label for="check-insights" class="text-sm">Acepto la remisión de comunicaciones comerciales.</label>
                 </div>
               </div>
-              <button type="submit"
-                data-drip-attribute="sign-up-button"
-                class="mb-4 c-button c-button__secondary--outline gtm-lead-insightscinco">
-                Enviar
-              </button>
+              <button type="submit" data-drip-attribute="sign-up-button" class="mb-2 c-button c-button__secondary--outline gtm-lead-insightscinco">Enviar</button>
             </form>
-            <div class="text-xs mb-0 pt-1 line-sm">
-              <p class="c-form__legal">
+            <div class="text-xs mb-0 line-sm">
+              <p class="c-form__legal mb-0">
                 <a href="/proteccion-de-datos#responsable" target="_blank">
-                  BIKO2 2006, S.L.
-                </a> es el responsable del tratamiento de sus datos. La <a href="/proteccion-de-datos#finalidad"
-                  target="_blank">
-                  finalidad
-                </a> es gestionar tu suscripción y mandarle comunicaciones comerciales
-                por medios electrónicos. Usted puede ejercer los <a href="/proteccion-de-datos#derechos"
-                  target="_blank">
-                  derechos
-                </a> de acceso, rectificación o supresión de sus datos así como otros
-                derechos, como se explica en la <a href="/proteccion-de-datos/#derechos"
-                  target="_blank">
-                  información adicional
-                </a>. Puede consultar la información adicional y detallada sobre <strong>
-                  Protección de Datos
-                </strong>
-                <a href="/proteccion-de-datos" target="_blank">
-                  desde este enlace
-                </a>.
+                  BIKO2 2006, S.L. </a> es el responsable del tratamiento de sus datos. La <a href="/proteccion-de-datos#finalidad" target="_blank">finalidad</a> 
+                  es gestionar tu suscripción y mandarle comunicaciones comerciales
+                por medios electrónicos. Usted puede ejercer los <a href="/proteccion-de-datos#derechos" target="_blank">derechos </a>de acceso, 
+                rectificación o supresión de sus datos así como otros
+                derechos, como se explica en la <a href="/proteccion-de-datos/#derechos" target="_blank">información adicional</a>. 
+                Puede consultar la información adicional y detallada sobre <a href="/proteccion-de-datos" target="_blank">Protección de Datos</a>.
               </p>
             </div>
-
-            <div class="c-separator--line--horizontal mb-5">
-              <hr />
+            <!-- fin formulario-->
+          </div>
+        </div>
+        <!--fin modal-->
+      </div>
+      <div class="row">
+        <!--flecha-->
+        <div class="col-12">
+          <div class="p-insights-cover__flecha">
+            <div class="c-separator--icon pt-0 pb-0">
+              <a class="c-separator--icon__animated" href="#sumario">
+                <svg width="13px" height="42px" viewBox="0 0 13 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-714.000000, -854.000000)" fill="#ffffff">
+                      <g>
+                        <path d="M737.811652,873.75 L734.022242,869.966495 L735.240635,868.75 L741.25,874.75 L735.240635,880.75 L734.022242,879.533505 L737.811652,875.75 L699.75,875.75 L699.75,873.75 L737.811652,873.75 Z" transform="translate(720.500000, 874.750000) rotate(-270.000000) translate(-720.500000, -874.750000) "></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
+        <!--fin flecha-->
       </div>
     </div>
+    <!--fin caja de texto container-->
   </section>
- 
-
+<div class="c-separator--line"><hr /></div>
 {% include '@base/insights/sumario.twig' %}
 {% include '@base/insights/descarga-old.twig' %}
 {% include '@includes/subir.twig' %}
