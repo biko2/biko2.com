@@ -2,7 +2,7 @@
   <a href="https://www.biko2.com"><img src="https://www.biko2.com/assets/images/logo-biko.svg" width="100" alt="Biko"/></a>
 </div>
 
-- [Drupal Static suite](/modules/README.md)
+- [Bidasoa](/modules/README.md)
   - [Static export](#)
     - [Data resolver graphql](/modules/static_export/modules/static_export_data_resolver_graphql/README.md)
     - [Data resolver jsonapi](/modules/static_export/modules/static_export_data_resolver_jsonapi/README.md)
