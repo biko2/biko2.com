@@ -7,6 +7,10 @@ gulp.task('docs-bidasoa', function() {
     .pipe(gulp.dest('build/bidasoa/docs'));
 });
 
+gulp.task('redirects', function() {
+  return gulp.src('_redirects').pipe(gulp.dest('build'));
+});
+
 // Override build task
 gulp.task(
   'build',
@@ -20,5 +24,6 @@ gulp.task(
     'static',
     'twigPages',
     'docs-bidasoa',
+    'redirects',
   ),
 );
