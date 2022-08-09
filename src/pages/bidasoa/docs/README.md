@@ -1,14 +1,14 @@
-# Bitween Suite, the delightful Drupal and React connector
+# Bidasoa, the delightful Drupal and React connector
 
 Our model for building modern websites, focused on users and content,
 with the fastest and safest frontend, keeping up flexibility and dynamism
 needed on your digital activity and the most delightful connection between both sides.
 
-[](https://www.biko2.com/bitween/#sites-record)
+[](https://www.biko2.com/bidasoa/#sites-record)
 
 ## The most **beautiful** sites, in **record** time and **without giving up** anything
 
-### What is Bitween Suite?
+### What is Bidasoa?
 
 (Delightful connection)
 
@@ -21,7 +21,7 @@ security and avoiding unnecessary future costs.
 
 ## Getting started
 
-Bitween Suite is a mix of different pieces that interact together to achieve
+Bidasoa is a mix of different pieces that interact together to achieve
 the same UX as of a traditional Drupal system. Mainly, it's a suite of Drupal
 modules plus a SSG recipe to make both worlds communicate seamlessly.
 
