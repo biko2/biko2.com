@@ -1,10 +1,10 @@
 var gulp = require('gulp');
 require('gulp-tasks-pleasure')(gulp);
 
-gulp.task('docs-bitween', function() {
+gulp.task('docs-bidasoa', function() {
   return gulp
-    .src('src/pages/bitween/docs/**')
-    .pipe(gulp.dest('build/bitween/docs'));
+    .src('src/pages/bidasoa/docs/**')
+    .pipe(gulp.dest('build/bidasoa/docs'));
 });
 
 // Override build task
@@ -13,12 +13,12 @@ gulp.task(
   gulp.series(
     'sass',
     'js',
-    //'images',
+    'images',
     'fonts',
     'svg',
     'videos',
     'static',
     'twigPages',
-    'docs-bitween',
+    'docs-bidasoa',
   ),
 );
