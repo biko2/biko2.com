@@ -13,7 +13,7 @@ gulp.task(
   gulp.series(
     'sass',
     'js',
-    //'images',
+    'images',
     'fonts',
     'svg',
     'videos',
