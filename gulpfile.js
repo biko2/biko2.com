@@ -13,7 +13,23 @@ gulp.task(
   gulp.series(
     'sass',
     'js',
-    'images',
+    //'images',
+    'fonts',
+    'svg',
+    'videos',
+    'static',
+    'twigPages',
+    'docs-bidasoa',
+  ),
+);
+
+// Override build task
+gulp.task(
+  'buildWithoutImages',
+  gulp.series(
+    'sass',
+    'js',
+    //'images',
     'fonts',
     'svg',
     'videos',

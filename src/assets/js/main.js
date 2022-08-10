@@ -141,7 +141,6 @@ $(document).ready(function() {
 });
 
 // bidasoa
-
 $(document).ready(function() {
   $('#action-gift').hover(function() {
     $('.insights-gif__icon').toggleClass('insights-gif__anima');
@@ -157,3 +156,11 @@ $(document).ready(function() {
 //      $('.c-header').removeClass("c-header--scroll");
 //  }
 // });
+
+// Biko Insights - Open modal
+$(function() {
+  $('#js-open-insights-modal').on('click', function() {
+    $('#p-insights-modal').show();
+    $('#p-insights-modal').dialog();
+  });
+});
