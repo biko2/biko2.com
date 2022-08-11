@@ -10,4 +10,6 @@ build-dev
 build-dev/assets/svg/sprite/sprite.symbol.html
 
 src/assets/images/.DS_Store
+src/assets/.DS_Store
 **/.DS_Store
+**/**/.DS_Store
