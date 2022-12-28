@@ -81,7 +81,13 @@
     outline: none;
   }
 
+  .c-large-image {
+    height: 100%;
+    object-fit: cover;
+    object-position: 40%;
+  }
 
-
-
+  .c-image-wrapper {
+    gap: 20px;
+  }
 }
