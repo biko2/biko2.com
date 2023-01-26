@@ -5,20 +5,12 @@
 }
 
 .c-nav__logo {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-
   img {
-    width: 150px;
+    width: 220px;
     height: auto;
 
-    @include media-breakpoint-only(md) {
-      width: 180px;
-      height: auto;
-    }
     @include media-breakpoint-up(lg) {
-      width: 200px;
+      width: 300px;
       height: auto;
     }
   }
