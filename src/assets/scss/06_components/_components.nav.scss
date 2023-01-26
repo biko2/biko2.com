@@ -9,7 +9,7 @@
     width: 220px;
     height: auto;
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
       width: 300px;
       height: auto;
     }
