@@ -1,0 +1,18 @@
+{# ----- OFERTA ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+  {% include '@base/unete-a-biko/tech-lead-front-end/hero.twig' %}
+  {% include '@base/unete-a-biko/quienes-somos.twig' %}
+  {% include '@base/unete-a-biko/tech-lead-front-end/nuestra-pedrada.twig' %}
+  <div class="c-separator--line__horizontal__min"><hr /></div>
+  {% include '@base/unete-a-biko/tech-lead-front-end/que-necesitamos.twig' %}
+  <div class="c-separator--line__horizontal__min"><hr /></div>
+  {% include '@base/unete-a-biko/tech-lead-front-end/importante.twig' %}
+  <div class="c-separator--line__horizontal__min"><hr /></div>
+  {% include '@base/unete-a-biko/donde.twig' %}
+  {% include '@base/unete-a-biko/tech-lead-front-end/que-ofrecemos.twig' %}  
+  {% include '@base/unete-a-biko/enviar-cv.twig' %}
+{% include "@includes/subir.twig" %}
+{% include "@includes/contact.twig" %}
+
+{% endblock %}
