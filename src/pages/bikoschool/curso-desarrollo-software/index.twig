@@ -13,11 +13,12 @@
   {% include '@base/bikoschool/curso-desarrollo-software/bootcamp.twig' %}
 
   <!-- cuando y donde -->
-  {% include '@base/bikoschool/curso-desarrollo-software/cuando-donde-fin.twig' %}
+  {% include '@base/bikoschool/curso-desarrollo-software/cuando-donde.twig' %}
   <!-- para mi -->
   {% include '@base/bikoschool/curso-desarrollo-software/para-mi.twig' %}
   <!-- form -->
-  <section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
+  {% include '@base/bikoschool/curso-desarrollo-software/form.twig' %}
+  <!--<section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-10">
@@ -29,7 +30,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section-->
   <!-- bloque testimonial -->
   {% include '@base/bikoschool/curso-desarrollo-software/testimoniales.twig' %}
   <!-- bloque dudas final -->
