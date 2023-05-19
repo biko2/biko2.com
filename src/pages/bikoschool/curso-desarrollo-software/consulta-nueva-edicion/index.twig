@@ -1,0 +1,23 @@
+{# ----- PROYECTOS ----- #}
+{% extends '@layouts/page.twig' %}
+{% block page %}
+  <section class="c-hero p-home__hero mb-5 mb-md-7" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 offset-md-1">
+          <h1 class="title-hero mb-4 mb-md-5">
+            Gracias por interesarte en el Curso de Desarrollo de Software de Biko.
+          </h1>
+          <p class="title-slim-6xl u-strong-red mb-4 mb-md-5">
+            Estamos preparando todo para poder arrancar. Tendremos en cuenta tu interés de cara a la próxima edición.
+          </p>
+          <p>
+            Volver a la página del <a href="/bikoschool/curso-desarrollo-software/" alt="Volver a la página del Curso de desarrollo de Software en Biko">curso</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include '@includes/contact.twig' %}
+{% endblock %}

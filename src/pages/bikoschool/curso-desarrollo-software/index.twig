@@ -3,33 +3,50 @@
 {% block page %}
   <div class="bg-d rellax" data-rellax-speed="-5"></div>
   <div class="bg-s rellax" data-rellax-speed="-9"></div>
-  <!-- presentacion -->
-  {% include '@base/bikoschool/curso-desarrollo-software/presentacion.twig' %}
-  <!-- otra historia -->
-  {% include '@base/bikoschool/curso-desarrollo-software/otra-historia.twig' %}
-  <!-- contenido curso -->
-  {% include '@base/bikoschool/curso-desarrollo-software/contenido-curso.twig' %}
-  <!-- bootcamp -->
-  {% include '@base/bikoschool/curso-desarrollo-software/bootcamp.twig' %}
 
-  <!-- cuando y donde -->
-  {% include '@base/bikoschool/curso-desarrollo-software/cuando-donde.twig' %}
-  <!-- para mi -->
-  {% include '@base/bikoschool/curso-desarrollo-software/para-mi.twig' %}
-  <!-- form -->
-    <!-- form -->
-  <section class="mb-5 mb-md-7 py-5 py-md-7 bg-gray-light" id="formulario">
+  <section class="text-center my-5 my-md-7">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-10">
-          <h2 class="title-slim-6xl u-strong-red">
-            Ya estamos a tope con la IV edición y con las mismas ganas que la primera vez. Porque nos gusta formar a gente con ganas de aprender, por eso ofrecemos la
-            <strong>formación que nos hubiera gustado recibir</strong>.
-          </h2>
+        <div class="col-12 col-lg-8 offset-lg-2">
+          <p class="text-center tag">
+            <span class="bg-red text-uppercase text-sm d-inline color-white letter-base font-400 p-2">
+              Aviso a navegantes 
+            </span>
+          </p>
+          <h1 class="text-5xl line-4xl mb-3 text-center">
+           Vuelve el curso que lo cambia todo.
+           <br />
+            <strong>¿Quieres dar un giro profesional?</strong>
+          </h1>
+          <p class="font-secondary text-2xl text-lg-3xl color-red mb-3 mb-lg-5 text-center">
+            (stay tuned)
+          <p class="text-xl line-xl text-lg-2xl">
+           Estamos preparando una nueva edición de la Bikoschool. Debido a la alta demanda hemos decidido avisar con tiempo y que nos hagas llegar tu interés cuanto antes. Para formar parte del nuevo alumnado, sigue leyendo. 
+          </p>
+          <a class="c-button gtm-lead-bikoschool-interes"
+            href="#formulario">
+            Me interesa
+          </a
         </div>
       </div>
     </div>
   </section>
+
+    <!-- presentacion -->
+    {% include '@base/bikoschool/curso-desarrollo-software/presentacion.twig' %}
+    <!-- otra historia -->
+    {% include '@base/bikoschool/curso-desarrollo-software/otra-historia.twig' %}
+    <!-- contenido curso -->
+    {% include '@base/bikoschool/curso-desarrollo-software/contenido-curso.twig' %}
+    <!-- bootcamp -->
+    {% include '@base/bikoschool/curso-desarrollo-software/bootcamp.twig' %}
+
+    <!-- cuando y donde -->
+    {% include '@base/bikoschool/curso-desarrollo-software/cuando-donde.twig' %}
+    <!-- para mi -->
+    {% include '@base/bikoschool/curso-desarrollo-software/para-mi.twig' %}
+    <!-- form -->
+    {% include '@base/bikoschool/curso-desarrollo-software/form-interes.twig' %}
 
   <!-- bloque testimonial -->
   {% include '@base/bikoschool/curso-desarrollo-software/testimoniales.twig' %}
