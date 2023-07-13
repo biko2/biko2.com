@@ -1,0 +1,57 @@
+{# ----- OFERTA ----- #}
+{% extends "@layouts/page.twig" %}
+{% block page %}
+  {% include 'hero.twig' %}
+  {% include '@base/unete-a-biko/quienes-somos.twig' %}
+  {% include 'tu-puesto.twig' %}
+  <div class="c-separator--line__horizontal__min"><hr /></div>
+  {% include 'importante.twig' %}
+  {% include 'top.twig' %}
+  <div class="c-separator--line__horizontal__min"><hr /></div>
+  {% include '@base/unete-a-biko/donde.twig' %}
+  {% include 'que-ofrecemos.twig' %}  
+  <section class="c-bg-big py-5 py-md-7">
+  <div class="container bg-white p-4 p-md-5">
+    <div class="row">
+      <div class="col-12 col-lg-10 offset-lg-1">
+        <div class="c-texto--center">
+          <h2 class="title-6xl mb-3">
+            ¿Hablamos? 
+          </h2>
+          <p class="font-secondary text-xl text-lg-2xl color-red mb-5 text-center">
+            (si te gusta la oferta, no te cortes y mándanos tu CV, ¡estamos deseando conocerte!)
+          </p>
+          <p class="mb-5">Nos pondremos en contacto contigo para una primera entrevista en la que hablar más concretamente del puesto, explicarte cómo trabajamos y lo que esperamos de ti. ¡Nos encantará despejar todas las dudas que tengas!</p>
+          <p class="mb-5">Después, convocaremos una prueba técnica en la que podamos conocernos un poquito más a fondo. ¡Nada complicado, prometido! 😉</p>
+          <div class="d-flex justify-content-center">
+            <a class="c-button mb-3" href="https://mail.google.com/mail/?view=cm&fs=1&to=unete@biko2.com" target="_blank">Inscribirse en la oferta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4 mt-4">
+        <div>
+          <svg width="43" height="12" viewBox="0 0 43 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00937 12L5.24537e-07 6L6.00937 -3.23382e-06L7.22775 1.21649L3.439 5L43 5L43 7L3.43799 7L7.22775 10.7835L6.00937 12ZM2.93799 6.5L2.93799 5.5L2.4368 6L2.93799 6.5Z" fill="#22223C" class="svg-elem-1"></path>
+            </g>
+          </svg>
+          <a href="/unete-a-biko#listado-ofertas" alt="Volver a la página de ofertas" class="ml-4">
+            <span class="c-link-especial text-uppercase color-blue text-sm letter-base font-400">
+              Ver todas las ofertas
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% include "@includes/subir.twig" %}
+{% include "@includes/contact.twig" %}
+
+{% endblock %}
