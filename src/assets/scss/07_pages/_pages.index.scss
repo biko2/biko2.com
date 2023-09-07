@@ -472,6 +472,29 @@
     }
 }
 
+.home__img-beyond {
+  background-image: url("/assets/images/beyond-the-insights.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+
+  @include media-breakpoint-down(sm) {
+    background-image: url("/assets/images/beyond-the-insights-sm.jpg");
+    height: 320px;
+}
+
+  @include media-breakpoint-up(md) {
+      height: 511px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 380px;
+}
+@include media-breakpoint-up(xl) {
+  height: 511px;
+}
+}
+
 .home-gif__img-cliente1 {
     background-image: url("/assets/images/home-clientes-unicaja.jpg");
     background-position: center;
