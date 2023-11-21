@@ -164,3 +164,5 @@ $(function() {
     $('#p-insights-modal').dialog();
   });
 });
+
+//Modal Jakala

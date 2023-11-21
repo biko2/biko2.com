@@ -546,3 +546,109 @@
   background: $blue;
   background-image: linear-gradient(147deg, rgb(179, 5, 63) 0%, rgba(32, 49, 75, 0.6) 35%, transparent 100%);
 }
+
+//Estilos para la modal de Jakala
+
+.popup-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 998;
+}
+
+.popup-content {
+  width: 724px;
+  min-height: 401px;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("/assets/images/Banner-desktop_no-text.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 50px;
+  position: relative;
+
+  @include media-breakpoint-down(md) {
+    background-image: url("/assets/images/Banner-mobile-no-text.png");
+    width: 360px;
+    min-height: 400px;
+    padding: 60px 30px 40px;    
+  }
+}
+
+.popup-content .close-modal {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.popup-content .title {
+  font-family: inherit;
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: white;
+  max-width: 470px;
+  display: block;
+  margin-bottom: 30px;
+
+  @include media-breakpoint-down(md) {
+    font-size: 26px;
+    max-width: 240px;
+    margin-bottom: 80px;
+  }
+}
+
+.popup-content .button {
+  font-family: inherit;
+  font-size: 18px;
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 16px 10px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  @include media-breakpoint-up(sm) {
+    max-width: 380px;
+  }
+  
+}
+
+.popup-content .button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.popup-content .go-to-jakala {
+  border: solid 2px #f00a0a;
+  background-color: #f00a0a;
+  @include media-breakpoint-down(md) {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+.popup-content .stay-here {
+  border: solid 2px white;
+  @include media-breakpoint-down(md) {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
+
+.popup-closed {
+  display: none;
+}
+
+//Fin estilos para la modal de Jakala
