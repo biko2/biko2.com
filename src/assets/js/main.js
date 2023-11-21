@@ -166,3 +166,47 @@ $(function() {
 });
 
 //Modal Jakala
+$(function() {
+  var cookieName = 'biko_jakala_modal';
+
+  $(document).keydown(function(event) {
+    if (event.key == 'Escape') {
+      closeModal();
+    }
+  });
+
+  if (!cookieExists(cookieName)) {
+    $('#popup-jakala').show();
+    $('#popup-jakala .popup-content').on('click', function(e) {
+      e.stopPropagation();
+    });
+    $('[data-popup-jakala-close]').on('click', function() {
+      closeModal();
+    });
+  }
+
+  function closeModal() {
+    $('#popup-jakala').hide();
+    createCookie(cookieName, 'hide', 30);
+  }
+});
+
+function createCookie(name, value, expirationInMinutes) {
+  var fecha = new Date();
+  fecha.setTime(fecha.getTime() + expirationInMinutes * 60 * 1000);
+  var expira = '; expires=' + fecha.toUTCString();
+  document.cookie = name + '=' + value + expira + '; path=/';
+}
+
+function cookieExists(name) {
+  var allCookies = decodeURIComponent(document.cookie);
+  console.log(allCookies);
+  var arrayCookies = allCookies.split(';');
+  for (var i = 0; i < arrayCookies.length; i++) {
+    var cookie = arrayCookies[i].trim();
+    if (cookie.indexOf(name + '=') == 0) {
+      return true;
+    }
+  }
+  return false;
+}
