@@ -1,4 +1,8 @@
 ## REDIRECCIONES Externas
+/unete-a-biko/ https://careers.jakala.com/es_ES/careers 301!
+/desarrollador-a-de-software/ https://careers.jakala.com/es_ES/careers 301!
+/desarrollador-a-react/ https://careers.jakala.com/es_ES/careers 301!
+/oferta-de-empleo-agile-madrid/ https://careers.jakala.com/es_ES/careers
 /insights/ https://insightsmag.io/ 301!
 /openspace2019/ /open-space 301!
 /biko-insights /insights 301!
@@ -7,6 +11,14 @@
 /curso-desarrollo-software/ /bikoschool/curso-desarrollo-software 301!
 
 ## REDIRECCIONES a paginas de biko2
+/unete-a-biko/consultor-consultora-experiencia-usuario-ux/ / 301!
+/unete-a-biko/desarrollador-de-software/ / 301!
+/unete-a-biko/desarrollador-drupal/ / 301!
+/unete-a-biko/desarrollador-javascript-node/ / 301!
+/unete-a-biko/drupal-gatsby-developer/ / 301!
+/unete-a-biko/product-owner/ / 301!
+/unete-a-biko/tech-lead-front-end/ / 301!
+/unete-a-biko/tech-lead-front-end/ / 301!
 /10-aniversario/ / 301!
 /8-tendencias-para-la-venta-experiencial/ / 301!
 /bikodevs/ / 301!
@@ -24,8 +36,6 @@
 /charla-open-vr/ /open-space 301!
 /como-te-ayudamos/ / 301!
 /contacto/ / 301!
-/desarrollador-a-de-software/ /unete-a-biko 301!
-/desarrollador-a-react/ /unete-a-biko 301!
 /desayuno-de-biko/ / 301!
 /desayuno-de-biko/540-nuestros-okupas-top/ / 301!
 /desayuno-de-biko/como-surgen-las-buenas-ideas/ / 301!
@@ -75,7 +85,6 @@
 /nuestro-trabajo/selfbank/ /
 /nuestro-trabajo/take-a-chef/ /
 /nuestro-trabajo/unicef/ /
-/oferta-de-empleo-agile-madrid/ /unete-a-biko
 /open-space-biko/ /open-space
 /open-space-biko/open-space-biko-12062015/ /open-space
 /open-space-biko/open-space-biko-20150213/ /open-space
@@ -90,15 +99,10 @@
 /repensar-guernica-videos/ /proyectos/repensar-guernica/
 /zombiapps/ /
 
-
-
-
-
 ## REDIRECCIONES A blog.biko2.com
 /category/* https://blog.biko2.com/category/:splat
 /feed/ https://blog.biko2.com/feed/
 /wp-content/uploads/* https://blog.biko2.com/wp-content/uploads/:splat
-
 
 /actualidad-biko/10-anos-intensos-duros-y-apasionantes https://blog.biko2.com/actualidad-biko/10-anos-intensos-duros-y-apasionantes
 /actualidad-biko/154-nuevos-tramites-online-en-navarra-es https://blog.biko2.com/actualidad-biko/154-nuevos-tramites-online-en-navarra-es
